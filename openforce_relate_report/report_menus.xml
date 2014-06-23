@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- 
+        <menuitem id="menu_openforce_relate_report" name="Report" parent="openforce_relate.menu_openforce_relate_main" sequence="200" 
+		    groups="openforce_relate.group_relate_user,openforce_relate.group_relate_manager"/>
+         -->
+        <menuitem icon="STOCK_PRINT" name="Contract Ledger"
+            parent="openforce_relate.menu_openforce_relate_report" action="action_relate_contract_ledger_report" 
+            groups="openforce_relate.group_relate_manager" id="menu_openforce_relate_contract_ledger_report"/>
+
+    </data>
+</openerp>

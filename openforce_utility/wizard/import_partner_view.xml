@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    	<!-- 
+		Form           
+		-->
+        <record id="openforce_utility_import_partner" model="ir.ui.view">
+	        <field eval="1" name="priority"/>
+	        <field name="name">openforce.utility.import.partner</field>
+	        <field name="model">wizard.openforce.utility.import.partner</field>
+	        <field name="type">form</field>
+	        <field name="arch" type="xml">
+		        <form string="Params" version="7.0">
+		        	<group  col="4">
+			        	<field name="file_txt_to_import" />
+		            </group>
+		            <group>
+		                <field name="is_customer" />
+		                <field name="is_supplier" />
+		                <field name="prefisso_partita_IVA" />
+		                <field name="field_separator_csv" />
+		            </group>
+		            <button name="import_partner" string="Import partners " type="object" icon="gtk-execute" />
+		      	</form>
+	        </field>
+    	</record>
+
+        <!-- ACTION -->
+        
+        <record id="openforce_utility_import_partner_action" model="ir.actions.act_window">
+			<field name="name">Import Partners</field>
+	        <field name="res_model">wizard.openforce.utility.import.partner</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">form,tree,graph</field>
+	        <field name="view_id" ref="openforce_utility_import_partner"/>
+	        <field name="help">Import partner from csv file</field>
+	        <field name="target">new</field>
+    	</record>
+    	
+    <menuitem action="openforce_utility_import_partner_action" id="menu_openforce_utility_import_partner" parent="menu_openforce_utility"/>
+    
+    </data>
+</openerp>

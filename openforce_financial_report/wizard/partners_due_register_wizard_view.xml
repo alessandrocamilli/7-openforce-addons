@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="account_partner_due_register_view" model="ir.ui.view">
+            <field name="name">Partner Due Register</field>
+            <field name="model">partners.due.register.webkit</field>
+            <field name="inherit_id" ref="account.account_common_report_view"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="/form/label[@string='']" position="replace">
+                        <separator string="Partner Due Register" colspan="4"/>
+                        <label nolabel="1" colspan="4" string="This report allows you to print or generate a pdf of your partner due register with details of all your payable/receivable account"/>
+                    </xpath>
+                    <field name="chart_account_id" position='attributes'>
+                        <attribute name="colspan">4</attribute>
+                    </field>
+                    <xpath expr="//field[@name='target_move']" position="after">
+                        <newline/>
+                        <field name="exclude_reconcile" colspan="4"/>
+                        <field name="result_selection" colspan="4"/>
+                    </xpath>
+                    <xpath expr="//field[@name='result_selection']" position="after">
+                        <newline/>
+                        <field name="order_by" colspan="4"/>
+                    </xpath>
+                    <!-- Date maturity -->
+                    <!-- 
+                    <xpath expr="//page[@string='Filters']/group[@string='Dates']" position="attributes">
+                        <attribute name="attrs">{'invisible':[('filter', '!=', 'filter_date_maturity'), ('filter', '!=', 'filter_date')], 'required':['|',('filter', '=', 'filter_date'),('filter', '=', 'filter_date_maturity')]}</attribute>
+                    </xpath> -->
+                     
+                    <xpath expr="//page[@string='Filters']/group[@string='Periods']" position="before">
+                    	<group string="Dates maturity"  attrs="{'invisible':[('filter', '!=', 'filter_date_maturity')], 'required':[('filter', '=', 'filter_date_maturity')]}">
+                            <field name="date_maturity_from" />
+                            <field name="date_maturity_to" />
+                        </group>
+                    </xpath>
+                    <page name="filters" position="after">
+                        <page string="Partners Filters" name="partners">
+                            <separator string="Print only" colspan="4"/>
+                            <field name="partner_ids" colspan="4" nolabel="1"/>
+                        </page>
+                        <page string="Layout Options" name="layout_options">
+                            <group colspan="4" col="2">
+                                <field name="amount_currency"/>
+                            </group>
+                        </page>
+                    </page>
+                    <page name="filters" position="attributes">
+                        <attribute name="string">Time Filters</attribute>
+                    </page>
+                    <page name="journal_ids" position="attributes">
+                        <attribute name="invisible">True</attribute>
+                    </page>
+                    <field name="period_from" position="attributes">
+                        <attribute name="domain">[('fiscalyear_id', '=', fiscalyear_id), ('special', '=', False)]</attribute>
+                    </field>
+                    <field name="period_to" position="attributes">
+                        <attribute name="domain">[('fiscalyear_id', '=', fiscalyear_id), ('special', '=', False)]</attribute>
+                    </field>
+                </data>
+            </field>
+        </record>
+
+        <record id="action_account_partners_due_register_menu" model="ir.actions.act_window">
+            <field name="name">Partner Due Register</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">partners.due.register.webkit</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="account_partner_due_register_view"/>
+            <field name="target">new</field>
+        </record>
+
+        <record model="ir.values" id="action_account_partners_due_register_values">
+            <field name="model_id" ref="account.model_account_account"/>
+            <field name="object" eval="1"/>
+            <field name="name">Partner Due Register</field>
+            <field name="key2">client_print_multi</field>
+            <field name="value"
+                eval="'ir.actions.act_window,' +str(ref('action_account_partners_due_register_menu'))"/>
+            <field name="key">action</field>
+            <field name="model">account.account</field>
+        </record>
+
+    </data>
+</openerp>

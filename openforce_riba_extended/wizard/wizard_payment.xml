@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<openerp>
+    <data>
+        
+        <record id="riba_payment" model="ir.ui.view">
+            <field name="name">riba.payment.wizard</field>
+            <field name="model">riba.payment</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Ri.Ba. Payment">
+                    <separator string="This wizard generates the journal entry related to an Riba payment" colspan="4"/>
+					<field name="date_move" />
+					<newline/>
+					<field name="payment_journal_id" />
+                    <newline/>
+					<field name="payment_bank_account_id" />
+					<field name="payment_effects_bank_account_id" />
+					<field name="effects_amount" />
+					
+                    <button string="Cancel" special="cancel" icon="gtk-cancel" colspan="2"/>
+                    <button string="Create" name="create_move" type="object" icon="gtk-ok" colspan="2"/>
+                    <separator string="You can also skip this step and set the line status to 'paid' anyway" colspan="4"/>
+                    <button string="Skip and confirm the paid state" name="skip" type="object" icon="gtk-apply" colspan="4"/>
+                </form>
+            </field>
+        </record>
+        
+	    <act_window
+            id="riba_payment_action"
+            name="Ri.Ba. Payment"
+            view_id="riba_payment"
+            res_model="riba.payment"
+            src_model="riba.distinta.line"
+            key2="client_action_multi"/>
+            
+    </data>
+</openerp>

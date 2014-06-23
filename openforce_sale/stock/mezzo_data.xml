@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="mezzo_MITTENTE" model="stock.picking.mezzo">
+            <field name="name">MITTENTE</field>
+        </record>
+        <record id="mezzo_DESTINATARIO" model="stock.picking.mezzo">
+            <field name="name">DESTINATARIO</field>
+        </record>
+        <record id="mezzo_VETTORE" model="stock.picking.mezzo">
+            <field name="name">VETTORE</field>
+        </record>
+        
+     </data>
+</openerp>

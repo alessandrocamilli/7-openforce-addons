@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    	<!-- 
+		Form           
+		-->
+        <record id="openforce_utility_import_account" model="ir.ui.view">
+	        <field eval="1" name="priority"/>
+	        <field name="name">openforce.utility.import.account</field>
+	        <field name="model">wizard.openforce.utility.import.account</field>
+	        <field name="type">form</field>
+	        <field name="arch" type="xml">
+		        <form string="Params" version="7.0">
+		        	<group  col="4">
+			        	<field name="file_txt_to_import" />
+		            </group>
+		            <group>
+		                <field name="code_leaving_number_letter" />
+		                <field name="code_length_max_view" />
+		                <field name="code_length_sub_account" />
+		            </group>
+		            <button name="import_account" string="Import accounts " type="object" icon="gtk-execute" />
+		      	</form>
+	        </field>
+    	</record>
+
+        <!-- ACTION -->
+        
+        <record id="openforce_utility_import_account_action" model="ir.actions.act_window">
+			<field name="name">Import Accounts</field>
+	        <field name="res_model">wizard.openforce.utility.import.account</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">form,tree,graph</field>
+	        <field name="view_id" ref="openforce_utility_import_account"/>
+	        <field name="help">Import Account from csv file</field>
+	        <field name="target">new</field>
+    	</record>
+    	
+    <menuitem action="openforce_utility_import_account_action" id="menu_openforce_utility_import_account" parent="menu_openforce_utility"/>
+    
+    </data>
+</openerp>

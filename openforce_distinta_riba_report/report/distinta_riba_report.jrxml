@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Distinta RIBA" language="groovy" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="477"/>
+	<property name="ireport.y" value="0"/>
+	<property name="OPENERP_RELATIONS" value="[&apos;line_ids&apos;]"/>
+	<parameter name="from_date" class="java.lang.String"/>
+	<parameter name="to_date" class="java.lang.String"/>
+	<queryString language="xPath">
+		<![CDATA[]]>
+	</queryString>
+	<field name="id" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/id]]></fieldDescription>
+	</field>
+	<field name="Riferimento-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Riferimento-name]]></fieldDescription>
+	</field>
+	<field name="Bank_Name-bank_name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Configurazione-config/Banca-bank_id/Bank_Name-bank_name]]></fieldDescription>
+	</field>
+	<field name="Data_accettazione-date_accepted" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Data_accettazione-date_accepted]]></fieldDescription>
+	</field>
+	<field name="Numero-sequence" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Numero-sequence]]></fieldDescription>
+	</field>
+	<field name="Numero_fattura-invoice_number" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Numero_fattura-invoice_number]]></fieldDescription>
+	</field>
+	<field name="Data_fattura-invoice_date" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Data_fattura-invoice_date]]></fieldDescription>
+	</field>
+	<field name="Nome-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Cliente-partner_id/Nome-name]]></fieldDescription>
+	</field>
+	<field name="Importo-amount" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Importo-amount]]></fieldDescription>
+	</field>
+	<field name="Data_scadenza-due_date" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Data_scadenza-due_date]]></fieldDescription>
+	</field>
+	<field name="Cliente -Indirizzo_completo-contact_address" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Cliente-partner_id/Indirizzo_completo-contact_address]]></fieldDescription>
+	</field>
+	<field name="Cliente -Indirizzo-street" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Cliente-partner_id/Indirizzo-street]]></fieldDescription>
+	</field>
+	<field name="Cliente -Indirizzo_2-street2" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Cliente-partner_id/Indirizzo_2-street2]]></fieldDescription>
+	</field>
+	<field name="Cliente -CAP-zip" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Cliente-partner_id/CAP-zip]]></fieldDescription>
+	</field>
+	<field name="Cliente -Nome_Stato-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Cliente-partner_id/Stato-state_id/Nome_Stato-name]]></fieldDescription>
+	</field>
+	<field name="Cliente -Codice_provincia-code" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Cliente-partner_id/Provincia-province/Codice_provincia-code]]></fieldDescription>
+	</field>
+	<field name="Cliente -Partita_IVA-vat" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Cliente-partner_id/Partita_IVA-vat]]></fieldDescription>
+	</field>
+	<field name="Cliente -Citta-city" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Cliente-partner_id/Citta-city]]></fieldDescription>
+	</field>
+	<field name="Banca cli-ABI-bank_abi" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Cliente-partner_id/Banche-bank_ids/ABI-bank_abi]]></fieldDescription>
+	</field>
+	<field name="Banca cli-CAB-bank_cab" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Cliente-partner_id/Banche-bank_ids/CAB-bank_cab]]></fieldDescription>
+	</field>
+	<field name="Banca cli-Nome_Banca-bank_name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Cliente-partner_id/Banche-bank_ids/Nome_Banca-bank_name]]></fieldDescription>
+	</field>
+	<field name="Banca cli-Banca-bank" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Cliente-partner_id/Banche-bank_ids/Banca-bank]]></fieldDescription>
+	</field>
+	<field name="Banca cli-Citta-city" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Scadenze_Ri.Ba.-line_ids/Cliente-partner_id/Banche-bank_ids/Citta-city]]></fieldDescription>
+	</field>
+	<sortField name="id"/>
+	<sortField name="Numero-sequence"/>
+	<variable name="Tot_importo" class="java.lang.Double" resetType="Group" resetGroup="id" calculation="Sum">
+		<variableExpression><![CDATA[new Double($F{Importo-amount})]]></variableExpression>
+	</variable>
+	<group name="id" isStartNewPage="true" isResetPageNumber="true">
+		<groupExpression><![CDATA[$F{id}]]></groupExpression>
+		<groupFooter>
+			<band height="21">
+				<textField pattern="#,##0.00;#,##0.00-">
+					<reportElement x="398" y="7" width="74" height="12"/>
+					<textElement textAlignment="Right" lineSpacing="Single">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<textFieldExpression class="java.lang.Double"><![CDATA[$V{Tot_importo}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="331" y="7" width="66" height="12"/>
+					<textElement textAlignment="Right" lineSpacing="Single">
+						<font size="8"/>
+					</textElement>
+					<text><![CDATA[Totale]]></text>
+				</staticText>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="12" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="44" splitType="Stretch">
+			<staticText>
+				<reportElement x="198" y="3" width="167" height="22"/>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Distinta RIBA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="46" y="26" width="64" height="14"/>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Riferimento-name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="221" y="26" width="334" height="14"/>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Bank_Name-bank_name}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy" isBlankWhenNull="true">
+				<reportElement x="146" y="26" width="71" height="14"/>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression class="java.util.Date"><![CDATA[(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")).parse($F{Data_accettazione-date_accepted})]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="26" width="45" height="14"/>
+				<textElement lineSpacing="Single">
+					<font isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Numero]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="115" y="26" width="27" height="14"/>
+				<textElement lineSpacing="Single">
+					<font isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Del]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="20" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="1" width="555" height="15"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="163" y="4" width="128" height="12"/>
+				<textElement lineSpacing="Single">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cliente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="411" y="4" width="60" height="12"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Importo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="482" y="4" width="73" height="12"/>
+				<textElement lineSpacing="Single">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Scadenza]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="6" y="4" width="21" height="12"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nr]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="31" y="4" width="62" height="12"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nr fattura]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="97" y="4" width="62" height="12"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Data fattura]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="51" splitType="Stretch">
+			<line>
+				<reportElement x="9" y="50" width="546" height="1"/>
+				<graphicElement>
+					<pen lineStyle="Dotted" lineColor="#CCCCCC"/>
+				</graphicElement>
+			</line>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="96" y="1" width="63" height="12"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[(new SimpleDateFormat("yyyy-MM-dd")).parse($F{Data_fattura-invoice_date})]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy" isBlankWhenNull="true">
+				<reportElement x="482" y="1" width="73" height="12"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")).parse($F{Data_scadenza-due_date})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="6" y="1" width="21" height="12"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Numero-sequence}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement x="31" y="1" width="62" height="12"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Numero_fattura-invoice_number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="1" width="240" height="12"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Nome-name}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement x="411" y="1" width="60" height="12"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Double"><![CDATA[new Double($F{Importo-amount})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="13" width="240" height="12"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Cliente -Indirizzo-street} + " " + $F{Cliente -Indirizzo_2-street2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="25" width="240" height="12"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Cliente -CAP-zip} + " " + $F{Cliente -Citta-city}+ " " + $F{Cliente -Codice_provincia-code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="161" y="37" width="130" height="12"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Cliente -Partita_IVA-vat}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="411" y="13" width="32" height="12"/>
+				<textElement textAlignment="Left" lineSpacing="Single">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Banca]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="13" width="51" height="12"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Banca cli-ABI-bank_abi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="503" y="13" width="51" height="12"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Banca cli-CAB-bank_cab}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="411" y="25" width="144" height="12"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Banca cli-Nome_Banca-bank_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="411" y="37" width="144" height="12"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Banca cli-Citta-city}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="14" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="26" splitType="Stretch">
+			<textField pattern="dd/MM/yyyy HH:mm">
+				<reportElement x="44" y="11" width="62" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="1" width="555" height="1"/>
+			</line>
+			<staticText>
+				<reportElement x="3" y="11" width="37" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[Stampata il]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="244" y="11" width="80" height="10"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["Pagina "+$V{PAGE_NUMBER}+" di"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="324" y="11" width="40" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

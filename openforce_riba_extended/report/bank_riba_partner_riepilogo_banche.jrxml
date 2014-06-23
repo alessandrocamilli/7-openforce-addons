@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="riba partner" language="groovy" pageWidth="555" pageHeight="802" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="397"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="date_maturity_from" class="java.lang.String"/>
+	<parameter name="date_maturity_to" class="java.lang.String"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["/Users/alex/openerp/addons-custom/account_vat_liquidazione_report/report/"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="type" class="java.lang.String"/>
+	<parameter name="journal_ids" class="java.lang.Object"/>
+	<parameter name="journal_list" class="java.util.List">
+		<defaultValueExpression><![CDATA[$P{journal_ids}.toList()]]></defaultValueExpression>
+	</parameter>
+	<parameter name="sql_where" class="java.lang.String"/>
+	<parameter name="sql_order_by" class="java.lang.String"/>
+	<parameter name="order" class="java.lang.String"/>
+	<parameter name="sql_select" class="java.lang.String"/>
+	<parameter name="sql_group_by" class="java.lang.String"/>
+	<parameter name="date_invoice_from" class="java.lang.String"/>
+	<parameter name="date_invoice_to" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT
+cp.name as company_name,
+/* bank */
+CASE WHEN rco.name is null THEN 'Da presentare' ELSE rco.name END as riba_config_name,
+/* periodo */
+concat(EXTRACT(YEAR FROM DATE(i.date_invoice)), '-', EXTRACT(MONTH FROM DATE(i.date_invoice)) ) as periodo,
+/* importo */
+SUM(rdml.amount) as riba_importo
+
+from account_move_line ml
+left join account_move m on ml.move_id = m.id
+left join account_account a on ml.account_id = a.id
+left join res_partner p on ml.partner_id = p.id
+left join account_invoice i on m.id = i.move_id
+left join account_journal j on m.journal_id = j.id
+left join res_company cp on ml.company_id = cp.id
+left join account_payment_term pt on i.payment_term = pt.id
+left join account_payment_term_type ptt on pt.type_id = ptt.id
+left join res_partner_bank pbank on p.bank_riba_id = pbank.id
+
+left join riba_distinta_move_line rdml on ml.id = rdml.move_line_id
+left join riba_distinta_line rdl on rdml.riba_line_id = rdl.id
+left join riba_distinta rd on rdl.distinta_id = rd.id
+left join riba_configurazione rco on rd.config = rco.id
+
+where
+$P!{sql_where} and rco.id is not null
+group by cp.name, rco.name, periodo
+order by riba_config_name, periodo]]>
+	</queryString>
+	<field name="company_name" class="java.lang.String"/>
+	<field name="riba_config_name" class="java.lang.String"/>
+	<field name="periodo" class="java.lang.String"/>
+	<field name="riba_importo" class="java.lang.Double"/>
+	<variable name="Tot_generale_importo_residuo" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{riba_importo}]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="28" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="378" height="27"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="332" y="14" width="35" height="12"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Importo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="252" y="13" width="54" height="13"/>
+				<textElement textAlignment="Left" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Periodo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="13" width="54" height="13"/>
+				<textElement textAlignment="Left" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Banca]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="12" splitType="Stretch">
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="321" y="1" width="45" height="10"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Double"><![CDATA[$F{riba_importo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="12" y="1" width="220" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{riba_config_name}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="2" y="11" width="376" height="1"/>
+				<graphicElement>
+					<pen lineStyle="Dotted" lineColor="#CCCCCC"/>
+				</graphicElement>
+			</line>
+			<textField pattern="MMM-yy" isBlankWhenNull="true">
+				<reportElement x="252" y="1" width="54" height="10"/>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[new SimpleDateFormat("yyyy-MM").parse($F{periodo})]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="20">
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="308" y="5" width="58" height="12"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Float"><![CDATA[$V{Tot_generale_importo_residuo}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="223" y="5" width="83" height="12"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Totale ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="1" width="378" height="1"/>
+			</line>
+		</band>
+	</summary>
+</jasperReport>

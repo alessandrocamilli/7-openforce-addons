@@ -1,0 +1,1723 @@
+id,name,percent,species_id:id,group_id:id
+500,Macchine agricole (compresi i trattori) 9%,9.00,300,1
+501,"Impianti mobili di irrigazione - Carri agricoli e carri botte Attrezzatura di stalla e varia 12,50%",12.50,300,1
+502,Mobili e macchine ordinarie d'ufficio 12% ,12.00,300,1
+503,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,20.00,300,1
+504,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",20.00,300,1
+505,"Autovetture, motoveicoli e simili 25% ",25.00,300,1
+506,Fabbricati destinati all'industria (edifici) 3% ,3.00,301,1
+507,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",10.00,301,1
+508,Macchinari operatori ed impianti 9% ,9.00,301,1
+509,Attrezzatura varia e minuta 20% ,20.00,301,1
+510,Mobili e macchine ordinarie d'ufficio 12% ,12.00,301,1
+511,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,20.00,301,1
+512,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",20.00,301,1
+513,"Autovetture, motoveicoli e simili 25% ",25.00,301,1
+514,Attrezzature e impianti (comprese le teleferiche) 15% ,15.00,303,1
+515,Mobili e macchine ordinarie d'ufficio 12% ,12.00,303,1
+516,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,20.00,303,1
+517,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",20.00,303,1
+518,"Autovetture, motoveicoli e simili 25% ",25.00,303,1
+519,Fabbricati destinati all'industria (edifici) 3% ,3.00,304,1
+520,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",10.00,304,1
+521,Macchine destinate al noleggio 9% ,9.00,304,1
+522,Mietitrebbiattrici ed altre macchine operatrici20% ,20.00,304,1
+523,"Trattrici e macchine per il movimento terra in agricoltura 12,5% ",12.50,304,1
+524,"Officina di manutezione 6,5% ",6.50,304,1
+525,Attrezzatura varia e minuta 20% ,20.00,304,1
+526,Mobili e macchine ordinarie d'ufficio 12% ,12.00,304,1
+527,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,20.00,304,1
+528,Automezzi e aerei destinati esclusivamente alla difesa fitosanitaria delle colture 20% ,20.00,304,1
+529,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",20.00,304,1
+530,"Autovetture, motoveicoli e simili 25% ",25.00,304,1
+531,Edifici (compresi quelli per il ricovero degli animali e silos) 3% ,3.00,305,1
+532,Silos in materiale ferroso 8% ,8.00,305,1
+533,Silos in materiale plastico10% ,10.00,305,1
+534,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",10.00,305,1
+535,"Macchine per la preparazione degli alimenti, macchinari generici, attrezzatura di stalla e varia12,5% ",12.50,305,1
+536,Macchine ed attrezzature di stalla altamente automatizzate20% ,20.00,305,1
+537,Mobili e macchine ordinarie d'ufficio 12% ,12.00,305,1
+538,Macchine d'ufficio elettromeccaniche ed elettroniche compresii computers e i sistemi telefonici elettronici 20% ,20.00,305,1
+539,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc)20% ",20.00,305,1
+540,"Autovetture, motoveicoli e simili 25% ",25.00,305,1
+541,"Motopescherecci (completi di equipaggiamento) 12,5% ",12.50,306,1
+542,"Attrezzatura particolare di pesca a bordo ed a terra (reti, tonnare, griglie, ecc)31,5% ",31.50,306,1
+543,Mobili e macchine ordinarie d'ufficio 12% ,12.00,306,1
+544,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,20.00,306,1
+545,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",20.00,306,1
+546,"Autovetture, motoveicoli e simili 25% ",25.00,306,1
+547,Fabbricati industriali 3% ,3.00,307,1
+548,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",10.00,307,1
+549,Impianti e macchinari generici 6% ,6.00,307,1
+550,"Impianti e macchinari specifici (bacini di allevamento, forni, lavorieri8% ",8.00,307,1
+551,Attrezzatura varia e minuta20% ,20.00,307,1
+552,Mobili e macchine ordinarie d'ufficio 12% ,12.00,307,1
+553,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,20.00,307,1
+554,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",20.00,307,1
+555,"Autovetture, motoveicoli e simili 25% ",25.00,307,1
+556,"Fabbricati destinati all'industria (edifici, silos, vasche e serbatoi, opere idrauliche fisse, strade e piazzali, acquedotti) 5% ",5.00,308,4
+557,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",10.00,308,4
+558,Gallerie e pozzi (escluse le armature mobili)6% ,6.00,308,4
+559,"Impianti generici del soprasuolo (produzione o presa e distribuzione di energie - raccordi e materiale rotabile officina di manutenzuone - impianti di trasporto - impianti e mezzi di sollevamento, carico, scarico e pesatura - ove non siano da considerare impianti specifici) 8% ",8.00,308,4
+560,Impianti specifici del soprasuolo 10% ,10.00,308,4
+561,Impianti specifici del sottosuolo 15% ,15.00,308,4
+562,Forni e loro pertinenze10% ,10.00,308,4
+563,Attrezzatura varia e minuta e di laboratorio 30% ,30.00,308,4
+564,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",15.00,308,4
+565,Mobili e macchine ordinarie d'ufficio 12% ,12.00,308,4
+566,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,20.00,308,4
+567,"Autoveicoli da trasporto (autoveicoli pesanti in genere carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",20.00,308,4
+568,"Autovetture, motoveicoli e simili 25% ",25.00,308,4
+569,"Fabbricati destinati all'industria (come nella specie 1a)5,5% ",,309,4
+570,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,309,4
+571,Gallerie e pozzi (escluse le armature mobili)5% ,,309,4
+572,Impianti generici del soprasuolo (come nella specie 1a) 8% ,,309,4
+573,Impianti specifici del soprasuolo 11% ,,309,4
+574,Impianti specifici del sottosuolo 16% ,,309,4
+575,Forni e loro pertinenze10% ,,309,4
+576,Attrezzatura varia e minuta e di laboratorio 30% ,,309,4
+577,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,309,4
+578,Mobili e macchine ordinarie d'ufficio 12% ,,309,4
+579,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,309,4
+580,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,309,4
+581,"Autovetture, motoveicoli e simili 25% ",,309,4
+582,Fabbricati destinati all'industria (come nella specie 1a)5% ,,310,4
+583,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,310,4
+584,Gallerie e pozzi (escluse le armature mobili)6% ,,310,4
+585,Impianti generici del soprasuolo (come nella specie 1a) 8% ,,310,4
+586,Impianti specifici del soprasuolo 9% ,,310,4
+587,Impianti specifici del sottosuolo 14% ,,310,4
+588,Attrezzatura varia e minuta e di laboratorio 30% ,,310,4
+589,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,310,4
+590,Mobili e macchine ordinarie d'ufficio 12% ,,310,4
+591,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,310,4
+592,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,310,4
+593,"Autovetture, motoveicoli e simili 25% ",,310,4
+594,"Fabbricati destinati all'industria (come nella specie 1a)5,5% ",,311,4
+595,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,311,4
+596,Impianti generici (come nella specie 1a)8% ,,311,4
+597,Impianti specifici (compresi i pozzi) 15% ,,311,4
+598,Impianti specifici dell'industria per lo sfruttamento delle forze endogene 25% ,,311,4
+599,"Autosonde, autoregistratori per rilievi geofisici e diversi 25% ",,311,4
+600,Attrezzatura varia e minuta35% ,,311,4
+601,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,311,4
+602,Mobili e macchine ordinarie d'uffcio 12% ,,311,4
+603,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,311,4
+604,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatore, mezzi di trasporto interno, ecc) 20% ",,311,4
+605,"Autovetture, motoveicoli e simili 25% ",,311,4
+606,Fabbricati destinati all'industria (come nella specie 1a)4% ,,312,4
+607,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,312,4
+608,Macchinari operatori ed impianti 10% ,,312,4
+609,Escavatrici e pale meccaniche 25% ,,312,4
+610,Attrezzatura varia e minima 30% ,,312,4
+611,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,312,4
+612,Mobili e macchine ordinarie d'ufficio 12% ,,312,4
+613,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,312,4
+614,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,312,4
+615,"Autovetture, motoveicoli e simili 25% ",,312,4
+616,Fabbricati destinati all'industria (come nella specie 1a)4% ,,313,4
+617,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,313,4
+618,Macchinari operatori ed impianti (compresi gli escavatori) 8% ,,313,4
+619,Attrezzatura varia e minuta30% ,,313,4
+620,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagentichimici 15% ",,313,4
+621,Mobili e macchine ordinarie d'ufficio 12% ,,313,4
+622,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,313,4
+623,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,313,4
+624,"Autovetture, motoveicoli e simili 25% ",,313,4
+625,"Fabbricati destinati all'industria (come nella specie 1a)5,5% ",,314,4
+626,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,314,4
+627,Gallerie e pozzi (escluse le armature mobili)5% ,,314,4
+628,Impianti generici del soprasuolo (come nella specie 1a) 8% ,,314,4
+629,Impianti specifici del soprasuolo 11% ,,314,4
+630,Impianti specifici del sottosuolo 16% ,,314,4
+631,Forni e loro pertinenze10% ,,314,4
+632,Attrezzatura varia e minuta e di laboratorio 30% ,,314,4
+633,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,314,4
+634,Mobili e macchine ordinarie d'ufficio 12% ,,314,4
+635,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,314,4
+636,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,314,4
+637,"Autovetture, motoveicoli e simili 25% ",,314,4
+638,"Fabbricati destinati all'industria (edifici, opere idrauliche fisse, silos, strade e piazzali, fognature, vasche e serbatoio) 3% ",,315,5
+639,Silos in materiale ferroso 8% ,,315,5
+640,Silos in materiale plastico10% ,,315,5
+641,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,315,5
+642,Macchinari operatori e impianti10% ,,315,5
+643,"Macchine per la preparazione degli alimenti12,5% ",,315,5
+644,Attrezzatura varia e minuta20% ,,315,5
+645,Mobili e macchine ordinarie d'ufficio 12% ,,315,5
+646,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,315,5
+647,"Autoveicoli da trasporto (autoveicoli pesanti in genere carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,315,5
+648,"Autovetture, motoveicoli e simili 25% ",,315,5
+649,Fabbricati destinati all'industria (come nella specie 1a)4% ,,316,5
+650,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,316,5
+651,Macchinari operatori e impianti10% ,,316,5
+652,Attrezzatura varia e minuta20% ,,316,5
+653,Mobili e macchine ordinarie d'ufficio 12% ,,316,5
+654,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,316,5
+655,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,316,5
+656,"Autovetture, motoveicoli e simili 25% ",,316,5
+657,Fabbricati destinati all'industria (come nella specie 1a)3% ,,317,5
+658,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,317,5
+659,Macchinari operatori ed impianti9% ,,317,5
+660,"Impianti specifici12,5% ",,317,5
+661,Forni e loro pertinenze14% ,,317,5
+662,Macchinari con rilevante componente elettronica18% ,,317,5
+663,Attrezzatura varia e minuta25% ,,317,5
+664,Mobili e macchine ordinarie d'ufficio 12% ,,317,5
+665,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,317,5
+666,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,317,5
+667,"Autovetture, motoveicoli e simili 25% ",,317,5
+668,Fabbricati destinati all'industria (come nella specie 1a)3% ,,318,5
+669,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,318,5
+670,"Impianti generici (servizio vapore e acqua calda, impianti di presa e distribuzione energia, officina di manutenzione, impianti di trasporto interno, impianti e mezzi di sollevamento, carico, scarico e pesatura, raccordi e materiale rotabile7,5% ",,318,5
+671,Macchinari operatori e impianti specifici (compresi i forni e gli impianti di condizionamento) 14% ,,318,5
+672,Attrezzatura varia e minuta40% ,,318,5
+673,Mobili e macchine ordinarie d'ufficio 12% ,,318,5
+674,Macchine d'ufficio elettronimeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,318,5
+675,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,318,5
+676,"Autovetture, motoveicoli e simili 25% ",,318,5
+677,Fabbricati destinati all'industria (come nella specie 1a)3% ,,319,5
+678,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,319,5
+679,"Macchinari operatori e impianti12,5% ",,319,5
+680,Attrezzatura varia e minuta e di laboratorio 40% ,,319,5
+681,Mobili e macchine ordinarie d'ufficio 12% ,,319,5
+682,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,319,5
+683,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,319,5
+684,"Autovetture, motoveicoli e simili 25% ",,319,5
+685,Fabbricati destinati all'industria (come nella specie 1a)4% ,,320,5
+686,"Costruzioni leggere, (tettoie, baracche, ecc)10% ",,320,5
+687,Macchinari operatori e impianti15% ,,320,5
+688,Attrezzatura varia e minuta40% ,,320,5
+689,Mobili e macchine ordinarie d'ufficio 12% ,,320,5
+690,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,320,5
+691,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,320,5
+692,"Autovetture, motoveicoli e simili 25% ",,320,5
+693,Fabbricati destinati all'industria (come nella specie 1a)4% ,,321,5
+694,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,321,5
+695,"Macchinari e impianti generici (come nella specie 4a)7,5% ",,321,5
+696,"Macchinari e impianti specifici12,5% ",,321,5
+697,Attrezzatura varia e minuta e di laboratorio 20% ,,321,5
+698,Mobili e macchine ordinarie d'ufficio 12% ,,321,5
+699,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,321,5
+700,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,321,5
+701,"Autovetture, motoveicoli e simili 25% ",,321,5
+702,Fabbricati destinati all'industria (come nella specie 1a)4% ,,322,5
+703,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,322,5
+704,Macchinari e impianti generici (come nella specie 4a)9% ,,322,5
+705,Macchinari e impianti specifici (compresi i forni e gli impianti di condizionamento) 15% ,,322,5
+706,Attrezzatura varia e minuta20% ,,322,5
+707,Mobili e macchine ordinarie d'ufficio 12% ,,322,5
+708,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,322,5
+709,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,322,5
+710,"Autovetture, motoveicoli e simili 25% ",,322,5
+711,Fabbricati destinati all'industria (come nella specie 1a)4% ,,323,5
+712,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,323,5
+713,"Macchinari operatori e impianti12,5% ",,323,5
+714,Attrezzatura varia e minuta20% ,,323,5
+715,Mobili e macchine ordinarie d'ufficio 12% ,,323,5
+716,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,323,5
+717,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,323,5
+718,"Autovetture, motoveicoli e simili 25% ",,323,5
+719,Fabbricati destinati all'industria (come nella specie 1a)3% ,,324,5
+720,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,324,5
+721,"Macchinari e impianti generici (come nella specie 4a)7,5% ",,324,5
+722,Macchinari e impianti specifici (compresi gli impianti di condizionamento) 14% ,,324,5
+723,Attrezzatura varia e minuta e di laboratorio 20% ,,324,5
+724,Mobili e macchine ordinarie d'ufficio 12% ,,324,5
+725,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,324,5
+726,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,324,5
+727,"Autovetture, motoveicoli e simili 25% ",,324,5
+728,Fabbricati destinati all'industria 4% ,,325,5
+729,Costruzioni leggere 10% ,,325,5
+730,Macchinari e impianti generici 10% ,,325,5
+731,Macchinari e impianti specifici 16% ,,325,5
+732,Attrezzatura varia e minuta e di laboratorio 20% ,,325,5
+733,Mobili e macchine ordinarie d'ufficio 12% ,,325,5
+734,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,325,5
+735,Automezzi dei depositi periferici per consegna ai clienti 30% ,,325,5
+736,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,325,5
+737,"Autovetture, motoveicoli e simili 25% ",,325,5
+738,Fabbricati destinati all'industria (come nella specie 1a)3% ,,326,5
+739,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,326,5
+740,Macchinari operatori e impianti10% ,,326,5
+741,Attrezzatura varia e minuta20% ,,326,5
+742,Mobili e macchine ordinarie d'ufficio 12% ,,326,5
+743,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,326,5
+744,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,326,5
+745,"Autovetture, motoveicoli e simili 25% ",,326,5
+746,Fabbricati destinati all'industria (come nella specie 1a)3% ,,327,5
+747,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,327,5
+748,Macchinari operatori e impianti10% ,,327,5
+749,Attrezzatura varia e minuta20% ,,327,5
+750,Mobili e macchine ordinarie d'ufficio 12% ,,327,5
+751,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,327,5
+752,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,327,5
+753,"Autovetture, motoveicoli e simili 25% ",,327,5
+754,Fabbricati destinati all'industria (come nella specie 1a)3% ,,328,5
+755,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,328,5
+756,Macchinari operatori e impianti10% ,,328,5
+757,Attrezzatura varia e minuta20% ,,328,5
+758,Mobili e macchine ordinarie d'ufficio 12% ,,328,5
+759,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,328,5
+760,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,328,5
+761,"Autovetture, motoveicoli e simili 25% ",,328,5
+762,Fabbricati destinati all'industria (come nella specie 1a)3% ,,329,5
+763,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,329,5
+764,Macchinari operatori e impianti10% ,,329,5
+765,Attrezzatura varia e minuta20% ,,329,5
+766,Mobili e macchine ordinarie d'ufficio 12% ,,329,5
+767,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,329,5
+768,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,329,5
+769,"Autovetture, motoveicoli e simili 25% ",,329,5
+770,Fabbricati destinati all'industria (come nella specie 1a)3% ,,330,5
+771,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,330,5
+772,Macchinari operatori e impianti10% ,,330,5
+773,Attrezzatura varia e minuta20% ,,330,5
+774,Mobili e macchine ordinarie d'ufficio 12% ,,330,5
+775,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,330,5
+776,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,330,5
+777,"Autovetture, motoveicoli e simili 25% ",,330,5
+778,Fabbricati destinati all'industria (come nella specie 1a)3% ,,331,5
+779,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,331,5
+780,"Macchinari e impianti generici (come nella specie 4a)7,5% ",,331,5
+781,Macchinari e impianti specifici (compresi gli impianti di condizionamento) 14% ,,331,5
+782,Attrezzatura varia e minuta e di laboratorio(comprese le casse e i fusti)20% ,,331,5
+783,Mobili e macchine ordinarie d'ufficio 12% ,,331,5
+784,Macchine d'ufficio elettromeccaniche ed elettroncihe compresi i computers e i sistemi telefonici elettronici 20% ,,331,5
+785,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,331,5
+786,"Autovetture, motoveicoli e simili 25% ",,331,5
+787,Fabbricati destinati all'industria (come nella specie 1a)3% ,,332,5
+788,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,332,5
+789,Macchinari operatori e impianti10% ,,332,5
+790,Attrezzatura varia e minuta e di laboratorio(compresi i frigoriferi e distributori automatici di bevande imbottigliate) 20% ,,332,5
+791,Mobili e macchine ordinarie d'ufficio 12% ,,332,5
+792,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,332,5
+793,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,332,5
+794,"Autovetture, motoveicoli e simili 25% ",,332,5
+795,Fabbricati destinati all'industria (come nella specie 1a)4% ,,333,5
+796,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,333,5
+797,"Macchinari operatori ed impianti (compresi gli impianti di condizionamento) 12,5% ",,333,5
+798,Attrezzatura varia e minuta20% ,,333,5
+799,Mobili e macchine ordinarie d'ufficio 12% ,,333,5
+800,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,333,5
+801,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,333,5
+802,"Autovetture, motoveicoli e simili 25% ",,333,5
+803,"Fabbricati destinati all'industria (edifici, opere idrauliche fisse, strade e piazzali, acquedotti e fognature) 3% ",,334,6
+804,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,334,6
+805,"Impianti generici e specifici (officina manutenzione, servizi vapore, mezzi di carico, scarico e pesatura, impianti di presa e produzione energia) 11,5% ",,334,6
+806,"Attrezzatura varia e minuta (attrezzi, scali di alaggio, ecc) 25% ",,334,6
+807,Mobili e macchine ordinarie d'ufficio 12% ,,334,6
+808,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,334,6
+809,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,334,6
+810,"Autovetture, motoveicoli e simili 25% ",,334,6
+811,"Fabbricati destinati all'industria (edifici, opere idrauliche fisse, strade e piazzali, acquedotti e fognature) 3% ",,335,6
+812,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,335,6
+813,"Impianti generici e specifici (officina manutenzione, servizi vapore, mezzi di carico, scarico e pesatura, impianti di presa e produzione energia) 11,5% ",,335,6
+814,"Attrezzatura varia e minuta (attrezzi, scali di alaggio, ecc) 25% ",,335,6
+815,Mobili e macchine ordinarie d'ufficio 12% ,,335,6
+816,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,335,6
+817,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,335,6
+818,"Autovetture, motoveicoli e simili 25% ",,335,6
+819,"Fabbricati destinati all'industria (edifici, opere idrauliche fisse, strade e piazzali, acquedotti e fognature) 3% ",,336,6
+820,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,336,6
+821,"Impianti generici e specifici (officina manutenzione, servizi vapore, mezzi di carico, scarico e pesatura, impianti di presa e produzione energia) 11,5% ",,336,6
+822,"Attrezzatura varia e minuta (attrezzi, scali di alaggio, ecc) 25% ",,336,6
+823,Mobili e macchine ordinarie d'ufficio 12% ,,336,6
+824,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,336,6
+825,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,336,6
+826,"Autovetture, motoveicoli e simili 25% ",,336,6
+827,"Fabbricati destinati all'industria (edifici, opere idrauliche fisse, strade e piazzali, acquedotti e fognature) 3% ",,337,6
+828,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,337,6
+829,"Impianti generici e specifici (officina manutenzione, servizi vapore, mezzi di carico, scarico e pesatura, impianti di presa e produzione energia) 11,5% ",,337,6
+830,"Attrezzatura varia e minuta (attrezzi, scali di alaggio, ecc) 25% ",,337,6
+831,Mobili e macchine ordinarie d'ufficio 12% ,,337,6
+832,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,337,6
+833,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,337,6
+834,"Autovetture, motoveicoli e simili 25% ",,337,6
+835,"Fabbricati destinati all'industria (edifici, opere idrauliche fisse, strade e piazzali, acquedotti e fognature) 3% ",,338,6
+836,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,338,6
+837,"Impianti generici e specifici (officina manutenzione, servizi vapore, mezzi di carico, scarico e pesatura, impianti di presa e produzione energia) 11,5% ",,338,6
+838,"Attrezzatura varia e minuta (attrezzi, scali di alaggio, ecc) 25% ",,338,6
+839,Mobili e macchine ordinarie d'ufficio 12% ,,338,6
+840,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,338,6
+841,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,338,6
+842,"Autovetture, motoveicoli e simili 25% ",,338,6
+843,"Fabbricati destinati all'industria (edifici, opere idrauliche fisse, strade e piazzali, acquedotti e fognature) 3% ",,339,6
+844,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,339,6
+845,"Impianti generici e specifici (officina manutenzione, servizi vapore, mezzi di carico, scarico e pesatura, impianti di presa e produzione energia) 11,5% ",,339,6
+846,"Attrezzatura varia e minuta (attrezzi, scali di alaggio, ecc) 25% ",,339,6
+847,Mobili e macchine ordinarie d'ufficio 12% ,,339,6
+848,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,339,6
+849,"Autoveicoli da trasporto (auteveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% ",,339,6
+850,"Autovetture, motoveicoli e simili 25% ",,339,6
+851,"Fabbricati destinati all'industria (edifici, opere idrauliche, fisse, strade e piazzali, acquedotti e fognature3% ",,340,6
+852,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,340,6
+853,"Impianti generici e impianti specifici non compresi nella voce seguente (officina manutenzione, servizi vapore, mezzi di carico e scarico, e pesatura, misurazione, impianti di presa e produzione e macchine lavoraratrici energia) 7,5% ",,340,6
+854,"Impianti e macchinari specifici (forni di cottura)12,5% ",,340,6
+855,Attrezzatura varia e minuta (attrezzi e superfici attive) 20% ,,340,6
+856,Mobili e macchine ordinarie d'ufficio 12% ,,340,6
+857,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,340,6
+858,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carreli elevatori, mezzi di trasporto interno, ecc)20% ",,340,6
+859,"Autovetture, motoveicoli e simili 25% ",,340,6
+860,"Fabbricati destinati all'industria (edifici, opere idrauliche fisse, strade e piazzali, acquedotti e fognature3% ",,341,6
+861,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,341,6
+862,"Impianti generici e impianti specifici non compresi nella voce seguente (presse, officina di manutenzione servizi vapore, mezzi di carico e scarico, misurazione, impianti di presa e produzione energia 10% ",,341,6
+863,"Impianti e macchinari specifici con intervento di reagenti chimici e di alte pressioni (compresi i forni)12,5% ",,341,6
+864,Attrezzatura varia e minuta20% ,,341,6
+865,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,341,6
+866,Mobili e macchine ordinarie d'ufficio 12% ,,341,6
+867,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,341,6
+868,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,341,6
+869,"Autovetture, motoveicoli e simili 25% ",,341,6
+870,"Fabbricati destinati all'industria (edifici, opere idrauliche fisse, strade e piazzali, acquedotti e fognature) 5% ",,342,6
+871,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,342,6
+872,"Impianti generici ed impianti specifici non compresi nella voce seguente (presse, officina manutenzione, servizi vapore, mezzi di carico, scarico e misurazione, impianti di presa e produzione energia, cassoni di flusso, macchina continua, ecc) 10% ",,342,6
+873,"Impianti e macchinari specifici (di preparazione di lavaggio, idrofugazione, scromatura, cromatura, vagliatura, disidramento) ed altri macchinari con intervento di reagenti chimici o di alte pressioni 12,5% ",,342,6
+874,Attrezzatura varia e minuta20% ,,342,6
+875,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc Mediante impiego di reagenti chimici 15% ",,342,6
+876,Mobili e macchine ordinarie d'ufficio 12% ,,342,6
+877,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,342,6
+878,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,342,6
+879,"Autovetture, motoveicoli e simili 25% ",,342,6
+880,"Fabbricati destinati all'industria (edifici, opere idrauliche fisse, strade e piazzali, acquedotti e fognature) 5% ",,343,7
+881,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,343,7
+882,"Impianti generici (impianti di produzione, presa e distribuzione energia, officina di manutenzione, raccordi e materiale rotabile, centrale di conversione, parco motori e pompe, ecc, impianti di trasporto interno, carico, scarico, sollevamento e pesatura) e specifici 12% ",,343,7
+883,"Grandi impianti e macchine operatrici automatici 17,5% ",,343,7
+884,Forni e loro pertinenze15% ,,343,7
+885,Attrezzatura dei mezzi di produzione 25% ,,343,7
+886,Attrezzatura dei sistemi flessibili di produzione 30% ,,343,7
+887,"Attrezzatura varia e minuta (stampi, modelli, attrezzi e laboratorio 25% ",,343,7
+888,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,343,7
+889,Mobili e macchine ordinarie d'ufficio 12% ,,343,7
+890,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,343,7
+891,"carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,343,7
+892,"Autovetture, motoveicoli e simili 25% ",,343,7
+893,Fabbricati destinati all'industria (come nella specie 1a/a) 5% ,,344,7
+894,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,344,7
+895,Impianti generici (come nella specie 1a/a) e specifici 10% ,,344,7
+896,"Grandi impianti specifici macchine operatrici automatici 17,5% ",,344,7
+897,"Celle elettrolitiche - Impianti con intervento di reagenti chimici 17,5% ",,344,7
+898,Forni e loro pertinenze 15% ,,344,7
+899,"Attrezzatura varia e minuta (stampi, modelli, attrezzi e laboratorio 25% ",,344,7
+900,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,344,7
+901,Mobili e macchine ordinarie d'ufficio 12% ,,344,7
+902,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,344,7
+903,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,344,7
+904,"Autovetture, motoveicoli e simili 25% ",,344,7
+905,Fabbricati destinati all'industria (come nella specie 1a/a) 5% ,,345,7
+906,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,345,7
+907,Impianti generici (come nella specie 1a/a) e specifici10% ,,345,7
+908,"Macchinari specifici automatici 17,5% ",,345,7
+909,Forni e loro pertinenze 15% ,,345,7
+910,"Attrezzatura varia e minuta (stampi, modelli e attrezzi) 40% ",,345,7
+911,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,345,7
+912,Mobili e macchine ordinarie d'ufficio 12% ,,345,7
+913,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,345,7
+914,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 25% ",,345,7
+915,"Autovetture, motoveicoli e simili 25% ",,345,7
+916,Fabbricati destinati all'industria (come nella specie 1a/a) 5% ,,346,7
+917,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,346,7
+918,Impianti generici (come nella specie 1a/a) e specifici10% ,,346,7
+919,"Celle elettrolitiche - Impianti con intervento di reagenti chimici - Impianti elettrotermici per la produzione del magnesio 17,5% ",,346,7
+920,Forni e loro pertinenze15% ,,346,7
+921,"Attrezzatura varia e minuta (stampi, modelli, attrezzi e laboratorio) 25% ",,346,7
+922,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,346,7
+923,Mobili e macchine ordinarie d'ufficio 12% ,,346,7
+924,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,346,7
+925,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,346,7
+926,"Autovetture, motoveicoli e simili 25% ",,346,7
+927,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,347,7
+928,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,347,7
+929,Impianti generici (come nella specie 1a/a) e specifici10% ,,347,7
+930,"Grandi impianti specifici e macchine operatrici automatici 15,5% ",,347,7
+931,Forni di trattamento 15% ,,347,7
+932,Attrezzatura varia e minuta25% ,,347,7
+933,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,347,7
+934,Mobili e macchine ordinarie d'ufficio 12% ,,347,7
+935,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,347,7
+936,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,347,7
+937,"Autovetture, motoveicoli e simili 25% ",,347,7
+938,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,348,7
+939,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,348,7
+940,Impianti generici (come nella specie 1a/a) e specifici10% ,,348,7
+941,"Grandi impianti specifici e macchine operatrici automatici 15,5% ",,348,7
+942,Forni di trattamento 15% ,,348,7
+943,Attrezzatura varia e minuta25% ,,348,7
+944,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,348,7
+945,Mobili e macchine ordinarie d'ufficio 12% ,,348,7
+946,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,348,7
+947,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,348,7
+948,"Autovetture, motoveicoli e simili 25% ",,348,7
+949,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,349,7
+950,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,349,7
+951,Impianti generici (come nella specie 1a/a) e specifici10% ,,349,7
+952,"Grandi impianti specifici e macchine operatrici automatici 15,5% ",,349,7
+953,Forni di trattamento 15% ,,349,7
+954,Attrezzatura varia e minuta25% ,,349,7
+955,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,349,7
+956,Mobili e macchine ordinarie d'ufficio 12% ,,349,7
+957,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,349,7
+958,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,349,7
+959,"Autovetture, motoveicoli e simili 25% ",,349,7
+960,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,350,7
+961,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,350,7
+962,Impianti generici (come nella specie 1a/a) e specifici10% ,,350,7
+963,"Grandi impianti specifici e macchine operatrici automatici 15,5% ",,350,7
+964,Forni di trattamento 15% ,,350,7
+965,Attrezzatura varia e minuta25% ,,350,7
+966,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,350,7
+967,Mobili e macchine ordinarie d'ufficio 12% ,,350,7
+968,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,350,7
+969,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,350,7
+970,"Autovetture, motoveicoli e simili 25% ",,350,7
+971,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,351,7
+972,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,351,7
+973,Impianti generici (come nella specie 1a/a) e specifici10% ,,351,7
+974,"Impianti specifici e macchine operatrici automatiche 15,5% ",,351,7
+975,Forni e loro pertinenze15% ,,351,7
+976,Attrezzatura varia e minuta25% ,,351,7
+977,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,351,7
+978,Mobili e macchine ordinarie d'ufficio 12% ,,351,7
+979,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,351,7
+980,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,351,7
+981,"Autovetture, motoveicoli e simili 25% ",,351,7
+982,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,352,7
+983,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,352,7
+984,Impianti generici (come nella specie 1a/a) e specifici10% ,,352,7
+985,"Grandi impianti specifici e macchine operatrici automatici 15,5% ",,352,7
+986,Forni di trattamento 15% ,,352,7
+987,Attrezzatura varia e minuta25% ,,352,7
+988,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,352,7
+989,Mobili e macchine ordinarie d'ufficio 12% ,,352,7
+990,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,352,7
+991,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,352,7
+992,"Autovetture, motoveicoli e simili 25% ",,352,7
+993,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,353,7
+994,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,353,7
+995,Impianti generici (come nella specie 1a/a) e specifici10% ,,353,7
+996,"Grandi impianti specifici e macchine operatrici automatici 15,5% ",,353,7
+997,Forni di trattamento 15% ,,353,7
+998,Attrezzatura varia e minuta25% ,,353,7
+999,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,353,7
+1000,Mobili e macchine ordinarie d'ufficio 12% ,,353,7
+1001,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,353,7
+1002,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,353,7
+1003,"Autovetture, motoveicoli e simili 25% ",,353,7
+1004,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,354,7
+1005,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,354,7
+1006,Impianti generici (come nella specie 1a/a) e specifici10% ,,354,7
+1007,"Grandi impianti specifici e macchine operatrici automatici 15,5% ",,354,7
+1008,Forni di trattamento 15% ,,354,7
+1009,Attrezzatura varia e minuta25% ,,354,7
+1010,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,354,7
+1011,Mobili e macchine ordinarie d'ufficio 12% ,,354,7
+1012,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,354,7
+1013,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,354,7
+1014,"Autovetture, motoveicoli e simili 25% ",,354,7
+1015,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,355,7
+1016,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,355,7
+1017,Impianti generici (come nella specie 1a/a) e specifici10% ,,355,7
+1018,"Grandi impianti specifici e macchine operatrici automatici 15,5% ",,355,7
+1019,Forni di trattamento 15% ,,355,7
+1020,Attrezzatura varia e minuta25% ,,355,7
+1021,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,355,7
+1022,Mobili e macchine ordinarie d'ufficio 12% ,,355,7
+1023,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,355,7
+1024,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,355,7
+1025,"Autovetture, motoveicoli e simili 25% ",,355,7
+1026,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,356,7
+1027,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,356,7
+1028,Impianti generici (come nella specie 1a/a) e specifici10% ,,356,7
+1029,"Grandi impianti specifici e macchine operatrici automatici 15,5% ",,356,7
+1030,Forni di trattamento 15% ,,356,7
+1031,Attrezzatura varia e minuta25% ,,356,7
+1032,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,356,7
+1033,Mobili e macchine ordinarie d'ufficio 12% ,,356,7
+1034,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,356,7
+1035,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,356,7
+1036,"Autovetture, motoveicoli e simili 25% ",,356,7
+1037,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,357,7
+1038,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,357,7
+1039,Impianti generici (come nella specie 1a/a) e specifici10% ,,357,7
+1040,"Impianti specifici e macchine operatrici automatiche 15,5% ",,357,7
+1041,Forni e loro pertinenze15% ,,357,7
+1042,Attrezzatura varia e minuta40% ,,357,7
+1043,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,357,7
+1044,Mobili e macchine ordinarie d'ufficio 12% ,,357,7
+1045,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,357,7
+1046,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,357,7
+1047,"Autovetture, motoveicoli e simili 25% ",,357,7
+1048,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,358,7
+1049,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,358,7
+1050,Macchinari12% ,,358,7
+1051,Attrezzatura varia e minuta35% ,,358,7
+1052,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,358,7
+1053,Mobili e macchine ordinarie d'ufficio 12% ,,358,7
+1054,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,358,7
+1055,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,358,7
+1056,"Autovetture, motoveicoli e simili 25% ",,358,7
+1057,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,359,7
+1058,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,359,7
+1059,Macchinari12% ,,359,7
+1060,Attrezzatura varia e minuta35% ,,359,7
+1061,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,359,7
+1062,Mobili e macchine ordinarie d'ufficio 12% ,,359,7
+1063,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,359,7
+1064,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,359,7
+1065,"Autovetture, motoveicoli e simili 25% ",,359,7
+1066,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,360,7
+1067,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,360,7
+1068,Macchinari12% ,,360,7
+1069,Attrezzatura varia e minuta35% ,,360,7
+1070,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,360,7
+1071,Mobili e macchine ordinarie d'ufficio 12% ,,360,7
+1072,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,360,7
+1073,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,360,7
+1074,"Autovetture, motoveicoli e simili 25% ",,360,7
+1075,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,361,7
+1076,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,361,7
+1077,Impianti generici (come nella specie 1a/a) e specifici e macchine operatrici non automatiche10% ,,361,7
+1078,"Impianti specifici e macchine operatrici automatiche 17,5% ",,361,7
+1079,Celle elettroniche e impianti con intervento di reagenti chimici 20% ,,361,7
+1080,Forni e loro pertinenze15% ,,361,7
+1081,Centri di lavoro robottizzati 22% ,,361,7
+1082,Strumenti di collaudo e controllo 30% ,,361,7
+1083,Attrezzatura varia e minuta25% ,,361,7
+1084,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,361,7
+1085,Mobili e macchine ordinarie d'ufficio 12% ,,361,7
+1086,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,361,7
+1087,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,361,7
+1088,"Autovetture, motoveicoli e simili 25% ",,361,7
+1089,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,362,7
+1090,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,362,7
+1091,Impianti generici (come nella specie 1a/a) e specifici e macchine operatrici non automatiche10% ,,362,7
+1092,"Impianti specifici e macchine operatrici automatiche 17,5% ",,362,7
+1093,Celle elettroniche e impianti con intervento di reagenti chimici 20% ,,362,7
+1094,Forni e loro pertinenze15% ,,362,7
+1095,Centri di lavoro robottizzati 22% ,,362,7
+1096,Strumenti di collaudo e controllo 30% ,,362,7
+1097,Attrezzatura varia e minuta25% ,,362,7
+1098,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,362,7
+1099,Mobili e macchine ordinarie d'ufficio 12% ,,362,7
+1100,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,362,7
+1101,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,362,7
+1102,"Autovetture, motoveicoli e simili 25% ",,362,7
+1103,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,363,7
+1104,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,363,7
+1105,Impianti generici (come nella specie 1a/a) e specifici e macchine operatrici non automatiche10% ,,363,7
+1106,"Impianti specifici e macchine operatrici automatiche 17,5% ",,363,7
+1107,Celle elettroniche e impianti con intervento di reagenti chimici 20% ,,363,7
+1108,Forni e loro pertinenze15% ,,363,7
+1109,Centri di lavoro robottizzati 22% ,,363,7
+1110,Strumenti di collaudo e controllo 30% ,,363,7
+1111,Attrezzatura varia e minuta25% ,,363,7
+1112,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,363,7
+1113,Mobili e macchine ordinarie d'ufficio 12% ,,363,7
+1114,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,363,7
+1115,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,363,7
+1116,"Autovetture, motoveicoli e simili 25% ",,363,7
+1117,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,364,7
+1118,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,364,7
+1119,Impianti generici (come nella specie 1a/a) e specifici10% ,,364,7
+1120,"Forni, loro pertinenze e impianti con intervento di reagenti chimici 15% ",,364,7
+1121,Centri di lavoro robottizzati 22% ,,364,7
+1122,Strumenti di collaudo e controllo 30% ,,364,7
+1123,Attrezzatura varia e minuta25% ,,364,7
+1124,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,364,7
+1125,Mobili e macchine ordinarie d'ufficio 12% ,,364,7
+1126,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,364,7
+1127,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,364,7
+1128,"Autovetture, motoveicoli e simili 25% ",,364,7
+1129,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,365,7
+1130,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,365,7
+1131,Impianti generici (come nella specie 1a/a) e specifici e macchine operatrici non automatiche10% ,,365,7
+1132,"Impianti specifici e macchine operatrici automatiche 17,5% ",,365,7
+1133,Celle elettroniche e impianti con intervento di reagenti chimici 20% ,,365,7
+1134,Forni e loro pertinenze15% ,,365,7
+1135,Centri di lavoro robottizzati 22% ,,365,7
+1136,Strumenti di collaudo e controllo 30% ,,365,7
+1137,Attrezzatura varia e minuta25% ,,365,7
+1138,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,365,7
+1139,Mobili e macchine ordinarie d'ufficio 12% ,,365,7
+1140,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,365,7
+1141,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,365,7
+1142,"Autovetture, motoveicoli e simili 25% ",,365,7
+1143,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,366,7
+1144,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,366,7
+1145,Impianti generici (come nella specie 1a/a) e specifici e macchine operatrici non automatiche10% ,,366,7
+1146,"Impianti specifici e macchine operatrici automatiche 17,5% ",,366,7
+1147,Celle elettroniche e impianti con intervento di reagenti chimici 20% ,,366,7
+1148,Forni e loro pertinenze15% ,,366,7
+1149,Centri di lavoro robottizzati 22% ,,366,7
+1150,Strumenti di collaudo e controllo 30% ,,366,7
+1151,Attrezzatura varia e minuta25% ,,366,7
+1152,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,366,7
+1153,Mobili e macchine ordinarie d'ufficio 12% ,,366,7
+1154,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,366,7
+1155,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,366,7
+1156,"Autovetture, motoveicoli e simili 25% ",,366,7
+1157,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,367,7
+1158,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,367,7
+1159,Impianti generici (come nella specie 1a/a) e specifici10% ,,367,7
+1160,"Forni, loro pertinenze e impianti con intervento di reagenti chimici 15% ",,367,7
+1161,Centri di lavoro robottizzati 22% ,,367,7
+1162,Strumenti di collaudo e controllo 30% ,,367,7
+1163,Attrezzatura varia e minuta25% ,,367,7
+1164,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,367,7
+1165,Mobili e macchine ordinarie d'ufficio 12% ,,367,7
+1166,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,367,7
+1167,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,367,7
+1168,"Autovetture, motoveicoli e simili 25% ",,367,7
+1169,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,368,7
+1170,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,368,7
+1171,Impianti generici (come nella specie 1a/a) e specifici10% ,,368,7
+1172,"Impianti specifici e macchine operatrici automatiche 15,5% ",,368,7
+1173,Celle elettroniche e impianti con intervento di reagenti chimici 20% ,,368,7
+1174,Forni e loro pertinenze15% ,,368,7
+1175,Attrezzatura varia e minuta compresi impianti e strumentazioni elettroniche 25% ,,368,7
+1176,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,368,7
+1177,Mobili e macchine ordinarie d'ufficio 12% ,,368,7
+1178,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,368,7
+1179,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,368,7
+1180,"Autovetture, motoveicoli e simili 25% ",,368,7
+1181,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,369,7
+1182,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,369,7
+1183,"Macchinari15,5% ",,369,7
+1184,Attrezzatura varia e minuta35% ,,369,7
+1185,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,369,7
+1186,Mobili e macchine ordinarie d'ufficio 12% ,,369,7
+1187,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,369,7
+1188,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,369,7
+1189,"Autovetture, motoveicoli e simili 25% ",,369,7
+1190,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,370,7
+1191,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,370,7
+1192,Macchinari12% ,,370,7
+1193,Attrezzatura varia e minuta35% ,,370,7
+1194,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,370,7
+1195,Mobili e macchine ordinarie d'ufficio 12% ,,370,7
+1196,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,370,7
+1197,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,370,7
+1198,"Autovetture, motoveicoli e simili 25% ",,370,7
+1199,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,371,7
+1200,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,371,7
+1201,Macchinari12% ,,371,7
+1202,Attrezzatura varia e minuta35% ,,371,7
+1203,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,371,7
+1204,Mobili e macchine ordinarie d'ufficio 12% ,,371,7
+1205,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,371,7
+1206,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,371,7
+1207,"Autovetture, motoveicoli e simili 25% ",,371,7
+1208,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,372,7
+1209,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,372,7
+1210,Macchinari12% ,,372,7
+1211,Attrezzatura varia e minuta35% ,,372,7
+1212,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,372,7
+1213,Mobili e macchine ordinarie d'ufficio 12% ,,372,7
+1214,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,372,7
+1215,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,372,7
+1216,"Autovetture, motoveicoli e simili 25% ",,372,7
+1217,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,373,7
+1218,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,373,7
+1219,Macchinari12% ,,373,7
+1220,Attrezzatura varia e minuta35% ,,373,7
+1221,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,373,7
+1222,Mobili e macchine ordinarie d'ufficio 12% ,,373,7
+1223,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,373,7
+1224,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,373,7
+1225,"Autovetture, motoveicoli e simili 25% ",,373,7
+1226,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,374,7
+1227,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,374,7
+1228,Macchinari12% ,,374,7
+1229,Attrezzatura varia e minuta35% ,,374,7
+1230,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,374,7
+1231,Mobili e macchine ordinarie d'ufficio 12% ,,374,7
+1232,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,374,7
+1233,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,374,7
+1234,"Autovetture, motoveicoli e simili 25% ",,374,7
+1235,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,375,7
+1236,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,375,7
+1237,Macchinari12% ,,375,7
+1238,Attrezzatura varia e minuta35% ,,375,7
+1239,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,375,7
+1240,Mobili e macchine ordinarie d'ufficio 12% ,,375,7
+1241,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,375,7
+1242,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,375,7
+1243,"Autovetture, motoveicoli e simili 25% ",,375,7
+1244,"Fabbricati destinati all'industria (edifici, strade e piazzali) 4% ",,376,8
+1245,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,376,8
+1246,Macchinari operatori e impianti10% ,,376,8
+1247,Attrezzatura varia e minuta e di laboratorio 25% ,,376,8
+1248,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,376,8
+1249,Mobili e macchine ordinarie d'ufficio 12% ,,376,8
+1250,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,376,8
+1251,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,376,8
+1252,"Autovetture, motoveicoli e simili 25% ",,376,8
+1253,Fabbricati destinati all'industria (come nella specie 1a)3% ,,377,8
+1254,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,377,8
+1255,Macchinari operatori e impianti10% ,,377,8
+1256,Attrezzatura varia e minuta e di laboratorio 40% ,,377,8
+1257,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,377,8
+1258,Mobili e macchine ordinarie d'ufficio 12% ,,377,8
+1259,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,377,8
+1260,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,377,8
+1261,"Autovetture, motoveicoli e simili 25% ",,377,8
+1263,Fabbricati destinati all'industria (come nella specie 1a)4% ,,378,8
+1264,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,378,8
+1265,Macchinari operatori e impianti10% ,,378,8
+1266,Attrezzatura varia e minuta e di laboratorio 40% ,,378,8
+1267,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,378,8
+1268,Mobili e macchine ordinarie d'ufficio 12% ,,378,8
+1269,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,378,8
+1270,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,378,8
+1271,"Autovetture, motoveicoli e simili 25% ",,378,8
+1272,"Fabbricati destinati all'industria (come nella specie 1a)5,5% ",,379,8
+1273,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,379,8
+1274,"Impianti generici (impianti di produzione, presa e distribuzione d'energia, officina di manutenzione, raccordi e materiale rotabile, servizi vapore ed acqua calda, impianti di trasporto interno, impianti e mezzi di sollevamento, carico, scarico, pesatura, parco motori, pompe, ecc) 10% ",,379,8
+1275,"Macchinari operatori ed impianti specifici12,5% ",,379,8
+1276,Forni e loro pertinenze 9% ,,379,8
+1277,Attrezzatura varia e minuta e di laboratorio 25% ,,379,8
+1278,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,379,8
+1279,Mobili e macchine ordinarie d'ufficio 12% ,,379,8
+1280,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,379,8
+1281,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,379,8
+1282,"Autovetture, motoveicoli e simili 25% ",,379,8
+1283,"Fabbricati destinati all'industria (come nella specie 1a)5,5% ",,380,8
+1284,Cave8% ,,380,8
+1285,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,380,8
+1286,"Impianti generici (come nella specie 4a/a) e specifici12,5% ",,380,8
+1287,"Forni e loro pertinenze15,5% ",,380,8
+1288,Attrezzatura varia e minuta e di laboratorio 25% ,,380,8
+1289,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,380,8
+1290,Mobili e macchine ordinarie d'ufficio 12% ,,380,8
+1291,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,380,8
+1292,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,380,8
+1293,"Autovetture, motoveicoli attamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici15% ",,380,8
+1294,Mobili e macchine ordinarie d'ufficio 12% ,,380,8
+1295,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,380,8
+1296,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,380,8
+1297,"Autovetture, motoveicoli e simili 25% ",,380,8
+1298,Fabbricati destinati all'industria (come nella specie 1a)4% ,,381,8
+1299,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,381,8
+1300,"Impianti generici (come nella specie 4a/"" a) 10% ",,381,8
+1301,"Macchinari operatori ed impianti specifici 12,5% ",,381,8
+1302,Forni e loro pertinenze 14% ,,381,8
+1303,Attrezzatura varia e minuta e di laboratorio 40% ,,381,8
+1304,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,381,8
+1305,Mobili e macchine ordinarie d'ufficio 12% ,,381,8
+1306,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,381,8
+1307,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,381,8
+1308,"Autovetture, motoveicoli e simili 25% ",,381,8
+1309,Fabbricati destinati all'industria (come nella specie 1a)4% ,,382,8
+1310,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,382,8
+1311,"Impianti generici (come nella specie 4a/"" a) 10% ",,382,8
+1312,"Macchinari operatori ed impianti specifici 12,5% ",,382,8
+1313,Forni e loro pertinenze 14% ,,382,8
+1314,Attrezzatura varia e minuta e di laboratorio 40% ,,382,8
+1315,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,382,8
+1316,Mobili e macchine ordinarie d'ufficio 12% ,,382,8
+1317,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,382,8
+1318,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,382,8
+1319,"Autovetture, motoveicoli e simili 25% ",,382,8
+1320,Fabbricati destinati all'industria (come nella specie 1a)4% ,,383,8
+1321,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,383,8
+1322,"Impianti generici (come nella specie 4a/"" a) 10% ",,383,8
+1323,"Macchinari operatori ed impianti specifici 12,5% ",,383,8
+1324,Forni e loro pertinenze 14% ,,383,8
+1325,Attrezzatura varia e minuta e di laboratorio 40% ,,383,8
+1326,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,383,8
+1327,Mobili e macchine ordinarie d'ufficio 12% ,,383,8
+1328,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,383,8
+1329,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,383,8
+1330,"Autovetture, motoveicoli e simili 25% ",,383,8
+1331,Fabbricati destinati all'industria (come nella specie 1a)4% ,,384,8
+1332,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,384,8
+1333,"Impianti generici (come nella specie 4a/"" a) 12% ",,384,8
+1334,"Macchinari operatori, impianti specifici e stampi 15,5% ",,384,8
+1335,Attrezzatura varia e minuta e di laboratorio 25% ,,384,8
+1336,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,384,8
+1337,Mobili e macchine ordinarie d'ufficio 12% ,,384,8
+1338,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,384,8
+1339,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,384,8
+1340,"Autovetture, motoveicoli e simili 25% ",,384,8
+1341,"Fabbricati destinati all'industria (come nella specie 1a)5,5% ",,385,8
+1342,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,385,8
+1343,"Impianti generici (come nella specie 4a/"" a) 10% ",,385,8
+1344,Macchinari operatori e impianti specifici 15% ,,385,8
+1345,Forno e loro pertinenze22% ,,385,8
+1346,Attrezzatura varia e minuta e di laboratorio 40% ,,385,8
+1347,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,385,8
+1348,Mobili e macchine ordinarie d'ufficio 12% ,,385,8
+1349,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,385,8
+1350,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,385,8
+1351,"Autovetture, motoveicoli e simili 25% ",,385,8
+1352,"Fabbricati destinati all'industria (edifici, opere idrauliche fisse, strade e piazzali, acquedotti e fognature, serbatoi in muratura e vasche di contenimento) 7% ",,386,9
+1353,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,386,9
+1354,"Impianti generici (impianti di produzione, presa e distribuzione energia, officina di manutenzione, raccordi e materiale rotabile, servizi vapore e acqua calda, impianti di trasporto interni, impianti e mezzi di sollevamento, carico, scarico, pesatura, parco motori, pompe, ecc) 12,5% ",,386,9
+1355,"Macchinari operatori e impianti specifici per le lavorazioni chimiche scarsamente corrosive e per le lavorazioni meccaniche 15,5% ",,386,9
+1356,"Macchinari operatori e impianti specifici per le lavoriazioni chimiche altamente corrosive - Celle elettrolitiche - Forni Reattori per sintesi - Apparecchi soggetti ad altre pressioni e temperature 22,5% ",,386,9
+1357,Attrezzatura varia e minuta e di laboratorio 40% ,,386,9
+1358,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,386,9
+1359,Mobili e macchine ordinarie d'ufficio 12% ,,386,9
+1360,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,386,9
+1361,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,386,9
+1362,"Autovetture, motoveicoli e simili 25% ",,386,9
+1363,Fabbricati destinati all'industria (come nella specie 1a)7% ,,387,9
+1364,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,387,9
+1365,"Impianti generici (come nella specie 1a/a)12,5% ",,387,9
+1366,Macchinari operatori e impianti specifici per le lavorazioni chimiche non altamente corrosive e per le lavorazioni meccaniche15% ,,387,9
+1367,Macchinari operatori e impianti specifici per le lavorazioni chimiche altamente corrosive - Forni - Reattori per sintesi - Apparecchi soggetti ad alte pressioni e temperature19% ,,387,9
+1368,Attrezzatura varia e minuta e di laboratorio 40% ,,387,9
+1369,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,387,9
+1370,Mobili e macchine ordinarie d'ufficio 12% ,,387,9
+1371,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,387,9
+1372,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,387,9
+1373,"Autovetture, motoveicoli e simili 25% ",,387,9
+1374,"Fabbricati destinati all'industria (come nella specie 1a)5,5% ",,388,9
+1375,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,388,9
+1376,Impianti generici (come nella specie 1a/a)10% ,,388,9
+1377,"Macchinari operatori e impianti specifici per le lavorazioni chimiche scarsamente corrosive e per le lavorazioni meccaniche 12,5% ",,388,9
+1378,"Macchinari operatori e impianti specifici per le lavorazioni chimiche altamente corrosive - Forni - Reattori per sintesi - Apparecchi soggetti al alte pressioni e temperture 17,5% ",,388,9
+1379,"Oleodotti - Serbatoi - Impianti stradali di distribuzione (chioschi, colonne di distribuzione, stazioni di imbottigliamento, stazioni di servizio) 12,5% ",,388,9
+1380,Attrezzatura varia e minuta e di laboratorio 25% ,,388,9
+1381,Bombole gas di petrolio liquefatti15% ,,388,9
+1382,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,388,9
+1383,Mobili e macchine ordinarie d'ufficio 12% ,,388,9
+1384,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,388,9
+1385,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,388,9
+1386,"Autovetture, motoveicoli e simili 25% ",,388,9
+1387,Fabbricati destinati all'industria (come nella specie 1a)3% ,,389,9
+1388,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,389,9
+1389,Impianti generici (come nella specie 1a/a) 9% ,,389,9
+1390,Macchinari operatori e impianti specifici 10% ,,389,9
+1391,Forni e loro pertinenze 14% ,,389,9
+1392,Attrezzatura varia e minuta e di laboratorio 25% ,,389,9
+1393,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,389,9
+1394,Mobili e macchine ordinarie d'ufficio 12% ,,389,9
+1395,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,389,9
+1396,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,389,9
+1397,"Autovetture, motoveicoli e simili 25% ",,389,9
+1398,Fabbricati ordinari 3% ,,390,9
+1399,"Costruzioni leggere (tettoie, baracche, ecc) 10 % ",,390,9
+1400,Impianti generici8 % ,,390,9
+1401,Forni di cottura e grafitazione14 % ,,390,9
+1402,Macchinari10 % ,,390,9
+1403,Attrezzatura varia e minuta25 % ,,390,9
+1404,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,390,9
+1405,Mobili e macchine ordinarie d'ufficio 12% ,,390,9
+1406,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,390,9
+1407,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,390,9
+1408,"Autovetture, motoveicoli e simili 25 % ",,390,9
+1409,"Fabbricati destinati all'industria (come nella specie 1a)5,5% ",,391,9
+1410,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,391,9
+1411,Impianti generici (come nella specie 1a/a)10% ,,391,9
+1412,"Macchinari operatori e impianti specifici per le lavorazioni chimiche scarsamente corrosive e per le lavorazioni meccaniche 12,5% ",,391,9
+1413,"Macchinari operatori e impianti specifici per le lavorazioni chimiche altamente corrosive 15,5% ",,391,9
+1414,Attrezzatura varia e minuta e di laboratorio 25% ,,391,9
+1415,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,391,9
+1416,Mobili e macchine ordinarie d'ufficio 12% ,,391,9
+1417,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,391,9
+1418,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,391,9
+1419,"Autovetture, motoveicoli e simili 25% ",,391,9
+1420,Fabbricati destinati all'industria (come nella specie 1a)4% ,,392,9
+1421,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,392,9
+1422,"Impianti generici (come nella specie 1a/a) 7,5% ",,392,9
+1423,Macchinari operatori e impianti specifici 10% ,,392,9
+1424,Apparecchiature ed impianti specifici di distribuzione (comprese le bombole)9% ,,392,9
+1425,Attrezzatura varia e minuta e di laboratorio 25% ,,392,9
+1426,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,392,9
+1427,Mobili e macchine ordinarie d'ufficio 12% ,,392,9
+1428,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,392,9
+1429,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,392,9
+1430,"Autovetture, motoveicoli e simili 25% ",,392,9
+1431,Fabbricati destinati all'industria (come nella specie 1a/a) 7% ,,393,9
+1432,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,393,9
+1433,Impianti generici (come nella specie 1a/a)10% ,,393,9
+1434,"Macchinari operatori e impianti specifici per le lavorazioni meccaniche12,5% ",,393,9
+1435,"Macchinari operatori e impianti specifici per le lavorazioni chimiche 15,5% ",,393,9
+1436,Attrezzatura varia e minuta e di laboratorio 40% ,,393,9
+1437,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,393,9
+1438,Mobili e macchine ordinarie d'ufficio 12% ,,393,9
+1439,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,393,9
+1440,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,393,9
+1441,"Autovetture, motoveicoli e simili 25% ",,393,9
+1442,"Fabbricati destinati all'industria (come nella specie 1a/a) 5,5% ",,394,9
+1443,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,394,9
+1444,Impianti generici (come nella specie 1a/a)10% ,,394,9
+1445,"Macchinari operatori e impianti specifici 12,5% ",,394,9
+1446,Attrezzatura varia e minuta e di laboratorio 25% ,,394,9
+1447,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,394,9
+1448,Mobili e macchine ordinarie d'ufficio 12% ,,394,9
+1449,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,394,9
+1450,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,394,9
+1451,"Autovetture, motoveicoli e simili 25% ",,394,9
+1452,"Fabbricati destinati all'industria (come nella specie 1a/a) 5,5% ",,395,9
+1453,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,395,9
+1454,Impianti generici (come nella specie 1a/a)10% ,,395,9
+1455,"Macchinari operatori e impianti specifici per le lavorazioni chimiche e scarsamente corrosive e per le lavorazioni meccaniche12,5% ",,395,9
+1456,"Macchinari operatori e impianti specifici per le lavorazioni chimiche altamente corrosive - Forni 15,5% ",,395,9
+1457,Attrezzatura varia e minuta e di laboratorio 35% ,,395,9
+1458,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,395,9
+1459,Mobili e macchine ordinarie d'ufficio 12% ,,395,9
+1460,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,395,9
+1461,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,395,9
+1462,"Autovetture, motoveicoli e simili 25% ",,395,9
+1463,"Fabbricati destinati all'industria (come nella specie 1a/a) 5,5% ",,396,9
+1464,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,396,9
+1465,Impianti generici (come nella specie 1a/a) 10% ,,396,9
+1466,Macchinari operatori e impianti specifici per le lavorazioni chimiche e scarsamente corrosive e per le lavorazioni meccaniche 12% ,,396,9
+1467,"Macchinari operatori e impianti specifici per le lavorazioni chimiche altamente corrosive - Forni- Reattori per sintesi - Apparecchi soggetti ad alte pressioni e temperature 17,5% ",,396,9
+1468,Attrezzatura varia e minuta e di laboratorio 40% ,,396,9
+1469,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,396,9
+1470,Mobili e macchine ordinarie d'ufficio 12% ,,396,9
+1471,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,396,9
+1472,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,396,9
+1473,"Autovetture, motoveicoli e simili 25% ",,396,9
+1474,Fabbricati destinati all'industria (come nella specie 1a)7% ,,397,9
+1475,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,397,9
+1476,"Impianti generici (come nella specie 1a/a)12,5% ",,397,9
+1477,Macchinari operatori e impianti specifici per le lavorazioni chimiche non altamente corrosive e per le lavorazioni meccaniche15% ,,397,9
+1478,Macchinari operatori e impianti specifici per le lavorazioni chimiche altamente corrosive - Forni - Reattori per sintesi - Apparecchi soggetti ad alte pressioni e temperature19% ,,397,9
+1479,Attrezzatura varia e minuta e di laboratorio 40% ,,397,9
+1480,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,397,9
+1481,Mobili e macchine ordinarie d'ufficio 12% ,,397,9
+1482,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,397,9
+1483,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,397,9
+1484,"Autovetture, motoveicoli e simili 25% ",,397,9
+1485,Fabbricati destinati all'industria (come nella specie 1a/a) 4% ,,398,9
+1486,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,398,9
+1487,"Macchinario operatore d'impianto 11,5% ",,398,9
+1488,Attrezzatura varia e minuta e di laboratorio 40% ,,398,9
+1489,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,398,9
+1490,Mobili e macchine ordinarie d'ufficio 12% ,,398,9
+1491,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,398,9
+1492,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,398,9
+1493,"Autovetture, motoveicoli e simili 25% ",,398,9
+1494,Fabbricati destinati all'industria (come nella specie 1a/a) 6% ,,399,9
+1495,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,399,9
+1496,Impianti generici (come nella specie 1a/a)10% ,,399,9
+1497,"Macchinari operatori e impianti specifici per le lavorazioni chimiche e scarsamente corrosive e per le lavorazioni meccaniche12,5% ",,399,9
+1498,"Macchinari operatori e impianti specifici per le lavorazioni chimiche altamente corrosive - Forni - Apparecchi soggetti ad alte pressioni e temperature17,5% ",,399,9
+1499,Attrezzatura varia e minuta e di laboratorio 30% ,,399,9
+1500,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,399,9
+1501,Mobili e macchine ordinarie d'ufficio 12% ,,399,9
+1502,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,399,9
+1503,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,399,9
+1504,"Autovetture, motoveicoli e simili 25% ",,399,9
+1505,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,400,9
+1506,Impianti generici (come nella specie 1a/a)10% ,,400,9
+1507,Macchinari operatori e impianti specifici 14% ,,400,9
+1508,Attrezzatura varia e minuta e di laboratorio 40% ,,400,9
+1509,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,400,9
+1510,Mobili e macchine ordinarie d'ufficio 12% ,,400,9
+1511,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,400,9
+1512,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,400,9
+1513,"Autovetture, motoveicoli e simili 25% ",,400,9
+1514,Fabbricati destinati all'industria (come nella specie 1a/a) 6% ,,401,9
+1515,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,401,9
+1516,Impianti generici (come nella specie 1a/a)10% ,,401,9
+1517,"Macchinari operatori e impianti specifici per le lavorazioni chimiche e scarsamente corrosive e per le lavorazioni meccaniche12,5% ",,401,9
+1518,"Macchinari operatori e impianti specifici per le lavorazioni chimiche altamente corrosive - Forni - Apparecchi soggetti ad alte pressioni e temperature17,5% ",,401,9
+1519,Attrezzatura varia e minuta e di laboratorio 30% ,,401,9
+1520,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,401,9
+1521,Mobili e macchine ordinarie d'ufficio 12% ,,401,9
+1522,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,401,9
+1523,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,401,9
+1524,"Autovetture, motoveicoli e simili 25% ",,401,9
+1525,"Fabbricati destinati all'industria (come nella specie 1a/a) 5,5% ",,402,9
+1526,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,402,9
+1527,Impianti generici (come nella specie 1a/a) 9% ,,402,9
+1528,Macchinari operatori e impianti specifici 14% ,,402,9
+1529,Attrezzatura varia e minuta e di laboratorio 25% ,,402,9
+1530,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,402,9
+1531,Mobili e macchine ordinarie d'ufficio 12% ,,402,9
+1532,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,402,9
+1533,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,402,9
+1534,"Autovetture, motoveicoli e simili 25% ",,402,9
+1535,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,403,9
+1536,Impianti generici (come nella specie 1a/a)10% ,,403,9
+1537,"Macchinari operatori e impianti specifici (compensi i forni) 17,5% ",,403,9
+1538,Attrezzatura varia e minuta e di laboratorio 40% ,,403,9
+1539,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,403,9
+1540,Mobili e macchine ordinarie d'ufficio 12% ,,403,9
+1541,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,403,9
+1542,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,403,9
+1543,"Autovetture, motoveicoli e simili 25% ",,403,9
+1544,"Fabbricati destinati all'industria (edifici - opere idrauliche fisse - strade e piazzali - acquedotti e fognature - serbatoi e vasche di contenimento) 5,5% ",,404,10
+1545,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,404,10
+1546,"Impianti generici (impianti di produzione, presa e distribuzione d'energia - officina di manutenzione e materiale rotabile - servizi vapore e acqua calda - impianti di trasporto interno - impianti e mezzi di sollevamento, carico, scarico, pesatura, parco motori, pompe, compresssori, ecc) 9%",,404,10
+1547,"Macchinari operatori e impianti specifici per preparazione pasta e per produzione e lavorazione carta e cartone 11,5% ",,404,10
+1548,Impianti di preparazione dei liscivi e sbianche e per lisciviazione 19% ,,404,10
+1549,Attrezzatura varia e minuta e di laboratorio 25% ,,404,10
+1550,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,404,10
+1551,Mobili e macchine ordinarie d'ufficio 12% ,,404,10
+1552,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,404,10
+1553,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,404,10
+1554,"Autovetture, motoveicoli e simili 25% ",,404,10
+1555,"Fabbricati destinati all'industria (edifici - opere idrauliche fisse - strade e piazzali - acquedotti e fognature - serbatoi e vasche di contenimento) 5,5% ",,405,10
+1556,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,405,10
+1557,"Impianti generici (impianti di produzione, presa e distribuzione d'energia - officina di manutenzione e materiale rotabile - servizi vapore e acqua calda - impianti di trasporto interno - impianti e mezzi di sollevamento, carico, scarico, pesatura, parco motori, pompe, compresssori, ecc) 9%",,405,10
+1558,"Macchinari operatori e impianti specifici per preparazione pasta e per produzione e lavorazione carta e cartone 11,5% ",,405,10
+1559,Impianti di preparazione dei liscivi e sbianche e per lisciviazione 19% ,,405,10
+1560,Attrezzatura varia e minuta e di laboratorio 25% ,,405,10
+1561,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,405,10
+1562,Mobili e macchine ordinarie d'ufficio 12% ,,405,10
+1563,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,405,10
+1564,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,405,10
+1565,"Autovetture, motoveicoli e simili 25% ",,405,10
+1566,"Fabbricati destinati all'industria (edifici - strade e piazzali, pozzi, acquedotti e fognature - bottali in cemento) 4% ",,406,11
+1567,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,406,11
+1568,"Macchinari operatori e impianti17,5% ",,406,11
+1569,Attrezzatura varia e minuta e di laboratorio 25% ,,406,11
+1570,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,406,11
+1571,Mobili e macchine ordinarie d'ufficio 12% ,,406,11
+1572,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,406,11
+1573,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,406,11
+1574,"Autovetture, motoveicoli e simili 25% ",,406,11
+1575,"Fabbricati destinati all'industria (edifici - strade e piazzali, pozzi, acquedotti e fognature - bottali in cemento) 4% ",,407,11
+1576,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,407,11
+1577,"Macchinari operatori e impianti17,5% ",,407,11
+1578,Attrezzatura varia e minuta e di laboratorio 25% ,,407,11
+1579,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,407,11
+1580,Mobili e macchine ordinarie d'ufficio 12% ,,407,11
+1581,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,407,11
+1582,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,407,11
+1583,"Autovetture, motoveicoli e simili 25% ",,407,11
+1584,Fabbricati destinati all'industria 3% ,,408,12
+1585,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,408,12
+1586,Macchinari operatori impianti 10% ,,408,12
+1587,Attrezzatura varia e minuta25% ,,408,12
+1588,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,408,12
+1589,Mobili e macchine ordinarie d'ufficio 12% ,,408,12
+1590,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,408,12
+1591,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,408,12
+1592,"Autovetture, motoveicoli e simili 25% ",,408,12
+1593,Fabbricati destinati all'industria 3% ,,409,12
+1594,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,409,12
+1595,Macchinari operatori impianti 10% ,,409,12
+1596,Attrezzatura varia e minuta25% ,,409,12
+1597,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,409,12
+1598,Mobili e macchine ordinarie d'ufficio 12% ,,409,12
+1599,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,409,12
+1600,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,409,12
+1601,"Autovetture, motoveicoli e simili 25% ",,409,12
+1602,Fabbricati destinati all'industria 3% ,,410,12
+1603,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,410,12
+1604,Macchinari operatori impianti 10% ,,410,12
+1605,Attrezzatura varia e minuta25% ,,410,12
+1606,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,410,12
+1607,Mobili e macchine ordinarie d'ufficio 12% ,,410,12
+1608,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,410,12
+1609,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,410,12
+1610,"Autovetture, motoveicoli e simili 25% ",,410,12
+1611,Fabbricati destinati all'industria 3% ,,411,12
+1612,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,411,12
+1613,Macchinari operatori impianti 10% ,,411,12
+1614,Attrezzatura varia e minuta25% ,,411,12
+1615,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,411,12
+1616,Mobili e macchine ordinarie d'ufficio 12% ,,411,12
+1617,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,411,12
+1618,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,411,12
+1619,"Autovetture, motoveicoli e simili 25% ",,411,12
+1620,Fabbricati destinati all'industria 3% ,,412,12
+1621,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,412,12
+1622,"Macchinari operatori e impianti (esclusi quelli in ambiente corrosivo)12,5% ",,412,12
+1623,Macchinari operatori di finissaggio ed impianti in ambiente normale 15%,,412,12
+1624,Macchinari operatori di finissaggio ed impianti in ambiente corrosivo 18% ,,412,12
+1625,Attrezzatura varia e minuta 25% ,,412,12
+1626,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,412,12
+1627,Mobili e macchine ordinarie d'ufficio 12% ,,412,12
+1628,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,412,12
+1629,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,412,12
+1630,"Autovetture, motoveicoli e simili 25% ",,412,12
+1631,Fabbricati destinati all'industria 3% ,,413,12
+1632,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,413,12
+1633,"Macchinari operatori e impianti (esclusi quelli in ambiente corrosivo)12,5% ",,413,12
+1634,Macchinari operatori di finissaggio ed impianti in ambiente normale 15%,,413,12
+1635,Macchinari operatori di finissaggio ed impianti in ambiente corrosivo 18% ,,413,12
+1636,Attrezzatura varia e minuta 25% ,,413,12
+1637,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,413,12
+1638,Mobili e macchine ordinarie d'ufficio 12% ,,413,12
+1639,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,413,12
+1640,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,413,12
+1641,"Autovetture, motoveicoli e simili 25% ",,413,12
+1642,Fabbricati destinati all'industria 3% ,,414,12
+1643,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,414,12
+1644,"Macchinari operatori e impianti (esclusi quelli in ambiente corrosivo)12,5% ",,414,12
+1645,Macchinari operatori di finissaggio ed impianti in ambiente normale 15%,,414,12
+1646,Macchinari operatori di finissaggio ed impianti in ambiente corrosivo 18% ,,414,12
+1647,Attrezzatura varia e minuta 25% ,,414,12
+1648,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,414,12
+1649,Mobili e macchine ordinarie d'ufficio 12% ,,414,12
+1650,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,414,12
+1651,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,414,12
+1652,"Autovetture, motoveicoli e simili 25% ",,414,12
+1653,Fabbricati destinati all'industria 3% ,,415,12
+1654,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,415,12
+1655,"Macchinari operatori e impianti (esclusi quelli in ambiente corrosivo)12,5% ",,415,12
+1656,Macchinari operatori di finissaggio ed impianti in ambiente normale 15%,,415,12
+1657,Macchinari operatori di finissaggio ed impianti in ambiente corrosivo 18% ,,415,12
+1658,Attrezzatura varia e minuta 25% ,,415,12
+1659,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,415,12
+1660,Mobili e macchine ordinarie d'ufficio 12% ,,415,12
+1661,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,415,12
+1662,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,415,12
+1663,"Autovetture, motoveicoli e simili 25% ",,415,12
+1664,Fabbricati destinati all'industria 3% ,,416,12
+1665,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,416,12
+1666,"Macchinari operatori e impianti (esclusi quelli in ambiente corrosivo)12,5% ",,416,12
+1667,Macchinari operatori di finissaggio ed impianti in ambiente normale 15%,,416,12
+1668,Macchinari operatori di finissaggio ed impianti in ambiente corrosivo 18% ,,416,12
+1669,Attrezzatura varia e minuta 25% ,,416,12
+1670,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,416,12
+1671,Mobili e macchine ordinarie d'ufficio 12% ,,416,12
+1672,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,416,12
+1673,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,416,12
+1674,"Autovetture, motoveicoli e simili 25% ",,416,12
+1675,Fabbricati destinati all'industria 3% ,,417,12
+1676,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,417,12
+1677,Macchinari operatori impianti 10% ,,417,12
+1678,Attrezzatura varia e minuta25% ,,417,12
+1679,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,417,12
+1680,Mobili e macchine ordinarie d'ufficio 12% ,,417,12
+1681,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,417,12
+1682,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,417,12
+1683,"Autovetture, motoveicoli e simili 25% ",,417,12
+1684,Fabbricati destinati all'industria 3% ,,418,12
+1685,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,418,12
+1686,Macchinari operatori impianti 10% ,,418,12
+1687,Attrezzatura varia e minuta25% ,,418,12
+1688,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,418,12
+1689,Mobili e macchine ordinarie d'ufficio 12% ,,418,12
+1690,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,418,12
+1691,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,418,12
+1692,"Autovetture, motoveicoli e simili 25% ",,418,12
+1693,Fabbricati destinati all'industria 3% ,,419,12
+1694,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,419,12
+1695,"Macchinari operatori e impianti (esclusi quelli in ambiente corrosivo)12,5% ",,419,12
+1696,Macchinari operatori di finissaggio ed impianti in ambiente normale 15%,,419,12
+1697,Macchinari operatori di finissaggio ed impianti in ambiente corrosivo 18% ,,419,12
+1698,Attrezzatura varia e minuta 25% ,,419,12
+1699,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,419,12
+1700,Mobili e macchine ordinarie d'ufficio 12% ,,419,12
+1701,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,419,12
+1702,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,419,12
+1703,"Autovetture, motoveicoli e simili 25% ",,419,12
+1704,Fabbricati destinati all'industria 3% ,,420,12
+1705,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,420,12
+1706,Macchinari operatori impianti 10% ,,420,12
+1707,Attrezzatura varia e minuta25% ,,420,12
+1708,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,420,12
+1709,Mobili e macchine ordinarie d'ufficio 12% ,,420,12
+1710,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,420,12
+1711,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,420,12
+1712,"Autovetture, motoveicoli e simili 25% ",,420,12
+1713,Fabbricati destinati all'industria 3% ,,421,12
+1714,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,421,12
+1715,Macchinari operatori impianti 10% ,,421,12
+1716,Attrezzatura varia e minuta25% ,,421,12
+1717,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,421,12
+1718,Mobili e macchine ordinarie d'ufficio 12% ,,421,12
+1719,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,421,12
+1720,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,421,12
+1721,"Autovetture, motoveicoli e simili 25% ",,421,12
+1722,Fabbricati destinati all'industria 3% ,,,13
+1723,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,,13
+1724,"Macchinari operatori e impianti17,5% ",,,13
+1725,"Grandi impianti e macchine operatrici automatici 17,5% ",,,13
+1726,Attrezzatura varia e minuta25% ,,,13
+1727,Mobili e macchine ordinarie d'ufficio 12% ,,,13
+1728,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,,13
+1729,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,,13
+1730,"Autovetture, motoveicoli e simili 25% ",,,13
+1731,Fabbricati destinati all'industria 3% ,,422,13
+1732,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,422,13
+1733,"Macchinari operatori e impianti17,5% ",,422,13
+1734,"Grandi impianti e macchine operatrici automatici 17,5% ",,422,13
+1735,Attrezzatura varia e minuta25% ,,422,13
+1736,Mobili e macchine ordinarie d'ufficio 12% ,,422,13
+1737,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,422,13
+1738,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,422,13
+1739,"Autovetture, motoveicoli e simili 25% ",,422,13
+1740,Fabbricati destinati all'industria 3% ,,423,13
+1741,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,423,13
+1742,"Macchinari operatori e impianti17,5% ",,423,13
+1743,"Grandi impianti e macchine operatrici automatici 17,5% ",,423,13
+1744,Attrezzatura varia e minuta25% ,,423,13
+1745,Mobili e macchine ordinarie d'ufficio 12% ,,423,13
+1746,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,423,13
+1747,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,423,13
+1748,"Autovetture, motoveicoli e simili 25% ",,423,13
+1749,Fabbricati destinati all'industria 3% ,,424,13
+1750,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,424,13
+1751,"Macchinari operatori e impianti17,5% ",,424,13
+1752,"Grandi impianti e macchine operatrici automatici 17,5% ",,424,13
+1753,Attrezzatura varia e minuta25% ,,424,13
+1754,Mobili e macchine ordinarie d'ufficio 12% ,,424,13
+1755,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,424,13
+1756,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,424,13
+1757,"Autovetture, motoveicoli e simili 25% ",,424,13
+1758,Fabbricati destinati all'industria 3% ,,425,13
+1759,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,425,13
+1760,"Macchinari operatori e impianti17,5% ",,425,13
+1761,"Grandi impianti e macchine operatrici automatici 17,5% ",,425,13
+1762,Attrezzatura varia e minuta25% ,,425,13
+1763,Mobili e macchine ordinarie d'ufficio 12% ,,425,13
+1764,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,425,13
+1765,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,425,13
+1766,"Autovetture, motoveicoli e simili 25% ",,425,13
+1767,Fabbricati destinati all'industria 3% ,,426,13
+1768,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,426,13
+1769,"Macchinari operatori e impianti17,5% ",,426,13
+1770,"Grandi impianti e macchine operatrici automatici 17,5% ",,426,13
+1771,Attrezzatura varia e minuta25% ,,426,13
+1772,Mobili e macchine ordinarie d'ufficio 12% ,,426,13
+1773,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,426,13
+1774,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,426,13
+1775,"Autovetture, motoveicoli e simili 25% ",,426,13
+1776,Fabbricati destinati all'industria 3% ,,427,13
+1777,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,427,13
+1778,"Macchinari operatori e impianti17,5% ",,427,13
+1779,"Grandi impianti e macchine operatrici automatici 17,5% ",,427,13
+1780,Attrezzatura varia e minuta25% ,,427,13
+1781,Mobili e macchine ordinarie d'ufficio 12% ,,427,13
+1782,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,427,13
+1783,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,427,13
+1784,"Autovetture, motoveicoli e simili 25% ",,427,13
+1785,Fabbricati destinati all'industria 3% ,,428,13
+1786,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,428,13
+1787,"Macchinari operatori e impianti17,5% ",,428,13
+1788,"Grandi impianti e macchine operatrici automatici 17,5% ",,428,13
+1789,Attrezzatura varia e minuta25% ,,428,13
+1790,Mobili e macchine ordinarie d'ufficio 12% ,,428,13
+1791,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,428,13
+1792,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,428,13
+1793,"Autovetture, motoveicoli e simili 25% ",,428,13
+1794,Fabbricati destinati all'industria 3% ,,429,13
+1795,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,429,13
+1796,"Macchinari operatori e impianti17,5% ",,429,13
+1797,"Grandi impianti e macchine operatrici automatici 17,5% ",,429,13
+1798,Attrezzatura varia e minuta25% ,,429,13
+1799,Mobili e macchine ordinarie d'ufficio 12% ,,429,13
+1800,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,429,13
+1801,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,429,13
+1802,"Autovetture, motoveicoli e simili 25% ",,429,13
+1803,Fabbricati destinati all'industria 3% ,,430,13
+1804,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,430,13
+1805,"Macchinari operatori e impianti17,5% ",,430,13
+1806,"Macchinari operatori e impianti per stampaggio di resine sintetiche 12,5% ",,430,13
+1807,Attrezzatura varia e minuta25% ,,430,13
+1808,Mobili e macchine ordinarie d'ufficio 12% ,,430,13
+1809,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,430,13
+1810,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,430,13
+1811,"Autovetture, motoveicoli e simili 25% ",,430,13
+1812,Fabbricati destinati all'industria 3% ,,431,13
+1813,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,431,13
+1814,"Macchinari operatori e impianti17,5% ",,431,13
+1815,"Grandi impianti e macchine operatrici automatici 17,5% ",,431,13
+1816,Attrezzatura varia e minuta25% ,,431,13
+1817,Mobili e macchine ordinarie d'ufficio 12% ,,431,13
+1818,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,431,13
+1819,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,431,13
+1820,"Autovetture, motoveicoli e simili 25% ",,431,13
+1821,Fabbricati destinati all'industria 3% ,,432,13
+1822,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,432,13
+1823,"Macchinari operatori e impianti17,5% ",,432,13
+1824,"Grandi impianti e macchine operatrici automatici 17,5% ",,432,13
+1825,Attrezzatura varia e minuta25% ,,432,13
+1826,Mobili e macchine ordinarie d'ufficio 12% ,,432,13
+1827,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,432,13
+1828,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,432,13
+1829,"Autovetture, motoveicoli e simili 25% ",,432,13
+1830,Specie 13 - fabbricazioni di giocattoli in genere (esclusi quelli di metallo e di gomma) (Vedi Specie 10a),,433,13
+1831,Fabbricati destinati all'industria 3% ,,433,13
+1832,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,433,13
+1833,"Macchinari operatori e impianti17,5% ",,433,13
+1834,"Macchinari operatori e impianti per stampaggio di resine sintetiche 12,5% ",,433,13
+1835,Attrezzatura varia e minuta25% ,,433,13
+1836,Mobili e macchine ordinarie d'ufficio 12% ,,433,13
+1837,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,433,13
+1838,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,433,13
+1839,"Autovetture, motoveicoli e simili 25% ",,433,13
+1840,Fabbricati destinati all'industria (edifici - opere idrauliche fisse - strade e piazzali - fognature - serbatoi e vasche di contenimento)3% ,,434,14
+1841,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,434,14
+1842,"Impianti generici (servizio vapore e acqua calda - impianti di presa e distribuzione di energia - officina di manutenzione - impianti di trasporto interno - impianti e mezzi di carico, scarico, sollevamento - parco motori, pompe, compressori) 10% ",,434,14
+1843,Macchinari operatori e impianti specifici 15% ,,434,14
+1844,Attrezzatura varia e minuta e di laboratorio 40% ,,434,14
+1845,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,434,14
+1846,Mobili e macchine ordinarie d'ufficio 12% ,,434,14
+1847,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,434,14
+1848,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,434,14
+1849,"Autovetture, motoveicoli e simili 25% ",,434,14
+1850,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,435,14
+1851,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,435,14
+1852,Impianti generici (come nella specie 1a/a)10% ,,435,14
+1853,"Macchinari operatori e impianti specifici 11,5% ",,435,14
+1854,Attrezzatura varia e minuta e di laboratorio 40% ,,435,14
+1855,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,435,14
+1856,Mobili e macchine ordinarie d'ufficio 12% ,,435,14
+1857,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,435,14
+1858,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,435,14
+1859,"Autovetture, motoveicoli e simili 25% ",,435,14
+1861,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,436,14
+1862,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,436,14
+1863,"Impianti generici (come nella specie 1a/a) 7,5% ",,436,14
+1864,"Macchinari operatori, impianti specifici, forni e stampi compresi 12,5% ",,436,14
+1865,Attrezzatura varia e minuta e di laboratorio 40% ,,436,14
+1866,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,436,14
+1867,Mobili e macchine ordinarie d'ufficio 12% ,,436,14
+1868,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,436,14
+1869,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,436,14
+1870,"Autovetture, motoveicoli e simili 25% ",,436,14
+1871,Fabbricati ordinari ed altri manufatti 3% ,,437,14
+1872,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,437,14
+1873,Impianti generici 12% ,,437,14
+1874,"Impianti specifici (registrazione, incisione, produzione dischi e matrici)30% ",,437,14
+1875,Attrezzatura varia e minuta e di laboratorio 40% ,,437,14
+1876,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,437,14
+1877,Mobili e macchine ordinarie d'ufficio 12% ,,437,14
+1878,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,437,14
+1879,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,437,14
+1880,"Autovetture, motoveicoli e simili 25% ",,437,14
+1881,Fabbricati destinati all'industria (come nella specie 1a/a) 3% ,,438,14
+1882,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,438,14
+1883,"Macchinari operatori e impianti12,5% ",,438,14
+1884,Attrezzatura varia e minuta e di laboratorio 40% ,,438,14
+1885,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,438,14
+1886,Mobili e macchine ordinarie d'ufficio 12% ,,438,14
+1887,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,438,14
+1888,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,438,14
+1889,"Autovetture, motoveicoli e simili 25% ",,438,14
+1890,Fabbricati destinati all'industria 3% ,,439,15
+1891,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,439,15
+1892,Macchinari operatori non automatici ed impianti generici 10% ,,439,15
+1893,"Macchinari operatori automatici e per operazioni di finitura 15,5% ",,439,15
+1894,Rotative da stampa per carta in bobine20% ,,439,15
+1895,"Sistemi elettronici di fotoriproduzione, fotocomposizione e simili 25% ",,439,15
+1896,Impianti di acclimazione 20% ,,439,15
+1897,Attrezzatura varia e minuta (comprese fustelle e tipi)25% ,,439,15
+1898,Mobili e macchine ordinarie d'ufficio 12% ,,439,15
+1899,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,439,15
+1900,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,439,15
+1901,"Autovetture, motoveicoli e simili 25% ",,439,15
+1902,Fabbricati destinati all'industria 3% ,,440,15
+1903,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,440,15
+1904,Macchinari operatori e impianti10% ,,440,15
+1905,Attrezzatura varia e minuta25% ,,440,15
+1906,Mobili e macchine ordinarie d'ufficio 12% ,,440,15
+1907,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,440,15
+1908,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,440,15
+1909,"Autovetture, motoveicoli e simili 25% ",,440,15
+1910,Fabbricati destinati all'industria 3% ,,441,15
+1911,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,441,15
+1912,Macchinari operatori non automatici ed impianti generici 10% ,,441,15
+1913,"Macchinari operatori automatici e per operazioni di finitura 15,5% ",,441,15
+1914,Rotative da stampa per carta in bobine20% ,,441,15
+1915,"Sistemi elettronici di fotoriproduzione, fotocomposizione e simili 25% ",,441,15
+1916,Impianti di acclimazione 20% ,,441,15
+1917,Attrezzatura varia e minuta (comprese fustelle e tipi)25% ,,441,15
+1918,Mobili e macchine ordinarie d'ufficio 12% ,,441,15
+1919,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,441,15
+1920,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,441,15
+1921,"Autovetture, motoveicoli e simili 25% ",,441,15
+1922,Fabbricati destinati all'industria 3% ,,442,16
+1923,"Costruzioni leggere (tettoie, baracche, ecc) 12,5% ",,442,16
+1924,"Impianti generici (elementi per tettoie e baracche, serbatoi e vasche, condutture, recinzioni, ponteggi in metallo trasformatori - officina di manutenzione - impianti di trasporto interno, sollevamento, carico e scarico - impianti galleggianti e cassoni per costruzioni marittime)10% ",,442,16
+1925,"Macchinari operatori e impianti specifici (macchinario per le costruzioni edili, di gallerie, pozzi, argini - compressori stradali ed altro macchinario per costruzione di strade)15% ",,442,16
+1926,Casseformi metalliche e palancole metalliche 25% ,,442,16
+1927,Attrezzatura varia e minuta compresi i ponteggi in legno 40% ,,442,16
+1928,Mobili e macchine ordinarie d'ufficio 12% ,,442,16
+1929,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,442,16
+1930,Escavatori e pale meccaniche 20% ,,442,16
+1931,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,442,16
+1932,"Autovetture, motoveicoli e simili 25% ",,442,16
+1934,Fabbricati destinati all'industria 3% ,,443,16
+1935,"Compressori, martelli pneumatici, motopompe, scavatori, pale meccaniche25% ",,443,16
+1936,Attrezzatura varia (strumenti misura elettrici ed elettronici e scale)40% ,,443,16
+1937,Mobili e macchine ordinarie d'ufficio e arredi12% ,,443,16
+1938,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici20% ,,443,16
+1939,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,443,16
+1940,"Autovetture, motoveicoli e simili 25% ",,443,16
+1941,Fabbricati destinati all'industria 3% ,,444,16
+1942,"Costruzioni leggere12,5% ",,444,16
+1943,Impianti generici 10% ,,444,16
+1944,Macchinari operatori e impianti specifici e stampi20% ,,444,16
+1945,Attrezzatura varia25% ,,444,16
+1946,Mobili e macchine ordinarie d'ufficio 12% ,,444,16
+1947,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,444,16
+1948,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi si trasporto interno, ecc) 20% ",,444,16
+1949,"Autovetture, motoveicoli e simili 25% ",,444,16
+1950,Fabbricati destinati all'industria 3% ,,445,17
+1951,"Costruzioni leggere (tettoie, baracche, ecc) 12,5% ",,445,17
+1952,Opere idrauliche fisse 1% ,,445,17
+1953,Condotte forzate4% ,,445,17
+1954,Centrali idroelettriche (esclusi i fabbricati) 7% ,,445,17
+1955,Linee di trasporto AT4% ,,445,17
+1956,Sottostazioni di trasformazione (esclusi i fabbricati) 7% ,,445,17
+1957,Rete di distribuzione BT 8% ,,445,17
+1958,Attrezzatura varia e minuta - Apparecchi di misura e controllo 10% ,,445,17
+1959,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,445,17
+1960,Mobili e macchine ordinarie d'ufficio 12% ,,445,17
+1961,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,445,17
+1962,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,445,17
+1963,"Autovetture, motoveicoli e simili 25% ",,445,17
+1964,Fabbricati destinati all'industria 4% ,,446,17
+1965,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,446,17
+1966,Centrali termoelettriche (esclusi i fabbricati) 9% ,,446,17
+1967,Linee di trasporto AT4% ,,446,17
+1968,Sottostazioni di trasformazione (esclusi i fabbricati) 7% ,,446,17
+1969,Rete di distribuzione BT 8% ,,446,17
+1970,Attrezzatura varia e minuta - Apparecchi di misura e controllo 10% ,,446,17
+1971,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,446,17
+1972,Mobili e macchine ordinarie d'ufficio 12% ,,446,17
+1973,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,446,17
+1974,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,446,17
+1975,"Autovetture, motoveicoli e simili 25% ",,446,17
+1976,Fabbricati destinati all'industria 3% ,,447,17
+1977,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,447,17
+1978,Gasometri 9% ,,447,17
+1979,Impianti generici (compresi quelli di miscelazione metano) 8% ,,447,17
+1980,Impianti di produzione e filtrazione 10% ,,447,17
+1981,Condutture 5% ,,447,17
+1982,Attrezzatura varia e minuta - Apparecchi di misura e controllo 10% ,,447,17
+1983,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,447,17
+1984,Mobili e macchine ordinarie d'ufficio 12% ,,447,17
+1985,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,447,17
+1986,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi si trasporto interno, ecc) 20% ",,447,17
+1987,"Autovetture, motoveicoli e simili 25% ",,447,17
+1988,"Fabbricati destinati all'industria 5,5% ",,448,17
+1989,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,448,17
+1990,Pozzi di estrazione e pertinenze 15% ,,448,17
+1991,Serbatoi (vasche di contenimento)5% ,,448,17
+1992,Metanodotti:,,448,17
+1993,Condotte dorsali per trasporto e grandi distanze dei centri di produzione10% ,,448,17
+1994,Condotte dorsali per trasporto a grandi distanze dai giacimenti gassoso-acquiferi; condotte di derivazione e di allacciamento 12% ,,448,17
+1995,Stazione di compressione e pompaggio 10% ,,448,17
+1996,Condotte per usi civili (reti urbane)8% ,,448,17
+1997,Attrezzatura varia e minuta - Apparecchi di misura e controllo e bombole10% ,,448,17
+1998,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,448,17
+1999,Mobili e macchine ordinarie d'ufficio 12% ,,448,17
+2000,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,448,17
+2001,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,448,17
+2002,"Autovetture, motoveicoli e simili 25% ",,448,17
+2003,"Fabbricati destinati all'industria 3,5% ",,449,17
+2004,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,449,17
+2005,"Opere idrauliche fisse 2,5% ",,449,17
+2006,Serbatoi4% ,,449,17
+2007,Impianti di filtrazione 8% ,,449,17
+2008,Condutture 5% ,,449,17
+2009,Impianti di sollevamento 12% ,,449,17
+2010,Attrezzatura varia e minuta - Apparecchi di misura e controllo laboratori 10% ,,449,17
+2011,Mobili e macchine ordinarie d'ufficio 12% ,,449,17
+2012,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,449,17
+2013,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,449,17
+2014,"Autovetture, motoveicoli e simili 25% ",,449,17
+2015,Stabilimenti in muratura6% ,,450,17
+2016,Stabilimenti in legno 20% ,,450,17
+2017,"Attrezzatura da spiaggia (ombrelloni, sedie, tende)30% ",,450,17
+2018,Natanti e galleggianti12% ,,450,17
+2019,Mobili e macchine ordinarie d'ufficio 12% ,,450,17
+2020,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,450,17
+2021,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,450,17
+2022,"Autovetture, motoveicoli e simili 25% ",,450,17
+2024,Fabbricati destinati all'industria 4% ,,451,17
+2025,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,451,17
+2026,Opere idrauliche fisse e pozzi di estrazione e loro pertinenze 2% ,,451,17
+2027,Serbatoi 5% ,,451,17
+2028,"Impianti di filtrazione e di imbottigliamento 12,5% ",,451,17
+2029,Condutture 8% ,,451,17
+2030,Impianti di sollevamento e macchinari in genere10% ,,451,17
+2031,Attrezzatura varia e minuta e di laboratorio 20% ,,451,17
+2032,Biancheria 40% ,,451,17
+2033,Mobili e macchine ordinarie d'ufficio 12% ,,451,17
+2034,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,451,17
+2035,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,451,17
+2036,"Autovetture, motoveicoli e simili 25% ",,451,17
+2037,"Piste, moli e terreni ad essi adibiti 1% ",,452,18
+2038,Fabbricati destinati all'industria (edifici d'aeroporto e portuali) 4% ,,452,18
+2039,Opere d'arte fisse 4% ,,452,18
+2040,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,452,18
+2041,Aereo completo di equipaggiamento (compreso motore a terra e salvo norme a parte in relazione ad esigenze di sicurezza) 14% ,,452,18
+2042,Nave passeggeri 10% ,,452,18
+2043,Nave da carico cisterna o frigorifera 10% ,,452,18
+2044,Nave da carico per carico secco 9% ,,452,18
+2045,"Nave per navigazione interna in acciaio ferro - Ferry boat - Rimorchiatore - Naviglio fermo 7,5% ",,452,18
+2046,"Nave per navigazione interna in legno - Barconi, chiatte pontoni e lance 9% ",,452,18
+2047,"Apparecchi di segnalazione in genere, attrezzature di pista - Servizio carburanti 31,5% ",,452,18
+2048,"Impianti e mezzi di carico, scarico, sollevamento e trasporto (a terra) 10% ",,452,18
+2049,Mobili e macchine ordinarie d'ufficio 12% ,,452,18
+2050,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,452,18
+2051,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,452,18
+2052,"Autovetture, motoveicoli e simili 25% ",,452,18
+2053,Contenitori di grandi dimensioni in metallo o materiale plastico 15% ,,452,18
+2054,Aliscafi 13% ,,452,18
+2055,"Navi gia' in esercizio per almeno due quadrienni di classe, acquistate per l'impiego nell'ulteriore durata residua 15% ",,452,18
+2056,Terreni adibiti alle linee e servizi ferroviari 1% ,,453,18
+2057,Fabbricati destinati all'industria 4% ,,453,18
+2058,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,453,18
+2059,"Opere d'arte fisse (ponti, viadotti, gallerie) 4% ",,453,18
+2060,"Altre opere d'arte11,5% ",,453,18
+2061,Pali metallici 5% ,,453,18
+2062,"Binari (rotaie, traverse, morsetterie)10% ",,453,18
+2063,Motrici in genere 10% ,,453,18
+2064,"Materiale rotabile, ferroviario e tramviario (motrici escluse) 7,5% ",,453,18
+2065,"Materiale mobile - Impianti a cavo e filoviario (filobus, funivie, teleferiche, ascensori, slittovie) 15% ",,453,18
+2066,Officina meccanica 10% ,,453,18
+2067,"Attrezzatura varia e minuta - Mobili e macchine ordinarie di ufficio, di stazione e dei reparti accessori 12% ",,453,18
+2068,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,453,18
+2069,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,453,18
+2070,"Autovetture, motoveicoli e simili 25% ",,453,18
+2071,Contenitori di grandi dimensioni in metallo o materiale plastico 15% ,,453,18
+2072,Fabbricati destinati all'industria 4% ,,454,18
+2073,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,454,18
+2074,"Autobus di linea adibiti a servizi pubblici di linea urbani ed extraurbani, compresi autobus in servizio per noleggio di rimessa e rimorchi per trasporto di persone 25% ",,454,18
+2075,Autocarri e rimorchi per trasporto di cose20% ,,454,18
+2076,"Autobus di linea adibiti a servizi pubblici di linea urbani ed extraurbani, compresi autobus in servizio per noleggio di rimessa e rimorchi per trasporto di persone 25% ",,454,18
+2077,Autocarri e rimorchi per trasporto di cose20% ,,454,18
+2078,Autovetture in genere (servizio pubblico) 30% ,,454,18
+2079,Autofurgoni e motofurgoni 30% ,,454,18
+2080,Trattori - Carri attrezzi - Carrelli elettrici 20% ,,454,18
+2081,Veicoli a traino animale 10% ,,454,18
+2082,Officina meccanica - Mezzi di sollevamento peso - Impianti di carica batterie 10% ,,454,18
+2083,Attrezzatura varia e minuta - Finimenti per traino animali Parati per pompe funebri - Accumulatori per carri elettrici 20% ,,454,18
+2084,Attrezzatura varia e minuta - Mobili e macchine ordinarie di ufficio 12% ,,454,18
+2085,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,454,18
+2086,Contenitori di grandi dimensioni in metallo o materiale plastico 15% ,,454,18
+2087,Contenitori e bottiglie per il trasporto di esafloruro di uranio e relative scocche protettive 50% ,,454,18
+2088,Fabbricati ordinari ed altri manufatti 3% ,,455,18
+2089,Fabbricati destinati all'industria 6% ,,455,18
+2090,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,455,18
+2091,Centrali manuali ed elettromeccaniche 8% ,,455,18
+2092,Centrali e impianti elettronici 18% ,,455,18
+2093,"Ponti radio, circuiti (apparecchiature) AF ed amplificazione 15% ",,455,18
+2094,Rete aerea e pali di sostegno 8% ,,455,18
+2095,Cavi sotteranei 5% ,,455,18
+2096,Cavi sottomarini 12% ,,455,18
+2097,"Poste pubbliche e di abbonato, cabine, impianti interni e derivati, centralini ed apparecchiature 12% ",,455,18
+2098,Attrezzatura varia e minuta 25% ,,455,18
+2099,Mobili e macchine ordinarie d'ufficio 12% ,,455,18
+2100,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,455,18
+2101,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi si trasporto interno, ecc) 20% ",,455,18
+2102,"Autovetture, motoveicoli e simili 25% ",,455,18
+2103,Fabbricati destinati all'industria 6% ,,456,18
+2104,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,456,18
+2105,"Impianti radiofonici 12,5% ",,456,18
+2106,"Impianti di sincronizzazione e centri di controllo 15,5% ",,456,18
+2107,Impianti di telediffussione e di televisione 19% ,,456,18
+2108,Impianti di registrazione e ponti radio 25% ,,456,18
+2109,Cavi sottomarini 12% ,,456,18
+2110,Dotazioni vari ed attrezzi 19% ,,456,18
+2111,Mobili e macchine ordinarie d'ufficio 12% ,,456,18
+2112,Automezzi attrezzati 25% ,,456,18
+2113,Macchine d'ufficio elettronimeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,456,18
+2114,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,456,18
+2115,"Autovetture, motoveicoli e simili 25% ",,456,18
+2116,Segmento spaziale:,,457,18
+2117,Satelliti commerciali di telecomunicazioni e relativi centri di controllo 18% ,,457,18
+2118,Trasponditori 36% ,,457,18
+2119,Stazioni terrene:,,457,18
+2120,Struttura antenna parabolica orientabile 10% ,,457,18
+2121,"Servosistema, sistema di illuminazione, ricevitore di inseguimento 20% ",,457,18
+2122,Impianti ricetrasmittenti e impianti e strumentazione centrali di misura e controllo25% ,,457,18
+2123,Impianto di alimentazione 10% ,,457,18
+2124,Terminali parabolici rice-trasmissivi di limitate dimensioni 20% ,,457,18
+2125,Stazioni terrene mobili 25% ,,457,18
+2126,Terreni adibiti ad autostrada 1% ,,458,18
+2127,Fabbricati destinati all'industria 4% ,,458,18
+2128,Costruzioni leggere 10% ,,458,18
+2129,"Opere d'arte fisse (viadotti, ponti, gallerie, corpo autostradale, ecc)4% ",,458,18
+2130,"Altre opere d'arte (apparecchi di segnalazione, compressori, martelli pneumatici, semoventi, pale meccaniche)25% ",,458,18
+2131,Officine meccaniche 10% ,,458,18
+2132,Attrezzatura varia e minuta 12% ,,458,18
+2133,Mobili e macchine ordinarie d'ufficio 12% ,,458,18
+2134,Macchine d'ufficio elettronimeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,458,18
+2135,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,458,18
+2136,"Autovetture, motoveicoli e simili 25% ",,458,18
+2137,Edifici 3% ,,,19
+2138,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,,19
+2139,Mobili e arredamento 10% ,,,19
+2140,Biancheria40% ,,,19
+2141,"Attrezzatura (stoviglie, posate, attrezzatura di cucina, ecc) 25% ",,,19
+2142,"Impianti generici (riscaldamento, condizionamento) 8% ",,,19
+2143,"Impianti specifici (igienici, cucina, frigorifero, ascensori, montacarichi, impianti telefonici, citofoni, campanelli e simili) 12% ",,,19
+2144,Macchine d'ufficio elettronimeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,,19
+2145,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,,19
+2146,"Autovetture, motoveicoli e simili 25% ",,,19
+2147,Edifici 3% ,,459,20
+2148,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,459,20
+2149,Impianti termotecnici ed elettrici10% ,,459,20
+2150,"Attrezzature (poltrone, ecc) 15,5% ",,459,20
+2151,Macchinari di proiezione ed impianto sonoro19% ,,459,20
+2152,Mobili e macchine ordinarie d'ufficio 12% ,,459,20
+2153,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,459,20
+2154,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,459,20
+2155,"Autovetture, motoveicoli e simili 25% ",,459,20
+2156,"Fabbricati destinati all'industria (teatri, piazzali, strade) 5,5% ",,460,20
+2157,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,460,20
+2158,"Impianti generici, produzione e trasporto energia 10% ",,460,20
+2159,"Attrezzatura specifica (macchine da ripresa, gruppi elettrogeni, doppiaggio, registrazione sonora, sviluppo e stampa, ecc) 19% ",,460,20
+2160,"Attrezzatura generica (officina, falegnameria, ecc)7,5% ",,460,20
+2161,Mobili e macchine ordinarie d'ufficio 12% ,,460,20
+2162,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,460,20
+2163,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,460,20
+2164,"Autovetture, motoveicoli e simili 25% ",,460,20
+2166,"Specie 1a -Ospedali, cliniche, sanatori, case di cura ed istituti similari privati",,461,21
+2167,Edifici 3% ,,461,21
+2168,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,461,21
+2169,Mobili ed arredamento 10% ,,461,21
+2170,Biancheria 40% ,,461,21
+2171,"Attrezzatura generica (stoviglie, posate, ecc) 25% ",,461,21
+2172,"Attrezzatura specifica 12,5% ",,461,21
+2173,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,461,21
+2174,Mobili e macchine ordinarie d'ufficio 12% ,,461,21
+2175,Macchine d'ufficio elettronimeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,461,21
+2176,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,461,21
+2177,"Autovetture, motoveicoli e simili 25% ",,461,21
+2178,Edifici 3% ,,462,22
+2179,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,462,22
+2180,Mobili ed arredamento 10% ,,462,22
+2181,Biancheria 40% ,,462,22
+2182,"Impianti specifici (igienici, riscaldamento, condizionamento, ecc) 8% ",,462,22
+2183,Attrezzatura generica 25% ,,462,22
+2184,Mobili e macchine ordinarie d'ufficio 12% ,,462,22
+2185,Macchine d'ufficio elettronimeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,462,22
+2186,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,462,22
+2187,"Autovetture, motoveicoli e simili 25% ",,462,22
+2188,Edifici 3% ,,463,22
+2189,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,463,22
+2190,Impianti specifici di utilizzazione10% ,,463,22
+2191,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,463,22
+2192,Mobili e macchine ordinarie d'ufficio 12% ,,463,22
+2193,Macchine d'ufficio elettronimeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,463,22
+2194,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,463,22
+2195,"Autovetture, motoveicoli e simili 25% ",,463,22
+2196,Edifici 3% ,,464,22
+2197,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,464,22
+2198,"Attrezzatura specifica 12,5% ",,464,22
+2199,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,464,22
+2200,Mobili e macchine ordinarie d'ufficio 12% ,,464,22
+2201,Macchine d'ufficio elettronimeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,464,22
+2202,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,464,22
+2203,"Autovetture, motoveicoli e simili 25% ",,464,22
+2204,Fabbricati in muratura destinati a padiglioni per esposizione 10% ,,465,23
+2205,Costruzioni in legno o in stutture mobili 20% ,,465,23
+2206,Mobili comuni ed arredamento 10% ,,465,23
+2207,"Aredamento fiere (transenne, ecc) 27% ",,465,23
+2208,Mobili e macchine ordinarie d'ufficio 12% ,,465,23
+2209,Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,465,23
+2210,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,465,23
+2211,"Autovetture, motoveicoli e simili 25% ",,465,23
+2212,Edifici 3% ,,466,23
+2213,Fabbricati destinati alla grande distribuzione 6% ,,466,23
+2214,"Costruzioni leggere (tettoie, baracche, ecc) 10% ",,466,23
+2215,"Impianti e mezzi di sollevamento, carico e scarico, pesatura, ecc 7,5% ",,466,23
+2216,"Macchinari, apparecchi e attrezzature varie (compreso frigorifero, impianto di condizionamento e distributore automatico 15% ",,466,23
+2217,Stigliatura 10% ,,466,23
+2218,Arredamento 15% ,,466,23
+2219,Banconi blindati o con cristalli blindati 20% ,,466,23
+2220,"Impianti di allarme, di ripresa fotografica, cinematografica e televisiva 30% ",,466,23
+2221,Impianti interni speciali di comunicazione e telesegnalazione 25% ,,466,23
+2222,"Impianti destinati al trattamento ed al depuramento delle acque, fumi nocivi, ecc mediante impiego di reagenti chimici 15% ",,466,23
+2223,Mobili e macchine ordinarie d'ufficio 12% ,,466,23
+2224,Macchine d'ufficio elettronimeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% ,,466,23
+2225,"Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% ",,466,23
+2226,"Autovetture, motoveicoli e simili 25% ",,466,23

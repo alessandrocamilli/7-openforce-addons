@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<openerp>
+	<data>
+		<record model="ir.ui.view" id="openforce_view_account_expense_type_form">
+			<field name="name">account.view_account.form.expense.type</field>
+			<field name="model">account.account</field>
+			<field name="inherit_id" ref="account.view_account_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='reconcile']" position="after">
+					<field name="expense_type"/>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</openerp>

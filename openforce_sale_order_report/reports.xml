@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<openerp>
+<data>
+    
+    <!-- 
+    Quote
+     -->
+  	<report id="openforce_sale_quote_report"
+            string="Quote"
+            model="sale.order"
+            name="openforce_sale_quote_report"
+            rml="openforce_sale_order_report/report/quote.jrxml"
+            menu="True"
+            auto="False"/>
+  	
+  	<!-- 
+    Order
+     -->	
+    <report id="openforce_sale_order_report"
+            string="Order"
+            model="sale.order"
+            name="openforce_sale_order_report"
+            rml="openforce_sale_order_report/report/order.jrxml"
+            menu="True"
+            auto="False"/>
+            
+</data>
+</openerp>

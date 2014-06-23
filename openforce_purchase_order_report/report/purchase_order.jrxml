@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="purchase_order" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="3.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="OPENERP_RELATIONS" value="[&apos;order_line&apos;]"/>
+	<style name="Text Body" lineSpacing="Single"/>
+	<parameter name="order_id" class="java.lang.String"/>
+	<queryString language="xPath">
+		<![CDATA[]]>
+	</queryString>
+	<field name="id" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/id]]></fieldDescription>
+	</field>
+	<field name="azienda - Nome_Azienda-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Nome_Azienda-name]]></fieldDescription>
+	</field>
+	<field name="azienda - Logo-logo" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Logo-logo]]></fieldDescription>
+	</field>
+	<field name="azienda - Fax-fax" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Fax-fax]]></fieldDescription>
+	</field>
+	<field name="azienda - Email-email" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Email-email]]></fieldDescription>
+	</field>
+	<field name="azienda - Citta-city" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Citta-city]]></fieldDescription>
+	</field>
+	<field name="azienda - Telefono-phone" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Telefono-phone]]></fieldDescription>
+	</field>
+	<field name="azienda - Indirizzo-street" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Indirizzo-street]]></fieldDescription>
+	</field>
+	<field name="azienda - Indirizzo_2-street2" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Indirizzo_2-street2]]></fieldDescription>
+	</field>
+	<field name="azienda - Nome_Stato-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Stato_fed.-state_id/Nome_Stato-name]]></fieldDescription>
+	</field>
+	<field name="azienda - Partita_IVA-vat" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Partner-partner_id/Partita_IVA-vat]]></fieldDescription>
+	</field>
+	<field name="azienda - Codice_fiscale-fiscalcode" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Partner-partner_id/Codice_fiscale-fiscalcode]]></fieldDescription>
+	</field>
+	<field name="azienda - Sito_Web-website" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Sito_Web-website]]></fieldDescription>
+	</field>
+	<field name="azienda - CAP-zip" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/CAP-zip]]></fieldDescription>
+	</field>
+	<field name="azienda - Logo_1-openforce_logo1" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Logo_1-openforce_logo1]]></fieldDescription>
+	</field>
+	<field name="azienda - Logo_2-openforce_logo2" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Logo_2-openforce_logo2]]></fieldDescription>
+	</field>
+	<field name="azienda - Logo_3-openforce_logo3" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Logo_3-openforce_logo3]]></fieldDescription>
+	</field>
+	<field name="azienda - Logo_4-openforce_logo4" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Logo_4-openforce_logo4]]></fieldDescription>
+	</field>
+	<field name="azienda - Logo_5-openforce_logo5" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Logo_5-openforce_logo5]]></fieldDescription>
+	</field>
+	<field name="azienda - Logo_6-openforce_logo6" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Azienda-company_id/Logo_6-openforce_logo6]]></fieldDescription>
+	</field>
+	<field name="ordine - Date-date_order" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Date-date_order]]></fieldDescription>
+	</field>
+	<field name="ordine - Riferimento_cliente-client_order_ref" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Riferimento_cliente-client_order_ref]]></fieldDescription>
+	</field>
+	<field name="ordine - Rif._Ordine-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Rif._Ordine-name]]></fieldDescription>
+	</field>
+	<field name="ordine - venditore" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Venditore-user_id/Nome_utente-name]]></fieldDescription>
+	</field>
+	<field name="ordine - Stato_Ordine-state" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Stato_Ordine-state]]></fieldDescription>
+	</field>
+	<field name="ordine - Termini_e_Condizioni-notes" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Termini_e_Condizioni-notes]]></fieldDescription>
+	</field>
+	<field name="ordine - Termine_di_pagamento-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Modalita_di_pagamento-payment_term_id/Termine_di_pagamento-name]]></fieldDescription>
+	</field>
+	<field name="ordine - Riferimento_fornitore-partner_ref" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Riferimento_fornitore-partner_ref]]></fieldDescription>
+	</field>
+	<field name="riga - prodotto-code" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Prodotto-product_id/Riferimento-code]]></fieldDescription>
+	</field>
+	<field name="riga - Descrizione-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Descrizione-name]]></fieldDescription>
+	</field>
+	<field name="riga - Nome_imposta-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Tasse-tax_id/Nome_imposta-name]]></fieldDescription>
+	</field>
+	<field name="riga - Nome-name UM" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Unita_di_Misura_Prodotto-product_uom/Nome-name]]></fieldDescription>
+	</field>
+	<field name="riga - Nome-name UOS" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Unita_di_Vendita_Prodotto-product_uos/Nome-name]]></fieldDescription>
+	</field>
+	<field name="Riga - Quantita-product_qty" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Quantita-product_qty]]></fieldDescription>
+	</field>
+	<field name="riga - Prezzo_unitario-price_unit" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Prezzo_unitario-price_unit]]></fieldDescription>
+	</field>
+	<field name="riga - Sconto-discount" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Sconto-discount]]></fieldDescription>
+	</field>
+	<field name="riga - Subtotale-price_subtotal" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Subtotale-price_subtotal]]></fieldDescription>
+	</field>
+	<field name="riga - Note-notes" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Note-notes]]></fieldDescription>
+	</field>
+	<field name="riga - Delivery_date-date_planned" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Delivery_date-date_planned]]></fieldDescription>
+	</field>
+	<field name="Totale_Imponibile-amount_untaxed" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Totale_Imponibile-amount_untaxed]]></fieldDescription>
+	</field>
+	<field name="Totale-amount_total" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Totale-amount_total]]></fieldDescription>
+	</field>
+	<field name="Tasse-amount_tax" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Tasse-amount_tax]]></fieldDescription>
+	</field>
+	<field name="Termine_di_pagamento-name2" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Termini_di_pagamento-payment_term/Termine_di_pagamento-name]]></fieldDescription>
+	</field>
+	<field name="Partner -Nome-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Fornitore-partner_id/Nome-name]]></fieldDescription>
+	</field>
+	<field name="Partner -Citta-city" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Fornitore-partner_id/Citta-city]]></fieldDescription>
+	</field>
+	<field name="Partner -Indirizzo_completo-contact_address" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Fornitore-partner_id/Indirizzo_completo-contact_address]]></fieldDescription>
+	</field>
+	<field name="Partner -Indirizzo-street" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Fornitore-partner_id/Indirizzo-street]]></fieldDescription>
+	</field>
+	<field name="Partner -Indirizzo_2-street2" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Fornitore-partner_id/Indirizzo_2-street2]]></fieldDescription>
+	</field>
+	<field name="Partner -Nome_Stato-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Fornitore-partner_id/Stato-state_id/Nome_Stato-name]]></fieldDescription>
+	</field>
+	<field name="Partner -CAP-zip" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Fornitore-partner_id/CAP-zip]]></fieldDescription>
+	</field>
+	<field name="Partner -Qualifica-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Fornitore-partner_id/Qualifica-title/Qualifica-name]]></fieldDescription>
+	</field>
+	<field name="Partner -Abbreviazione-shortcut" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Fornitore-partner_id/Qualifica-title/Abbreviazione-shortcut]]></fieldDescription>
+	</field>
+	<field name="Partner -Codice_provincia-code" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Fornitore-partner_id/Provincia-province/Codice_provincia-code]]></fieldDescription>
+	</field>
+	<field name="Partner -Cellulare-mobile" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Fornitore-partner_id/Cellulare-mobile]]></fieldDescription>
+	</field>
+	<field name="Partner -Fax-fax" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Fornitore-partner_id/Fax-fax]]></fieldDescription>
+	</field>
+	<field name="Partner -Email-email" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Fornitore-partner_id/Email-email]]></fieldDescription>
+	</field>
+	<field name="Destinazione Cli-Cliente-customer" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Indirizzo_Cliente__Consegna_Diretta-dest_address_id/Cliente-customer]]></fieldDescription>
+	</field>
+	<field name="Destinazione Cli-Indirizzo_completo-contact_address" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Indirizzo_Cliente__Consegna_Diretta-dest_address_id/Indirizzo_completo-contact_address]]></fieldDescription>
+	</field>
+	<field name="Destinazione Cli-Citta-city" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Indirizzo_Cliente__Consegna_Diretta-dest_address_id/Citta-city]]></fieldDescription>
+	</field>
+	<field name="Destinazione Cli-Cellulare-mobile" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Indirizzo_Cliente__Consegna_Diretta-dest_address_id/Cellulare-mobile]]></fieldDescription>
+	</field>
+	<field name="Destinazione Cli-Nome-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Indirizzo_Cliente__Consegna_Diretta-dest_address_id/Nome-name]]></fieldDescription>
+	</field>
+	<field name="Destinazione Cli-Telefono-phone" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Indirizzo_Cliente__Consegna_Diretta-dest_address_id/Telefono-phone]]></fieldDescription>
+	</field>
+	<field name="Destinazione Cli-Codice_provincia-code" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Indirizzo_Cliente__Consegna_Diretta-dest_address_id/Provincia-province/Codice_provincia-code]]></fieldDescription>
+	</field>
+	<field name="Destinazione Cli-Nome_Stato-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Indirizzo_Cliente__Consegna_Diretta-dest_address_id/Stato-state_id/Nome_Stato-name]]></fieldDescription>
+	</field>
+	<field name="Destinazione Cli-Indirizzo-street" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Indirizzo_Cliente__Consegna_Diretta-dest_address_id/Indirizzo-street]]></fieldDescription>
+	</field>
+	<field name="Destinazione Cli-Indirizzo_2-street2" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Indirizzo_Cliente__Consegna_Diretta-dest_address_id/Indirizzo_2-street2]]></fieldDescription>
+	</field>
+	<field name="Destinazione Cli-CAP-zip" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Indirizzo_Cliente__Consegna_Diretta-dest_address_id/CAP-zip]]></fieldDescription>
+	</field>
+	<field name="Destinazione Cli-Tipo_Indirizzo-type" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Indirizzo_Cliente__Consegna_Diretta-dest_address_id/Tipo_Indirizzo-type]]></fieldDescription>
+	</field>
+	<field name="Destinazione Mag-Indirizzo-street" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Magazzino_di_destinazione-warehouse_id/Azienda-company_id/Indirizzo-street]]></fieldDescription>
+	</field>
+	<field name="Destinazione Mag-Indirizzo_2-street2" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Magazzino_di_destinazione-warehouse_id/Azienda-company_id/Indirizzo_2-street2]]></fieldDescription>
+	</field>
+	<field name="Destinazione Mag-CAP-zip" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Magazzino_di_destinazione-warehouse_id/Azienda-company_id/CAP-zip]]></fieldDescription>
+	</field>
+	<field name="Destinazione Mag-Citta-city" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Magazzino_di_destinazione-warehouse_id/Azienda-company_id/Citta-city]]></fieldDescription>
+	</field>
+	<field name="Destinazione Mag-Nome-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Magazzino_di_destinazione-warehouse_id/Azienda-company_id/Partner-partner_id/Nome-name]]></fieldDescription>
+	</field>
+	<field name="Destinazione Mag-Nome_Nazione-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Magazzino_di_destinazione-warehouse_id/Azienda-company_id/Nazione-country_id/Nome_Nazione-name]]></fieldDescription>
+	</field>
+	<field name="Destinazione Mag-Telefono-phone" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Magazzino_di_destinazione-warehouse_id/Azienda-company_id/Telefono-phone]]></fieldDescription>
+	</field>
+	<field name="Riga -Descrizione-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Descrizione-name]]></fieldDescription>
+	</field>
+	<field name="Riga -Prezzo_unitario-price_unit" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Prezzo_unitario-price_unit]]></fieldDescription>
+	</field>
+	<field name="Riga -Quantita-product_qty" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Quantita-product_qty]]></fieldDescription>
+	</field>
+	<field name="Riga -Unita_di_misura-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Unita_di_misura_prodotto-product_uom/Unita_di_misura-name]]></fieldDescription>
+	</field>
+	<field name="Riga -Codice_imposta-description" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Imposte-taxes_id/Codice_imposta-description]]></fieldDescription>
+	</field>
+	<field name="Riga -Subtotale-price_subtotal" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Subtotale-price_subtotal]]></fieldDescription>
+	</field>
+	<field name="Riga -Sconto-discount" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Sconto-discount]]></fieldDescription>
+	</field>
+	<field name="Riga -Sconto_2-discount2" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Sconto_2-discount2]]></fieldDescription>
+	</field>
+	<field name="Riga -Data_preventivata-date_planned" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Data_preventivata-date_planned]]></fieldDescription>
+	</field>
+	<field name="Riga -Riferimento_interno-default_code" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Righe_Ordine-order_line/Prodotto-product_id/Riferimento_interno-default_code]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="226" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="92" width="263" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{azienda - Nome_Azienda-name}.trim() + " - " + ($F{azienda - Indirizzo-street}.trim() + " ") + ($F{azienda - Indirizzo_2-street2}.trim() + " ") +
+($F{azienda - CAP-zip}.trim() + " ") + ($F{azienda - Citta-city}.trim() + " ")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="102" width="263" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[("Tel. " + $F{azienda - Telefono-phone}.trim()) + " - Fax " + ($F{azienda - Fax-fax}).trim()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="112" width="263" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[("Partita IVA " + $F{azienda - Partita_IVA-vat}.trim()) + " - C.F. " + ($F{azienda - Codice_fiscale-fiscalcode}).trim()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="122" width="263" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[($F{azienda - Sito_Web-website}.trim()) + " - " + ($F{azienda - Email-email}.trim())]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="0" y="5" width="189" height="80"/>
+				<imageExpression class="java.lang.String"><![CDATA[$F{azienda - Logo-logo}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="350" y="34" width="205" height="14"/>
+				<textElement lineSpacing="Single">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Partner -Nome-name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="49" width="205" height="14"/>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[($F{Partner -Indirizzo-street}.trim()) + " " + ($F{Partner -Indirizzo_2-street2}.trim())]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="63" width="205" height="14"/>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[($F{Partner -CAP-zip}) + " " +($F{Partner -Citta-city}.trim()) + " " +
+($F{Partner -Codice_provincia-code}.trim())]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="350" y="18" width="72" height="16"/>
+				<textElement lineSpacing="Single">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Spett.le]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="350" y="83" width="204" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA['Tel:' + $F{Partner -Cellulare-mobile}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="93" width="204" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA['Fax:' + $F{Partner -Fax-fax}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="103" width="204" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA['E-mail:' + $F{Partner -Email-email}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="350" y="135" width="93" height="12"/>
+				<textElement lineSpacing="Single">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Destinazione]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="350" y="163" width="205" height="14"/>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Destinazione Cli-Nome-name} != "" ?
+    $F{Destinazione Cli-Indirizzo-street}.trim() + " " + $F{Destinazione Cli-Indirizzo_2-street2}.trim()
+    :
+    $F{Destinazione Mag-Indirizzo-street}.trim() + " " + $F{Destinazione Mag-Indirizzo_2-street2}.trim()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="148" width="205" height="14"/>
+				<textElement lineSpacing="Single">
+					<font isBold="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Destinazione Cli-Nome-name} != "" ?
+    $F{Destinazione Cli-Nome-name}
+    :
+    $F{Destinazione Mag-Nome-name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="178" width="205" height="14"/>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Destinazione Cli-Nome-name} != "" ?
+    ($F{Destinazione Cli-CAP-zip}) + " " +($F{Destinazione Cli-Citta-city}.trim()) + " " +
+    ($F{Destinazione Cli-Codice_provincia-code}.trim())
+    :
+    ($F{Destinazione Mag-CAP-zip}) + " " +($F{Destinazione Mag-Citta-city}.trim())]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="351" y="198" width="204" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Destinazione Cli-Nome-name} != "" ?
+    'Tel:' + $F{Destinazione Cli-Telefono-phone}
+    :
+    'Tel:' + $F{Destinazione Mag-Telefono-phone}]]></textFieldExpression>
+			</textField>
+			<image hAlign="Left" vAlign="Middle">
+				<reportElement x="257" y="26" width="61" height="25">
+					<printWhenExpression><![CDATA[$F{azienda - Logo_4-openforce_logo4} != ""]]></printWhenExpression>
+				</reportElement>
+				<imageExpression class="java.lang.String"><![CDATA[$F{azienda - Logo_4-openforce_logo4}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement x="257" y="52" width="61" height="25">
+					<printWhenExpression><![CDATA[$F{azienda - Logo_6-openforce_logo6} != ""]]></printWhenExpression>
+				</reportElement>
+				<imageExpression class="java.lang.String"><![CDATA[$F{azienda - Logo_6-openforce_logo6}]]></imageExpression>
+			</image>
+			<image hAlign="Left">
+				<reportElement x="257" y="0" width="61" height="25">
+					<printWhenExpression><![CDATA[$F{azienda - Logo_2-openforce_logo2} != ""]]></printWhenExpression>
+				</reportElement>
+				<imageExpression class="java.lang.String"><![CDATA[$F{azienda - Logo_2-openforce_logo2}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement x="194" y="52" width="61" height="25">
+					<printWhenExpression><![CDATA[$F{azienda - Logo_5-openforce_logo5} != ""]]></printWhenExpression>
+				</reportElement>
+				<imageExpression class="java.lang.String"><![CDATA[$F{azienda - Logo_5-openforce_logo5}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement x="194" y="26" width="61" height="25">
+					<printWhenExpression><![CDATA[$F{azienda - Logo_3-openforce_logo3} != ""]]></printWhenExpression>
+				</reportElement>
+				<imageExpression class="java.lang.String"><![CDATA[$F{azienda - Logo_3-openforce_logo3}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement x="194" y="0" width="61" height="25">
+					<printWhenExpression><![CDATA[$F{azienda - Logo_1-openforce_logo1} != ""]]></printWhenExpression>
+				</reportElement>
+				<imageExpression class="java.lang.String"><![CDATA[$F{azienda - Logo_1-openforce_logo1}]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="78" splitType="Stretch">
+			<rectangle>
+				<reportElement x="1" y="30" width="553" height="31"/>
+				<graphicElement>
+					<pen lineWidth="1.5" lineColor="#CCCCCC"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="350" y="44" width="204" height="14"/>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{ordine - Termine_di_pagamento-name}.trim() != "" ? $F{ordine - Termine_di_pagamento-name} : ""]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="348" y="30" width="1" height="31"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineColor="#CCCCCC"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="1" y="0" width="296" height="20"/>
+				<textElement textAlignment="Left" lineSpacing="Single">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[($F{ordine - Stato_Ordine-state}.trim() == "draft" ? "Richiesta preventivo Nr " : "Ordine d'acquisto Nr ") + $F{ordine - Rif._Ordine-name}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="132" y="44" width="97" height="14"/>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font isBold="false"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")).parse($F{ordine - Date-date_order})]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="231" y="30" width="1" height="31"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineColor="#CCCCCC"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="129" y="30" width="1" height="31"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineColor="#CCCCCC"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="132" y="30" width="97" height="14"/>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font size="10" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Data ordine]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="30" width="125" height="14"/>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font size="10" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Riferimento]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="4" y="44" width="125" height="14"/>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{ordine - Riferimento_fornitore-partner_ref}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="350" y="30" width="97" height="14"/>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font size="10" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Pagamento]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="1" y="63" width="553" height="14"/>
+				<textElement lineSpacing="Single">
+					<font isItalic="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{ordine - Termini_e_Condizioni-notes} != "" ?
+    "NOTE : " + $F{ordine - Termini_e_Condizioni-notes}
+    :
+    ""]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="33" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="6" width="186" height="14"/>
+				<textElement lineSpacing="Single">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Descrizione]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="31" width="554" height="1"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="234" y="6" width="54" height="14"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Quantità]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="349" y="6" width="71" height="25"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Prezzo Unitario]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="423" y="6" width="35" height="25"/>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sc 1 (%)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="497" y="6" width="57" height="25"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Importo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="292" y="6" width="54" height="25"/>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Data consegna]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="460" y="6" width="35" height="25"/>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sc 2 (%)]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="21" splitType="Stretch">
+			<textField>
+				<reportElement x="1" y="0" width="209" height="20"/>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Riga -Riferimento_interno-default_code}.trim() != "" ? "[" + $F{Riga -Riferimento_interno-default_code} + "] " + $F{Riga -Descrizione-name} : $F{Riga -Descrizione-name}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="216" y="0" width="55" height="20"/>
+				<textElement textAlignment="Right" lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.Double"><![CDATA[$F{Riga -Quantita-product_qty}.trim() != "" ? new Double($F{Riga -Quantita-product_qty}) : null]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00000;-#,##0.00000" isBlankWhenNull="true">
+				<reportElement x="349" y="0" width="71" height="20"/>
+				<textElement textAlignment="Right" lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.Double"><![CDATA[($F{Riga -Prezzo_unitario-price_unit}.trim() != "" ? new Double($F{Riga -Prezzo_unitario-price_unit})  : null)]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="272" y="0" width="20" height="20"/>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Riga -Unita_di_misura-name}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="497" y="0" width="58" height="20"/>
+				<textElement textAlignment="Right" lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.Double"><![CDATA[($F{Riga -Subtotale-price_subtotal}.trim() != "" ? new Double($F{Riga -Subtotale-price_subtotal})  : null)]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="423" y="0" width="35" height="20"/>
+				<textElement textAlignment="Center" lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[($F{Riga -Sconto-discount}.trim() != "" ? new Double($F{Riga -Sconto-discount})  : null)]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yy">
+				<reportElement x="293" y="0" width="53" height="20"/>
+				<textElement textAlignment="Center" lineSpacing="Single"/>
+				<textFieldExpression class="java.util.Date"><![CDATA[(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")).parse($F{Riga -Data_preventivata-date_planned})]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="460" y="0" width="35" height="20"/>
+				<textElement textAlignment="Center" lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[($F{Riga -Sconto_2-discount2}.trim() != "" ? new Double($F{Riga -Sconto_2-discount2})  : null)]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="24">
+			<printWhenExpression><![CDATA[$F{riga - Note-notes}.trim() != ""]]></printWhenExpression>
+			<textField>
+				<reportElement x="10" y="0" width="327" height="24"/>
+				<textElement lineSpacing="Single">
+					<font isItalic="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{riga - Note-notes}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="18" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="25" splitType="Stretch">
+			<staticText>
+				<reportElement x="446" y="6" width="78" height="14"/>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font size="10" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Segue...]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<lastPageFooter>
+		<band height="29">
+			<textField>
+				<reportElement x="267" y="8" width="11" height="14"/>
+				<textElement textAlignment="Right" lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" evaluationTime="Report">
+				<reportElement x="280" y="8" width="17" height="14"/>
+				<textElement textAlignment="Right" lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA["/ " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="233" y="8" width="30" height="14"/>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font size="10" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Pag.]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="2" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+		</band>
+	</lastPageFooter>
+	<summary>
+		<band height="75" splitType="Stretch">
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="455" y="10" width="100" height="20"/>
+				<textElement textAlignment="Right" lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.Double"><![CDATA[($F{Totale_Imponibile-amount_untaxed}.trim() != "" ? new Double($F{Totale_Imponibile-amount_untaxed})  : null)]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="364" y="10" width="82" height="20"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="10" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Totale netto:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="364" y="30" width="82" height="20"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="10" isBold="false" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Tasse:]]></text>
+			</staticText>
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="455" y="30" width="100" height="20"/>
+				<textElement textAlignment="Right" lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.Double"><![CDATA[($F{Tasse-amount_tax}.trim() != "" ? new Double($F{Tasse-amount_tax})  : null)]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="354" y="50" width="200" height="1"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="364" y="52" width="82" height="20"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="10" isBold="true" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Totale]]></text>
+			</staticText>
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="455" y="52" width="100" height="20"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Double"><![CDATA[($F{Totale-amount_total}.trim() != "" ? new Double($F{Totale-amount_total})  : null)]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="354" y="5" width="200" height="1"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+		</band>
+	</summary>
+</jasperReport>

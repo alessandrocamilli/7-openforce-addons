@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<openerp>
+<data>
+	<!-- 
+    <record id="openforce_sale_quote_report" model="ir.actions.report.xml">
+        <field name="name">Preventivo</field>
+        <field name="type">ir.actions.report.xml</field>
+        <field name="model">sale.order</field>
+        <field name="report_name">openforce_sale_quote_report</field>
+        <field name="report_rml">openforce_sale_quote_report/report/preventivo.jrxml</field>
+        <field name="report_type">pdf</field>
+        <field name="jasper_report">True</field>
+        <field name="jasper_output">pdf</field>
+    </record>
+  	    -->
+  	<report id="openforce_sale_quote"
+            string="Preventivo"
+            model="sale.order"
+            name="openforce_sale_quote_report"
+            rml="openforce_sale_quote_report/report/preventivo.jrxml"
+            menu="True"
+            auto="False"/>
+  	
+    <report id="openforce_sale_quote2"
+            string="Preventivo2"
+            model="sale.order"
+            name="openforce_sale_quote_report2"
+            rml="openforce_sale_quote_report/report/preventivo2.jrxml"
+            menu="False"
+            auto="False"/>
+            
+</data>
+</openerp>

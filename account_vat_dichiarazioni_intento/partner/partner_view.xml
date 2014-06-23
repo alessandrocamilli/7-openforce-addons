@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<openerp>
+	<data>
+		<record model="ir.ui.view" id="view_partner_vat_dichiarazioni_intento">
+			<field name="name">partner.vat.dichiarazioni.intento</field>
+			<field name="model">res.partner</field>
+			<!-- <field name="inherit_id" ref="base.view_partner_form"/> -->
+			<field name="inherit_id" ref="account_activity_code_ateco.ateco_account_partner_view_form"/>
+			<field name="type">form</field> 
+			<field name="arch" type="xml">
+			    <!--  
+            	<xpath expr="//field[@name='vat_subjected']" position="after">
+                	<separator string="Dichiarazione intento" colspan="5"/>
+                    <group col="4" colspan="5">
+                        <field name="dichiarazione_intento_partner_number"></field>
+                		<field name="dichiarazione_intento_partner_date"></field>
+                		<field name="dichiarazione_intento_registration_number"></field>
+                		<button name="get_sequence_registration_number" string="Assegna nr" icon="gtk-execute" type="object"/>
+                		<field name="dichiarazione_intento_registration_date"></field>
+                    </group>
+           		</xpath>
+				-->
+				<xpath expr="//page[@string='Tax data']" position="inside">
+                	<separator string="Dichiarazione intento" colspan="4"/>
+                    <group colspan="4">
+                        <field name="dichiarazione_intento_partner_number"></field>
+                		<field name="dichiarazione_intento_partner_date"></field>
+                		<field name="dichiarazione_intento_registration_number"></field>
+                		<button name="get_sequence_registration_number" string="Assegna nr" icon="gtk-execute" type="object"/>
+                		<field name="dichiarazione_intento_registration_date"></field>
+                    </group>
+           		</xpath>
+				
+			</field>
+		</record>
+	</data>
+</openerp>

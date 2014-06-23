@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+		<!-- Sale order - line on window -->
+        <record id="prago_default_view_sale_order_form" model="ir.ui.view">
+            <field name="name">prago.default.view.sale.order.form</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <!-- <field name="groups_id" eval="[(6, 0, [ref('product.group_uos'), ref('product.group_stock_packaging'), ref('sale.group_mrp_properties')])]"/> -->
+            <field name="arch" type="xml">
+           		
+           		<xpath expr="//tree[@string='Sales Order Lines']" position="attributes">
+                    <attribute name="editable"></attribute>
+                </xpath>
+                
+                <!-- 
+                <xpath expr="//form[@string='Sales Order Lines']//field[@name='address_allotment_id']" position="replace">
+                </xpath>
+                <xpath expr="//field[@name='th_weight']" position="replace">
+                </xpath>
+                <xpath expr="//field[@name='type']" position="replace">
+                </xpath>
+           		-->
+            </field>
+		</record>
+		
+		<!-- Sale order - from sale_stock-->
+        <record id="prago_default_view_sale_order_form2" model="ir.ui.view">
+            <field name="name">prago.default.view.sale.order.form2</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale_stock.view_order_form_inherit"/>
+            <field name="arch" type="xml">
+           		
+                <xpath expr="//form[@string='Sales Order Lines']//field[@name='address_allotment_id']" position="replace">
+                </xpath>
+                <xpath expr="//field[@name='th_weight']" position="replace">
+                </xpath>
+                <!-- 
+                <xpath expr="//field[@name='type']" position="replace">
+                </xpath> -->
+            </field>
+		</record>
+		
+    </data>
+</openerp>

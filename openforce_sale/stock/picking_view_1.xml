@@ -1,0 +1,79 @@
+<openerp>
+	<data>
+	    
+	    <record id="openforce_stock_picking_form_ddt_inherit3" model="ir.ui.view">
+			<field name="name">openforce.stock.picking.form.ddt.inherit3</field>
+			<field name="model">stock.picking.out</field>
+			<field name="inherit_id" ref="sale_journal.sale_journal_picking_order_out"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='invoice_type_id']" position="replace"></xpath>
+				<xpath expr="//field[@name='stock_journal_id']" position="before">
+				    <field name="invoice_type_id"/>
+				</xpath>
+			</field>
+		</record>
+		
+		<record id="openforce_stock_picking_form_ddt_inherit2" model="ir.ui.view">
+			<field name="name">openforce.stock.picking.form.ddt.inherit2</field>
+			<field name="model">stock.picking.out</field>
+			<field name="inherit_id" ref="delivery.view_picking_withcarrier_out_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='number_of_packages']" position="replace"></xpath>
+				<xpath expr="//field[@name='carrier_id']" position="replace"></xpath>
+				<xpath expr="//page[@string='Additional Info']/group/group/field[@name='weight']" position="replace"></xpath>
+				<xpath expr="//page[@string='Additional Info']/group/group/field[@name='weight_net']" position="replace"></xpath>
+			</field>
+		</record>
+		  
+		<record id="openforce_stock_picking_form_ddt_inherit" model="ir.ui.view">
+			<field name="name">openforce.stock.picking.form.ddt.inherit</field>
+			<field name="model">stock.picking.out</field>
+			<!-- <field name="inherit_id" ref="stock_journal_ddt_sequence.stock_view_picking_form_assign_ddt_by_journal"/> -->
+			<field name="inherit_id" ref="l10n_it_sale.stock_picking_form_ddt_inherit"/>
+			<!-- <field name="inherit_id" ref="stock.view_picking_form"/> -->
+			<field name="arch" type="xml">
+				
+				# Fields to move
+				<xpath expr="//field[@name='goods_description_id']" position="replace"></xpath>
+				<xpath expr="//field[@name='transportation_reason_id']" position="replace"></xpath>
+				<xpath expr="//field[@name='carriage_condition_id']" position="replace"></xpath>
+				<xpath expr="//field[@name='ddt_date']" position="replace"></xpath>
+				<xpath expr="//field[@name='invoice_state']" position="replace"></xpath>
+				
+				# Invoice state on right col
+				<xpath expr="//field[@name='origin']" position="after">
+					<field name="invoice_state"/>
+				</xpath>
+				# Assign DDT after process
+				<!-- 
+				<xpath expr="//button[@string='Assign DDT']" position="attributes">
+					<attribute name="states">done</attribute>
+				</xpath> -->
+				# ddt Ref
+				<xpath expr="//field[@name='ddt_number']" position="after">
+					<field name="ddt_date"/>
+				</xpath>
+				# Page transportation
+				<xpath expr="//notebook/page[@string='Products']" position="after">
+					<page string="Transportation">
+					<group>
+						<group>
+						 	<field name="number_of_packages" groups="base.group_sale_salesman"/>
+						 	<field name="goods_description_id" groups="base.group_sale_salesman"/>
+						 	<field name="weight_manual" groups="base.group_sale_salesman"/>
+						 	<field name="weight_net_manual" groups="base.group_sale_salesman"/>
+						</group>
+						<group groups="base.group_sale_salesman">
+							<field name="mezzo_id"/>
+							<field name="carrier_id" groups="base.group_sale_salesman" />
+							<field name="carriage_condition_id" groups="base.group_sale_salesman"/>
+							<field name="transportation_reason_id" groups="base.group_sale_salesman"/>
+						</group>
+					</group>
+					</page>
+				</xpath>
+			</field>
+		</record>
+
+    </data>
+</openerp>

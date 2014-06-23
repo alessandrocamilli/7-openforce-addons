@@ -1,0 +1,126 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* account_reversal
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-29 09:24+0000\n"
+"PO-Revision-Date: 2014-05-29 09:24+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: help:account.move.reverse,move_prefix:0
+#. module: account_reversal
+msgid "Prefix that will be added to the 'Ref' of the journal entry to be reversed to create the 'Ref' of the reversal journal entry (no space added after the prefix)."
+msgstr "Prefix that will be added to the 'Ref' of the journal entry to be reversed to create the 'Ref' of the reversal journal entry (no space added after the prefix)."
+
+#: field:account.move.reverse,move_line_prefix:0
+#. module: account_reversal
+msgid "Items Name Prefix"
+msgstr "Items Name Prefix"
+
+#: field:account.move.reverse,journal_id:0
+#. module: account_reversal
+msgid "Reversal Journal"
+msgstr "Sezionale Inversione"
+
+#: model:ir.model,name:account_reversal.model_account_move
+#. module: account_reversal
+msgid "Account Entry"
+msgstr "Registrazione Contabile"
+
+#: field:account.move.reverse,move_prefix:0
+#. module: account_reversal
+msgid "Entries Ref. Prefix"
+msgstr "Entries Ref. Prefix"
+
+#: view:account.move.reverse:0
+#: model:ir.actions.act_window,name:account_reversal.act_account_move_reverse
+#. module: account_reversal
+msgid "Reverse Entries"
+msgstr "Registrazioni di Inversione"
+
+#: view:account.move:0
+#: field:account.move,to_be_reversed:0
+#. module: account_reversal
+msgid "To Be Reversed"
+msgstr "Da Invertire"
+
+#: field:account.move.reverse,period_id:0
+#. module: account_reversal
+msgid "Reversal Period"
+msgstr "Periodo Inversione"
+
+#: view:account.move.reverse:0
+#. module: account_reversal
+msgid "or"
+msgstr "or"
+
+#: view:account.move.reverse:0
+#. module: account_reversal
+msgid "Create reversal journal entries"
+msgstr "Create reversal journal entries"
+
+#: help:account.move.reverse,move_line_prefix:0
+#. module: account_reversal
+msgid "Prefix that will be added to the name of the journal item to be reversed to create the name of the reversal journal item (a space is added after the prefix)."
+msgstr "Prefix that will be added to the name of the journal item to be reversed to create the name of the reversal journal item (a space is added after the prefix)."
+
+#: field:account.move.reverse,date:0
+#. module: account_reversal
+msgid "Reversal Date"
+msgstr "Data Inversione Contabile"
+
+#: help:account.move.reverse,journal_id:0
+#. module: account_reversal
+msgid "If empty, uses the journal of the journal entry to be reversed."
+msgstr "If empty, uses the journal of the journal entry to be reversed."
+
+#: view:account.move.reverse:0
+#. module: account_reversal
+msgid "This will create reversal for all selected entries whether checked 'to be reversed' or not."
+msgstr "This will create reversal for all selected entries whether checked 'to be reversed' or not."
+
+#: model:ir.model,name:account_reversal.model_account_move_reverse
+#. module: account_reversal
+msgid "Create reversal of account moves"
+msgstr "Create reversal of account moves"
+
+#: view:account.move.reverse:0
+#. module: account_reversal
+msgid "Cancel"
+msgstr "Cancel"
+
+#: help:account.move.reverse,period_id:0
+#. module: account_reversal
+msgid "If empty, take the period of the date."
+msgstr "If empty, take the period of the date."
+
+#: field:account.move,reversal_id:0
+#. module: account_reversal
+msgid "Reversal Entry"
+msgstr "Registrazione Inversione Contabile"
+
+#: view:account.move:0
+#: model:ir.actions.act_window,name:account_reversal.action_move_to_be_reversed
+#: model:ir.ui.menu,name:account_reversal.menu_move_to_be_reversed
+#. module: account_reversal
+msgid "Journal Entries to be Reversed"
+msgstr "Registrazioni Da Invertire Contabilmente"
+
+#: help:account.move,to_be_reversed:0
+#. module: account_reversal
+msgid "Check this box if your entry has to bereversed at the end of period."
+msgstr "Da spuntare se la registrazione deve essere invertita alla fine del periodo"
+
+#: help:account.move.reverse,date:0
+#. module: account_reversal
+msgid "Enter the date of the reversal account entries. By default, OpenERP proposes the first day of the next period."
+msgstr "Inserire la data per la registrazione di inversione. Di default viene proposta la data iniziale del periodo successivo"
+

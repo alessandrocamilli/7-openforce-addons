@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="openforce_personal_partner_view_form" model="ir.ui.view">
+            <field name="name">openforce.personal.partner.view.form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+           		
+                <xpath expr="//field[@name='email']" position="after">
+	                        <field name="person_type"/>
+	                	</group>    
+           		</xpath>
+           		<xpath expr="//page[@string='Sales &amp; Purchases']" position="after">
+	                <page string="Individual Data">
+	                    <group colspan="2">
+	                        <field name="person_surname"/>
+	                        <field name="person_name"/>
+		                	<field name="person_date_of_birth"/>
+		                	<field name="person_city_of_birth" onchange="on_change_person_city(person_city_of_birth)"/>
+		                	<field name="person_gender"/>
+		                	<field name="person_marital_status"/>
+	                	</group>    
+	                </page>
+           		</xpath>
+           		
+            </field>
+		</record>
+    </data>
+</openerp>

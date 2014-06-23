@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+		<record id="wizard_create_asset_move_type" model="ir.ui.view">
+            <field name="name">Choice type move</field>
+            <field name="model">wizard.create.asset.move</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Asset move">
+                	<group col="2">
+                        <field name="move_type"/>
+                        
+                        <separator colspan="2"/>
+                    	<button icon="gtk-cancel" special="cancel" string="Cancel"/>
+						<button icon="gtk-ok" name="move_type_choice" string="Next" type="object"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+        
+        <record id="wizard_create_asset_move_variation" model="ir.ui.view">
+            <field name="name">Variation asset</field>
+            <field name="model">wizard.create.asset.move</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Asset move">
+                	<group col="2">
+                        <field name="move_type"/>
+                        
+                        <separator colspan="2"/>
+                    	<button icon="gtk-cancel" special="cancel" string="Cancel"/>
+						<button icon="gtk-ok" name="move_type_choice" string="Next" type="object"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="wizard_create_asset_move" model="ir.ui.view">
+            <field name="name">Create asset move</field>
+            <field name="model">wizard.create.asset.move</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Asset move">
+                	<field name="invoice_type" invisible="1"/>
+                    <group col="2">
+                        <label colspan="2" string="This will create an asset move"/>
+                        <field name="category_id" />
+                        <field name="asset_id" />
+                        <separator colspan="2"/>
+                        <field name="move_type_sale" on_change="onchange_move_type_sale(move_type_sale)" attrs="{'invisible': [('invoice_type', '!=', 'out_invoice')], 'required': [('invoice_type', '=', 'out_invoice')] }"/>
+                        <field name="move_type_purchase" on_change="onchange_move_type_purchase(move_type_purchase)" attrs="{'invisible': [('invoice_type', '!=', 'in_invoice')], 'required': [('invoice_type', '=', 'in_invoice')] }"/>
+                        <separator colspan="2"/>
+                        
+                    	<button icon="gtk-cancel" special="cancel" string="Cancel"/>
+						<button icon="gtk-ok" name="create_move" string="Create" type="object"/>
+                        
+                    </group>
+                     
+                </form>
+            </field>
+        </record>
+
+       <act_window name="Create asset move from invoice"
+            res_model="wizard.create.asset.move"
+            view_mode="form"
+            target="new"
+            key2="client_action_multi"
+            id="action_wizard_create_asset_move"
+            view_id="wizard_create_asset_move_type"
+            />
+    </data>
+</openerp>

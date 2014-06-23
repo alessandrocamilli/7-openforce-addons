@@ -1,0 +1,76 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* openforce_sale_order_type
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-10 13:10+0000\n"
+"PO-Revision-Date: 2014-04-10 13:10+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: field:sale.order.type.lines_default,product_id:0
+#. module: openforce_sale_order_type
+msgid "Product"
+msgstr "Prodotto"
+
+#: model:ir.actions.act_window,name:openforce_sale_order_type.openforce_sale_order_type_action
+#: model:ir.ui.menu,name:openforce_sale_order_type.openforce_sale_order_type_menu
+#: view:sale.order.type:0
+#. module: openforce_sale_order_type
+msgid "Sale Order Type"
+msgstr "Tipo Ordine"
+
+#: field:sale.order.type,name:0
+#. module: openforce_sale_order_type
+msgid "Name"
+msgstr "Descrizione"
+
+#: model:ir.model,name:openforce_sale_order_type.model_sale_order_type_lines_default
+#. module: openforce_sale_order_type
+msgid "Sale order type - Lines default"
+msgstr "Righe di default"
+
+#: field:sale.order.type.lines_default,price:0
+#. module: openforce_sale_order_type
+msgid "Price"
+msgstr "Prezzo"
+
+#: view:sale.order.type:0
+#: field:sale.order.type,lines_default:0
+#. module: openforce_sale_order_type
+msgid "Default Lines"
+msgstr "Righe di default"
+
+#: model:ir.model,name:openforce_sale_order_type.model_sale_order_type
+#. module: openforce_sale_order_type
+msgid "Sale order type "
+msgstr "Tipo Ordine"
+
+#: view:sale.order.type:0
+#. module: openforce_sale_order_type
+msgid "Task Lines"
+msgstr "Linee"
+
+#: model:ir.model,name:openforce_sale_order_type.model_sale_order
+#. module: openforce_sale_order_type
+msgid "Sales Order"
+msgstr "Ordine di vendita"
+
+#: field:sale.order,type_order:0
+#: field:sale.order.type.lines_default,type_id:0
+#. module: openforce_sale_order_type
+msgid "Type"
+msgstr "Tipo"
+
+#: field:sale.order.type.lines_default,quantity:0
+#. module: openforce_sale_order_type
+msgid "Quantity"
+msgstr "Quantita"
+

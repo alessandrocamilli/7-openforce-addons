@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+	
+	    <!-- =======================
+        Asset
+     	======================= -->
+		<record model="ir.ui.view" id="view_account_asset_asset_form_fiscal_plan">
+			<field name="name">account.asset.form.fiscal.plan</field>
+			<field name="model">account.asset.asset</field>
+			<field name="inherit_id" ref="account_asset.view_account_asset_asset_form"/>
+			<field name="type">form</field> 
+			<field name="arch" type="xml">
+				 
+				
+           		<!-- =======================
+           		General
+           		 ======================= -->
+           		<xpath expr="//page[@string='General']/group/group/field[@name='method']" position="before">
+                	<field name="start_date"></field>
+           		</xpath>
+           		<xpath expr="//field[@name='start_date']" position="after">
+                	<field name="pre_owned"></field>
+           		</xpath>
+           		<!-- =======================
+           		Fields form general to depreciation Board
+           		 ======================= -->
+           		  
+           		<xpath expr="//field[@name='method']" position="replace"></xpath>
+           		<xpath expr="//field[@name='method_progress_factor']" position="replace"></xpath>
+           		<!-- <xpath expr="//field[@name='method_time']" position="replace"></xpath> -->
+           		<xpath expr="//field[@name='prorata']" position="replace"></xpath>
+           		<xpath expr="//field[@name='method_number']" position="replace"></xpath>
+           		<xpath expr="//field[@name='method_period']" position="replace"></xpath>
+           		 
+           		<!-- =======================
+           		Depreciation Board
+           		 ======================= -->
+           		<xpath expr="//field[@name='depreciation_line_ids']" position="before">
+           			<group>
+	                    <group>
+	                        <field name="value_residual" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+	                    </group>
+	                    <group>
+	                    </group>
+                    </group>
+                    <group>
+                    	<group>
+                    		<field name="method"/>
+                            <field name="method_progress_factor" attrs="{'invisible':['|',('method','=','linear'),('method','=','percent')], 'required':[('method','=','degressive')]}"/>
+                            <field name="method_number" attrs="{'invisible':['|',('method_time','=','end'),('method','=','percent')], 'required':[('method_time','=','number')]}"/>
+                            <field name="method_period"/>
+                            <!-- <field name="method_time" on_change="onchange_method_time(method_time)" attrs="{'invisible':[('method','=','percent')]}" class="oe_inline"/> -->
+                    	</group>
+                    	<group>
+                    		<field name="prorata" attrs="{'invisible': [('method_time','=','end')]}"/>
+                    		<field name="pre_owned_asset_coefficient_first_line"/>
+                    		<field name="new_asset_coefficient_first_line"/>
+                    	</group>
+                    </group>
+                    <group>
+                        <separator string="Pecents" attrs="{'invisible':['|',('method','=','linear'), ('method','=','degressive')]}"/>
+	                	<field name="percent_ids" nolabel="1"  on_change="onchange_percent_ids(percent_ids)" attrs="{'invisible':['|',('method','=','linear'), ('method','=','degressive')]}" >
+				          	<form>
+				          		<field name="sequence"/>
+				          		<field name="value"/>
+				          		<field name="value_amount" attrs="{'invisible':[('value','=', 'balance')]}" />
+				          	</form>
+				          	<tree>
+				          		<field name="sequence"/>	
+				          		<field name="value"/>
+				          		<field name="value_amount" />
+				          	</tree>
+					    </field>
+					 </group>
+           		</xpath>
+           		
+           		<!-- =======================
+           		Fiscal Depreciation Board
+           		 ======================= -->
+           		<xpath
+                expr="//page[@string='Depreciation Board']" position="after">
+           		<page string="Fiscal Depreciation Board">
+           					<group>
+                                <group>
+                                    <field name="fiscal_value_residual" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+                                </group>
+                                <group>
+                                    <!-- <field name="method_end" attrs="{'required': [('method_time','=','end')], 'invisible':[('method_time','=','number')]}"/>  -->
+                                </group>
+                            </group>
+                            <group>
+                            	<group>
+                            		<field name="fiscal_method"/>
+                                    <field name="fiscal_method_progress_factor" attrs="{'invisible':['|',('fiscal_method','=','linear'),('fiscal_method','=','percent')], 'required':[('fiscal_method','=','degressive')]}"/>
+                                    <field name="fiscal_method_time" on_change="onchange_fiscal_method_time(fiscal_method_time)" attrs="{'invisible':[('fiscal_method','=','percent')]}" class="oe_inline"/>
+                                    <field name="fiscal_method_number" attrs="{'invisible':['|',('fiscal_method_time','=','end'),('fiscal_method','=','percent')], 'required':[('fiscal_method_time','=','number')]}"/>
+                                    <field name="fiscal_method_period"/>
+                            	</group>
+                            	<group>
+                            		<field name="fiscal_prorata" attrs="{'invisible': [('fiscal_method_time','=','end')]}"/>
+                                    <field name="pre_owned_asset_coefficient_first_line"/>
+                    				<field name="new_asset_coefficient_first_line"/>
+                            	</group>
+                            </group>
+                            <group>
+                            	<separator string="Pecents" attrs="{'invisible':['|',('fiscal_method','=','linear'), ('fiscal_method','=','degressive')]}"/>
+			                	<field name="fiscal_percent_ids" nolabel="1"  on_change="onchange_fiscal_percent_ids(fiscal_percent_ids)" attrs="{'invisible':['|',('fiscal_method','=','linear'), ('fiscal_method','=','degressive')]}">
+							          	<form>
+							          		<field name="sequence"/>
+							          		<field name="value"/>
+							          		<field name="value_amount" attrs="{'invisible':[('value','=', 'balance')]}" />
+							          	</form>
+							          	<tree>
+							          		<field name="sequence"/>	
+							          		<field name="value"/>
+							          		<field name="value_amount" />
+							          	</tree>
+							    </field>
+							 </group>
+           					<separator string="Fiscal depreciation Lines" />
+                            <field name="fiscal_depreciation_line_ids" mode="tree">
+                                <tree string="Depreciation Lines" colors="blue:(move_check == False);black:(move_check == True)">
+                                    <field name="depreciation_date"/>
+                                    <field name="sequence" invisible="1"/>
+                                    <field name="depreciated_value" readonly="1"/>
+                                    <field name="amount"/>
+                                    <field name="remaining_value" readonly="1"/>
+                                    <field name="move_check"/>
+                                    <field name="parent_state" invisible="1"/>
+                                </tree>
+                                <form string="Depreciation Lines"> 
+                                    <group>
+                                        <group>
+                                            <field name="asset_id" invisible="1"/>
+                                            <field name="parent_state" invisible="1"/>
+                                            <field name="name"/>
+                                            <field name="amount"/>
+                                            <field name="move_id"/>
+                                            <field name="move_check"/>
+                                            <field name="parent_state" invisible="1"/>
+                                        </group>
+                                        <group>
+                                            <field name="sequence"/>
+                                            <field name="depreciation_date"/>
+                                            <field name="depreciated_value" readonly="1"/>
+                                            <field name="remaining_value" readonly="1"/>
+                                        </group>
+                                    </group>
+                                </form>
+                            </field>
+                            <button type="object" name="compute_depreciation_board_fiscal" string="Compute" icon="terp-stock_format-scientific" colspan="2" attrs="{'invisible':[('state','=','close')]}"/>
+                        </page>
+           			</xpath>
+           		 
+			</field>
+		</record>
+		
+	    <!-- =======================
+        Asset Category
+     	======================= -->
+     	<record model="ir.ui.view" id="view_account_asset_category_form_fiscal_plan">
+			<field name="name">account.asset.category.form.fiscal.plan</field>
+			<field name="model">account.asset.category</field>
+			<field name="inherit_id" ref="account_asset.view_account_asset_category_form"/>
+			<field name="type">form</field> 
+			<field name="arch" type="xml">
+				
+				<xpath expr="//field[@name='account_expense_depreciation_id']" position="after">
+                	<field name="account_gain_id"></field>
+                	<field name="account_loss_id"></field>
+           		</xpath>
+            	
+            	<xpath expr="//field[@name='open_asset']" position="after">
+                	<field name="pre_owned_asset_coefficient_first_line"></field>
+                	<field name="new_asset_coefficient_first_line"></field>
+           		</xpath>
+           		
+            	<xpath expr="//field[@name='method']" position="replace">
+                	<field name="method" context="{'method_time': method_time, 'method_period': method_period, 'method_number': method_number }" 
+                	    on_change="onchange_method(method, context)"></field>
+           		</xpath>
+            	
+                <xpath expr="//group[@string='Analytic Information']" position="after">
+                	<group>
+                	<field name="percent_ids" nolabel="1" attrs="{'invisible':['|',('method','=','linear'), ('method','=','degressive')]}">
+				          	<form>
+				          		<field name="sequence"/>
+				          		<field name="value"/>
+				          		<field name="value_amount" attrs="{'invisible':[('value','=', 'balance')]}" />
+				          	</form>
+				          	<tree>
+				          		<field name="sequence"/>	
+				          		<field name="value"/>
+				          		<field name="value_amount" />
+				          	</tree>
+				    </field>
+				    </group>
+           		</xpath>
+           		 
+           		<xpath expr="//field[@name='method_progress_factor']" position="replace">
+                	<field name="method_progress_factor" attrs="{'invisible':['|',('method','=','linear'), ('method','=','percent')], 'required':[('method','=','degressive')]}"/>
+           		</xpath>
+           		 
+			</field>
+		</record>
+     	
+     	
+	</data>
+</openerp>

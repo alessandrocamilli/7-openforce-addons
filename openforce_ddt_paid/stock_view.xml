@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!--
+        Stock picking out 
+         -->
+		<record id="openforce_ddt_paid_form" model="ir.ui.view">
+			<field name="name">openforce.ddt.paid.form</field>
+			<field name="model">stock.picking.out</field>
+			<field name="inherit_id" ref="stock.view_picking_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='auto_picking']" position="after">
+				    <group name='paid'>
+					    <field name="paid"></field>
+					    <field name="paid_amount" attrs="{'invisible': [('paid', '=', False)]}" ></field>
+				    </group>
+				</xpath>
+			</field>
+		</record>
+		<!-- 
+		<record id="openforce_sale_order_type_view_order_search" model="ir.ui.view">
+			<field name="name">openforce.sale.order.type.order.search</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_sales_order_filter"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='project_id']" position="after">
+				    <field name="type_order"></field>
+				</xpath>
+			</field>
+		</record>
+		 -->
+        
+     </data>
+</openerp>

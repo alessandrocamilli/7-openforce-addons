@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+		<!-- Form line purchase order -->
+        <record id="view_purchase_order_form_discount_line" model="ir.ui.view">
+            <field name="name">purchase.order.form.discount.line</field>
+            <field name="model">purchase.order.line</field>
+            <field name="inherit_id" ref="purchase.purchase_order_line_form"/>
+            <field name="arch" type="xml">
+                <xpath
+                expr="//field[@name='price_unit']"
+                position="after">
+                	<newline/>
+                    <field name="discount" string="Discount 1 line"/>
+                    <field name="discount2" string="Discount 2 line"/>
+           		</xpath>
+            </field>
+		</record>
+		
+		<!-- Tree lines purchase order -->
+		<record id="view_purchase_order_tree_discount_line" model="ir.ui.view">
+            <field name="name">purchase.order.tree.discount.line</field>
+            <field name="model">purchase.order</field>
+            <field name="inherit_id" ref="purchase.purchase_order_form"/>
+            <field name="arch" type="xml">
+                <xpath
+                expr="//field[@name='order_line']/tree/field[@name='price_unit']"
+                position="after">
+                    <field name="discount"/>
+                    <field name="discount2"/>
+           		</xpath>
+            </field>
+		</record>
+		
+
+    </data>
+</openerp>

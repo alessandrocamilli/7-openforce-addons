@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="ateco_account_partner_view_form" model="ir.ui.view">
+            <field name="name">ateco.account.partner.view.form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+           		
+           		<xpath expr="//page[@string='Sales &amp; Purchases']" position="after">
+	                <page string="Tax data">
+	                    <group colspan="4">
+		                    <separator string="Activity code Ateco 2007" colspan="4"/>
+		                	<field name="activity_code"/>
+	                	</group>    
+	                </page>
+           		</xpath>
+           		
+            </field>
+		</record>
+    </data>
+</openerp>

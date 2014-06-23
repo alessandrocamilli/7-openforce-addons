@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="wizard_assign_ddt_by_journal" model="ir.ui.view">
+            <field name="name">Assign DDT</field>
+            <field name="model">wizard.assign.ddt.by.journal</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Assign DDT">
+                    <group col="2">
+                        <label colspan="2" string="This will assign the DDT number"/>
+                        <separator colspan="2"/>
+                        <button icon="gtk-cancel" special="cancel" string="Cancel"/>
+                        <button icon="gtk-ok" name="assign_ddt_by_journal" string="Assign" type="object"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+       <act_window name="Assign DDT"
+            res_model="wizard.assign.ddt.by.journal"
+            view_mode="form"
+            target="new"
+            key2="client_action_multi"
+            id="action_wizard_assign_ddt_by_journal"
+            view_id="wizard_assign_ddt_by_journal"/>
+       
+       <!-- Button assign DDT -->
+       <record id="wizard_assign_ddt_by_journal_replace_button" model="ir.ui.view">
+			<field name="name">stock.view.picking.form.assign.ddt2</field>
+			<field name="model">stock.picking.out</field>
+			<field name="inherit_id" ref="l10n_it_sale.stock_view_picking_form_assign_ddt"/>
+			<field name="arch" type="xml">
+			    <xpath expr="//button[@string='Assign DDT']" position="replace">
+			        <button name="%(action_wizard_assign_ddt_by_journal)d" string="Assign DDT" states="done,assigned" type="action"/>
+           		</xpath>
+			</field>
+		</record>
+    </data>
+</openerp>

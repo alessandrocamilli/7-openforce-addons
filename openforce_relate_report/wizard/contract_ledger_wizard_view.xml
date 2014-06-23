@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="relate_contract_ledger_view" model="ir.ui.view">
+            <field name="name">Partner Due Register</field>
+            <field name="model">relate.contract.ledger.webkit</field>
+            <field name="inherit_id" ref="openforce_relate_common_report_view"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="/form/label[@string='']" position="replace">
+                        <separator string="Contract Ledger" colspan="4"/>
+                        <label nolabel="1" colspan="4" string=""/>
+                    </xpath>
+                    <!-- 
+                    <xpath expr="//field[@name='filter']" position="replace">
+                    </xpath>
+                    <xpath expr="//group[@string='Dates']" position="replace">
+                    </xpath>
+                    <xpath expr="//group[@string='Periods']" position="replace">
+                    </xpath> -->
+                    
+                </data>
+            </field>
+        </record>
+
+        <record id="action_relate_contract_ledger_report" model="ir.actions.act_window">
+            <field name="name">Contract Ledger</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">relate.contract.ledger.webkit</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="relate_contract_ledger_view"/>
+            <field name="target">new</field>
+        </record>
+		
+		<!-- 
+        <record model="ir.values" id="action_relate_contract_ledger_values">
+            <field name="model_id" ref="account.model_account_analytic_account"/>
+            <field name="object" eval="1"/>
+            <field name="name">Contract Ledger</field>
+            <field name="key2">client_print_multi</field>
+            <field name="value"
+                eval="'ir.actions.act_window,' +str(ref('action_relate_contract_ledger_menu'))"/>
+            <field name="key">action</field>
+            <field name="model">account.analytic.account</field>
+        </record>  -->
+		 
+    </data>
+</openerp>

@@ -1,0 +1,34 @@
+<openerp>
+	<data>
+	    
+	    <record model="ir.ui.view" id="account_cash_expense_payment_term_form">
+			<field name="name">account.cash.expense.payment.term.form</field>
+			<field name="model">account.payment.term</field>
+			<field name="inherit_id" ref="account.view_payment_term_form"/>
+			<field name="arch" type="xml">
+			    
+			    <xpath expr="//field[@name='note']" position="after">
+			        <separator string="Cash expense"/>
+			        <group col="4">
+			        	<field name="cash_expense_product_id" />    
+					</group>
+				</xpath>
+				
+			</field>
+   		</record>
+   		
+	    <record model="ir.ui.view" id="account_cash_expense_partner_form">
+			<field name="name">account.cash.expense.partner.form</field>
+			<field name="model">res.partner</field>
+			<field name="inherit_id" ref="base.view_partner_form"/>
+			<field name="arch" type="xml">
+			    
+			    <xpath expr="//field[@name='date']" position="after">
+		        	<field name="cash_expense_exclude" />    
+				</xpath>
+				
+			</field>
+   		</record>
+
+    </data>
+</openerp>

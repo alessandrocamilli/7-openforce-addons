@@ -1,0 +1,10 @@
+@charset "utf-8";
+.openerp .oe_title {
+ max-width: 700px;
+ width: 100%;
+ /*overflow: hidden;
+ display: inline-block;
+ max-height: 100%;
+ text-overflow: ellipsis;
+ white-space: nowrap;*/
+}

@@ -1,0 +1,249 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* openforce_account_vat_prorata
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-16 13:52+0000\n"
+"PO-Revision-Date: 2014-04-16 13:52+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: model:ir.model,name:openforce_account_vat_prorata.model_statement_generic_account_line
+#. module: openforce_account_vat_prorata
+msgid "statement.generic.account.line"
+msgstr "statement.generic.account.line"
+
+#: field:account.vat.prorata.statement,prorata_presumed:0
+#. module: openforce_account_vat_prorata
+msgid "Pro-Rata presumed"
+msgstr "Pro-Rata presunto"
+
+#: model:ir.model,name:openforce_account_vat_prorata.model_account_vat_period_end_statement
+#. module: openforce_account_vat_prorata
+msgid "account.vat.period.end.statement"
+msgstr "account.vat.period.end.statement"
+
+#: field:statement.generic.account.line,period_ref:0
+#. module: openforce_account_vat_prorata
+msgid "Period Ref"
+msgstr "Rif. Periodo"
+
+#: field:account.vat.prorata.base.deductible.line,period_id:0
+#: field:account.vat.prorata.base.non.deductible.line,period_id:0
+#. module: openforce_account_vat_prorata
+msgid "Period"
+msgstr "Periodo"
+
+#: view:account.vat.prorata.statement:0
+#. module: openforce_account_vat_prorata
+msgid "Start"
+msgstr "Start"
+
+#: selection:account.vat.prorata.statement,state:0
+#. module: openforce_account_vat_prorata
+msgid "Draft"
+msgstr "Bozza"
+
+#: selection:account.vat.prorata.statement,state:0
+#. module: openforce_account_vat_prorata
+msgid "Closed"
+msgstr "Chiuso"
+
+#: field:statement.generic.account.line,prorata_statement_id:0
+#. module: openforce_account_vat_prorata
+msgid "Pro-Rata VAT statement"
+msgstr "IVA Pro-Rata"
+
+#: field:account.vat.prorata.statement,prorata_effective:0
+#. module: openforce_account_vat_prorata
+msgid "Pro-Rata effective"
+msgstr "Pro-Rata Effettivo"
+
+#: model:ir.model,name:openforce_account_vat_prorata.model_account_vat_prorata_statement
+#. module: openforce_account_vat_prorata
+msgid "Account Vat Pro-Rata"
+msgstr "Conto IVA Pro-Rata"
+
+#: field:account.vat.prorata.statement,state:0
+#. module: openforce_account_vat_prorata
+msgid "Status"
+msgstr "Stato"
+
+#: field:account.vat.prorata.statement,total_non_deductible:0
+#. module: openforce_account_vat_prorata
+msgid "Tot Base Non Deductible"
+msgstr "Tot Imponibile Esente"
+
+#: field:account.vat.prorata.base.deductible.line,base_amount:0
+#: field:account.vat.prorata.base.non.deductible.line,base_amount:0
+#. module: openforce_account_vat_prorata
+msgid "Base amount"
+msgstr "Totale Imponibile"
+
+#: constraint:account.vat.prorata.statement:0
+#. module: openforce_account_vat_prorata
+msgid "Error! Fiscal Year already exists."
+msgstr "Errore! Anno fiscale già presente"
+
+#: view:account.vat.prorata.statement:0
+#. module: openforce_account_vat_prorata
+msgid "End Vat Period Lines"
+msgstr "Linee Liquidazione IVA"
+
+#: field:account.vat.prorata.statement,end_vat_period_line_ids:0
+#. module: openforce_account_vat_prorata
+msgid "Lines of End Vat Period"
+msgstr "Linee Liquidazione IVA"
+
+#: help:account.vat.prorata.statement,prorata_effective:0
+#. module: openforce_account_vat_prorata
+msgid "Computed at the end of this fiscal year"
+msgstr "Calcolato al termine di questo anno fiscale"
+
+#: model:ir.model,name:openforce_account_vat_prorata.model_account_vat_prorata_base_non_deductible_line
+#. module: openforce_account_vat_prorata
+msgid "account.vat.prorata.base.non.deductible.line"
+msgstr "account.vat.prorata.base.non.deductible.line"
+
+#: view:account.vat.prorata.statement:0
+#. module: openforce_account_vat_prorata
+msgid "Close"
+msgstr "Chiudi"
+
+#: selection:account.vat.prorata.statement,state:0
+#. module: openforce_account_vat_prorata
+msgid "Running"
+msgstr "In Corso"
+
+#: field:account.vat.prorata.statement,end_vat_period_account_id:0
+#. module: openforce_account_vat_prorata
+msgid "End Vat Period Account"
+msgstr "Conto per Liquidazione IVA"
+
+#: field:account.vat.prorata.statement,registration_balance:0
+#. module: openforce_account_vat_prorata
+msgid "VAT Balance Statement move"
+msgstr "Movimento di conguaglio"
+
+#: field:account.vat.prorata.base.deductible.line,tax_code_id:0
+#: field:account.vat.prorata.base.non.deductible.line,tax_code_id:0
+#. module: openforce_account_vat_prorata
+msgid "Tax Code"
+msgstr "Codice IVA"
+
+#: view:account.vat.prorata.statement:0
+#. module: openforce_account_vat_prorata
+msgid "Account"
+msgstr "Conto"
+
+#: view:account.vat.prorata.statement:0
+#. module: openforce_account_vat_prorata
+msgid "Compute"
+msgstr "Calcoli"
+
+#: field:account.tax,prorata_base_exclude_from_compute:0
+#. module: openforce_account_vat_prorata
+msgid "Exclude from compute"
+msgstr "Escludi dal calcolo"
+
+#: view:account.vat.prorata.statement:0
+#: field:account.vat.prorata.statement,base_deductible_line_ids:0
+#. module: openforce_account_vat_prorata
+msgid "Base Deductible"
+msgstr "Imponibile"
+
+#: view:account.tax:0
+#. module: openforce_account_vat_prorata
+msgid "Pro Rata"
+msgstr "Pro Rata"
+
+#: help:account.tax,prorata_base_exclude_from_compute:0
+#. module: openforce_account_vat_prorata
+msgid "Base will not consider in the prorata compute"
+msgstr "L'imponibile non verrà considerato nel calcolo del pro-rata"
+
+#: field:account.vat.prorata.statement,fiscalyear_id:0
+#. module: openforce_account_vat_prorata
+msgid "Fiscal Year"
+msgstr "Anno Fiscale"
+
+#: view:account.vat.prorata.statement:0
+#. module: openforce_account_vat_prorata
+msgid "Set to draft"
+msgstr "Imposta a Bozza"
+
+#: help:account.tax,prorata_base_non_deductible:0
+#. module: openforce_account_vat_prorata
+msgid "Base will consider inn the denominator in the prorata compute"
+msgstr "L'imponibile farà parte del denominatore nel calcolo del Pro-Rata"
+
+#: view:account.vat.prorata.statement:0
+#. module: openforce_account_vat_prorata
+msgid "Recompute Pro-Rata"
+msgstr "Recompute Pro-Rata"
+
+#: help:account.vat.prorata.statement,state:0
+#. module: openforce_account_vat_prorata
+msgid " * The 'Draft' status is used when any End Vat statement is done.                 \n"
+"* The 'Open' status is used in the actualy year                 \n"
+"* The 'Done' status is used when the account year is closed"
+msgstr " * 'Bozza' Le impostazioni non verranno prese in considerazione dalla liquidazione.                 \n"
+"* 'Open' Le impostaizoni saranno considerate nel calcolo della liquidazione                 \n"
+"* 'Close' Indica che l'anno si è chiuso e il conguaglio è stato fatto"
+
+#: model:ir.model,name:openforce_account_vat_prorata.model_account_tax
+#. module: openforce_account_vat_prorata
+msgid "Tax"
+msgstr "Imposta"
+
+#: help:account.vat.prorata.statement,prorata_presumed:0
+#. module: openforce_account_vat_prorata
+msgid "Computed from previous fiscal year"
+msgstr "Calcolato dall'anno fiscale precedente"
+
+#: model:ir.model,name:openforce_account_vat_prorata.model_account_vat_prorata_base_deductible_line
+#. module: openforce_account_vat_prorata
+msgid "account.vat.prorata.base.deductible.line"
+msgstr "account.vat.prorata.base.deductible.line"
+
+#: view:account.vat.prorata.statement:0
+#. module: openforce_account_vat_prorata
+msgid "VAT Pro-Rata Statement"
+msgstr "IVA Pro-Rata "
+
+#: field:account.tax,prorata_base_non_deductible:0
+#: view:account.vat.prorata.statement:0
+#: field:account.vat.prorata.statement,base_non_deductible_line_ids:0
+#. module: openforce_account_vat_prorata
+msgid "Base Non Deductible"
+msgstr "Imponibile Esente"
+
+#: model:ir.actions.act_window,name:openforce_account_vat_prorata.account_vat_prorata_statement_action
+#: model:ir.ui.menu,name:openforce_account_vat_prorata.account_vat_prorata_statement_menu
+#. module: openforce_account_vat_prorata
+msgid "Account VAT Pro-Rata"
+msgstr "IVA Pro-Rata"
+
+#: view:account.vat.prorata.statement:0
+#. module: openforce_account_vat_prorata
+msgid "Total"
+msgstr "Totale"
+
+#: field:account.vat.prorata.base.deductible.line,statement_id:0
+#: field:account.vat.prorata.base.non.deductible.line,statement_id:0
+#. module: openforce_account_vat_prorata
+msgid "Prorata VAT statement"
+msgstr "Pro-Rata IVA"
+
+#: field:account.vat.prorata.statement,total_deductible:0
+#. module: openforce_account_vat_prorata
+msgid "Tot Base Deductible"
+msgstr "Tot Imponibile"
+

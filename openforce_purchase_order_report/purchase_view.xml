@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<openerp>
+	<data>
+		
+		<!-- Button for send e-mail always visible -->
+		
+		<record model="ir.ui.view" id="openforce_purchase_order_report_form">
+			<field name="name">openforce.purchase.order.report</field>
+			<field name="model">purchase.order</field>
+			<field name="inherit_id" ref="purchase.purchase_order_form"/>
+			<field name="priority" eval="20"></field>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+			    # Send by mail for purchase order
+			    <xpath expr="//button[@name='wkf_send_rfq']" position="attributes">
+			        <attribute name="states"></attribute>
+				</xpath>
+			    
+			</field>
+		</record>
+		
+		
+	</data>
+</openerp>
+

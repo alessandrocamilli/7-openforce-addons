@@ -1,0 +1,1225 @@
+id,code,name
+1,011110,Coltivazione di cereali (escluso il riso)
+2,011120,Coltivazione di semi oleosi
+3,011130,Coltivazione di legumi da granella
+4,011140,"Coltivazioni miste di cereali, legumi da granella e semi oleosi"
+5,011200,Coltivazione di riso
+6,011310,"Coltivazione di ortaggi (inclusi i meloni) in foglia, a fusto, a frutto, in radici, bulbi e tuberi in piena aria (escluse barbabietola da zucchero e patate)"
+7,011320,"Coltivazione di ortaggi (inclusi i meloni) in foglia, a fusto, a frutto, in radici, bulbi e tuberi in colture protette (escluse barbabietola da zucchero e patate)"
+8,011330,Coltivazione di barbabietola da zucchero
+9,011340,Coltivazione di patate
+10,011400,Coltivazione di canna da zucchero
+11,011500,Coltivazione di tabacco
+12,011600,Coltivazione di piante per la preparazione di fibre tessili
+13,011910,Coltivazione di fiori in piena aria
+14,011920,Coltivazione di fiori in colture protette
+15,011990,Coltivazione di piante da foraggio e di altre colture non permanenti
+16,012100,Coltivazione di uva
+17,012200,Coltivazione di frutta di origine tropicale e subtropicale
+18,012300,Coltivazione di agrumi
+19,012400,Coltivazione di pomacee e frutta a nocciolo
+20,012500,"Coltivazione di altri alberi da frutta, frutti di bosco e frutta in guscio"
+21,012600,Coltivazione di frutti oleosi
+22,012700,Coltivazione di piante per la produzione di bevande
+23,012800,"Coltivazione di spezie, piante aromatiche e farmaceutiche"
+24,012900,Coltivazione di altre colture permanenti (inclusi alberi di Natale)
+25,013000,Riproduzione delle piante
+26,014100,"Allevamento di bovini e bufale da latte, produzione di latte crudo"
+27,014200,Allevamento di bovini e bufalini da carne
+28,014300,Allevamento di cavalli e altri equini
+29,014400,Allevamento di cammelli e camelidi
+30,014500,Allevamento di ovini e caprini
+31,014600,Allevamento di suini
+32,014700,Allevamento di pollame
+33,014910,Allevamento di conigli
+34,014920,Allevamento di animali da pelliccia
+35,014930,Apicoltura
+36,014940,Bachicoltura
+37,014990,Allevamento di altri animali nca
+38,015000,Coltivazioni agricole associate all'allevamento di animali: attività mista
+39,016100,Attività di supporto alla produzione vegetale
+40,016201,Attività dei maniscalchi
+41,016209,Altre attività di supporto alla produzione animale (esclusi i servizi veterinari)
+42,016300,Attività che seguono la raccolta
+43,016401,Pulitura e cernita di semi e granaglie
+44,016409,Altre lavorazioni delle sementi per la semina
+45,017000,"Caccia, cattura di animali e servizi connessi"
+46,021000,Silvicoltura e altre attività forestali
+47,022000,Utilizzo di aree forestali
+48,023000,Raccolta di prodotti selvatici non legnosi
+49,024000,Servizi di supporto per la silvicoltura
+50,031100,Pesca in acque marine e lagunari e servizi connessi
+51,031200,Pesca in acque dolci e servizi connessi
+52,032100,"Acquacoltura in acqua di mare, salmastra o lagunare e servizi connessi"
+53,032200,Acquacoltura in acque dolci e servizi connessi
+54,051000,Estrazione di antracite e litantrace
+55,052000,Estrazione di lignite
+56,061000,Estrazione di petrolio greggio
+57,062000,Estrazione di gas naturale
+58,071000,Estrazione di minerali metalliferi ferrosi
+59,072100,Estrazione di minerali di uranio e di torio
+60,072900,Estrazione di altri minerali metalliferi non ferrosi
+61,081100,"Estrazione di pietre ornamentali e da costruzione, calcare, pietra da gesso, creta e ardesia"
+62,081200,"Estrazione di ghiaia, sabbia; estrazione di argille e caolino"
+63,089100,Estrazione di minerali per l'industria chimica e per la produzione di fertilizzanti
+64,089200,Estrazione di torba
+65,089300,Estrazione di sale
+66,089901,Estrazione di asfalto e bitume naturale
+67,089909,Estrazione di pomice e di altri minerali nca
+68,091000,Attività di supporto all'estrazione di petrolio e di gas naturale
+69,099001,"Attività di supporto all'estrazione di pietre ornamentali, da costruzione, da gesso, di anidrite, per calce e cementi, di dolomite, di ardesia, di ghiaia e sabbia, di argilla, di caolino, di pomice"
+70,099009,Attività di supporto all'estrazione di altri minerali nca
+71,101100,Produzione di carne non di volatili e di prodotti della macellazione (attività dei mattatoi)
+72,101200,Produzione di carne di volatili e prodotti della loro macellazione (attività dei mattatoi)
+73,101300,Produzione di prodotti a base di carne (inclusa la carne di volatili)
+74,102000,"Lavorazione e conservazione di pesce, crostacei e molluschi mediante surgelamento, salatura eccetera"
+75,103100,Lavorazione e conservazione delle patate
+76,103200,Produzione di succhi di frutta e di ortaggi
+77,103900,Lavorazione e conservazione di frutta e di ortaggi (esclusi i succhi di frutta e di ortaggi)
+78,104110,Produzione di olio di oliva da olive prevalentemente non di produzione propria
+79,104120,Produzione di olio raffinato o grezzo da semi oleosi o frutti oleosi prevalentemente non di produzione propria
+80,104130,Produzione di oli e grassi animali grezzi o raffinati
+81,104200,Produzione di margarina e di grassi commestibili simili
+82,105110,Trattamento igienico del latte
+83,105120,Produzione dei derivati del latte
+84,105200,Produzione di gelati senza vendita diretta al pubblico
+85,106110,Molitura del frumento
+86,106120,Molitura di altri cereali
+87,106130,Lavorazione del riso
+88,106140,Altre lavorazioni di semi e granaglie
+89,106200,Produzione di amidi e di prodotti amidacei (inclusa produzione di olio di mais)
+90,107110,Produzione di prodotti di panetteria freschi
+91,107120,Produzione di pasticceria fresca
+92,107200,"Produzione di fette biscottate, biscotti; prodotti di pasticceria conservati"
+93,107300,"Produzione di paste alimentari, di cuscus e di prodotti farinacei simili"
+94,108100,Produzione di zucchero
+95,108200,"Produzione di cacao in polvere, cioccolato, caramelle e confetterie"
+96,108301,Lavorazione del caffè
+97,108302,Lavorazione del tè e di altri preparati per infusi
+98,108400,Produzione di condimenti e spezie
+99,108501,Produzione di piatti pronti a base di carne e pollame
+100,108502,"Produzione di piatti pronti a base di pesce, inclusi fish and chips"
+101,108503,Produzione di piatti pronti a base di ortaggi
+102,108504,Produzione di pizza confezionata
+103,108505,Produzione di piatti pronti a base di pasta
+104,108509,Produzione di pasti e piatti pronti di altri prodotti alimentari
+105,108600,Produzione di preparati omogeneizzati e di alimenti dietetici
+106,108901,Produzione di estratti e succhi di carne
+107,108909,Produzione di altri prodotti alimentari nca
+108,109100,Produzione di mangimi per l'alimentazione degli animali da allevamento
+109,109200,Produzione di prodotti per l'alimentazione degli animali da compagnia
+110,110100,"Distillazione, rettifica e miscelatura degli alcolici"
+111,110210,Produzione di vini da tavola e v.q.p.r.d.
+112,110220,Produzione di vino spumante e altri vini speciali
+113,110300,Produzione di sidro e di altri vini a base di frutta
+114,110400,Produzione di altre bevande fermentate non distillate
+115,110500,Produzione di birra
+116,110600,Produzione di malto
+117,110700,"Industria delle bibite analcoliche, delle acque minerali e di altre acque in bottiglia"
+118,120000,Industria del tabacco
+119,131000,Preparazione e filatura di fibre tessili
+120,132000,Tessitura
+121,133000,"Finissaggio dei tessili, degli articoli di vestiario e attività similari"
+122,139100,Fabbricazione di tessuti a maglia
+123,139210,"Confezionamento di biancheria da letto, da tavola e per l'arredamento"
+124,139220,Fabbricazione di articoli in materie tessili nca
+125,139300,Fabbricazione di tappeti e moquette
+126,139400,"Fabbricazione di spago, corde, funi e reti"
+127,139500,Fabbricazione di tessuti non tessuti e di articoli in tali materie (esclusi gli articoli di abbigliamento)
+128,139610,"Fabbricazione di nastri, etichette e passamanerie di fibre tessili"
+129,139620,Fabbricazione di altri articoli tessili tecnici ed industriali
+130,139910,Fabbricazione di ricami
+131,139920,"Fabbricazione di tulle, pizzi e merletti"
+132,139990,Fabbricazione di feltro e articoli tessili diversi
+133,141100,Confezione di abbigliamento in pelle e similpelle
+134,141200,"Confezione di camici, divise ed altri indumenti da lavoro"
+135,141310,Confezione in serie di abbigliamento esterno
+136,141320,Sartoria e confezione su misura di abbigliamento esterno
+137,141400,"Confezione di camicie, T-shirt, corsetteria e altra biancheria intima"
+138,141910,Confezioni varie e accessori per l'abbigliamento
+139,141921,Fabbricazione di calzature realizzate in materiale tessile senza suole applicate
+140,141929,Confezioni di abbigliamento sportivo o di altri indumenti particolari
+141,142000,Confezione di articoli in pelliccia
+142,143100,Fabbricazione di articoli di calzetteria in maglia
+143,143900,"Fabbricazione di pullover, cardigan ed altri articoli simili a maglia"
+144,151100,Preparazione e concia del cuoio e pelle
+145,151201,Fabbricazione di frustini e scudisci per equitazione
+146,151209,"Fabbricazione di altri articoli da viaggio, borse e simili, pelletteria e selleria"
+147,152010,Fabbricazione di calzature
+148,152020,Fabbricazione di parti in cuoio per calzature
+149,161000,Taglio e piallatura del legno
+150,162100,Fabbricazione di fogli da impiallacciatura e di pannelli a base di legno
+151,162200,Fabbricazione di pavimenti in parquet assemblato
+152,162310,Fabbricazione di porte e finestre in legno (escluse porte blindate)
+153,162320,Fabbricazione di altri elementi in legno e di falegnameria per l'edilizia
+154,162400,Fabbricazione di imballaggi in legno
+155,162911,Fabbricazione di parti in legno per calzature
+156,162912,"Fabbricazione di manici di ombrelli, bastoni e simili"
+157,162919,Fabbricazione di altri prodotti vari in legno (esclusi i mobili)
+158,162920,Fabbricazione dei prodotti della lavorazione del sughero
+159,162930,Fabbricazione di articoli in paglia e materiali da intreccio
+160,162940,Laboratori di corniciai
+161,171100,Fabbricazione di pasta-carta
+162,171200,Fabbricazione di carta e cartone
+163,172100,Fabbricazione di carta e cartone ondulato e di imballaggi di carta e cartone (esclusi quelli in carta pressata)
+164,172200,Fabbricazione di prodotti igienico-sanitari e per uso domestico in carta e ovatta di cellulosa
+165,172301,Fabbricazione di prodotti cartotecnici scolastici e commerciali quando l'attività di stampa non è la principale caratteristica
+166,172309,Fabbricazione di altri prodotti cartotecnici
+167,172400,Fabbricazione di carta da parati
+168,172900,Fabbricazione di altri articoli di carta e cartone
+169,181100,Stampa di giornali
+170,181200,Altra stampa
+171,181300,Lavorazioni preliminari alla stampa e ai media
+172,181400,Legatoria e servizi connessi
+173,182000,Riproduzione di supporti registrati
+174,191001,Fabbricazione di pece e coke di pece
+175,191009,Fabbricazione di altri prodotti di cokeria
+176,192010,Raffinerie di petrolio
+177,192020,Preparazione o miscelazione di derivati del petrolio (esclusa la petrolchimica)
+178,192030,Miscelazione di gas petroliferi liquefatti (GPL) e loro imbottigliamento
+179,192040,"Fabbricazione di emulsioni di bitume, di catrame e di leganti per uso stradale"
+180,192090,Fabbricazione di altri prodotti petroliferi raffinati
+181,201100,Fabbricazione di gas industriali
+182,201200,Fabbricazione di coloranti e pigmenti
+183,201301,Fabbricazione di uranio e torio arricchito
+184,201309,Fabbricazione di altri prodotti chimici di base inorganici
+185,201401,Fabbricazione di alcol etilico da materiali fermentati
+186,201409,Fabbricazione di altri prodotti chimici di base organici nca
+187,201500,Fabbricazione di fertilizzanti e composti azotati (esclusa la fabbricazione di compost)
+188,201600,Fabbricazione di materie plastiche in forme primarie
+189,201700,Fabbricazione di gomma sintetica in forme primarie
+190,202000,Fabbricazione di agrofarmaci e di altri prodotti chimici per l'agricoltura (esclusi i concimi)
+191,203000,"Fabbricazione di pitture, vernici e smalti, inchiostri da stampa e adesivi sintetici (mastici)"
+192,204110,"Fabbricazione di saponi, detergenti e di agenti organici tensioattivi (esclusi i prodotti per toletta)"
+193,204120,Fabbricazione di specialità chimiche per uso domestico e per manutenzione
+194,204200,"Fabbricazione di prodotti per toletta: profumi, cosmetici, saponi e simili"
+195,205101,Fabbricazione di fiammiferi
+196,205102,Fabbricazione di articoli esplosivi
+197,205200,Fabbricazione di colle
+198,205300,Fabbricazione di oli essenziali
+199,205910,Fabbricazione di prodotti chimici per uso fotografico
+200,205920,Fabbricazione di prodotti chimici organici ottenuti da prodotti di base derivati da processi di fermentazione o da materie prime vegetali
+201,205930,Trattamento chimico degli acidi grassi
+202,205940,Fabbricazione di prodotti chimici vari per uso industriale (inclusi i preparati antidetonanti e antigelo)
+203,205950,Fabbricazione di prodotti chimici impiegati per ufficio e per il consumo non industriale
+204,205960,Fabbricazione di prodotti ausiliari per le industrie tessili e del cuoio
+205,205970,"Fabbricazione di prodotti elettrochimici (esclusa produzione di cloro, soda e potassa) ed elettrotermici"
+206,205990,Fabbricazione di altri prodotti chimici nca
+207,206000,Fabbricazione di fibre sintetiche e artificiali
+208,211000,Fabbricazione di prodotti farmaceutici di base
+209,212001,Fabbricazione di sostanze diagnostiche radioattive in vivo
+210,212009,Fabbricazione di medicinali ed altri preparati farmaceutici
+211,221110,Fabbricazione di pneumatici e di camere d'aria
+212,221120,Rigenerazione e ricostruzione di pneumatici
+213,221901,Fabbricazione di suole di gomma e altre parti in gomma per calzature
+214,221909,Fabbricazione di altri prodotti in gomma nca
+215,222100,"Fabbricazione di lastre, fogli, tubi e profilati in materie plastiche"
+216,222200,Fabbricazione di imballaggi in materie plastiche
+217,222301,"Fabbricazione di rivestimenti elastici per pavimenti (vinile, linoleum eccetera)"
+218,222302,"Fabbricazione di porte, finestre, intelaiature eccetera in plastica per l'edilizia"
+219,222309,Fabbricazione di altri articoli in plastica per l'edilizia
+220,222901,Fabbricazione di parti in plastica per calzature
+221,222902,Fabbricazione di oggetti per l'ufficio e la scuola in plastica
+222,222909,Fabbricazione di altri articoli in materie plastiche nca
+223,231100,Fabbricazione di vetro piano
+224,231200,Lavorazione e trasformazione del vetro piano
+225,231300,Fabbricazione di vetro cavo
+226,231400,Fabbricazione di fibre di vetro
+227,231910,"Fabbricazione di vetrerie per laboratori, per uso igienico, per farmacia"
+228,231920,Lavorazione di vetro a mano e a soffio artistico
+229,231990,Fabbricazione di altri prodotti in vetro (inclusa la vetreria tecnica)
+230,232000,Fabbricazione di prodotti refrattari
+231,233100,Fabbricazione di piastrelle in ceramica per pavimenti e rivestimenti
+232,233200,"Fabbricazione di mattoni, tegole ed altri prodotti per l'edilizia in terracotta"
+233,234100,Fabbricazione di prodotti in ceramica per usi domestici e ornamentali
+234,234200,Fabbricazione di articoli sanitari in ceramica
+235,234300,Fabbricazione di isolatori e di pezzi isolanti in ceramica
+236,234400,Fabbricazione di altri prodotti in ceramica per uso tecnico e industriale
+237,234900,Fabbricazione di altri prodotti in ceramica
+238,235100,Produzione di cemento
+239,235210,Produzione di calce
+240,235220,Produzione di gesso
+241,236100,Fabbricazione di prodotti in calcestruzzo per l'edilizia
+242,236200,Fabbricazione di prodotti in gesso per l'edilizia
+243,236300,Produzione di calcestruzzo pronto per l'uso
+244,236400,Produzione di malta
+245,236500,Fabbricazione di prodotti in fibrocemento
+246,236900,"Fabbricazione di altri prodotti in calcestruzzo, gesso e cemento"
+247,237010,Segagione e lavorazione delle pietre e del marmo
+248,237020,"Lavorazione artistica del marmo e di altre pietre affini, lavori in mosaico"
+249,237030,Frantumazione di pietre e minerali vari non in connessione con l'estrazione
+250,239100,Produzione di prodotti abrasivi
+251,239900,Fabbricazione di altri prodotti in minerali non metalliferi nca
+252,241000,"Siderurgia - Fabbricazione di ferro, acciaio e ferroleghe"
+253,242010,Fabbricazione di tubi e condotti senza saldatura
+254,242020,Fabbricazione di tubi e condotti saldati e simili
+255,243100,Stiratura a freddo di barre
+256,243200,Laminazione a freddo di nastri
+257,243301,Fabbricazione di pannelli stratificati in acciaio
+258,243302,Profilatura mediante formatura o piegatura a freddo
+259,243400,Trafilatura a freddo
+260,244100,Produzione di metalli preziosi e semilavorati
+261,244200,Produzione di alluminio e semilavorati
+262,244300,"Produzione di piombo, zinco e stagno e semilavorati"
+263,244400,Produzione di rame e semilavorati
+264,244500,Produzione di altri metalli non ferrosi e semilavorati
+265,244600,Trattamento dei combustibili nucleari (escluso l'arricchimento di uranio e torio)
+266,245100,Fusione di ghisa e produzione di tubi e raccordi in ghisa
+267,245200,Fusione di acciaio
+268,245300,Fusione di metalli leggeri
+269,245400,Fusione di altri metalli non ferrosi
+270,251100,Fabbricazione di strutture metalliche e parti assemblate di strutture
+271,251210,"Fabbricazione di porte, finestre e loro telai, imposte e cancelli metallici"
+272,251220,"Fabbricazione di strutture metalliche per tende da sole, tende alla veneziana e simili"
+273,252100,Fabbricazione di radiatori e contenitori in metallo per caldaie per il riscaldamento centrale
+274,252900,"Fabbricazione di cisterne, serbatoi e contenitori in metallo per impieghi di stoccaggio o di produzione"
+275,253000,Fabbricazione di generatori di vapore (esclusi i contenitori in metallo per caldaie per il riscaldamento centrale ad acqua calda)
+276,254000,Fabbricazione di armi e munizioni
+277,255000,"Fucinatura, imbutitura, stampaggio e profilatura dei metalli; metallurgia delle polveri"
+278,256100,Trattamento e rivestimento dei metalli
+279,256200,Lavori di meccanica generale
+280,257100,"Fabbricazione di articoli di coltelleria, posateria ed armi bianche"
+281,257200,Fabbricazione di serrature e cerniere e ferramenta simili
+282,257311,Fabbricazione di utensileria ad azionamento manuale
+283,257312,Fabbricazione di parti intercambiabili per macchine utensili
+284,257320,"Fabbricazione di stampi, portastampi, sagome, forme per macchine"
+285,259100,Fabbricazione di bidoni in acciaio e contenitori analoghi per il trasporto e l'imballaggio
+286,259200,Fabbricazione di imballaggi leggeri in metallo
+287,259310,Fabbricazione di prodotti fabbricati con fili metallici
+288,259320,Fabbricazione di molle
+289,259330,Fabbricazione di catene fucinate senza saldatura e stampate
+290,259400,Fabbricazione di articoli di bulloneria
+291,259911,Fabbricazione di caraffe e bottiglie isolate in metallo
+292,259919,"Fabbricazione di stoviglie, pentolame, vasellame, attrezzi da cucina e altri accessori casalinghi non elettrici, articoli metallici per l'arredamento di stanze da bagno"
+293,259920,"Fabbricazione di casseforti, forzieri e porte metalliche blindate"
+294,259930,"Fabbricazione di oggetti in ferro, in rame ed altri metalli"
+295,259991,Fabbricazione di magneti metallici permanenti
+296,259999,Fabbricazione di altri articoli metallici e minuteria metallica nca
+297,261101,"Fabbricazione di diodi, transistor e relativi congegni elettronici"
+298,261109,Fabbricazione di altri componenti elettronici
+299,261200,Fabbricazione di schede elettroniche assemblate
+300,262000,Fabbricazione di computer e unità periferiche
+301,263010,Fabbricazione di apparecchi trasmittenti radiotelevisivi (incluse le telecamere)
+302,263021,Fabbricazione di sistemi antifurto e antincendio
+303,263029,Fabbricazione di altri apparecchi elettrici ed elettronici per telecomunicazioni
+304,264001,Fabbricazione di apparecchi per la riproduzione e registrazione del suono e delle immagini
+305,264002,Fabbricazione di console per videogiochi (esclusi i giochi elettronici)
+306,265110,"Fabbricazione di strumenti per navigazione, idrologia, geofisica e meteorologia"
+307,265121,"Fabbricazione di rilevatori di fiamma e combustione, di mine, di movimento, generatori d'impulso e metal detector"
+308,265129,"Fabbricazione di altri apparecchi di misura e regolazione, strumenti da disegno, di contatori di elettricità, gas, acqua ed altri liquidi, di bilance analitiche di precisione (incluse parti staccate ed accessori)"
+309,265200,Fabbricazione di orologi
+310,266001,Fabbricazione di apparecchiature di irradiazione per alimenti e latte
+311,266002,Fabbricazione di apparecchi elettromedicali (incluse parti staccate e accessori)
+312,266009,Fabbricazione di altri strumenti per irradiazione ed altre apparecchiature elettroterapeutiche
+313,267011,Fabbricazione di elementi ottici e strumenti ottici di precisione
+314,267012,Fabbricazione di attrezzature ottiche di misurazione e controllo
+315,267020,Fabbricazione di apparecchiature fotografiche e cinematografiche
+316,268000,Fabbricazione di supporti magnetici ed ottici
+317,271100,"Fabbricazione di motori, generatori e trasformatori elettrici"
+318,271200,Fabbricazione di apparecchiature per le reti di distribuzione e il controllo dell'elettricità
+319,272000,Fabbricazione di batterie di pile ed accumulatori elettrici
+320,273101,Fabbricazione di cavi a fibra ottica per la trasmissione di dati o di immagini
+321,273102,Fabbricazione di fibre ottiche
+322,273200,Fabbricazione di altri fili e cavi elettrici ed elettronici
+323,273301,Fabbricazione di apparecchiature in plastica non conduttiva
+324,273309,Fabbricazione di altre attrezzature per cablaggio
+325,274001,Fabbricazione di apparecchiature di illuminazione e segnalazione per mezzi di trasporto
+326,274009,Fabbricazione di altre apparecchiature per illuminazione
+327,275100,Fabbricazione di elettrodomestici
+328,275200,Fabbricazione di apparecchi per uso domestico non elettrici
+329,279001,Fabbricazione di apparecchiature elettriche per saldature e brasature
+330,279002,Fabbricazione di insegne elettriche e apparecchiature elettriche di segnalazione
+331,279003,"Fabbricazione di capacitori elettrici, resistenze, condensatori e simili, acceleratori"
+332,279009,Fabbricazione di altre apparecchiature elettriche nca
+333,281111,Fabbricazione di motori a combustione interna (esclusi i motori destinati ai mezzi di trasporto su strada e ad aeromobili)
+334,281112,"Fabbricazione di pistoni, fasce elastiche, carburatori e parti simili di motori a combustione interna"
+335,281120,Fabbricazione di turbine e turboalternatori (incluse parti e accessori)
+336,281200,Fabbricazione di apparecchiature fluidodinamiche
+337,281300,Fabbricazione di altre pompe e compressori
+338,281400,Fabbricazione di altri rubinetti e valvole
+339,281510,"Fabbricazione di organi di trasmissione (esclusi quelli idraulici e quelli per autoveicoli, aeromobili e motocicli)"
+340,281520,Fabbricazione di cuscinetti a sfere
+341,282110,"Fabbricazione di forni, fornaci e bruciatori"
+342,282121,Fabbricazione di caldaie per riscaldamento
+343,282129,Fabbricazione di altri sistemi per riscaldamento
+344,282201,"Fabbricazione di ascensori, montacarichi e scale mobili"
+345,282202,"Fabbricazione di gru, argani, verricelli a mano e a motore, carrelli trasbordatori, carrelli elevatori e piattaforme girevoli"
+346,282203,Fabbricazione di carriole
+347,282209,Fabbricazione di altre macchine e apparecchi di sollevamento e movimentazione
+348,282301,Fabbricazione di cartucce toner
+349,282309,Fabbricazione di macchine ed altre attrezzature per ufficio (esclusi computer e periferiche)
+350,282400,Fabbricazione di utensili portatili a motore
+351,282500,Fabbricazione di attrezzature di uso non domestico per la refrigerazione e la ventilazione
+352,282910,Fabbricazione di bilance e di macchine automatiche per la vendita e la distribuzione (incluse parti staccate e accessori)
+353,282920,"Fabbricazione di macchine e apparecchi per le industrie chimiche, petrolchimiche e petrolifere (incluse parti e accessori)"
+354,282930,"Fabbricazione di macchine automatiche per la dosatura, la confezione e per l'imballaggio (incluse parti e accessori)"
+355,282991,Fabbricazione di apparecchi per depurare e filtrare liquidi e gas per uso non domestico
+356,282992,Fabbricazione di macchine per la pulizia (incluse le lavastoviglie) per uso non domestico
+357,282993,"Fabbricazione di livelle, metri doppi a nastro e utensili simili, strumenti di precisione per meccanica (esclusi quelli ottici)"
+358,282999,Fabbricazione di altro materiale meccanico e di altre macchine di impiego generale nca
+359,283010,Fabbricazione di trattori agricoli
+360,283090,"Fabbricazione di altre macchine per l'agricoltura, la silvicoltura e la zootecnia"
+361,284100,Fabbricazione di macchine utensili per la formatura dei metalli (incluse parti e accessori ed escluse le parti intercambiabili)
+362,284901,Fabbricazione di macchine per la galvanostegia
+363,284909,Fabbricazione di altre macchine utensili (incluse parti e accessori) nca
+364,289100,Fabbricazione di macchine per la metallurgia (incluse parti e accessori)
+365,289201,"Fabbricazione di macchine per il trasporto a cassone ribaltabile per impiego specifico in miniere, cave e cantieri"
+366,289209,"Fabbricazione di altre macchine da miniera, cava e cantiere (incluse parti e accessori)"
+367,289300,"Fabbricazione di macchine per l'industria alimentare, delle bevande e del tabacco (incluse parti e accessori)"
+368,289410,"Fabbricazione di macchine tessili, di macchine e di impianti per il trattamento ausiliario dei tessili, di macchine per cucire e per maglieria (incluse parti e accessori)"
+369,289420,"Fabbricazione di macchine e apparecchi per l'industria delle pelli, del cuoio e delle calzature (incluse parti e accessori)"
+370,289430,Fabbricazione di apparecchiature e di macchine per lavanderie e stirerie (incluse parti e accessori)
+371,289500,Fabbricazione di macchine per l'industria della carta e del cartone (incluse parti e accessori)
+372,289600,Fabbricazione di macchine per l'industria delle materie plastiche e della gomma (incluse parti e accessori)
+373,289910,Fabbricazione di macchine per la stampa e la legatoria (incluse parti e accessori)
+374,289920,Fabbricazione di robot industriali per usi molteplici (incluse parti e accessori)
+375,289930,Fabbricazione di apparecchi per istituti di bellezza e centri di benessere
+376,289991,"Fabbricazione di apparecchiature per il lancio di aeromobili, catapulte per portaerei e apparecchiature simili"
+377,289992,"Fabbricazione di giostre, altalene ed altre attrezzature per parchi di divertimento"
+378,289993,Fabbricazione di apparecchiature per l'allineamento e il bilanciamento delle ruote
+379,289999,Fabbricazione di altre macchine ed attrezzature per impieghi speciali nca (incluse parti e accessori)
+380,291000,Fabbricazione di autoveicoli
+381,292000,"Fabbricazione di carrozzerie per autoveicoli, rimorchi e semirimorchi"
+382,293100,Fabbricazione di apparecchiature elettriche ed elettroniche per autoveicoli e loro motori
+383,293201,Fabbricazione di sedili per autoveicoli
+384,293209,Fabbricazione di altre parti ed accessori per autoveicoli e loro motori nca
+385,301101,Fabbricazione di sedili per navi
+386,301102,Cantieri navali per costruzioni metalliche e non metalliche (esclusi i sedili per navi)
+387,301200,Costruzione di imbarcazioni da diporto e sportive
+388,302001,"Fabbricazione di sedili per tram, filovie e metropolitane"
+389,302002,"Costruzione di altro materiale rotabile ferroviario, tranviario, filoviario, per metropolitane e per miniere"
+390,303001,Fabbricazione di sedili per aeromobili
+391,303002,Fabbricazione di missili balistici
+392,303009,"Fabbricazione di aeromobili, di veicoli spaziali e dei relativi dispositivi nca"
+393,304000,Fabbricazione di veicoli militari da combattimento
+394,309111,Fabbricazione di motori per motocicli
+395,309112,Fabbricazione di motocicli
+396,309120,Fabbricazione di accessori e pezzi staccati per motocicli e ciclomotori
+397,309210,Fabbricazione e montaggio di biciclette
+398,309220,Fabbricazione di parti ed accessori per biciclette
+399,309230,Fabbricazione di veicoli per invalidi (incluse parti e accessori)
+400,309240,Fabbricazione di carrozzine e passeggini per neonati
+401,309900,Fabbricazione di veicoli a trazione manuale o animale
+402,310110,Fabbricazione di sedie e poltrone per ufficio e negozi
+403,310121,Fabbricazione di altri mobili metallici per ufficio e negozi
+404,310122,Fabbricazione di altri mobili non metallici per ufficio e negozi
+405,310200,Fabbricazione di mobili per cucina
+406,310300,Fabbricazione di materassi
+407,310910,Fabbricazione di mobili per arredo domestico
+408,310920,"Fabbricazione di sedie e sedili (esclusi quelli per aeromobili, autoveicoli, navi, treni, ufficio e negozi)"
+409,310930,Fabbricazione di poltrone e divani
+410,310940,Fabbricazione di parti e accessori di mobili
+411,310950,Finitura di mobili
+412,310990,Fabbricazione di altri mobili (inclusi quelli per arredo esterno)
+413,321100,Coniazione di monete
+414,321210,Fabbricazione di oggetti di gioielleria ed oreficeria in metalli preziosi o rivestiti di metalli preziosi
+415,321220,Lavorazione di pietre preziose e semipreziose per gioielleria e per uso industriale
+416,321301,Fabbricazione di cinturini metallici per orologi (esclusi quelli in metalli preziosi)
+417,321309,Fabbricazione di bigiotteria e articoli simili nca
+418,322000,Fabbricazione di strumenti musicali (incluse parti e accessori)
+419,323000,Fabbricazione di articoli sportivi
+420,324010,Fabbricazione di giochi (inclusi i giochi elettronici)
+421,324020,Fabbricazione di giocattoli (inclusi i tricicli e gli strumenti musicali giocattolo)
+422,325011,Fabbricazione di materiale medico-chirurgico e veterinario
+423,325012,Fabbricazione di apparecchi e strumenti per odontoiatria e di apparecchi medicali (incluse parti staccate e accessori)
+424,325013,"Fabbricazione di mobili per uso medico, chirurgico, odontoiatrico e veterinario"
+425,325014,Fabbricazione di centrifughe per laboratori
+426,325020,Fabbricazione di protesi dentarie (inclusa riparazione)
+427,325030,"Fabbricazione di protesi ortopediche, altre protesi ed ausili (inclusa riparazione)"
+428,325040,Fabbricazione di lenti oftalmiche
+429,325050,Fabbricazione di armature per occhiali di qualsiasi tipo
+430,329100,Fabbricazione di scope e spazzole
+431,329911,Fabbricazione di articoli di vestiario ignifughi e protettivi di sicurezza
+432,329912,Fabbricazione di articoli in plastica per la sicurezza personale
+433,329913,Fabbricazione di articoli in metallo per la sicurezza personale
+434,329914,Fabbricazione di maschere antigas
+435,329919,Fabbricazione di altre attrezzature ed altri articoli protettivi di sicurezza
+436,329920,"Fabbricazione di ombrelli, bottoni, chiusure lampo, parrucche e affini"
+437,329930,Fabbricazione di oggetti di cancelleria
+438,329940,Fabbricazione di casse funebri
+439,329990,Fabbricazione di altri articoli nca
+440,331101,"Riparazione e manutenzione di stampi, portastampi, sagome, forme per macchine"
+441,331102,Riparazione e manutenzione di utensileria ad azionamento manuale
+442,331103,"Riparazione e manutenzione di armi, sistemi d'arma e munizioni"
+443,331104,"Riparazione e manutenzione di casseforti, forzieri, porte metalliche blindate"
+444,331105,Riparazione e manutenzione di armi bianche
+445,331106,Riparazione e manutenzione di container
+446,331107,Riparazione e manutenzione di carrelli per la spesa
+447,331109,Riparazione e manutenzione di altri prodotti in metallo
+448,331210,Riparazione e manutenzione di macchine di impiego generale
+449,331220,"Riparazione e manutenzione di forni, fornaci e bruciatori"
+450,331230,Riparazione e manutenzione di macchine e apparecchi di sollevamento e movimentazione (esclusi ascensori)
+451,331240,Riparazione e manutenzione di attrezzature di uso non domestico per la refrigerazione e la ventilazione
+452,331251,"Riparazione e manutenzione di macchine ed attrezzature per ufficio (esclusi computer, periferiche, fax)"
+453,331252,Riparazione e manutenzione di bilance e macchine automatiche per la vendita e la distribuzione
+454,331253,"Riparazione e manutenzione di macchine per le industrie chimiche, petrolchimiche e petrolifere"
+455,331254,"Riparazione e manutenzione di macchine per la dosatura, la confezione e l'imballaggio"
+456,331255,Riparazione e manutenzione di estintori (inclusa la ricarica)
+457,331259,Riparazione e manutenzione di altre macchine di impiego generale nca
+458,331260,Riparazione e manutenzione di trattori agricoli
+459,331270,"Riparazione e manutenzione di altre macchine per l'agricoltura, la silvicoltura e la zootecnia"
+460,331291,Riparazione e manutenzione di parti intercambiabili per macchine utensili
+461,331292,"Riparazione e manutenzione di giostre, altalene, padiglioni da tiro al bersaglio ed altre attrezzature per parchi di divertimento"
+462,331299,Riparazione e manutenzione di altre macchine per impieghi speciali nca (incluse le macchine utensili)
+463,331301,"Riparazione e manutenzione di apparecchiature ottiche, fotografiche e cinematografiche (escluse videocamere)"
+464,331303,"Riparazione e manutenzione di apparecchi elettromedicali, di materiale medico-chirurgico e veterinario, di apparecchi e strumenti per odontoiatria"
+465,331304,"Riparazione e manutenzione di apparati di distillazione per laboratori, di centrifughe per laboratori e di macchinari per pulizia ad ultrasuoni per laboratori"
+466,331309,Riparazione e manutenzione di altre apparecchiature elettroniche (escluse quelle per le telecomunicazioni ed i computer)
+467,331400,Riparazione e manutenzione di apparecchiature elettriche (esclusi gli elettrodomestici)
+468,331500,Riparazione e manutenzione di navi commerciali e imbarcazioni da diporto (esclusi i loro motori)
+469,331600,Riparazione e manutenzione di aeromobili e di veicoli spaziali
+470,331700,"Riparazione e manutenzione di materiale rotabile ferroviario, tranviario, filoviario e per metropolitane (esclusi i loro motori)"
+471,331901,Riparazioni di pallets e contenitori in legno per trasporto
+472,331902,Riparazione di prodotti in gomma
+473,331903,Riparazione di articoli in vetro
+474,331904,Riparazioni di altri prodotti in legno nca
+475,331909,Riparazione di altre apparecchiature nca
+476,332001,"Installazione di motori, generatori e trasformatori elettrici; di apparecchiature per la distribuzione e il controllo dell'elettricità (esclusa l'installazione all'interno degli edifici)"
+477,332002,"Installazione di apparecchi elettrici ed elettronici per telecomunicazioni, di apparecchi trasmittenti radiotelevisivi, di impianti di apparecchiature elettriche ed elettroniche (esclusa l'installazione all'interno degli edifici)"
+478,332003,"Installazione di strumenti ed apparecchi di misurazione, controllo, prova, navigazione e simili (incluse le apparecchiature di controllo dei processi industriali)"
+479,332004,"Installazione di cisterne, serbatoi e contenitori in metallo"
+480,332005,Installazione di generatori di vapore (escluse le caldaie per il riscaldamento centrale ad acqua calda)
+481,332006,"Installazione di macchine per ufficio, di mainframe e computer simili"
+482,332007,"Installazione di apparecchi medicali, di apparecchi e strumenti per odontoiatria"
+483,332008,Installazione di apparecchi elettromedicali
+484,332009,Installazione di altre macchine ed apparecchiature industriali
+485,351100,Produzione di energia elettrica
+486,351200,Trasmissione di energia elettrica
+487,351300,Distribuzione di energia elettrica
+488,351400,Commercio di energia elettrica
+489,352100,Produzione di gas
+490,352200,Distribuzione di combustibili gassosi mediante condotte
+491,352300,Commercio di gas distribuito mediante condotte
+492,353000,Fornitura di vapore e aria condizionata
+493,360000,"Raccolta, trattamento e fornitura di acqua"
+494,370000,Raccolta e depurazione delle acque di scarico
+495,381100,Raccolta di rifiuti solidi non pericolosi
+496,381200,Raccolta di rifiuti pericolosi solidi e non solidi
+497,382101,Produzione di compost
+498,382109,Trattamento e smaltimento di altri rifiuti non pericolosi
+499,382200,Trattamento e smaltimento di rifiuti pericolosi
+500,383110,Demolizione di carcasse
+501,383120,Cantieri di demolizione navali
+502,383210,Recupero e preparazione per il riciclaggio di cascami e rottami metallici
+503,383220,"Recupero e preparazione per il riciclaggio di materiale plastico per produzione di materie prime plastiche, resine sintetiche"
+504,383230,"Recupero e preparazione per il riciclaggio dei rifiuti solidi urbani, industriali e biomasse"
+505,390001,Attività di rimozione di strutture ed elementi in amianto specializzata per l'edilizia
+506,390009,Altre attività di risanamento e altri servizi di gestione dei rifiuti
+507,411000,Sviluppo di progetti immobiliari senza costruzione
+508,412000,Costruzione di edifici residenziali e non residenziali
+509,421100,"Costruzione di strade, autostrade e piste aeroportuali"
+510,421200,Costruzione di linee ferroviarie e metropolitane
+511,421300,Costruzione di ponti e gallerie
+512,422100,Costruzione di opere di pubblica utilità per il trasporto di fluidi
+513,422200,Costruzione di opere di pubblica utilità per l'energia elettrica e le telecomunicazioni
+514,429100,Costruzione di opere idrauliche
+515,429901,Lottizzazione dei terreni connessa con l'urbanizzazione
+516,429909,Altre attività di costruzione di altre opere di ingegneria civile nca
+517,431100,Demolizione
+518,431200,Preparazione del cantiere edile e sistemazione del terreno
+519,431300,Trivellazioni e perforazioni
+520,432101,Installazione di impianti elettrici in edifici o in altre opere di costruzione (inclusa manutenzione e riparazione)
+521,432102,Installazione di impianti elettronici (inclusa manutenzione e riparazione)
+522,432103,"Installazione impianti di illuminazione stradale e dispositivi elettrici di segnalazione, illuminazione delle piste degli aeroporti (inclusa manutenzione e riparazione)"
+523,432201,"Installazione di impianti idraulici, di riscaldamento e di condizionamento dell'aria (inclusa manutenzione e riparazione) in edifici o in altre opere di costruzione"
+524,432202,Installazione di impianti per la distribuzione del gas (inclusa manutenzione e riparazione)
+525,432203,Installazione di impianti di spegnimento antincendio (inclusi quelli integrati e la manutenzione e riparazione)
+526,432204,Installazione di impianti di depurazione per piscine (inclusa manutenzione e riparazione)
+527,432205,Installazione di impianti di irrigazione per giardini (inclusa manutenzione e riparazione)
+528,432901,"Installazione, riparazione e manutenzione di ascensori e scale mobili"
+529,432902,"Lavori di isolamento termico, acustico o antivibrazioni"
+530,432909,Altri lavori di costruzione e installazione nca
+531,433100,Intonacatura e stuccatura
+532,433201,"Posa in opera di casseforti, forzieri, porte blindate"
+533,433202,"Posa in opera di infissi, arredi, controsoffitti, pareti mobili e simili"
+534,433300,Rivestimento di pavimenti e di muri
+535,433400,Tinteggiatura e posa in opera di vetri
+536,433901,Attività non specializzate di lavori edili (muratori)
+537,433909,Altri lavori di completamento e di finitura degli edifici nca
+538,439100,Realizzazione di coperture
+539,439901,"Pulizia a vapore, sabbiatura e attività simili per pareti esterne di edifici"
+540,439902,Noleggio di gru ed altre attrezzature con operatore per la costruzione o la demolizione
+541,439909,Altre attività di lavori specializzati di costruzione nca
+542,451101,Commercio all'ingrosso e al dettaglio di autovetture e di autoveicoli leggeri
+543,451102,Intermediari del commercio di autovetture e di autoveicoli leggeri (incluse le agenzie di compravendita)
+544,451901,Commercio all'ingrosso e al dettaglio di altri autoveicoli
+545,451902,Intermediari del commercio di altri autoveicoli (incluse le agenzie di compravendita)
+546,452010,Riparazioni meccaniche di autoveicoli
+547,452020,Riparazione di carrozzerie di autoveicoli
+548,452030,Riparazione di impianti elettrici e di alimentazione per autoveicoli
+549,452040,Riparazione e sostituzione di pneumatici per autoveicoli
+550,452091,Lavaggio auto
+551,452099,Altre attività di manutenzione e di riparazione di autoveicoli
+552,453101,Commercio all'ingrosso di parti e accessori di autoveicoli
+553,453102,Intermediari del commercio di parti ed accessori di autoveicoli
+554,453200,Commercio al dettaglio di parti e accessori di autoveicoli
+555,454011,Commercio all'ingrosso e al dettaglio di motocicli e ciclomotori
+556,454012,Intermediari del commercio di motocicli e ciclomotori
+557,454021,Commercio all'ingrosso e al dettaglio di parti e accessori per motocicli e ciclomotori
+558,454022,Intermediari del commercio di parti ed accessori di motocicli e ciclomotori
+559,454030,Manutenzione e riparazione di motocicli e ciclomotori (inclusi i pneumatici)
+560,461101,Agenti e rappresentanti di materie prime agricole
+561,461102,Agenti e rappresentanti di fiori e piante
+562,461103,Agenti e rappresentanti di animali vivi
+563,461104,Agenti e rappresentanti di fibre tessili gregge e semilavorate
+564,461105,"Procacciatori d'affari di materie prime agricole, animali vivi, materie prime e semilavorati tessili; pelli grezze"
+565,461106,"Mediatori in materie prime agricole, materie prime e semilavorati tessili; pelli grezze"
+566,461107,Mediatori in animali vivi
+567,461201,"Agenti e rappresentanti di carburanti, gpl, gas in bombole e simili; lubrificanti"
+568,461202,Agenti e rappresentanti di combustibili solidi
+569,461203,"Agenti e rappresentanti di minerali, metalli e prodotti semilavorati"
+570,461204,Agenti e rappresentanti di prodotti chimici per l'industria
+571,461205,Agenti e rappresentanti di prodotti chimici per l'agricoltura (inclusi i fertilizzanti)
+572,461206,"Procacciatori d'affari di combustibili, minerali, metalli e prodotti chimici"
+573,461207,"Mediatori in combustibili, minerali, metalli e prodotti chimici"
+574,461301,"Agenti e rappresentanti di legname, semilavorati in legno e legno artificiale"
+575,461302,Agenti e rappresentanti di materiale da costruzione (inclusi gli infissi e gli articoli igienico-sanitari)
+576,461303,Agenti e rappresentanti di apparecchi ed accessori per riscaldamento e condizionamento e altri prodotti similari
+577,461304,Procacciatori d'affari di legname e materiali da costruzione
+578,461305,Mediatori in legname e materiali da costruzione
+579,461401,"Agenti e rappresentanti di macchine, attrezzature ed impianti per l'industria ed il commercio; materiale e apparecchi elettrici ed elettronici per uso non domestico"
+580,461402,Agenti e rappresentanti di macchine per costruzioni edili e stradali
+581,461403,"Agenti e rappresentanti di macchine, attrezzature per ufficio, attrezzature per le telecomunicazioni, computer e loro periferiche"
+582,461404,Agenti e rappresentanti di macchine ed attrezzature per uso agricolo (inclusi i trattori)
+583,461405,"Agenti e rappresentanti di navi, aeromobili e altri veicoli (esclusi autoveicoli, motocicli, ciclomotori e biciclette)"
+584,461406,"Procacciatori d'affari di macchinari, impianti industriali, navi e aeromobili, macchine agricole, macchine per ufficio, attrezzature per le telecomunicazioni, computer e loro periferiche"
+585,461407,"Mediatori in macchinari, impianti industriali, navi e aeromobili, macchine agricole, macchine per ufficio, attrezzature per le telecomunicazioni, computer e loro periferiche"
+586,461501,"Agenti e rappresentanti di mobili in legno, metallo e materie plastiche"
+587,461502,Agenti e rappresentanti di articoli di ferramenta e di bricolage
+588,461503,"Agenti e rappresentanti di articoli casalinghi, porcellane, articoli in vetro eccetera"
+589,461504,"Agenti e rappresentanti di vernici, carte da parati, stucchi e cornici decorativi"
+590,461505,"Agenti e rappresentanti di mobili e oggetti di arredamento per la casa in canna, vimini, giunco, sughero, paglia; scope, spazzole, cesti e simili"
+591,461506,"Procacciatori d'affari di mobili, articoli per la casa e ferramenta"
+592,461507,"Mediatori in mobili, articoli per la casa e ferramenta"
+593,461601,Agenti e rappresentanti di vestiario ed accessori di abbigliamento
+594,461602,Agenti e rappresentanti di pellicce
+595,461603,Agenti e rappresentanti di tessuti per abbigliamento ed arredamento (incluse merceria e passamaneria)
+596,461604,"Agenti e rappresentanti di camicie, biancheria e maglieria intima"
+597,461605,Agenti e rappresentanti di calzature ed accessori
+598,461606,"Agenti e rappresentanti di pelletteria, valige ed articoli da viaggio"
+599,461607,"Agenti e rappresentanti di articoli tessili per la casa, tappeti, stuoie e materassi"
+600,461608,"Procacciatori d'affari di prodotti tessili, abbigliamento, pellicce, calzature e articoli in pelle"
+601,461609,"Mediatori in prodotti tessili, abbigliamento, pellicce, calzature e articoli in pelle"
+602,461701,"Agenti e rappresentanti di prodotti ortofrutticoli freschi, congelati e surgelati"
+603,461702,"Agenti e rappresentanti di carni fresche, congelate, surgelate, conservate e secche; salumi"
+604,461703,"Agenti e rappresentanti di latte, burro e formaggi"
+605,461704,"Agenti e rappresentanti di oli e grassi alimentari: olio d'oliva e di semi, margarina ed altri prodotti similari"
+606,461705,Agenti e rappresentanti di bevande e prodotti similari
+607,461706,"Agenti e rappresentanti di prodotti ittici freschi, congelati, surgelati e conservati e secchi"
+608,461707,Agenti e rappresentanti di altri prodotti alimentari (incluse le uova e gli alimenti per gli animali domestici)
+609,461708,"Procacciatori d'affari di prodotti alimentari, bevande e tabacco"
+610,461709,"Mediatori in prodotti alimentari, bevande e tabacco"
+611,461811,Agenti e rappresentanti di carta e cartone (esclusi gli imballaggi)
+612,461812,Agenti e rappresentanti di libri e altre pubblicazioni (incluso i relativi abbonamenti)
+613,461813,"Procacciatori d'affari di prodotti di carta, cancelleria, libri"
+614,461814,"Mediatori in prodotti di carta, cancelleria, libri"
+615,461821,"Agenti e rappresentanti di elettronica di consumo audio e video, materiale elettrico per uso domestico"
+616,461822,Agenti e rappresentanti di apparecchi elettrodomestici
+617,461823,"Procacciatori d'affari di elettronica di consumo audio e video, materiale elettrico per uso domestico, elettrodomestici"
+618,461824,"Mediatori in elettronica di consumo audio e video, materiale elettrico per uso domestico, elettrodomestici"
+619,461831,Agenti e rappresentanti di prodotti farmaceutici
+620,461832,"Agenti e rappresentanti di prodotti sanitari ed apparecchi medicali, chirurgici e ortopedici; apparecchi per centri di estetica"
+621,461833,Agenti e rappresentanti di prodotti di profumeria e di cosmetica (inclusi articoli per parrucchieri)
+622,461834,Procacciatori d'affari di prodotti farmaceutici e di cosmetici
+623,461835,Mediatori in prodotti farmaceutici e cosmetici
+624,461891,Agenti e rappresentanti di attrezzature sportive
+625,461892,"Agenti e rappresentanti di orologi, oggetti e semilavorati per gioielleria e oreficeria"
+626,461893,"Agenti e rappresentanti di articoli fotografici, ottici e prodotti simili; strumenti scientifici e per laboratori di analisi"
+627,461894,"Agenti e rappresentanti di saponi, detersivi, candele e prodotti simili"
+628,461895,Agenti e rappresentanti di giocattoli
+629,461896,Agenti e rappresentanti di chincaglieria e bigiotteria
+630,461897,"Agenti e rappresentanti di altri prodotti non alimentari nca (inclusi gli imballaggi e gli articoli antinfortunistici, antincendio e pubblicitari)"
+631,461898,"Procacciatori d'affari di attrezzature sportive, biciclette e altri prodotti nca"
+632,461899,"Mediatori in attrezzature sportive, biciclette e altri prodotti nca"
+633,461901,Agenti e rappresentanti di vari prodotti senza prevalenza di alcuno
+634,461902,Procacciatori d'affari di vari prodotti senza prevalenza di alcuno
+635,461903,Mediatori in vari prodotti senza prevalenza di alcuno
+636,461904,Gruppi di acquisto
+637,462110,Commercio all'ingrosso di cereali e legumi secchi
+638,462121,Commercio all'ingrosso di tabacco grezzo
+639,462122,"Commercio all'ingrosso di sementi e alimenti per il bestiame (mangimi), piante officinali, semi oleosi, patate da semina"
+640,462200,Commercio all'ingrosso di fiori e piante
+641,462300,Commercio all'ingrosso di animali vivi
+642,462410,Commercio all'ingrosso di cuoio e pelli gregge e lavorate (escluse le pelli per pellicceria)
+643,462420,Commercio all'ingrosso di pelli gregge e lavorate per pellicceria
+644,463110,Commercio all'ingrosso di frutta e ortaggi freschi
+645,463120,Commercio all'ingrosso di frutta e ortaggi conservati
+646,463210,"Commercio all'ingrosso di carne fresca, congelata e surgelata"
+647,463220,Commercio all'ingrosso di prodotti di salumeria
+648,463310,Commercio all'ingrosso di prodotti lattiero-caseari e di uova
+649,463320,Commercio all'ingrosso di oli e grassi alimentari di origine vegetale o animale
+650,463410,Commercio all'ingrosso di bevande alcoliche
+651,463420,Commercio all'ingrosso di bevande non alcoliche
+652,463500,Commercio all'ingrosso di prodotti del tabacco
+653,463600,"Commercio all'ingrosso di zucchero, cioccolato, dolciumi e prodotti da forno"
+654,463701,Commercio all'ingrosso di caffè
+655,463702,"Commercio all'ingrosso di tè, cacao e spezie"
+656,463810,Commercio all'ingrosso di prodotti della pesca freschi
+657,463820,"Commercio all'ingrosso di prodotti della pesca congelati, surgelati, conservati, secchi"
+658,463830,Commercio all'ingrosso di pasti e piatti pronti
+659,463890,Commercio all'ingrosso di altri prodotti alimentari
+660,463910,Commercio all'ingrosso non specializzato di prodotti surgelati
+661,463920,"Commercio all'ingrosso non specializzato di altri prodotti alimentari, bevande e tabacco"
+662,464110,Commercio all'ingrosso di tessuti
+663,464120,"Commercio all'ingrosso di articoli di merceria, filati e passamaneria"
+664,464190,Commercio all'ingrosso di altri articoli tessili
+665,464210,Commercio all'ingrosso di abbigliamento e accessori
+666,464220,Commercio all'ingrosso di articoli in pelliccia
+667,464230,"Commercio all'ingrosso di camicie, biancheria intima, maglieria e simili"
+668,464240,Commercio all'ingrosso di calzature e accessori
+669,464310,"Commercio all'ingrosso di elettrodomestici, di elettronica di consumo audio e video"
+670,464320,"Commercio all'ingrosso di supporti registrati, audio, video (Cd, Dvd e altri supporti)"
+671,464330,"Commercio all'ingrosso di articoli per fotografia, cinematografia e ottica"
+672,464410,Commercio all'ingrosso di vetreria e cristalleria
+673,464420,Commercio all'ingrosso di ceramiche e porcellana
+674,464430,"Commercio all'ingrosso di saponi, detersivi e altri prodotti per la pulizia"
+675,464440,"Commercio all'ingrosso di coltelleria, posateria e pentolame"
+676,464500,Commercio all'ingrosso di profumi e cosmetici
+677,464610,Commercio all'ingrosso di medicinali
+678,464620,Commercio all'ingrosso di prodotti botanici per uso farmaceutico
+679,464630,Commercio all'ingrosso di articoli medicali ed ortopedici
+680,464710,Commercio all'ingrosso di mobili di qualsiasi materiale
+681,464720,Commercio all'ingrosso di tappeti
+682,464730,Commercio all'ingrosso di articoli per l'illuminazione
+683,464800,Commercio all'ingrosso di orologi e di gioielleria
+684,464910,"Commercio all'ingrosso di carta, cartone e articoli di cartoleria"
+685,464920,"Commercio all'ingrosso di libri, riviste e giornali"
+686,464930,Commercio all'ingrosso di giochi e giocattoli
+687,464940,Commercio all'ingrosso di articoli sportivi (incluse le biciclette)
+688,464950,Commercio all'ingrosso di articoli in pelle
+689,464990,Commercio all'ingrosso di vari prodotti di consumo non alimentare nca
+690,465100,"Commercio all'ingrosso di computer, apparecchiature informatiche periferiche e di software"
+691,465201,Commercio all'ingrosso di apparecchi e materiali telefonici
+692,465202,Commercio all'ingrosso di nastri non registrati
+693,465209,Commercio all'ingrosso di altre apparecchiature elettroniche per telecomunicazioni e di altri componenti elettronici
+694,466100,"Commercio all'ingrosso di macchine, accessori e utensili agricoli, inclusi i trattori"
+695,466200,Commercio all'ingrosso di macchine utensili (incluse le relative parti intercambiabili)
+696,466300,"Commercio all'ingrosso di macchine per le miniere, l'edilizia e l'ingegneria civile"
+697,466400,"Commercio all'ingrosso di macchine per l'industria tessile, di macchine per cucire e per maglieria"
+698,466500,Commercio all'ingrosso di mobili per ufficio e negozi
+699,466600,Commercio all'ingrosso di altre macchine e attrezzature per ufficio
+700,466911,Commercio all'ingrosso di imbarcazioni da diporto
+701,466919,Commercio all'ingrosso di altri mezzi ed attrezzature di trasporto
+702,466920,Commercio all'ingrosso di materiale elettrico per impianti di uso industriale
+703,466930,"Commercio all'ingrosso di apparecchiature per parrucchieri, palestre, solarium e centri estetici"
+704,466991,Commercio all'ingrosso di strumenti e attrezzature di misurazione per uso scientifico
+705,466992,Commercio all'ingrosso di strumenti e attrezzature di misurazione per uso non scientifico
+706,466993,Commercio all'ingrosso di giochi per luna-park e videogiochi per pubblici esercizi
+707,466994,Commercio all'ingrosso di articoli antincendio e antinfortunistici
+708,466999,"Commercio all'ingrosso di altre macchine ed attrezzature per l'industria, il commercio e la navigazione nca"
+709,467100,"Commercio all'ingrosso di prodotti petroliferi e lubrificanti per autotrazione, di combustibili per riscaldamento"
+710,467210,"Commercio all'ingrosso di minerali metalliferi, di metalli ferrosi e prodotti semilavorati"
+711,467220,Commercio all'ingrosso di metalli non ferrosi e prodotti semilavorati
+712,467310,"Commercio all'ingrosso di legname, semilavorati in legno e legno artificiale"
+713,467321,Commercio all'ingrosso di moquette e linoleum
+714,467322,Commercio all'ingrosso di altri materiali per rivestimenti (inclusi gli apparecchi igienico-sanitari)
+715,467323,Commercio all'ingrosso di infissi
+716,467329,Commercio all'ingrosso di altri materiali da costruzione
+717,467330,Commercio all'ingrosso di vetro piano
+718,467340,"Commercio all'ingrosso di carta da parati, colori e vernici"
+719,467410,Commercio all'ingrosso di articoli in ferro e in altri metalli (ferramenta)
+720,467420,"Commercio all'ingrosso di apparecchi e accessori per impianti idraulici, di riscaldamento e di condizionamento"
+721,467501,Commercio all'ingrosso di fertilizzanti e di altri prodotti chimici per l'agricoltura
+722,467502,Commercio all'ingrosso di prodotti chimici per l'industria
+723,467610,Commercio all'ingrosso di fibre tessili gregge e semilavorate
+724,467620,"Commercio all'ingrosso di gomma greggia, materie plastiche in forme primarie e semilavorati"
+725,467630,Commercio all'ingrosso di imballaggi
+726,467690,Commercio all'ingrosso di altri prodotti intermedi nca
+727,467710,Commercio all'ingrosso di rottami e sottoprodotti della lavorazione industriale metallici
+728,467720,"Commercio all'ingrosso di altri materiali di recupero non metallici (vetro, carta, cartoni eccetera); sottoprodotti non metallici della lavorazione industriale (cascami)"
+729,469000,Commercio all'ingrosso non specializzato
+730,471110,Ipermercati
+731,471120,Supermercati
+732,471130,Discount di alimentari
+733,471140,Minimercati ed altri esercizi non specializzati di alimentari vari
+734,471150,Commercio al dettaglio di prodotti surgelati
+735,471910,Grandi magazzini
+736,471920,"Commercio al dettaglio in esercizi non specializzati di computer, periferiche, attrezzature per le telecomunicazioni, elettronica di consumo audio e video, elettrodomestici"
+737,471990,Empori ed altri negozi non specializzati di vari prodotti non alimentari
+738,472101,Commercio al dettaglio di frutta e verdura fresca
+739,472102,Commercio al dettaglio di frutta e verdura preparata e conservata
+740,472200,Commercio al dettaglio di carni e di prodotti a base di carne
+741,472300,"Commercio al dettaglio di pesci, crostacei e molluschi"
+742,472410,Commercio al dettaglio di pane
+743,472420,"Commercio al dettaglio di torte, dolciumi, confetteria"
+744,472500,Commercio al dettaglio di bevande
+745,472600,Commercio al dettaglio di generi di monopolio (tabaccherie)
+746,472910,Commercio al dettaglio di latte e di prodotti lattiero-caseari
+747,472920,Commercio al dettaglio di caffè torrefatto
+748,472930,Commercio al dettaglio di prodotti macrobiotici e dietetici
+749,472990,Commercio al dettaglio di altri prodotti alimentari in esercizi specializzati nca
+750,473000,Commercio al dettaglio di carburante per autotrazione
+751,474100,"Commercio al dettaglio di computer, unità periferiche, software e attrezzature per ufficio in esercizi specializzati"
+752,474200,Commercio al dettaglio di apparecchiature per le telecomunicazioni e la telefonia in esercizi specializzati
+753,474300,Commercio al dettaglio di apparecchi audio e video in esercizi specializzati
+754,475110,"Commercio al dettaglio di tessuti per l'abbigliamento, l'arredamento e di biancheria per la casa"
+755,475120,Commercio al dettaglio di filati per maglieria e merceria
+756,475210,"Commercio al dettaglio di ferramenta, vernici, vetro piano e materiale elettrico e termoidraulico"
+757,475220,Commercio al dettaglio di articoli igienico-sanitari
+758,475230,"Commercio al dettaglio di materiali da costruzione, ceramiche e piastrelle"
+759,475240,"Commercio al dettaglio di macchine, attrezzature e prodotti per l'agricoltura; macchine e attrezzature per il giardinaggio"
+760,475311,Commercio al dettaglio di tende e tendine
+761,475312,Commercio al dettaglio di tappeti
+762,475320,Commercio al dettaglio di carta da parati e rivestimenti per pavimenti (moquette e linoleum)
+763,475400,Commercio al dettaglio di elettrodomestici in esercizi specializzati
+764,475910,Commercio al dettaglio di mobili per la casa
+765,475920,"Commercio al dettaglio di utensili per la casa, di cristallerie e vasellame"
+766,475930,Commercio al dettaglio di articoli per l'illuminazione
+767,475940,Commercio al dettaglio di macchine per cucire e per maglieria per uso domestico
+768,475950,Commercio al dettaglio di sistemi di sicurezza
+769,475960,Commercio al dettaglio di strumenti musicali e spartiti
+770,475991,"Commercio al dettaglio di articoli in legno, sughero, vimini e articoli in plastica per uso domestico"
+771,475999,Commercio al dettaglio di altri articoli per uso domestico nca
+772,476100,Commercio al dettaglio di libri nuovi in esercizi specializzati
+773,476210,"Commercio al dettaglio di giornali, riviste e periodici"
+774,476220,Commercio al dettaglio di articoli di cartoleria e forniture per ufficio
+775,476300,Commercio al dettaglio di registrazioni musicali e video in esercizi specializzati
+776,476410,"Commercio al dettaglio di articoli sportivi, biciclette e articoli per il tempo libero"
+777,476420,Commercio al dettaglio di natanti e accessori
+778,476500,Commercio al dettaglio di giochi e giocattoli (inclusi quelli elettronici)
+779,477110,Commercio al dettaglio di confezioni per adulti
+780,477120,Commercio al dettaglio di confezioni per bambini e neonati
+781,477130,"Commercio al dettaglio di biancheria personale, maglieria, camicie"
+782,477140,Commercio al dettaglio di pellicce e di abbigliamento in pelle
+783,477150,"Commercio al dettaglio di cappelli, ombrelli, guanti e cravatte"
+784,477210,Commercio al dettaglio di calzature e accessori
+785,477220,Commercio al dettaglio di articoli di pelletteria e da viaggio
+786,477310,Farmacie
+787,477320,Commercio al dettaglio in altri esercizi specializzati di medicinali non soggetti a prescrizione medica
+788,477400,Commercio al dettaglio di articoli medicali e ortopedici in esercizi specializzati
+789,477510,"Commercio al dettaglio di articoli di profumeria, prodotti per toletta e per l'igiene personale"
+790,477520,Erboristerie
+791,477610,Commercio al dettaglio di fiori e piante
+792,477620,Commercio al dettaglio di piccoli animali domestici
+793,477700,"Commercio al dettaglio di orologi, articoli di gioielleria e argenteria"
+794,477810,Commercio al dettaglio di mobili per ufficio
+795,477820,Commercio al dettaglio di materiale per ottica e fotografia
+796,477831,Commercio al dettaglio di oggetti d'arte (incluse le gallerie d'arte)
+797,477832,Commercio al dettaglio di oggetti d'artigianato
+798,477833,Commercio al dettaglio di arredi sacri ed articoli religiosi
+799,477834,Commercio al dettaglio di articoli da regalo e per fumatori
+800,477835,Commercio al dettaglio di bomboniere
+801,477836,Commercio al dettaglio di chincaglieria e bigiotteria (inclusi gli oggetti ricordo e gli articoli di promozione pubblicitaria)
+802,477837,Commercio al dettaglio di articoli per le belle arti
+803,477840,Commercio al dettaglio di combustibile per uso domestico e per riscaldamento
+804,477850,"Commercio al dettaglio di armi e munizioni, articoli militari"
+805,477860,"Commercio al dettaglio di saponi, detersivi, prodotti per la lucidatura e affini"
+806,477891,"Commercio al dettaglio di filatelia, numismatica e articoli da collezionismo"
+807,477892,"Commercio al dettaglio di spaghi, cordami, tele e sacchi di juta e prodotti per l'imballaggio (esclusi quelli in carta e cartone)"
+808,477893,Commercio al dettaglio di articoli funerari e cimiteriali
+809,477894,Commercio al dettaglio di articoli per adulti (sexy shop)
+810,477899,Commercio al dettaglio di altri prodotti non alimentari nca
+811,477910,Commercio al dettaglio di libri di seconda mano
+812,477920,Commercio al dettaglio di mobili usati e oggetti di antiquariato
+813,477930,Commercio al dettaglio di indumenti e altri oggetti usati
+814,477940,Case d'asta al dettaglio (escluse aste via internet)
+815,478101,Commercio al dettaglio ambulante di prodotti ortofrutticoli
+816,478102,Commercio al dettaglio ambulante di prodotti ittici
+817,478103,Commercio al dettaglio ambulante di carne
+818,478109,Commercio al dettaglio ambulante di altri prodotti alimentari e bevande nca
+819,478201,"Commercio al dettaglio ambulante di tessuti, articoli tessili per la casa, articoli di abbigliamento"
+820,478202,Commercio al dettaglio ambulante di calzature e pelletterie
+821,478901,"Commercio al dettaglio ambulante di fiori, piante, bulbi, semi e fertilizzanti"
+822,478902,"Commercio al dettaglio ambulante di macchine, attrezzature e prodotti per l'agricoltura; attrezzature per il giardinaggio"
+823,478903,"Commercio al dettaglio ambulante di profumi e cosmetici; saponi, detersivi ed altri detergenti per qualsiasi uso"
+824,478904,Commercio al dettaglio ambulante di chincaglieria e bigiotteria
+825,478905,Commercio al dettaglio ambulante di arredamenti per giardino
+826,478909,Commercio al dettaglio ambulante di altri prodotti nca
+827,479110,Commercio al dettaglio di qualsiasi tipo di prodotto effettuato via internet
+828,479120,Commercio al dettaglio di qualsiasi tipo di prodotto effettuato per televisione
+829,479130,"Commercio al dettaglio di qualsiasi tipo di prodotto per corrispondenza, radio, telefono"
+830,479910,"Commercio al dettaglio di prodotti vari, mediante l'intervento di un dimostratore o di un incaricato alla vendita (porta a porta)"
+831,479920,Commercio effettuato per mezzo di distributori automatici
+832,491000,Trasporto ferroviario di passeggeri (interurbano)
+833,492000,Trasporto ferroviario di merci
+834,493100,Trasporto terrestre di passeggeri in aree urbane e suburbane
+835,493210,Trasporto con taxi
+836,493220,Trasporto mediante noleggio di autovetture da rimessa con conducente
+837,493901,"Gestioni di funicolari, ski-lift e seggiovie se non facenti parte dei sistemi di transito urbano o suburbano"
+838,493909,Altre attività di trasporti terrestri di passeggeri nca
+839,494100,Trasporto di merci su strada
+840,494200,Servizi di trasloco
+841,495010,Trasporto mediante condotte di gas
+842,495020,Trasporto mediante condotte di liquidi
+843,501000,Trasporto marittimo e costiero di passeggeri
+844,502000,Trasporto marittimo e costiero di merci
+845,503000,Trasporto di passeggeri per vie d'acqua interne (inclusi i trasporti lagunari)
+846,504000,Trasporto di merci per vie d'acqua interne
+847,511010,Trasporto aereo di linea di passeggeri
+848,511020,Trasporto aereo non di linea di passeggeri
+849,512100,Trasporto aereo di merci
+850,512200,Trasporto spaziale
+851,521010,Magazzini di custodia e deposito per conto terzi
+852,521020,Magazzini frigoriferi per conto terzi
+853,522110,Gestione di infrastrutture ferroviarie
+854,522120,"Gestione di strade, ponti, gallerie"
+855,522130,Gestione di stazioni per autobus
+856,522140,Gestione di centri di movimentazione merci (interporti)
+857,522150,Gestione di parcheggi e autorimesse
+858,522160,Attività di traino e soccorso stradale
+859,522190,Altre attività connesse ai trasporti terrestri nca
+860,522201,Liquefazione e rigassificazione di gas a scopo di trasporto marittimo e per vie d'acqua effettuata al di fuori del sito di estrazione
+861,522209,Altre attività dei servizi connessi al trasporto marittimo e per vie d'acqua
+862,522300,Attività dei servizi connessi al trasporto aereo
+863,522410,Movimento merci relativo a trasporti aerei
+864,522420,Movimento merci relativo a trasporti marittimi e fluviali
+865,522430,Movimento merci relativo a trasporti ferroviari
+866,522440,Movimento merci relativo ad altri trasporti terrestri
+867,522910,Spedizionieri e agenzie di operazioni doganali
+868,522921,Intermediari dei trasporti
+869,522922,Servizi logistici relativi alla distribuzione delle merci
+870,531000,Attività postali con obbligo di servizio universale
+871,532000,Altre attività postali e di corriere senza obbligo di servizio universale
+872,551000,Alberghi
+873,552010,Villaggi turistici
+874,552020,Ostelli della gioventù
+875,552030,Rifugi di montagna
+876,552040,Colonie marine e montane
+877,552051,"Affittacamere per brevi soggiorni, case ed appartamenti per vacanze, bed and breakfast, residence"
+878,552052,Attività di alloggio connesse alle aziende agricole
+879,553000,Aree di campeggio e aree attrezzate per camper e roulotte
+880,559010,Gestione di vagoni letto
+881,559020,Alloggi per studenti e lavoratori con servizi accessori di tipo alberghiero
+882,561011,Ristorazione con somministrazione
+883,561012,Attività di ristorazione connesse alle aziende agricole
+884,561020,Ristorazione senza somministrazione con preparazione di cibi da asporto
+885,561030,Gelaterie e pasticcerie
+886,561041,Gelaterie e pasticcerie ambulanti
+887,561042,Ristorazione ambulante
+888,561050,Ristorazione su treni e navi
+889,562100,"Catering per eventi, banqueting"
+890,562910,Mense
+891,562920,Catering continuativo su base contrattuale
+892,563000,Bar e altri esercizi simili senza cucina
+893,581100,Edizione di libri
+894,581201,Pubblicazione di elenchi
+895,581202,Pubblicazione di mailing list
+896,581300,Edizione di quotidiani
+897,581400,Edizione di riviste e periodici
+898,581900,Altre attività editoriali
+899,582100,Edizione di giochi per computer
+900,582900,Edizione di altri software a pacchetto (esclusi giochi per computer)
+901,591100,"Attività di produzione cinematografica, di video e di programmi televisivi"
+902,591200,"Attività di post-produzione cinematografica, di video e di programmi televisivi"
+903,591300,"Attività di distribuzione cinematografica, di video e di programmi televisivi"
+904,591400,Attività di proiezione cinematografica
+905,592010,Edizione di registrazioni sonore
+906,592020,Edizione di musica stampata
+907,592030,Studi di registrazione sonora
+908,601000,Trasmissioni radiofoniche
+909,602000,Programmazione e trasmissioni televisive
+910,611000,Telecomunicazioni fisse
+911,612000,Telecomunicazioni mobili
+912,613000,Telecomunicazioni satellitari
+913,619010,Erogazione di servizi di accesso ad internet (ISP)
+914,619020,Posto telefonico pubblico ed Internet Point
+915,619091,Intermediazione in servizi di telecomunicazione e trasmissione dati
+916,619099,Altre attività connesse alle telecomunicazioni nca
+917,620100,Produzione di software non connesso all'edizione
+918,620200,Consulenza nel settore delle tecnologie dell'informatica
+919,620300,Gestione di strutture e apparecchiature informatiche hardware - housing (esclusa la riparazione)
+920,620901,Configurazione di personal computer
+921,620909,Altre attività dei servizi connessi alle tecnologie dell'informatica nca
+922,631111,Elaborazione elettronica di dati contabili (esclusi i Centri di assistenza fiscale - Caf)
+923,631119,Altre elaborazioni elettroniche di dati
+924,631120,Gestione database (attività delle banche dati)
+925,631130,Hosting e fornitura di servizi applicativi (ASP)
+926,631200,Portali web
+927,639100,Attività delle agenzie di stampa
+928,639900,Altre attività dei servizi di informazione nca
+929,641100,Attività della Banca Centrale
+930,641910,Intermediazione monetaria di istituti monetari diverse dalle Banche centrali
+931,641920,Fondi comuni di investimento monetario
+932,641930,Istituti di moneta elettronica (Imel)
+933,641940,Cassa Depositi e Prestiti
+934,642000,Attività delle società di partecipazione (holding)
+935,643010,"Fondi comuni di investimento (aperti e chiusi, immobiliari, di mercato mobiliare)"
+936,643020,Sicav (Società di investimento a capitale variabile)
+937,649100,Leasing finanziario
+938,649201,Attività dei consorzi di garanzia collettiva fidi
+939,649209,Altre attività creditizie nca
+940,649910,Attività di intermediazione mobiliare
+941,649920,Attività di factoring
+942,649930,Attività di merchant bank
+943,649940,Attività delle società veicolo
+944,649950,Attività di intermediazione in cambi
+945,649960,Altre intermediazioni finanziarie nca
+946,651100,Assicurazioni sulla vita
+947,651200,Assicurazioni diverse da quelle sulla vita
+948,652000,Attività di riassicurazione
+949,653010,Attività dei fondi pensione aperti
+950,653020,Attività dei fondi pensione negoziali
+951,653030,Attività dei fondi pensione preesistenti
+952,661100,Amministrazione di mercati finanziari
+953,661200,Attività di negoziazione di contratti relativi a titoli e merci
+954,661910,Attività di gestione ed elaborazione di pagamenti tramite carta di credito
+955,661921,Promotori finanziari
+956,661922,"Agenti, mediatori e procacciatori in prodotti finanziari"
+957,661930,Attività delle società fiduciarie di amministrazione
+958,661940,Attività di Bancoposta
+959,661950,Servizi di trasferimento di denaro (money transfer)
+960,662100,Attività dei periti e liquidatori indipendenti delle assicurazioni
+961,662201,Broker di assicurazioni
+962,662202,Agenti di assicurazioni
+963,662203,Sub-agenti di assicurazioni
+964,662204,"Produttori, procacciatori ed altri intermediari delle assicurazioni"
+965,662901,Autorità centrali di vigilanza su assicurazioni e fondi pensione
+966,662909,Altre attività ausiliarie delle assicurazioni e dei fondi pensione nca
+967,663000,Gestione di fondi comuni di investimento e dei fondi pensione
+968,681000,Compravendita di beni immobili effettuata su beni propri
+969,682001,Locazione immobiliare di beni propri o in leasing (affitto)
+970,682002,Affitto di aziende
+971,683100,Attività di mediazione immobiliare
+972,683200,Amministrazione di condomini e gestione di beni immobili per conto terzi
+973,691010,Attività degli studi legali
+974,691020,Attività degli studi notarili
+975,692011,Servizi forniti da dottori commercialisti
+976,692012,Servizi forniti da ragionieri e periti commerciali
+977,692013,"Servizi forniti da revisori contabili, periti, consulenti ed altri soggetti che svolgono attività in materia di amministrazione, contabilità e tributi"
+978,692014,Attività svolta dai Centri di assistenza fiscale (Caf)
+979,692015,Gestione ed amministrazione del personale per conto terzi
+980,692020,Attività delle società di revisione e certificazione di bilanci
+981,692030,Attività dei consulenti del lavoro
+982,701000,Attività delle holding impegnate nelle attività gestionali (holding operative)
+983,702100,Pubbliche relazioni e comunicazione
+984,702201,Attività di consulenza per la gestione della logistica aziendale
+985,702209,Altre attività di consulenza imprenditoriale e altra consulenza amministrativo-gestionale e pianificazione aziendale
+986,711100,Attività degli studi di architettura
+987,711210,Attività degli studi di ingegneria
+988,711220,Servizi di progettazione di ingegneria integrata
+989,711230,Attività tecniche svolte da geometri
+990,711240,Attività di cartografia e aerofotogrammetria
+991,711250,Attività di studio geologico e di prospezione geognostica e mineraria
+992,712010,Collaudi e analisi tecniche di prodotti
+993,712021,"Controllo di qualità e certificazione di prodotti, processi e sistemi"
+994,712022,Attività per la tutela di beni di produzione controllata
+995,721100,Ricerca e sviluppo sperimentale nel campo delle biotecnologie
+996,721901,Ricerca e sviluppo sperimentale nel campo della geologia
+997,721909,Ricerca e sviluppo sperimentale nel campo delle altre scienze naturali e dell'ingegneria
+998,722000,Ricerca e sviluppo sperimentale nel campo delle scienze sociali e umanistiche
+999,731101,Ideazione di campagne pubblicitarie
+1000,731102,Conduzione di campagne di marketing e altri servizi pubblicitari
+1001,731200,Attività delle concessionarie e degli altri intermediari di servizi pubblicitari
+1002,732000,Ricerche di mercato e sondaggi di opinione
+1003,741010,Attività di design di moda e design industriale
+1004,741021,Attività dei disegnatori grafici di pagine web
+1005,741029,Altre attività dei disegnatori grafici
+1006,741030,Attività dei disegnatori tecnici
+1007,741090,Altre attività di design
+1008,742011,Attività di fotoreporter
+1009,742012,Attività di riprese aeree nel campo della fotografia
+1010,742019,Altre attività di riprese fotografiche
+1011,742020,Laboratori fotografici per lo sviluppo e la stampa
+1012,743000,Traduzione e interpretariato
+1013,749011,Consulenza agraria fornita da agronomi
+1014,749012,Consulenza agraria fornita da agrotecnici e periti agrari
+1015,749021,Consulenza sulla sicurezza ed igiene dei posti di lavoro
+1016,749029,Altra attività di consulenza in materia di sicurezza
+1017,749091,Attività tecniche svolte da periti industriali
+1018,749092,Attività riguardanti le previsioni meteorologiche
+1019,749093,Altre attività di consulenza tecnica nca
+1020,749094,Agenzie ed agenti o procuratori per lo spettacolo e lo sport
+1021,749099,Altre attività professionali nca
+1022,750000,Servizi veterinari
+1023,771100,Noleggio di autovetture ed autoveicoli leggeri
+1024,771200,Noleggio di autocarri e di altri veicoli pesanti
+1025,772101,Noleggio di biciclette
+1026,772102,Noleggio senza equipaggio di imbarcazioni da diporto (inclusi i pedalò)
+1027,772109,Noleggio di altre attrezzature sportive e ricreative
+1028,772200,"Noleggio di videocassette, Cd, Dvd e dischi contenenti audiovisivi o videogame"
+1029,772910,"Noleggio di biancheria da tavola, da letto, da bagno e di articoli di vestiario"
+1030,772990,Noleggio di altri beni per uso personale e domestico nca (escluse le attrezzature sportive e ricreative)
+1031,773100,Noleggio di macchine e attrezzature agricole
+1032,773200,Noleggio di macchine e attrezzature per lavori edili e di genio civile
+1033,773300,Noleggio di macchine e attrezzature per ufficio (inclusi i computer)
+1034,773400,Noleggio di mezzi di trasporto marittimo e fluviale
+1035,773500,Noleggio di mezzi di trasporto aereo
+1036,773910,Noleggio di altri mezzi di trasporto terrestri
+1037,773991,Noleggio di container adibiti ad alloggi o ad uffici
+1038,773992,Noleggio di container per diverse modalità di trasporto
+1039,773993,"Noleggio senza operatore di attrezzature di sollevamento e movimentazione merci: carrelli elevatori, pallet eccetera"
+1040,773994,"Noleggio di strutture ed attrezzature per manifestazioni e spettacoli: impianti luce ed audio senza operatore, palchi, stand ed addobbi luminosi"
+1041,773999,Noleggio senza operatore di altre macchine ed attrezzature nca
+1042,774000,Concessione dei diritti di sfruttamento di proprietà intellettuale e prodotti simili (escluse le opere protette dal copyright)
+1043,781000,"Servizi di ricerca, selezione, collocamento e supporto per il ricollocamento di personale"
+1044,782000,Attività delle agenzie di fornitura di lavoro temporaneo (interinale)
+1045,783000,Altre attività di fornitura e gestione di risorse umane (staff leasing)
+1046,791100,Attività delle agenzie di viaggio
+1047,791200,Attività dei tour operator
+1048,799011,"Servizi di biglietteria per eventi teatrali, sportivi ed altri eventi ricreativi e d'intrattenimento"
+1049,799019,Altri servizi di prenotazione e altre attività di assistenza turistica non svolte dalle agenzie di viaggio nca
+1050,799020,Attività delle guide e degli accompagnatori turistici
+1051,801000,Servizi di vigilanza privata
+1052,802000,Servizi connessi ai sistemi di vigilanza
+1053,803000,Servizi di investigazione privata
+1054,811000,Servizi integrati di gestione agli edifici
+1055,812100,Pulizia generale (non specializzata) di edifici
+1056,812201,Attività di sterilizzazione di attrezzature medico sanitarie
+1057,812202,Altre attività di pulizia specializzata di edifici e di impianti e macchinari industriali
+1058,812910,Servizi di disinfestazione
+1059,812991,"Pulizia e lavaggio di aree pubbliche, rimozione di neve e ghiaccio"
+1060,812999,Altre attività di pulizia nca
+1061,813000,"Cura e manutenzione del paesaggio (inclusi parchi, giardini e aiuole)"
+1062,821101,Servizi integrati di supporto per le funzioni d'ufficio
+1063,821102,"Gestione di uffici temporanei, uffici residence"
+1064,821901,"Spedizione di materiale propagandistico, compilazione e gestione di indirizzi"
+1065,821909,"Servizi di fotocopiatura, preparazione di documenti e altre attività di supporto specializzate per le funzioni d'ufficio"
+1066,822000,Attività dei call center
+1067,823000,Organizzazione di convegni e fiere
+1068,829110,Attività di agenzie di recupero crediti
+1069,829120,Agenzie di informazioni commerciali
+1070,829210,Imballaggio e confezionamento di generi alimentari
+1071,829220,Imballaggio e confezionamento di generi non alimentari
+1072,829910,Imprese di gestione esattoriale
+1073,829920,"Agenzie di distribuzione di libri, giornali e riviste"
+1074,829930,Servizi di gestione di pubblici mercati e pese pubbliche
+1075,829940,Richiesta certificati e disbrigo pratiche
+1076,829991,Servizi di stenotipia
+1077,829999,Altri servizi di sostegno alle imprese nca
+1078,841110,"Attività degli organi legislativi ed esecutivi, centrali e locali; amministrazione finanziaria; amministrazioni regionali, provinciali e comunali"
+1079,841120,Attività di pianificazione generale e servizi statistici generali
+1080,841210,Regolamentazione dell'attività degli organismi preposti alla sanità
+1081,841220,Regolamentazione dell'attività degli organismi preposti all'istruzione
+1082,841230,Regolamentazione dell'attività degli organismi preposti alla gestione di progetti per l'edilizia abitativa e l'assetto del territorio e per la tutela dell'ambiente
+1083,841240,"Regolamentazione dell'attività degli organismi preposti ai servizi ricreativi, culturali e sociali vari"
+1084,841310,Regolamentazione degli affari concernenti i combustibili e l'energia
+1085,841320,"Regolamentazione degli affari e servizi concernenti l'agricoltura, silvicoltura, caccia e pesca"
+1086,841330,"Regolamentazione degli affari e dei servizi concernenti le industrie estrattive e le risorse minerarie (eccetto i combustibili) le industrie manifatturiere, le costruzioni e le opere pubbliche ad eccezione delle strade e opere per la navigazione"
+1087,841340,Regolamentazione degli affari e servizi concernenti la costruzione di strade
+1088,841350,Regolamentazione degli affari e servizi concernenti la costruzione di opere per la navigazione interna e marittima
+1089,841360,Regolamentazione degli affari e servizi concernenti i trasporti e le comunicazioni
+1090,841370,Regolamentazione degli affari e servizi concernenti il commercio interno
+1091,841380,Regolamentazione degli affari e servizi concernenti il turismo
+1092,841390,Regolamentazione di altri affari e servizi economici
+1093,842100,Affari esteri
+1094,842200,Difesa nazionale
+1095,842300,Giustizia ed attività giudiziarie
+1096,842400,Ordine pubblico e sicurezza nazionale
+1097,842510,Attività dei vigili del fuoco
+1098,842520,Attività di protezione civile
+1099,843000,Assicurazione sociale obbligatoria
+1100,851000,"Istruzione di grado preparatorio: scuole dell'infanzia, scuole speciali collegate a quelle primarie"
+1101,852000,Istruzione primaria: scuole elementari
+1102,853110,Istruzione secondaria di primo grado: scuole medie
+1103,853120,Istruzione secondaria di secondo grado di formazione generale: licei
+1104,853201,Scuole di vela e navigazione che rilasciano brevetti o patenti commerciali
+1105,853202,Scuole di volo che rilasciano brevetti o patenti commerciali
+1106,853203,"Scuole di guida professionale per autisti, ad esempio di autocarri, di autobus e di pullman"
+1107,853209,"Altra istruzione secondaria di secondo grado di formazione tecnica, professionale e artistica"
+1108,854100,Istruzione e formazione tecnica superiore (IFTS)
+1109,854200,Istruzione universitaria e post-universitaria
+1110,855100,Corsi sportivi e ricreativi
+1111,855201,Corsi di danza
+1112,855209,Altra formazione culturale
+1113,855300,"Autoscuole, scuole di pilotaggio e nautiche"
+1114,855910,Università popolare
+1115,855920,Corsi di formazione e corsi di aggiornamento professionale
+1116,855930,Scuole e corsi di lingua
+1117,855990,Altri servizi di istruzione nca
+1118,856001,Consulenza scolastica e servizi di orientamento scolastico
+1119,856009,Altre attività di supporto all'istruzione
+1120,861010,Ospedali e case di cura generici
+1121,861020,Ospedali e case di cura specialistici
+1122,861030,"Istituti, cliniche e policlinici universitari"
+1123,861040,Ospedali e case di cura per lunga degenza
+1124,862100,Servizi degli studi medici di medicina generale
+1125,862201,Prestazioni sanitarie svolte da chirurghi
+1126,862202,Ambulatori e poliambulatori del Servizio Sanitario Nazionale
+1127,862203,Attività dei centri di radioterapia
+1128,862204,Attività dei centri di dialisi
+1129,862205,Studi di omeopatia e di agopuntura
+1130,862206,Centri di medicina estetica
+1131,862209,Altri studi medici specialistici e poliambulatori
+1132,862300,Attività degli studi odontoiatrici
+1133,869011,Laboratori radiografici
+1134,869012,Laboratori di analisi cliniche
+1135,869013,Laboratori di igiene e profilassi
+1136,869021,Fisioterapia
+1137,869029,Altre attività paramediche indipendenti nca
+1138,869030,Attività svolta da psicologi
+1139,869041,Attività degli ambulatori tricologici
+1140,869042,"Servizi di ambulanza, delle banche del sangue e altri servizi sanitari nca"
+1141,871000,Strutture di assistenza infermieristica residenziale per anziani
+1142,872000,"Strutture di assistenza residenziale per persone affette da ritardi mentali, disturbi mentali o che abusano di sostanze stupefacenti"
+1143,873000,Strutture di assistenza residenziale per anziani e disabili
+1144,879000,Altre strutture di assistenza sociale residenziale
+1145,881000,Assistenza sociale non residenziale per anziani e disabili
+1146,889100,Servizi di asili nido
+1147,889900,Altre attività di assistenza sociale non residenziale nca
+1148,900101,Attività nel campo della recitazione
+1149,900109,Altre rappresentazioni artistiche
+1150,900201,Noleggio con operatore di strutture ed attrezzature per manifestazioni e spettacoli
+1151,900202,Attività nel campo della regia
+1152,900209,Altre attività di supporto alle rappresentazioni artistiche
+1153,900301,Attività dei giornalisti indipendenti
+1154,900302,Attività di conservazione e restauro di opere d'arte
+1155,900309,Altre creazioni artistiche e letterarie
+1156,900400,"Gestione di teatri, sale da concerto e altre strutture artistiche"
+1157,910100,Attività di biblioteche ed archivi
+1158,910200,Attività di musei
+1159,910300,Gestione di luoghi e monumenti storici e attrazioni simili
+1160,910400,"Attività degli orti botanici, dei giardini zoologici e delle riserve naturali"
+1161,920001,"Ricevitorie del Lotto, SuperEnalotto, Totocalcio eccetera"
+1162,920002,Gestione di apparecchi che consentono vincite in denaro funzionanti a moneta o a gettone
+1163,920009,Altre attività connesse con le lotterie e le scommesse
+1164,931110,Gestione di stadi
+1165,931120,Gestione di piscine
+1166,931130,Gestione di impianti sportivi polivalenti
+1167,931190,Gestione di altri impianti sportivi nca
+1168,931200,Attività di club sportivi
+1169,931300,Gestione di palestre
+1170,931910,"Enti e organizzazioni sportive, promozione di eventi sportivi"
+1171,931991,Ricarica di bombole per attività subacquee
+1172,931992,Attività delle guide alpine
+1173,931999,Altre attività sportive nca
+1174,932100,Parchi di divertimento e parchi tematici
+1175,932910,"Discoteche, sale da ballo night-club e simili"
+1176,932920,"Gestione di stabilimenti balneari: marittimi, lacuali e fluviali"
+1177,932930,Sale giochi e biliardi
+1178,932990,Altre attività di intrattenimento e di divertimento nca
+1179,941100,"Attività di organizzazione di datori di lavoro, federazioni di industria, commercio, artigianato e servizi, associazioni, unioni, federazioni fra istituzioni"
+1180,941210,Attività di federazioni e consigli di ordini e collegi professionali
+1181,941220,Attività di associazioni professionali
+1182,942000,Attività dei sindacati di lavoratori dipendenti
+1183,949100,Attività delle organizzazioni religiose nell'esercizio del culto
+1184,949200,Attività dei partiti e delle associazioni politiche
+1185,949910,Attività di organizzazioni per la tutela degli interessi e dei diritti dei cittadini
+1186,949920,"Attività di organizzazioni che perseguono fini culturali, ricreativi e la coltivazione di hobby"
+1187,949930,Attività di organizzazioni patriottiche e associazioni combattentistiche
+1188,949940,Attività di organizzazioni per la cooperazione e la solidarietà internazionale
+1189,949950,Attività di organizzazioni per la filantropia
+1190,949960,Attività di organizzazioni per la promozione e la difesa degli animali e dell'ambiente
+1191,949990,Attività di altre organizzazioni associative nca
+1192,951100,Riparazione e manutenzione di computer e periferiche
+1193,951201,"Riparazione e manutenzione di telefoni fissi, cordless e cellulari"
+1194,951209,Riparazione e manutenzione di altre apparecchiature per le comunicazioni
+1195,952100,Riparazione di prodotti elettronici di consumo audio e video
+1196,952201,Riparazione di elettrodomestici e di articoli per la casa
+1197,952202,Riparazione di articoli per il giardinaggio
+1198,952300,"Riparazione di calzature e articoli da viaggio in pelle, cuoio o in altri materiali simili"
+1199,952401,Riparazione di mobili e di oggetti di arredamento
+1200,952402,Laboratori di tappezzeria
+1201,952500,Riparazione di orologi e di gioielli
+1202,952901,Riparazione di strumenti musicali
+1203,952902,Riparazione di articoli sportivi (escluse le armi sportive) e attrezzature da campeggio (incluse le biciclette)
+1204,952903,Modifica e riparazione di articoli di vestiario non effettuate dalle sartorie
+1205,952904,"Servizi di riparazioni rapide, duplicazione chiavi, affilatura coltelli, stampa immediata su articoli tessili, incisioni rapide su metallo non prezioso"
+1206,952909,Riparazione di altri beni di consumo per uso personale e per la casa nca
+1207,960110,Attività delle lavanderie industriali
+1208,960120,"Altre lavanderie, tintorie"
+1209,960201,Servizi dei saloni di barbiere e parrucchiere
+1210,960202,Servizi degli istituti di bellezza
+1211,960203,Servizi di manicure e pedicure
+1212,960300,Servizi di pompe funebri e attività connesse
+1213,960410,Servizi di centri per il benessere fisico (esclusi gli stabilimenti termali)
+1214,960420,Stabilimenti termali
+1215,960901,"Attività di sgombero di cantine, solai e garage"
+1216,960902,Attività di tatuaggio e piercing
+1217,960903,Agenzie matrimoniali e d'incontro
+1218,960904,Servizi di cura degli animali da compagnia (esclusi i servizi veterinari)
+1219,960905,Organizzazione di feste e cerimonie
+1220,960909,Altre attività di servizi per la persona nca
+1221,970000,Attività di famiglie e convivenze come datori di lavoro per personale domestico
+1222,981000,Produzione di beni indifferenziati per uso proprio da parte di famiglie e convivenze
+1223,982000,Produzione di servizi indifferenziati per uso proprio da parte di famiglie e convivenze
+1224,990000,Organizzazioni ed organismi extraterritoriali

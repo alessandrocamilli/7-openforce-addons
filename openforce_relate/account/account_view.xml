@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- 
+        Analytic Journal
+        -->
+		<record id="openforce_relate_analytic_journal_form" model="ir.ui.view">
+			<field name="name">openforce.relate.analytic.journal.form</field>
+			<field name="model">account.analytic.journal</field>
+			<field name="inherit_id" ref="account.view_account_analytic_journal_form"/>
+			<field name="arch" type="xml">
+			    
+			    <xpath expr="//field[@name='active']" position="after">
+				    <field name="relate_expense"/>
+				    <field name="relate_material"/>
+				    <field name="relate_vehicle"/>
+				</xpath>
+                
+			</field>
+		</record>
+		
+		<record id="openforce_relate_analytic_journal_tree" model="ir.ui.view">
+			<field name="name">openforce.relate.analytic.journal.tree</field>
+			<field name="model">account.analytic.journal</field>
+			<field name="inherit_id" ref="account.view_account_analytic_journal_tree"/>
+			<field name="arch" type="xml">
+			    
+			    <xpath expr="//field[@name='type']" position="after">
+				    <field name="relate_expense"/>
+				    <field name="relate_material"/>
+				    <field name="relate_vehicle"/>
+				</xpath>
+                
+			</field>
+		</record>
+		
+    </data>
+</openerp>

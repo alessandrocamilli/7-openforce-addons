@@ -1,0 +1,6 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_stock_picking_mezzo_manager","stock.picking.mezzo manager","model_stock_picking_mezzo","stock.group_stock_manager",1,1,1,1
+"access_stock_picking_mezzo_description_user","stock.picking.mezzo user","model_stock_picking_mezzo","base.group_user",1,0,0,0
+group_sale_advance_payment_inv_user,sale_advance_payment_inv user,sale.model_sale_advance_payment_inv,base.group_user,1,0,0,0
+group_sale_advance_payment_inv_salesman,sale_advance_payment_inv salesman,sale.model_sale_advance_payment_inv,base.group_sale_salesman,1,1,1,0
+group_sale_advance_payment_inv_manager,sale_advance_payment_inv manager,sale.model_sale_advance_payment_inv,base.group_sale_manager,1,1,1,1

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="wizard_assign_ddt_manual_number" model="ir.ui.view">
+            <field name="name">Assign DDT</field>
+            <field name="model">wizard.assign.ddt.by.journal</field>
+            <field name="type">form</field>
+            <field name="inherit_id" ref="stock_journal_ddt_sequence.wizard_assign_ddt_by_journal"/>
+            <field name="arch" type="xml">
+                
+                <xpath expr="//form[@string='Assign DDT']/group/label" position="after">
+                	<field name="ddt_number_manual"></field>
+                	<field name="ddt_date_manual"></field>
+           		</xpath>
+           		
+            </field>
+        </record>
+    </data>
+</openerp>

@@ -1,0 +1,14 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+
+group_relate_task_user,relate_task user,model_relate_task,group_relate_user,1,1,1,1
+group_relate_task_manager,relate_task manager,model_relate_task,group_relate_manager,1,1,1,1
+group_relate_task_line_user,relate_task_line user,model_relate_task_line,group_relate_user,1,1,1,1
+group_relate_task_line_manager,relate_task_line manager,model_relate_task_line,group_relate_manager,1,1,1,1
+group_relate_contract_payment_term_user,relate_contract_payment_term user,model_relate_contract_payment_term,group_relate_user,1,1,1,1
+group_relate_contract_payment_term_manager,relate_contract_payment_term manager,model_relate_contract_payment_term,group_relate_manager,1,1,1,1
+group_relate_contract_default_invoice_user,relate_relate_contract_default_invoice user,model_relate_contract_default_invoice,group_relate_user,1,1,1,1
+group_relate_contract_default_invoice_manager,relate_relate_contract_default_invoice manager,model_relate_contract_default_invoice,group_relate_manager,1,1,1,1
+group_relate_config_journal_user,relate_config_journal user,model_relate_config_journal,group_relate_user,1,0,0,0
+group_relate_config_journal_manager,relate_config_journal manager,model_relate_config_journal,group_relate_manager,1,1,1,1
+group_report_relate_line_user,report_relate_line user,model_report_relate_line,group_relate_user,1,0,0,0
+group_report_relate_line_manager,report_relate_line manager,model_report_relate_line,group_relate_manager,1,1,1,1

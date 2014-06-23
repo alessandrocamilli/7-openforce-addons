@@ -1,0 +1,1143 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* openforce_sale_order_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-22 07:48+0000\n"
+"PO-Revision-Date: 2014-01-22 08:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Righe_Ordine-order_line/Prodotto-product_id/Riferimento_interno-"
+"default_code"
+msgstr ""
+"/data/record/Righe_Ordine-order_line/Prodotto-product_id/Riferimento_interno-"
+"default_code"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Cliente-partner_id/Fax-fax"
+msgstr "/data/record/Cliente-partner_id/Fax-fax"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Azienda-company_id/Telefono-phone"
+msgstr "/data/record/Azienda-company_id/Telefono-phone"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_quote_report:0
+msgid "\"PREVENTIVO\""
+msgstr "\"PREVENTIVO\""
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Cliente-partner_id/Azienda_correlata-parent_id/CAP-zip"
+msgstr "/data/record/Cliente-partner_id/Azienda_correlata-parent_id/CAP-zip"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Codice Fiscale"
+msgstr "Codice Fiscale"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_quote_report:0
+msgid "$F{Partner -Fax-fax}"
+msgstr "$F{Partner -Fax-fax}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Azienda - Nome_Banca-bank_name}"
+msgstr "$F{Azienda - Nome_Banca-bank_name}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"$F{Partner -CAP-zip} + \" \" + $F{Partner -Citta-city} + \" \" + $F{Partner -"
+"Codice_provincia-code}"
+msgstr ""
+"$F{Partner -CAP-zip} + \" \" + $F{Partner -Citta-city} + \" \" + $F{Partner -"
+"Codice_provincia-code}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_quote_report:0
+msgid "Fax"
+msgstr "Fax"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Citta-city"
+msgstr "/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Citta-city"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_quote_report:0
+msgid "Telef."
+msgstr "Telef."
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Contatti-address/Indirizzo-street"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Indirizzo-street"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Numero"
+msgstr "Numero"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Contatti-address/Telefono-phone"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Telefono-phone"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Commerciale-user_id/Alias-alias_name"
+msgstr "/data/record/Commerciale-user_id/Alias-alias_name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"($F{Totale - Tassa-amount_tax}.trim() != \"\" ? new Double($F{Totale - Tassa-"
+"amount_tax})  : null)"
+msgstr ""
+"($F{Totale - Tassa-amount_tax}.trim() != \"\" ? new Double($F{Totale - Tassa-"
+"amount_tax})  : null)"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Cod cli/for"
+msgstr "Cod cli/for"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Righe_Ordine-order_line/Prodotto-product_id/Sale_Description-"
+"description_sale"
+msgstr ""
+"/data/record/Righe_Ordine-order_line/Prodotto-product_id/Sale_Description-"
+"description_sale"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Causale_del_trasporto-transportation_reason_id/"
+"Causale_del_trasporto-name"
+msgstr ""
+"/data/record/Causale_del_trasporto-transportation_reason_id/"
+"Causale_del_trasporto-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"\"Tel: \" + $F{Azienda - Telefono-phone}.trim() + \" - E-mail: \" + $F"
+"{Azienda - Email-email}.trim() + \" - Sito web: \" + $F{Azienda - Sito_Web-"
+"website}.trim() + \" - Partita IVA: \" + $F{Azienda - Partita_IVA-vat}.trim"
+"() + \" - Reg: \" + $F{Azienda - Company_Registry-company_registry}.trim()"
+msgstr ""
+"\"Tel: \" + $F{Azienda - Telefono-phone}.trim() + \" - E-mail: \" + $F"
+"{Azienda - Email-email}.trim() + \" - Sito web: \" + $F{Azienda - Sito_Web-"
+"website}.trim() + \" - Partita IVA: \" + $F{Azienda - Partita_IVA-vat}.trim"
+"() + \" - Reg: \" + $F{Azienda - Company_Registry-company_registry}.trim()"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Azienda-company_id/Logo-logo"
+msgstr "/data/record/Azienda-company_id/Logo-logo"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"($F{Totale - Imponibile-amount_untaxed}.trim() != \"\" ? new Double($F"
+"{Totale - Imponibile-amount_untaxed})  : null)"
+msgstr ""
+"($F{Totale - Imponibile-amount_untaxed}.trim() != \"\" ? new Double($F"
+"{Totale - Imponibile-amount_untaxed})  : null)"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"$F{Partner ref-Nome-name} != \"\" ? $F{Partner ref-Nome-name} : $F{Partner -"
+"Nome-name}"
+msgstr ""
+"$F{Partner ref-Nome-name} != \"\" ? $F{Partner ref-Nome-name} : $F{Partner -"
+"Nome-name}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"($F{Totale - amount_total}.trim() != \"\" ? new Double($F{Totale - "
+"amount_total})  : null)"
+msgstr ""
+"($F{Totale - amount_total}.trim() != \"\" ? new Double($F{Totale - "
+"amount_total})  : null)"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Cliente-partner_id/Email-email"
+msgstr "/data/record/Cliente-partner_id/Email-email"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Agente"
+msgstr "Agente"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Nome-fiscalcode_firstname"
+msgstr "/data/record/Partner-partner_id/Nome-fiscalcode_firstname"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Destinazione"
+msgstr "Destinazione"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"(\"Tel. \" + $F{Azienda - Telefono-phone}.trim()) + \" - Fax \" + ($F"
+"{Azienda - Fax-fax}).trim()"
+msgstr ""
+"(\"Tel. \" + $F{Azienda - Telefono-phone}.trim()) + \" - Fax \" + ($F"
+"{Azienda - Fax-fax}).trim()"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Banche-bank_ids/Bank_Name-bank_name"
+msgstr "/data/record/Partner-partner_id/Banche-bank_ids/Bank_Name-bank_name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"$F{Azienda - Indirizzo-street}.trim() + \" \" + $F{Azienda - Indirizzo_2-"
+"street2}.trim() + \" \" + $F{Azienda - CAP-zip}.trim() + \" \" + $F{Azienda "
+"- Citta-city}.trim() + \" \""
+msgstr ""
+"$F{Azienda - Indirizzo-street}.trim() + \" \" + $F{Azienda - Indirizzo_2-"
+"street2}.trim() + \" \" + $F{Azienda - CAP-zip}.trim() + \" \" + $F{Azienda "
+"- Citta-city}.trim() + \" \""
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Azienda-company_id/Sito_Web-website"
+msgstr "/data/record/Azienda-company_id/Sito_Web-website"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"($F{Riga - Prezzo_unitario-price_unit}.trim() != \"\" ? new Double($F{Riga - "
+"Prezzo_unitario-price_unit})  : null)"
+msgstr ""
+"($F{Riga - Prezzo_unitario-price_unit}.trim() != \"\" ? new Double($F{Riga - "
+"Prezzo_unitario-price_unit})  : null)"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Righe_Ordine-order_line/Unita_di_Vendita_Prodotto-product_uos/"
+"Unita_di_misura-name"
+msgstr ""
+"/data/record/Righe_Ordine-order_line/Unita_di_Vendita_Prodotto-product_uos/"
+"Unita_di_misura-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/"
+"Indirizzo_completo-contact_address"
+msgstr ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/"
+"Indirizzo_completo-contact_address"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Azienda-company_id/Stato_fed.-state_id/Nome_Stato-name"
+msgstr "/data/record/Azienda-company_id/Stato_fed.-state_id/Nome_Stato-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"($F{Riga - Subtotale-price_subtotal}.trim() != \"\" ? new Double($F{Riga - "
+"Subtotale-price_subtotal})  : null)"
+msgstr ""
+"($F{Riga - Subtotale-price_subtotal}.trim() != \"\" ? new Double($F{Riga - "
+"Subtotale-price_subtotal})  : null)"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Partner-partner_id/Contatti-address/Provincia-province/"
+"Nome_Provincia-name"
+msgstr ""
+"/data/record/Partner-partner_id/Contatti-address/Provincia-province/"
+"Nome_Provincia-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Codice_Fiscale-"
+"fiscalcode"
+msgstr ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Codice_Fiscale-"
+"fiscalcode"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Riga - Descrizione-name2}"
+msgstr "$F{Riga - Descrizione-name2}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Righe_Ordine-order_line/Prodotto-product_id/Immagine-image"
+msgstr ""
+"/data/record/Righe_Ordine-order_line/Prodotto-product_id/Immagine-image"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Riferimento-ref"
+msgstr ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Riferimento-ref"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Righe_Ordine-order_line/Sconto_2-discount2"
+msgstr "/data/record/Righe_Ordine-order_line/Sconto_2-discount2"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Partner-partner_id/Dichiarazione_data-"
+"dichiarazione_intento_partner_date"
+msgstr ""
+"/data/record/Partner-partner_id/Dichiarazione_data-"
+"dichiarazione_intento_partner_date"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"($F{Azienda - Sito_Web-website}.trim()) + \" - \" + ($F{Azienda - Email-"
+"email}.trim())"
+msgstr ""
+"($F{Azienda - Sito_Web-website}.trim()) + \" - \" + ($F{Azienda - Email-"
+"email}.trim())"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Partner-partner_id/Registrazione_numero-"
+"dichiarazione_intento_registration_number"
+msgstr ""
+"/data/record/Partner-partner_id/Registrazione_numero-"
+"dichiarazione_intento_registration_number"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Email-email"
+msgstr ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Email-email"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"$F{Partner -Indirizzo-street}.trim() + \" \" + $F{Partner -Indirizzo_2-"
+"street2}.trim()"
+msgstr ""
+"$F{Partner -Indirizzo-street}.trim() + \" \" + $F{Partner -Indirizzo_2-"
+"street2}.trim()"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Cliente-partner_id/Indirizzo-street"
+msgstr "/data/record/Cliente-partner_id/Indirizzo-street"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Partner-partner_id/Dichiarazione_numero-"
+"dichiarazione_intento_partner_number"
+msgstr ""
+"/data/record/Partner-partner_id/Dichiarazione_numero-"
+"dichiarazione_intento_partner_number"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Riga - Immagine-image}"
+msgstr "$F{Riga - Immagine-image}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Stato-state_id/"
+"Nome_Stato-name"
+msgstr ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Stato-state_id/"
+"Nome_Stato-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Valuta-name}"
+msgstr "$F{Valuta-name}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Valuta-currency_id/Valuta-name"
+msgstr "/data/record/Valuta-currency_id/Valuta-name"
+
+#. module: openforce_sale_order_report
+#: model:ir.model,name:openforce_sale_order_report.model_sale_order
+msgid "Sales Order"
+msgstr "Ordine di vendita"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Descrizione-name"
+msgstr "/data/record/Descrizione-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Rif._Ordine-name"
+msgstr "/data/record/Rif._Ordine-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Imposta"
+msgstr "Imposta"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Cognome-fiscalcode_surname"
+msgstr "/data/record/Partner-partner_id/Cognome-fiscalcode_surname"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Azienda-company_id/Fax-fax"
+msgstr "/data/record/Azienda-company_id/Fax-fax"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Partita_IVA-vat"
+msgstr "/data/record/Partner-partner_id/Partita_IVA-vat"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Cliente-partner_id/Indirizzo_completo-contact_address"
+msgstr "/data/record/Cliente-partner_id/Indirizzo_completo-contact_address"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Contatti-address/Indirizzo_2-street2"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Indirizzo_2-street2"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Cliente-partner_id/CAP-zip"
+msgstr "/data/record/Cliente-partner_id/CAP-zip"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Azienda-company_id/Citta-city"
+msgstr "/data/record/Azienda-company_id/Citta-city"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Riferimento_cliente-client_order_ref"
+msgstr "/data/record/Riferimento_cliente-client_order_ref"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Codice"
+msgstr "Codice"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Azienda-company_id/Conti_Bancari-bank_ids/Nome_Banca-bank_name"
+msgstr ""
+"/data/record/Azienda-company_id/Conti_Bancari-bank_ids/Nome_Banca-bank_name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Azienda - Nome_Azienda-name}"
+msgstr "$F{Azienda - Nome_Azienda-name}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$P{SUBREPORT_DIR} + \"/images/prago_loghi1.jpg\""
+msgstr "$P{SUBREPORT_DIR} + \"/images/prago_loghi1.jpg\""
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_quote_report:0
+msgid "Contatti"
+msgstr "Contatti"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Contatti-address/Citta-city"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Citta-city"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0
+msgid ""
+"$F{Partner ref-Nome_Banca-bank_name} != \"\" ? $F{Partner ref-Nome_Banca-"
+"bank_name} : $F{Partner -Bank_Name-bank_name}"
+msgstr ""
+"$F{Partner ref-Nome_Banca-bank_name} != \"\" ? $F{Partner ref-Nome_Banca-"
+"bank_name} : $F{Partner -Bank_Name-bank_name}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Pickings_out-picking_out_ids/Trasportatore-carrier_id/"
+"Azienda_di_Spedizioni-partner_id/Citta-city"
+msgstr ""
+"/data/record/Pickings_out-picking_out_ids/Trasportatore-carrier_id/"
+"Azienda_di_Spedizioni-partner_id/Citta-city"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Partner-partner_id/Posizione_fiscale-property_account_position/"
+"Posizione_fiscale-name"
+msgstr ""
+"/data/record/Partner-partner_id/Posizione_fiscale-property_account_position/"
+"Posizione_fiscale-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Righe_Ordine-order_line/Descrizione-name"
+msgstr "/data/record/Righe_Ordine-order_line/Descrizione-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Azienda - Logo-logo}"
+msgstr "$F{Azienda - Logo-logo}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$P{SUBREPORT_DIR} + \"/images/prago_loghi2.jpg\""
+msgstr "$P{SUBREPORT_DIR} + \"/images/prago_loghi2.jpg\""
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Telefono-phone"
+msgstr ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Telefono-phone"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Azienda-company_id/Nome_Azienda-name"
+msgstr "/data/record/Azienda-company_id/Nome_Azienda-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"$F{Partner ref-Riferimento-ref} != \"\" ? $F{Partner ref-Riferimento-"
+"ref}     :$F{Partner -Riferimento-ref}"
+msgstr ""
+"$F{Partner ref-Riferimento-ref} != \"\" ? $F{Partner ref-Riferimento-"
+"ref}     :$F{Partner -Riferimento-ref}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Riga - Riferimento_interno-default_code}"
+msgstr "$F{Riga - Riferimento_interno-default_code}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Resa_merce-carriage_condition_id/Resa_merce-name"
+msgstr "/data/record/Resa_merce-carriage_condition_id/Resa_merce-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Cliente-partner_id/Provincia-province/Codice_provincia-code"
+msgstr ""
+"/data/record/Cliente-partner_id/Provincia-province/Codice_provincia-code"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Righe_Ordine-order_line/Subtotale-price_subtotal"
+msgstr "/data/record/Righe_Ordine-order_line/Subtotale-price_subtotal"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Sc.1"
+msgstr "Sc.1"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"$F{Partner ref-Partita_IVA-vat} != \"\" ? $F{Partner ref-Partita_IVA-"
+"vat}     :$F{Partner -Partita_IVA-vat}"
+msgstr ""
+"$F{Partner ref-Partita_IVA-vat} != \"\" ? $F{Partner ref-Partita_IVA-"
+"vat}     :$F{Partner -Partita_IVA-vat}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Documento_sorgente-origin"
+msgstr "/data/record/Documento_sorgente-origin"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Termine_di_pagamento-name}"
+msgstr "$F{Termine_di_pagamento-name}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Azienda-company_id/Company_Registry-company_registry"
+msgstr "/data/record/Azienda-company_id/Company_Registry-company_registry"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Sezionale-journal_id/Tipo-type"
+msgstr "/data/record/Sezionale-journal_id/Tipo-type"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Nome-name"
+msgstr "/data/record/Partner-partner_id/Nome-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Azienda-company_id/Indirizzo-street"
+msgstr "/data/record/Azienda-company_id/Indirizzo-street"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Totale"
+msgstr "Totale"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Firma per Accettazione"
+msgstr "Firma per Accettazione"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Azienda-company_id/Partner-partner_id/Codice_fiscale-fiscalcode"
+msgstr ""
+"/data/record/Azienda-company_id/Partner-partner_id/Codice_fiscale-fiscalcode"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"$F{Partner -Cellulare-mobile}.trim() + \" - \" + $F{Partner -Telefono-phone}."
+"trim()"
+msgstr ""
+"$F{Partner -Cellulare-mobile}.trim() + \" - \" + $F{Partner -Telefono-phone}."
+"trim()"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"($F{Riga - Quantita__Unita_di_Vendita-product_uos_qty}.trim() != \"\" ? new "
+"Double($F{Riga - Quantita__Unita_di_Vendita-product_uos_qty})  : null)"
+msgstr ""
+"($F{Riga - Quantita__Unita_di_Vendita-product_uos_qty}.trim() != \"\" ? new "
+"Double($F{Riga - Quantita__Unita_di_Vendita-product_uos_qty})  : null)"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Imponibile-amount_untaxed"
+msgstr "/data/record/Imponibile-amount_untaxed"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"\"Conto bancario: \" + $F{Azienda - Banca Nome-name}.trim() + \" - Iban: \" "
+"+ $F{Azienda - Numero_conto-acc_number}"
+msgstr ""
+"\"Conto bancario: \" + $F{Azienda - Banca Nome-name}.trim() + \" - Iban: \" "
+"+ $F{Azienda - Numero_conto-acc_number}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_quote_report:0
+msgid "$F{Partner -Email-email}"
+msgstr "$F{Partner -Email-email}"
+
+#. module: openforce_sale_order_report
+#: model:ir.actions.report.xml,name:openforce_sale_order_report.openforce_sale_order_report
+msgid "Order"
+msgstr "Ordine"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Banche-bank_ids/"
+"Nome_Banca-bank_name"
+msgstr ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Banche-bank_ids/"
+"Nome_Banca-bank_name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Partita_IVA-vat"
+msgstr ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Partita_IVA-vat"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Data"
+msgstr "Data"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Righe_Ordine-order_line/Quantita__Unita_di_Vendita-"
+"product_uos_qty"
+msgstr ""
+"/data/record/Righe_Ordine-order_line/Quantita__Unita_di_Vendita-"
+"product_uos_qty"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Partner -Nome-name}"
+msgstr "$F{Partner -Nome-name}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Pickings_out-picking_out_ids/Trasportatore-carrier_id/"
+"Azienda_di_Spedizioni-partner_id/Nome-name"
+msgstr ""
+"/data/record/Pickings_out-picking_out_ids/Trasportatore-carrier_id/"
+"Azienda_di_Spedizioni-partner_id/Nome-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Prezzo"
+msgstr "Prezzo"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"$F{Partner ref-Nome-name} != \"\" ?     $F{Partner ref-CAP-zip} + \" \" + $F"
+"{Partner ref-Citta-city}.trim() + \" \" + $F{Partner ref-Codice_provincia-"
+"code}     :     $F{Partner -CAP-zip} + \" \" + $F{Partner -Citta-city} + \" "
+"\" + $F{Partner -Codice_provincia-code}"
+msgstr ""
+"$F{Partner ref-Nome-name} != \"\" ?     $F{Partner ref-CAP-zip} + \" \" + $F"
+"{Partner ref-Citta-city}.trim() + \" \" + $F{Partner ref-Codice_provincia-"
+"code}     :     $F{Partner -CAP-zip} + \" \" + $F{Partner -Citta-city} + \" "
+"\" + $F{Partner -Codice_provincia-code}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Partner-partner_id/Registrazione_data-"
+"dichiarazione_intento_registration_date"
+msgstr ""
+"/data/record/Partner-partner_id/Registrazione_data-"
+"dichiarazione_intento_registration_date"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Aspetto_dei_Beni-goods_description_id/Aspetto_dei_Beni-name"
+msgstr ""
+"/data/record/Aspetto_dei_Beni-goods_description_id/Aspetto_dei_Beni-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"$F{Partner ref-Indirizzo_completo-contact_address} != \"\"     ? $F{Partner "
+"ref-Indirizzo_completo-contact_address}     : $F{Partner -Indirizzo_completo-"
+"contact_address}"
+msgstr ""
+"$F{Partner ref-Indirizzo_completo-contact_address} != \"\"     ? $F{Partner "
+"ref-Indirizzo_completo-contact_address}     : $F{Partner -Indirizzo_completo-"
+"contact_address}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Riga - Codice_imposta-description}"
+msgstr "$F{Riga - Codice_imposta-description}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Tassa-amount_tax"
+msgstr "/data/record/Tassa-amount_tax"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Partita IVA"
+msgstr "Partita IVA"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Fax-fax"
+msgstr "/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Fax-fax"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Iva"
+msgstr "Iva"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Riga - Immagine-image} != \"\""
+msgstr "$F{Riga - Immagine-image} != \"\""
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_quote_report:0
+msgid "E-mail"
+msgstr "E-mail"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Spett.le"
+msgstr "Spett.le"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Saldo-residual"
+msgstr "/data/record/Saldo-residual"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Termine_di_pagamento-payment_term/Termine_di_pagamento-name"
+msgstr ""
+"/data/record/Termine_di_pagamento-payment_term/Termine_di_pagamento-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Totale documento"
+msgstr "Totale documento"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Partner-partner_id/Contatti-address/Provincia-province/"
+"Codice_provincia-code"
+msgstr ""
+"/data/record/Partner-partner_id/Contatti-address/Provincia-province/"
+"Codice_provincia-code"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Data-date_order"
+msgstr "/data/record/Data-date_order"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$V{PAGE_NUMBER}"
+msgstr "$V{PAGE_NUMBER}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Pag."
+msgstr "Pag."
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Azienda-company_id/CAP-zip"
+msgstr "/data/record/Azienda-company_id/CAP-zip"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Nome-name"
+msgstr "/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Nome-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"($F{Riga - Sconto_2-discount2}.trim() != \"\" ? new Double($F{Riga - "
+"Sconto_2-discount2})  : null)"
+msgstr ""
+"($F{Riga - Sconto_2-discount2}.trim() != \"\" ? new Double($F{Riga - "
+"Sconto_2-discount2})  : null)"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Partner -Nome_Nazione-name}"
+msgstr "$F{Partner -Nome_Nazione-name}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Codice_fiscale-fiscalcode"
+msgstr "/data/record/Partner-partner_id/Codice_fiscale-fiscalcode"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Mezzo-mezzo_id/Spezizione_mezzo-name"
+msgstr "/data/record/Mezzo-mezzo_id/Spezizione_mezzo-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Righe_Ordine-order_line/Sequenza-sequence"
+msgstr "/data/record/Righe_Ordine-order_line/Sequenza-sequence"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "\"/Users/alex/Sviluppo/reports/\""
+msgstr "\"/Users/alex/Sviluppo/reports/\""
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Descrizione-name}"
+msgstr "$F{Descrizione-name}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"($F{Riga - Sconto-discount}.trim() != \"\" ? new Double($F{Riga - Sconto-"
+"discount})  : null)"
+msgstr ""
+"($F{Riga - Sconto-discount}.trim() != \"\" ? new Double($F{Riga - Sconto-"
+"discount})  : null)"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Azienda - Numero_conto-acc_number}"
+msgstr "$F{Azienda - Numero_conto-acc_number}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$P{SUBREPORT_DIR} + \"/images/prago_20_attivita.jpg\""
+msgstr "$P{SUBREPORT_DIR} + \"/images/prago_20_attivita.jpg\""
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"(\"Partita IVA \" + $F{Azienda - Partita_IVA-vat}.trim()) + \" - C.F. \" + "
+"($F{Azienda - Codice_fiscale-fiscalcode}).trim()"
+msgstr ""
+"(\"Partita IVA \" + $F{Azienda - Partita_IVA-vat}.trim()) + \" - C.F. \" + "
+"($F{Azienda - Codice_fiscale-fiscalcode}).trim()"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Cliente-partner_id/Cellulare-mobile"
+msgstr "/data/record/Cliente-partner_id/Cellulare-mobile"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "\"/ \" + $V{PAGE_NUMBER}"
+msgstr "\"/ \" + $V{PAGE_NUMBER}"
+
+#. module: openforce_sale_order_report
+#: model:ir.actions.report.xml,name:openforce_sale_order_report.openforce_sale_quote_report
+msgid "Quote"
+msgstr "Preventivo"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Azienda-company_id/Conti_Bancari-bank_ids/Banca-bank/Nome-name"
+msgstr ""
+"/data/record/Azienda-company_id/Conti_Bancari-bank_ids/Banca-bank/Nome-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Pagamento"
+msgstr "Pagamento"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Righe_Ordine-order_line/Imposte-tax_id/Codice_imposta-"
+"description"
+msgstr ""
+"/data/record/Righe_Ordine-order_line/Imposte-tax_id/Codice_imposta-"
+"description"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Cliente-partner_id/Telefono-phone"
+msgstr "/data/record/Cliente-partner_id/Telefono-phone"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Righe_Ordine-order_line/id"
+msgstr "/data/record/Righe_Ordine-order_line/id"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Righe_Ordine-order_line/Sconto-discount"
+msgstr "/data/record/Righe_Ordine-order_line/Sconto-discount"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Segue..."
+msgstr "Segue..."
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Riga - Unita_di_misura-name}"
+msgstr "$F{Riga - Unita_di_misura-name}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Azienda-company_id/Indirizzo_2-street2"
+msgstr "/data/record/Azienda-company_id/Indirizzo_2-street2"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"($F{Data-date_order}.trim() != \"\" ? (new SimpleDateFormat(\"yyyy-MM-dd HH:"
+"mm:ss\").parse($F{Data-date_order}) ) : new Date()  )"
+msgstr ""
+"($F{Data-date_order}.trim() != \"\" ? (new SimpleDateFormat(\"yyyy-MM-dd HH:"
+"mm:ss\").parse($F{Data-date_order}) ) : new Date()  )"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Commerciale-user_id/Name-name"
+msgstr "/data/record/Commerciale-user_id/Name-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Registrazione_Contabile-move_id/id"
+msgstr "/data/record/Registrazione_Contabile-move_id/id"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Azienda-company_id/Email-email"
+msgstr "/data/record/Azienda-company_id/Email-email"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0
+msgid "Telefono"
+msgstr "Telefono"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Contatti-address/Fax-fax"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Fax-fax"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Descrizione"
+msgstr "Descrizione"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Sc.2"
+msgstr "Sc.2"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Banca d'appoggio"
+msgstr "Banca d'appoggio"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Um"
+msgstr "Um"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Imponibile"
+msgstr "Imponibile"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Prodotto - Sale_Description-description_sale}"
+msgstr "$F{Prodotto - Sale_Description-description_sale}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Righe_Ordine-order_line/Prezzo_unitario-price_unit"
+msgstr "/data/record/Righe_Ordine-order_line/Prezzo_unitario-price_unit"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Quantita"
+msgstr "Quantita"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Totale-amount_total"
+msgstr "/data/record/Totale-amount_total"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "Valuta"
+msgstr "Valuta"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Nazione-country/Nome_Nazione-name"
+msgstr "/data/record/Partner-partner_id/Nazione-country/Nome_Nazione-name"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "$F{Commerciale - Name-name}"
+msgstr "$F{Commerciale - Name-name}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Contatti-address/CAP-zip"
+msgstr "/data/record/Partner-partner_id/Contatti-address/CAP-zip"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Cliente-partner_id/Indirizzo_2-street2"
+msgstr "/data/record/Cliente-partner_id/Indirizzo_2-street2"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Citta-city"
+msgstr "/data/record/Partner-partner_id/Citta-city"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0
+msgid "Banca"
+msgstr "Banca"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0
+msgid "\"ORDINE\""
+msgstr "\"ORDINE\""
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"$F{Partner ref-Codice_Fiscale-fiscalcode} != \"\" ? $F{Partner ref-"
+"Codice_Fiscale-fiscalcode}     :$F{Partner -Codice_fiscale-fiscalcode}"
+msgstr ""
+"$F{Partner ref-Codice_Fiscale-fiscalcode} != \"\" ? $F{Partner ref-"
+"Codice_Fiscale-fiscalcode}     :$F{Partner -Codice_fiscale-fiscalcode}"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Azienda-company_id/Conti_Bancari-bank_ids/Numero_conto-"
+"acc_number"
+msgstr ""
+"/data/record/Azienda-company_id/Conti_Bancari-bank_ids/Numero_conto-"
+"acc_number"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Provincia-"
+"province/Codice_provincia-code"
+msgstr ""
+"/data/record/Cliente-partner_id/Azienda_correlata-parent_id/Provincia-"
+"province/Codice_provincia-code"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Partner-partner_id/Riferimento-ref"
+msgstr "/data/record/Partner-partner_id/Riferimento-ref"
+
+#. module: openforce_sale_order_report
+#: report:openforce_sale_order_report:0 report:openforce_sale_quote_report:0
+msgid "/data/record/Azienda-company_id/Partner-partner_id/Partita_IVA-vat"
+msgstr "/data/record/Azienda-company_id/Partner-partner_id/Partita_IVA-vat"

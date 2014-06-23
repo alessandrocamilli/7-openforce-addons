@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<openerp>
+<data>
+    <record id="openforce_sale_fattura_accompagnatoria_report" model="ir.actions.report.xml">
+        <field name="name">Fattura accompagnatoria</field>
+        <field name="type">ir.actions.report.xml</field>
+        <!-- <field name="res_model">account.invoice</field> -->
+        <field name="model">account.invoice</field>
+        <field name="report_name">openforce_sale_fattura_accompagnatoria_report</field>
+        <field name="report_rml">openforce_sale/report/fattura_accompagnatoria.jrxml</field>
+        <field name="report_type">pdf</field>
+        <field name="jasper_report">True</field>
+        <field name="jasper_output">pdf</field>
+    </record>
+  	   
+    <report id="openforce_sale_fattura_accompagnatoria"
+            string="Fattura accompagnatoria"
+            model="account.invoice"
+            name="openforce_sale_fattura_accompagnatoria_report"
+            rml="openforce_sale/report/fattura_accompagnatoria.jrxml"
+            menu="True"
+            auto="False"/>
+    
+    <record id="openforce_sale_ddt_report" model="ir.actions.report.xml">
+        <field name="name">DDT</field>
+        <field name="type">ir.actions.report.xml</field>
+        <field name="model">stock.picking.out</field>
+        <field name="report_name">openforce_sale_ddt_report</field>
+        <field name="report_rml">openforce_sale/report/ddt.jrxml</field>
+        <field name="report_type">pdf</field>
+        <field name="jasper_report">True</field>
+        <field name="jasper_output">pdf</field>
+    </record>
+    
+    <report id="openforce_sale_ddt"
+            string="DDT"
+            model="stock.picking.out"
+            name="openforce_sale_ddt_report"
+            rml="openforce_sale/report/ddt.jrxml"
+            menu="True"
+            auto="False"/>
+    
+    <record id="openforce_sale_fattura_report" model="ir.actions.report.xml">
+        <field name="name">Fattura</field>
+        <field name="type">ir.actions.report.xml</field>
+        <field name="model">account.invoice</field>
+        <field name="report_name">openforce_sale_fattura_report</field>
+        <field name="report_rml">openforce_sale/report/fattura.jrxml</field>
+        <field name="report_type">pdf</field>
+        <field name="jasper_report">True</field>
+        <field name="jasper_output">pdf</field>
+    </record>
+    
+    <report id="openforce_sale_fattura"
+            string="Fattura"
+            model="account.invoice"
+            name="openforce_sale_fattura_report"
+            rml="openforce_sale/report/fattura.jrxml"
+            menu="True"
+            auto="False"/>
+            
+</data>
+</openerp>

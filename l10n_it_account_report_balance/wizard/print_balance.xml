@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="wizard_l10n_it_report_account_balance" model="ir.ui.view">
+            <field name="name">Report italian balance</field>
+            <field name="model">wizard.it.print.balance</field>
+            <field name="type">form</field>
+            <field name="inherit_id" ref="account.account_common_report_view"/>
+            <field name="arch" type="xml">
+                <data>
+                	
+                    <xpath expr="/form/label[@string='']" position="replace">
+                        <separator string="Balance" colspan="4"/>
+                        <label nolabel="1" colspan="4" string=""/>
+                    </xpath>
+                    
+                    <xpath expr="//page[@name='journal_ids']" position="replace">
+                    </xpath>
+                    
+                    <xpath expr="//button[@string='Print']" position="attributes">
+                        <attribute name="name">print_balance</attribute>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+
+        <record id="action_l10n_it_report_account_balance" model="ir.actions.act_window">
+            <field name="name">Report italian balance</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard.it.print.balance</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_l10n_it_report_account_balance"/>
+            <field name="target">new</field>
+        </record>
+        
+        <menuitem name="Print italian balance"
+            parent="account.final_accounting_reports" action="action_l10n_it_report_account_balance"
+            groups="account.group_account_manager,account.group_account_user" id="menu_l10n_it_report_account_balance"/>
+ 		 
+    </data>
+</openerp>

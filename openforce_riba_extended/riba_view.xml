@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <!-- 
+        Invoice
+        -->
+		<record id="riba_extended_distinta_form" model="ir.ui.view">
+			<field name="name">riba.extended.riba.distinta.form</field>
+			<field name="model">riba.distinta</field>
+			<field name="inherit_id" ref="l10n_it_ricevute_bancarie.view_distinta_riba_form"/>
+			<field name="arch" type="xml">
+			    
+			    <xpath expr="//field[@name='line_ids']/form//field[@name='amount']" position="replace">
+				    <field name="amount"  readonly="0" on_change="onchange_riba_amount(amount)"/>
+				</xpath>
+				
+			</field>
+		</record>
+        
+
+        <!-- ====================================================== -->
+        <!--                     RIGHE DISTINTA RIBA - FILTRI       -->
+        <!-- ====================================================== -->
+        <record id="view_distinta_riba_line_filtri" model="ir.ui.view">
+            <field name="name">riba.distinta.line.filtri</field>
+            <field name="model">riba.distinta.line</field>
+            <field name="type">search</field>
+            <field name="arch" type="xml">
+                <search string="Ricevute bancarie">
+                    <group>
+	                    <!-- 
+	                    <filter icon="terp-check" string="Draft" domain="[('state','=','draft')]" help="Draft"/>
+	                    <filter icon="terp-dolar" string="Confirmed" domain="[('state','=','accepted')]" help="Accepted"/>
+	                    <filter icon="terp-dolar_ok!" string="Paid" domain="[('state','=','paid')]" help="Paid"/>
+	                     -->
+	                    <separator orientation="vertical"/> 
+	                    <field name="partner_id" />
+	                    <field name="due_date"  />
+	                    <!-- <field name="config" />
+	                    <field name="date_accepted" />
+	                    <field name="date_paid" />-->
+                    </group>
+                    <newline/>
+                    <group expand="0" string="Group By...">
+                        <filter string="Partner" icon="terp-partner" domain="[]" context="{'group_by':'partner_id'}"/>
+                        <separator orientation="vertical"/>
+                        <filter string="State" icon="terp-partner" domain="[]" context="{'group_by':'state'}"/>
+                        <separator orientation="vertical"/>
+                        <filter string="due_date" icon="terp-go-month" domain="[]" context="{'group_by':'due_date'}"/>
+                        <separator orientation="vertical"/>
+                        <filter string="Configuration" icon="terp-go-month" domain="[]" context="{'group_by':'distinta_config'}"/>
+                        <filter string="Distinta" icon="terp-go-month" domain="[]" context="{'group_by':'distinta_id'}"/>
+                    </group>
+               </search>
+            </field>
+        </record>
+
+        <!-- ====================================================== -->
+        <!--                     RIGHE DISTINTA RIBA TREE           -->
+        <!-- ====================================================== -->
+        <record model="ir.ui.view" id="view_distinta_riba_line_tree">
+            <field name="name">riba.distinta.line.tree</field>
+            <field name="model">riba.distinta.line</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Ricevute bancarie">
+	                <field name="partner_id"></field>
+	                <field name="invoice_number"></field>
+	                <field name="invoice_date"></field>
+	                <field name="distinta_id"></field>
+	                <field name="distinta_config"></field>
+	                <field name="due_date" ></field>
+	                <field name="amount" sum="Total"></field>
+	                <field name="state"></field>
+	                <button name="%(l10n_it_ricevute_bancarie.riba_unsolved_action)d" type='action' attrs="{'invisible':[('state','!=','accredited'), ('state','!=','paid'), ('state','!=','unsolved')]}" string="Unsolved" icon="terp-dolar_ok!"/>
+	            </tree>
+            </field>
+        </record>
+
+		<record model="ir.ui.view" id="view_distinta_riba_line_form">
+            <field name="name">riba.distinta.line.form</field>
+            <field name="model">riba.distinta.line</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <field name="partner_id"></field>
+                <field name="invoice_number"></field>
+                <field name="invoice_date"></field>
+                <field name="distinta_id"></field>
+                <field name="distinta_config"></field>
+                <field name="due_date" ></field>
+                <field name="amount"></field>
+                <field name="state"></field>
+            </field>
+        </record>
+        
+        <!-- ====================================================== -->
+        <!--                     ACTION RIGHE DISTINTA RIBA         -->
+        <!-- ====================================================== -->
+        <record id="distinta_riba_line_action" model="ir.actions.act_window">
+            <field name="name">Ricevute bancarie</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">riba.distinta.line</field>
+            <field name="src_model">riba.distinta.line</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_distinta_riba_line_tree"/>
+            <field name="search_view_id" ref="view_distinta_riba_line_filtri"/>
+        </record>
+        
+        <!-- ====================================================== -->
+        <!--                     DISTINTA RIBA - MENU                -->
+        <!-- ====================================================== -->
+        <menuitem name="Ricevute bancarie" parent="l10n_it_ricevute_bancarie.menu_riba" 
+            id="menu_riba_distinte_line" action="distinta_riba_line_action" />
+
+    </data>
+</openerp>

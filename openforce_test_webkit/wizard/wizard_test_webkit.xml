@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="wizard_openforce_test_webkit_partner" model="ir.ui.view">
+            <field name="name">Openforce test webkit partner</field>
+            <field name="model">wizard.test.webkit.partner</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Lista partners">
+                    <group col="2">
+                        <field name="type"/>
+                        <field name="name"/>
+                        <field name="message"/>
+                        <button icon="gtk-cancel" special="cancel" string="Cancel"/>
+                        <button icon="gtk-ok" name="print_list_partners" string="Print" type="object"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+      
+        <record id="openforce_report_test_webkit_partner_action" model="ir.actions.act_window">
+            <field name="name">Report test webkit partner</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard.test.webkit.partner</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+        
+        <menuitem 
+        	name="Webkit test - partner"
+        	action="openforce_report_test_webkit_partner_action" 
+        	id="menu_openforce_report_tes_webkit_partner" 
+        	parent="openforce_utility.menu_openforce_utility"/>
+    </data>
+</openerp>

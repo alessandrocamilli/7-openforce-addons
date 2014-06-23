@@ -1,0 +1,31 @@
+<openerp>
+	<data>
+	    
+	    <record id="openforce_sale_journal_doc_type_form" model="ir.ui.view">
+			<field name="name">openforce.sale.journal.doc.type.form</field>
+			<field name="model">sale_journal.invoice.type</field>
+			<field name="inherit_id" ref="sale_journal.view_sale_journal_invoice_type_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//separator[@string='Notes']" position="replace">
+				    <group col="4">
+                        <field name="document_type"/>
+                        <field name="require_DDT"/>
+                        <field name="default"/>
+                    </group>
+				</xpath>
+			</field>
+		</record>
+		
+	    <record id="openforce_sale_journal_doc_type_tree" model="ir.ui.view">
+			<field name="name">openforce.sale.journal.doc.type.tree</field>
+			<field name="model">sale_journal.invoice.type</field>
+			<field name="inherit_id" ref="sale_journal.view_sale_journal_invoice_type_tree"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='invoicing_method']" position="after">
+                        <field name="default"/>
+				</xpath>
+			</field>
+		</record>
+		
+    </data>
+</openerp>

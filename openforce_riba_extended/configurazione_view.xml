@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!--
+        Configurazione
+     	-->
+		<record model="ir.ui.view" id="view_riba_extended_configurazione">
+			<field name="name">riba.configurazione.form</field>
+			<field name="model">riba.configurazione</field>
+			<field name="inherit_id" ref="l10n_it_ricevute_bancarie.view_riba_configurazione_form"/>
+			<field name="type">form</field> 
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='overdue_effects_account_id']" position="after">
+                	<field name="unsolved_bank_account_id"></field>
+                	<field name="unsolved_bank_account_accreditation_id"></field>
+                	<field name="unsolved_reverse_sbf_with_payment"></field>
+           		</xpath>
+           		
+           		<xpath expr="//field[@name='protest_charge_account_id']" position="after">
+                	<separator colspan="4" string="Payment"/>
+                	<field name="payment_journal_id"></field>
+                	<field name="payment_effects_bank_account_id"></field>
+                	<field name="payment_bank_account_id"></field>
+           		</xpath>
+			</field>
+		</record>
+    </data>
+</openerp>

@@ -1,0 +1,79 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* openforce_account_credit_debit_residual
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-03 21:10+0000\n"
+"PO-Revision-Date: 2014-04-03 21:10+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: help:res.partner,debit_limit_residual:0
+#. module: openforce_account_credit_debit_residual
+msgid "Amount Residual of Debit Limit"
+msgstr "Amount Residual of Debit Limit"
+
+#: field:res.partner,credit_to_expire:0
+#. module: openforce_account_credit_debit_residual
+msgid "Total Receivable To Expire"
+msgstr "Totale Credito A Scadere"
+
+#: help:res.partner,credit_limit_residual:0
+#. module: openforce_account_credit_debit_residual
+msgid "Amount Residual of Credit Limit"
+msgstr "Amount Residual of Credit Limit"
+
+#: field:res.partner,credit_expired:0
+#. module: openforce_account_credit_debit_residual
+msgid "Total Receivable Expired"
+msgstr "Totale Credito Scaduto"
+
+#: field:res.partner,debit_limit_residual:0
+#. module: openforce_account_credit_debit_residual
+msgid "Total Debit Limit Residual"
+msgstr "Total Debit Limit Residual"
+
+#: help:res.partner,credit_to_expire:0
+#: help:res.partner,debit_to_expire:0
+#. module: openforce_account_credit_debit_residual
+msgid "Amount this customer owes you. To expire."
+msgstr "Amount this customer owes you. To expire."
+
+#: field:res.partner,debit_expired:0
+#. module: openforce_account_credit_debit_residual
+msgid "Total Payable Expired"
+msgstr "Totale Debito Scaduto"
+
+#: field:res.partner,credit_limit_residual:0
+#. module: openforce_account_credit_debit_residual
+msgid "Total Credit Limit Residual"
+msgstr "Fido Accordato Residuo"
+
+#: model:ir.model,name:openforce_account_credit_debit_residual.model_account_move_line
+#. module: openforce_account_credit_debit_residual
+msgid "Journal Items"
+msgstr "Voci sezionale"
+
+#: model:ir.model,name:openforce_account_credit_debit_residual.model_res_partner
+#. module: openforce_account_credit_debit_residual
+msgid "Partner"
+msgstr "Partner"
+
+#: field:res.partner,debit_to_expire:0
+#. module: openforce_account_credit_debit_residual
+msgid "Total Payable To Expire"
+msgstr "Totale Debito A Scadere"
+
+#: help:res.partner,credit_expired:0
+#: help:res.partner,debit_expired:0
+#. module: openforce_account_credit_debit_residual
+msgid "Amount this customer owes you. Expired"
+msgstr "Amount this customer owes you. Expired"
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    
+        # -------------------------------------------------------------
+        # Mezzo
+        # -------------------------------------------------------------
+        <record id="view_mezzo_tree" model="ir.ui.view">
+            <field name="name">stock.picking.mezzo.tree</field>
+            <field name="model">stock.picking.mezzo</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Mezzo">
+                    <field name="name" select="1"/>
+                </tree>
+            </field>
+        </record>
+        <record id="stock_mezzo_form" model="ir.ui.view">
+            <field name="name">stock.picking.mezzo.form</field>
+            <field name="model">stock.picking.mezzo</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Mezzo">
+                  <field name="name" select="1"/>
+		    <newline/>
+                    <field name="note"/>
+                </form>
+            </field>
+        </record>
+        
+        <record id="action_mezzo_tree" model="ir.actions.act_window">
+            <field name="name">Spedizione mezzo</field>
+            <field name="res_model">stock.picking.mezzo</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+        <menuitem action="action_mezzo_tree" id="menu_action_mezzo_tree" parent="stock.menu_stock_configuration"/>
+    
+    </data>
+</openerp>

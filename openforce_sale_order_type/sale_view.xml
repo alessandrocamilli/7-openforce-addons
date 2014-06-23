@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!--
+        Sale order 
+         -->
+         <record id="openforce_sale_order_type_view_order_tree" model="ir.ui.view">
+			<field name="name">openforce.sale.order.type.order.tree</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_tree"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='partner_id']" position="after">
+				    <field name="type_order"></field>
+				</xpath>
+			</field>
+		</record>
+		
+		<record id="openforce_sale_order_type_view_order_form" model="ir.ui.view">
+			<field name="name">openforce.sale.order.type.order.form</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='client_order_ref']" position="after">
+				    <field name="type_order" on_change="onchange_type_order(type_order, context)" context="{'fiscal_position': fiscal_position}"
+				        widget="selection"></field>
+				</xpath>
+			</field>
+		</record>
+		
+		<record id="openforce_sale_order_type_view_order_search" model="ir.ui.view">
+			<field name="name">openforce.sale.order.type.order.search</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_sales_order_filter"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='project_id']" position="after">
+				    <field name="type_order"></field>
+				</xpath>
+			</field>
+		</record>
+		
+         
+		 <!--
+        Sale order type
+         -->
+         <record id="openforce_sale_order_type_tree" model="ir.ui.view">
+            <field name="name">openforce.sale.order.type.tree</field>
+            <field name="model">sale.order.type</field>
+            <field name="arch" type="xml">
+	            <tree string="Sale Order Type" version="7.0">
+	            	<field name="name"/>
+	            </tree>
+            </field>
+        </record>
+        <record id="openforce_sale_order_type_form" model="ir.ui.view">
+            <field name="name">openforce.sale.order.type.form</field>
+            <field name="model">sale.order.type</field>
+            <field name="arch" type="xml">
+	            <form string="Sale Order Type" version="7.0">
+	                <group>
+		            	<field name="name"/>
+		            	<field name="lines_default">
+		            		<form string="Task Lines" version="7.0">
+		            		    <group>
+			            		    <field name="product_id"/>
+			            			<field name="quantity"/>
+			            			<field name="price"/>
+		            			</group>
+		            		</form>
+		            		<tree string="Default Lines" version="7.0">
+		            			<field name="product_id"/>
+		            			<field name="quantity"/>
+		            			<field name="price"/>
+		            		</tree>
+		            	</field>
+	            	</group>
+	            </form>
+            </field>
+        </record>
+        
+        <record id="openforce_sale_order_type_action" model="ir.actions.act_window">
+            <field name="name">Sale Order Type</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">sale.order.type</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="openforce_sale_order_type_tree"/>
+        </record>
+        
+		<menuitem id="openforce_sale_order_type_menu" name="Sale Order Type" parent="base.menu_sale_config_sales"
+            sequence="1" action="openforce_sale_order_type_action"/>
+        
+     </data>
+</openerp>

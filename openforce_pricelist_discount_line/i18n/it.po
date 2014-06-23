@@ -1,0 +1,708 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* openforce_pricelist_discount_line
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-05 09:37+0000\n"
+"PO-Revision-Date: 2013-12-05 09:37+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Azienda-company_id/Telefono-phone"
+msgstr "/data/record/Azienda-company_id/Telefono-phone"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Tasse:"
+msgstr "Tasse:"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Cognome-fiscalcode_surname"
+msgstr "/data/record/Partner-partner_id/Cognome-fiscalcode_surname"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$F{riga - Nome-name UM}"
+msgstr "$F{riga - Nome-name UM}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$F{partner - Nome-name}"
+msgstr "$F{partner - Nome-name}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Azienda-company_id/Fax-fax"
+msgstr "/data/record/Azienda-company_id/Fax-fax"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Indirizzo_Spedizione-partner_shipping_id/Indirizzo_2-street2"
+msgstr "/data/record/Indirizzo_Spedizione-partner_shipping_id/Indirizzo_2-street2"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "(new SimpleDateFormat(\"yyyy-MM-dd HH:mm:ss\")).parse($F{riga - Delivery_date-date_planned})"
+msgstr "(new SimpleDateFormat(\"yyyy-MM-dd HH:mm:ss\")).parse($F{riga - Delivery_date-date_planned})"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Totale_Imponibile-amount_untaxed"
+msgstr "/data/record/Totale_Imponibile-amount_untaxed"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Date-date_order"
+msgstr "/data/record/Date-date_order"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Contatti-address/Indirizzo-street"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Indirizzo-street"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$F{Fatturazione - Nome_Stato-name}"
+msgstr "$F{Fatturazione - Nome_Stato-name}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{riga - Subtotale-price_subtotal}.trim() != \"\" ? new Double($F{riga - Subtotale-price_subtotal})  : null)"
+msgstr "($F{riga - Subtotale-price_subtotal}.trim() != \"\" ? new Double($F{riga - Subtotale-price_subtotal})  : null)"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "'E-mail:' + $F{partner - E_mail-email}"
+msgstr "'E-mail:' + $F{partner - E_mail-email}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Indirizzo_Fatturazione-partner_invoice_id/Provincia-province/Codice_provincia-code"
+msgstr "/data/record/Indirizzo_Fatturazione-partner_invoice_id/Provincia-province/Codice_provincia-code"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$F{riga - Note-notes}.trim() != \"\""
+msgstr "$F{riga - Note-notes}.trim() != \"\""
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Stato_Ordine-state"
+msgstr "/data/record/Stato_Ordine-state"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Azienda-company_id/Logo-logo"
+msgstr "/data/record/Azienda-company_id/Logo-logo"
+
+#: model:ir.model,name:openforce_pricelist_discount_line.model_account_invoice_tax
+#. module: openforce_pricelist_discount_line
+msgid "Invoice Tax"
+msgstr "Imposta della fattura"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Nome-fiscalcode_firstname"
+msgstr "/data/record/Partner-partner_id/Nome-fiscalcode_firstname"
+
+#: model:ir.model,name:openforce_pricelist_discount_line.model_purchase_order
+#. module: openforce_pricelist_discount_line
+msgid "Purchase Order"
+msgstr "Ordine Acquisto"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Indirizzo_Spedizione-partner_shipping_id/Citta-city"
+msgstr "/data/record/Indirizzo_Spedizione-partner_shipping_id/Citta-city"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Banche-bank_ids/Bank_Name-bank_name"
+msgstr "/data/record/Partner-partner_id/Banche-bank_ids/Bank_Name-bank_name"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{riga - Sconto-discount}.trim() != \"\" ? new Double($F{riga - Sconto-discount})  : null)"
+msgstr "($F{riga - Sconto-discount}.trim() != \"\" ? new Double($F{riga - Sconto-discount})  : null)"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Azienda-company_id/Sito_Web-website"
+msgstr "/data/record/Azienda-company_id/Sito_Web-website"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Indirizzo_Fatturazione-partner_invoice_id/Stato_fed.-state_id/Nome_Stato-name"
+msgstr "/data/record/Indirizzo_Fatturazione-partner_invoice_id/Stato_fed.-state_id/Nome_Stato-name"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{riga - Prezzo_unitario-price_unit}.trim() != \"\" ? new Double($F{riga - Prezzo_unitario-price_unit})  : null)"
+msgstr "($F{riga - Prezzo_unitario-price_unit}.trim() != \"\" ? new Double($F{riga - Prezzo_unitario-price_unit})  : null)"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Riferimento"
+msgstr "Riferimento"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$F{riga - Descrizione-name}"
+msgstr "$F{riga - Descrizione-name}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$F{Termine_di_pagamento-name2}"
+msgstr "$F{Termine_di_pagamento-name2}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Azienda-company_id/Stato_fed.-state_id/Nome_Stato-name"
+msgstr "/data/record/Azienda-company_id/Stato_fed.-state_id/Nome_Stato-name"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{Fatturazione - CAP-zip}.trim()) + \" \" + ($F{Fatturazione - Citta-city}.trim()) + \" \" + ($F{Fatturazione - Codice_provincia-code})"
+msgstr "($F{Fatturazione - CAP-zip}.trim()) + \" \" + ($F{Fatturazione - Citta-city}.trim()) + \" \" + ($F{Fatturazione - Codice_provincia-code})"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Indirizzo fatturazione"
+msgstr "Indirizzo fatturazione"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Ordine_di_vendita-sale_id/Termini_di_pagamento-payment_term/Termine_di_pagamento-name"
+msgstr "/data/record/Ordine_di_vendita-sale_id/Termini_di_pagamento-payment_term/Termine_di_pagamento-name"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Righe_Ordine-order_line/Tasse-tax_id/Nome_imposta-name"
+msgstr "/data/record/Righe_Ordine-order_line/Tasse-tax_id/Nome_imposta-name"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Descrizione"
+msgstr "Descrizione"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Data ordine"
+msgstr "Data ordine"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Venditore-user_id/Nome_utente-name"
+msgstr "/data/record/Venditore-user_id/Nome_utente-name"
+
+#: model:ir.model,name:openforce_pricelist_discount_line.model_purchase_order_line
+#. module: openforce_pricelist_discount_line
+msgid "Purchase Order Line"
+msgstr "Riga Ordine d'Acquisto"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Indirizzo_Fatturazione-partner_invoice_id/CAP-zip"
+msgstr "/data/record/Indirizzo_Fatturazione-partner_invoice_id/CAP-zip"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$F{azienda - Logo-logo}"
+msgstr "$F{azienda - Logo-logo}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Righe_Ordine-order_line/Unita_di_Vendita_Prodotto-product_uos/Nome-name"
+msgstr "/data/record/Righe_Ordine-order_line/Unita_di_Vendita_Prodotto-product_uos/Nome-name"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Quantità"
+msgstr "Quantità"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Righe_Ordine-order_line/Note-notes"
+msgstr "/data/record/Righe_Ordine-order_line/Note-notes"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{Tasse-amount_tax}.trim() != \"\" ? new Double($F{Tasse-amount_tax})  : null)"
+msgstr "($F{Tasse-amount_tax}.trim() != \"\" ? new Double($F{Tasse-amount_tax})  : null)"
+
+#: view:product.pricelist.item:0
+#: view:purchase.order.line:0
+#. module: openforce_pricelist_discount_line
+msgid "Discount 1 line"
+msgstr "Sconto 1"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$F{destinazione - Nome_Stato-name}"
+msgstr "$F{destinazione - Nome_Stato-name}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$F{ordine - Riferimento_cliente-client_order_ref}"
+msgstr "$F{ordine - Riferimento_cliente-client_order_ref}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Rif._Ordine-name"
+msgstr "/data/record/Rif._Ordine-name"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$F{azienda - Nome_Azienda-name}"
+msgstr "$F{azienda - Nome_Azienda-name}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Partita_IVA-vat"
+msgstr "/data/record/Partner-partner_id/Partita_IVA-vat"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Contatti-address/Indirizzo_2-street2"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Indirizzo_2-street2"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Azienda-company_id/Citta-city"
+msgstr "/data/record/Azienda-company_id/Citta-city"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Importo"
+msgstr "Importo"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Contatti-address/Provincia-province"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Provincia-province"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "'Tel:' + $F{contatto - Telefono-phone2}"
+msgstr "'Tel:' + $F{contatto - Telefono-phone2}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{destinazione - CAP-zip}.trim()) + \" \" + ($F{destinazione - Citta-city}.trim()) + \" \" + ($F{destinazione - Codice_provincia-code})"
+msgstr "($F{destinazione - CAP-zip}.trim()) + \" \" + ($F{destinazione - Citta-city}.trim()) + \" \" + ($F{destinazione - Codice_provincia-code})"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Contatti-address/Citta-city"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Citta-city"
+
+#: model:ir.model,name:openforce_pricelist_discount_line.model_procurement_order
+#. module: openforce_pricelist_discount_line
+msgid "Procurement"
+msgstr "Approvvigionamento"
+
+#: field:product.pricelist.item,discount_line:0
+#: field:purchase.order.line,discount:0
+#. module: openforce_pricelist_discount_line
+msgid "Discount (%)"
+msgstr "Sconto (%)"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$F{riga - Nome_imposta-name}"
+msgstr "$F{riga - Nome_imposta-name}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "IVA"
+msgstr "IVA"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Righe_Ordine-order_line/Descrizione-name"
+msgstr "/data/record/Righe_Ordine-order_line/Descrizione-name"
+
+#: model:ir.model,name:openforce_pricelist_discount_line.model_account_invoice_line
+#. module: openforce_pricelist_discount_line
+msgid "Invoice Line"
+msgstr "Righe Fattura"
+
+#: model:ir.actions.report.xml,name:openforce_pricelist_discount_line.report_openforce_purchase_order
+#. module: openforce_pricelist_discount_line
+msgid "Stampa ordine"
+msgstr "Stampa ordine"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Azienda-company_id/Nome_Azienda-name"
+msgstr "/data/record/Azienda-company_id/Nome_Azienda-name"
+
+#: model:ir.model,name:openforce_pricelist_discount_line.model_sale_order_line
+#. module: openforce_pricelist_discount_line
+msgid "Sales Order Line"
+msgstr "Linea d'ordine di vendita"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Totale netto:"
+msgstr "Totale netto:"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{azienda - Indirizzo-street}.trim() + \" \") + ($F{azienda - Indirizzo_2-street2}.trim() + \" \") + ($F{azienda - CAP-zip}.trim() + \" \") + ($F{azienda - Citta-city}.trim() + \" \")"
+msgstr "($F{azienda - Indirizzo-street}.trim() + \" \") + ($F{azienda - Indirizzo_2-street2}.trim() + \" \") + ($F{azienda - CAP-zip}.trim() + \" \") + ($F{azienda - Citta-city}.trim() + \" \")"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Righe_Ordine-order_line/Subtotale-price_subtotal"
+msgstr "/data/record/Righe_Ordine-order_line/Subtotale-price_subtotal"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{Totale-amount_total}.trim() != \"\" ? new Double($F{Totale-amount_total})  : null)"
+msgstr "($F{Totale-amount_total}.trim() != \"\" ? new Double($F{Totale-amount_total})  : null)"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Termini_di_pagamento-payment_term/Termine_di_pagamento-name"
+msgstr "/data/record/Termini_di_pagamento-payment_term/Termine_di_pagamento-name"
+
+#: view:product.pricelist.item:0
+#: view:purchase.order.line:0
+#. module: openforce_pricelist_discount_line
+msgid "Discount 2 line"
+msgstr "Sconto 2"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Nome-name"
+msgstr "/data/record/Partner-partner_id/Nome-name"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Azienda-company_id/Indirizzo-street"
+msgstr "/data/record/Azienda-company_id/Indirizzo-street"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$F{ordine - venditore}"
+msgstr "$F{ordine - venditore}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{contatto - CAP-zip}) + \" \" +($F{contatto - Citta-city}.trim()) + \" \" + ($F{contatto - Provincia-province}.trim())"
+msgstr "($F{contatto - CAP-zip}) + \" \" +($F{contatto - Citta-city}.trim()) + \" \" + ($F{contatto - Provincia-province}.trim())"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Indirizzo_Spedizione-partner_shipping_id/Stato_fed.-state_id/Nome_Stato-name"
+msgstr "/data/record/Indirizzo_Spedizione-partner_shipping_id/Stato_fed.-state_id/Nome_Stato-name"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Totale"
+msgstr "Totale"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Riferimento_cliente-client_order_ref"
+msgstr "/data/record/Riferimento_cliente-client_order_ref"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "'Fax:' + $F{contatto - Fax-fax}"
+msgstr "'Fax:' + $F{contatto - Fax-fax}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Azienda-company_id/Partner-partner_id/Codice_fiscale-fiscalcode"
+msgstr "/data/record/Azienda-company_id/Partner-partner_id/Codice_fiscale-fiscalcode"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Contatti-address/Telefono-phone"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Telefono-phone"
+
+#: model:ir.model,name:openforce_pricelist_discount_line.model_sale_order
+#. module: openforce_pricelist_discount_line
+msgid "Sales Order"
+msgstr "Ordine di vendita"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "(\"Partita IVA \" + $F{azienda - Partita_IVA-vat}.trim()) + \" - C.F. \" + ($F{azienda - Codice_fiscale-fiscalcode}).trim()"
+msgstr "(\"Partita IVA \" + $F{azienda - Partita_IVA-vat}.trim()) + \" - C.F. \" + ($F{azienda - Codice_fiscale-fiscalcode}).trim()"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{riga - Quantita__Unita_di_Vendita-product_uos_qty}.trim() != \"\" ? new Double($F{riga - Quantita__Unita_di_Vendita-product_uos_qty})  : null)"
+msgstr "($F{riga - Quantita__Unita_di_Vendita-product_uos_qty}.trim() != \"\" ? new Double($F{riga - Quantita__Unita_di_Vendita-product_uos_qty})  : null)"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Cliente-partner_id/E_mail-email"
+msgstr "/data/record/Cliente-partner_id/E_mail-email"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{destinazione - Citta-city} == \"\" ? \"IDEM\" : ($F{destinazione - Nome_Contatto-name}.trim()) )"
+msgstr "($F{destinazione - Citta-city} == \"\" ? \"IDEM\" : ($F{destinazione - Nome_Contatto-name}.trim()) )"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Prezzo Unitario"
+msgstr "Prezzo Unitario"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{Fatturazione - Citta-city} == \"\" ? \"IDEM\" : ($F{Fatturazione - Nome_Contatto-name}.trim()) )"
+msgstr "($F{Fatturazione - Citta-city} == \"\" ? \"IDEM\" : ($F{Fatturazione - Nome_Contatto-name}.trim()) )"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Spett.le"
+msgstr "Spett.le"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Righe_Ordine-order_line/Delivery_date-date_planned"
+msgstr "/data/record/Righe_Ordine-order_line/Delivery_date-date_planned"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Indirizzo_Fatturazione-partner_invoice_id/Citta-city"
+msgstr "/data/record/Indirizzo_Fatturazione-partner_invoice_id/Citta-city"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Indirizzo_Fatturazione-partner_invoice_id/Nome_Contatto-name"
+msgstr "/data/record/Indirizzo_Fatturazione-partner_invoice_id/Nome_Contatto-name"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Indirizzo_Fatturazione-partner_invoice_id/Indirizzo-street"
+msgstr "/data/record/Indirizzo_Fatturazione-partner_invoice_id/Indirizzo-street"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Indirizzo_Spedizione-partner_shipping_id/CAP-zip"
+msgstr "/data/record/Indirizzo_Spedizione-partner_shipping_id/CAP-zip"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Azienda-company_id/Partner-partner_id/Partita_IVA-vat"
+msgstr "/data/record/Azienda-company_id/Partner-partner_id/Partita_IVA-vat"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Indirizzo_Spedizione-partner_shipping_id/Provincia-province/Codice_provincia-code"
+msgstr "/data/record/Indirizzo_Spedizione-partner_shipping_id/Provincia-province/Codice_provincia-code"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Indirizzo_Spedizione-partner_shipping_id/Indirizzo-street"
+msgstr "/data/record/Indirizzo_Spedizione-partner_shipping_id/Indirizzo-street"
+
+#: field:account.invoice.line,discount2:0
+#: field:product.pricelist.item,discount2_line:0
+#: field:purchase.order.line,discount2:0
+#: field:sale.order.line,discount2:0
+#. module: openforce_pricelist_discount_line
+msgid "Discount 2(%)"
+msgstr "Sconto 2(%)"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Totale-amount_total"
+msgstr "/data/record/Totale-amount_total"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{destinazione - Indirizzo-street}.trim()) + ($F{destinazione - Indirizzo_2-street2}.trim())"
+msgstr "($F{destinazione - Indirizzo-street}.trim()) + ($F{destinazione - Indirizzo_2-street2}.trim())"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{contatto - Indirizzo-street}.trim()) + \" \" + ($F{contatto - Indirizzo_2-street2}.trim())"
+msgstr "($F{contatto - Indirizzo-street}.trim()) + \" \" + ($F{contatto - Indirizzo_2-street2}.trim())"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Data consegna"
+msgstr "Data consegna"
+
+#: model:ir.model,name:openforce_pricelist_discount_line.model_product_pricelist_item
+#. module: openforce_pricelist_discount_line
+msgid "Pricelist item"
+msgstr "Oggetto Listino"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$V{PAGE_NUMBER}"
+msgstr "$V{PAGE_NUMBER}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{azienda - Sito_Web-website}.trim()) + \" - \" + ($F{azienda - Email-email}.trim())"
+msgstr "($F{azienda - Sito_Web-website}.trim()) + \" - \" + ($F{azienda - Email-email}.trim())"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Pag."
+msgstr "Pag."
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Azienda-company_id/CAP-zip"
+msgstr "/data/record/Azienda-company_id/CAP-zip"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Righe_Ordine-order_line/Quantita__Unita_di_Vendita-product_uos_qty"
+msgstr "/data/record/Righe_Ordine-order_line/Quantita__Unita_di_Vendita-product_uos_qty"
+
+#: model:ir.model,name:openforce_pricelist_discount_line.model_stock_picking
+#. module: openforce_pricelist_discount_line
+msgid "Picking List"
+msgstr "Picking List"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$R{payment terms}"
+msgstr "Pagamento"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "(\"Tel. \" + $F{azienda - Telefono-phone}.trim()) + \" - Fax \" + ($F{azienda - Fax-fax}).trim()"
+msgstr "(\"Tel. \" + $F{azienda - Telefono-phone}.trim()) + \" - Fax \" + ($F{azienda - Fax-fax}).trim()"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Codice_fiscale-fiscalcode"
+msgstr "/data/record/Partner-partner_id/Codice_fiscale-fiscalcode"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Sconto (%)"
+msgstr "Sconto (%)"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Righe_Ordine-order_line/Sconto-discount"
+msgstr "/data/record/Righe_Ordine-order_line/Sconto-discount"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "\"/ \" + $V{PAGE_NUMBER}"
+msgstr "\"/ \" + $V{PAGE_NUMBER}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "(new SimpleDateFormat(\"yyyy-MM-dd HH:mm:ss\")).parse($F{ordine - Date-date_order})"
+msgstr "(new SimpleDateFormat(\"yyyy-MM-dd HH:mm:ss\")).parse($F{ordine - Date-date_order})"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Indirizzo_Spedizione-partner_shipping_id/Nome_Contatto-name"
+msgstr "/data/record/Indirizzo_Spedizione-partner_shipping_id/Nome_Contatto-name"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Venditore"
+msgstr "Venditore"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Indirizzo spedizione"
+msgstr "Indirizzo spedizione"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{Totale_Imponibile-amount_untaxed}.trim() != \"\" ? new Double($F{Totale_Imponibile-amount_untaxed})  : null)"
+msgstr "($F{Totale_Imponibile-amount_untaxed}.trim() != \"\" ? new Double($F{Totale_Imponibile-amount_untaxed})  : null)"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "Segue..."
+msgstr "Segue..."
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Azienda-company_id/Indirizzo_2-street2"
+msgstr "/data/record/Azienda-company_id/Indirizzo_2-street2"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "$F{riga - Note-notes}"
+msgstr "$F{riga - Note-notes}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Azienda-company_id/Email-email"
+msgstr "/data/record/Azienda-company_id/Email-email"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Tasse-amount_tax"
+msgstr "/data/record/Tasse-amount_tax"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Contatti-address/Fax-fax"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Fax-fax"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{Fatturazione - Indirizzo-street}.trim()) + ($F{Fatturazione - Indirizzo_2-street2}.trim())"
+msgstr "($F{Fatturazione - Indirizzo-street}.trim()) + ($F{Fatturazione - Indirizzo_2-street2}.trim())"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Righe_Ordine-order_line/Unita_di_Misura_Prodotto-product_uom/Nome-name"
+msgstr "/data/record/Righe_Ordine-order_line/Unita_di_Misura_Prodotto-product_uom/Nome-name"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Righe_Ordine-order_line/Prezzo_unitario-price_unit"
+msgstr "/data/record/Righe_Ordine-order_line/Prezzo_unitario-price_unit"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "($F{ordine - Stato_Ordine-state}.trim() == \"draft\" ? \"Preventivo Nr \" : \"Ordine Nr \") + $F{ordine - Rif._Ordine-name}"
+msgstr "($F{ordine - Stato_Ordine-state}.trim() == \"draft\" ? \"Preventivo Nr \" : \"Ordine Nr \") + $F{ordine - Rif._Ordine-name}"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Nazione-country/Nome_Nazione-name"
+msgstr "/data/record/Partner-partner_id/Nazione-country/Nome_Nazione-name"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Contatti-address/CAP-zip"
+msgstr "/data/record/Partner-partner_id/Contatti-address/CAP-zip"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Citta-city"
+msgstr "/data/record/Partner-partner_id/Citta-city"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Indirizzo_Fatturazione-partner_invoice_id/Indirizzo_2-street2"
+msgstr "/data/record/Indirizzo_Fatturazione-partner_invoice_id/Indirizzo_2-street2"
+
+#: report:sale_category.print:0
+#. module: openforce_pricelist_discount_line
+msgid "/data/record/Partner-partner_id/Riferimento-ref"
+msgstr "/data/record/Partner-partner_id/Riferimento-ref"
+

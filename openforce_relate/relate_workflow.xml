@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- RELATE TASK -->
+        <!-- Workflow definition -->
+
+        <record id="wkf_relate" model="workflow">
+            <field name="name">relate.task.wkf</field>
+            <field name="osv">relate.task</field>
+            <field name="on_create">True</field>
+        </record>
+        
+        <record id="act_draft" model="workflow.activity">
+            <field name="wkf_id" ref="wkf_relate"/>
+            <field name="name">draft</field>
+            <field name="kind">function</field>
+            <field name="action">write({'state':'draft'})</field>
+            <field name="flow_start">True</field>
+        </record>
+        <record id="act_confirm" model="workflow.activity">
+            <field name="wkf_id" ref="wkf_relate"/>
+            <field name="name">confirm</field>
+            <field name="kind">function</field>
+            <field name="action">write({'state':'confirm'})</field>
+        </record>
+        <record id="act_done" model="workflow.activity">
+            <field name="wkf_id" ref="wkf_relate"/>
+            <field name="name">done</field>
+            <field name="kind">function</field>
+            <field name="action">write({'state':'done'})</field>
+            <field name="flow_stop">True</field>
+        </record>
+        
+        <!-- transitions -->
+        <record id="t1" model="workflow.transition">
+            <field name="act_from" ref="act_draft"/>
+            <field name="act_to" ref="act_confirm"/>
+            <field name="signal">confirm</field>
+            <field name="group_id" ref="base.group_user"/>
+        </record>
+        <record id="t2" model="workflow.transition">
+            <field name="act_from" ref="act_confirm"/>
+            <field name="act_to" ref="act_done"/>
+            <field name="signal">done</field>
+            <field name="group_id" ref="group_relate_manager"/>
+        </record>
+        <record id="t3" model="workflow.transition">
+            <field name="act_from" ref="act_confirm"/>
+            <field name="act_to" ref="act_draft"/>
+            <field name="signal">cancel</field>
+            <field name="group_id" ref="group_relate_manager"/>
+        </record>
+        
+     </data>
+     
+    <data>
+        <!-- CONTRACT PAYMENT LINE TO INVOICE -->
+        <!-- Workflow definition -->
+	
+        <record id="wkf_relate_contract_payment_term" model="workflow">
+            <field name="name">relate.contract.payment.term.wkf</field>
+            <field name="osv">relate.contract.payment.term</field>
+            <field name="on_create">True</field>
+        </record>
+        
+        <record id="contract_payment_act_2binvoiced" model="workflow.activity">
+            <field name="wkf_id" ref="wkf_relate_contract_payment_term"/>
+            <field name="name">to_be_invoiced</field>
+            <field name="kind">function</field>
+            <field name="action">write({'state':'2binvoiced'})</field>
+            <field name="flow_start">True</field>
+        </record>
+        
+        <record id="contract_payment_act_invoiced" model="workflow.activity">
+            <field name="wkf_id" ref="wkf_relate_contract_payment_term"/>
+            <field name="name">invoiced</field>
+            <field name="kind">function</field>
+            <field name="action">write({'state':'invoiced'})</field>
+            <field name="flow_stop">True</field>
+        </record>
+        
+        <!-- transitions -->
+        <record id="c1" model="workflow.transition">
+            <field name="act_from" ref="contract_payment_act_2binvoiced"/>
+            <field name="act_to" ref="contract_payment_act_invoiced"/>
+            <field name="signal">invoiced</field>
+            <field name="group_id" ref="group_relate_manager"/>
+        </record>
+        
+        <record id="c2" model="workflow.transition">
+            <field name="act_from" ref="contract_payment_act_invoiced"/>
+            <field name="act_to" ref="contract_payment_act_2binvoiced"/>
+            <field name="signal">to_be_invoiced</field>
+            <field name="group_id" ref="group_relate_manager"/>
+        </record>
+        
+    </data>
+</openerp>

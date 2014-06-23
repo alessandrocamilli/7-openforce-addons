@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- 
+        Invoice
+        -->
+		<record id="salesman_commission_account_invoice" model="ir.ui.view">
+			<field name="name">salesman.commission.account.invoice</field>
+			<field name="model">account.invoice</field>
+			<field name="inherit_id" ref="account.invoice_form"/>
+			<field name="arch" type="xml">
+			    
+			    <xpath expr="//page[@string='Other Info']//field[@name='user_id']" position="after">
+				    <newline/>
+				    <field name="salesman_pricelist" attrs="{'required':[('user_id','!=',False)]}" context="{'salesman_pricelist': salesman_pricelist}"/>
+				</xpath>
+				
+			    # load salesman's pricelist
+				<xpath expr="//page[@string='Other Info']//field[@name='user_id']" position="replace">
+				    <field name="user_id" on_change="onchange_user_id(user_id, context)"/>
+				</xpath>
+				
+				# view line invoice in window format instead of lines
+			    <xpath expr="//tree[@string='Invoice Lines']" position="attributes">
+			    	<attribute name="editable"></attribute>
+			    </xpath>
+                
+			</field>
+		</record>
+		
+		<!-- Invoice supplier To avoid error on supplier invoice line when It try add line -->
+		<record id="salesman_commission_account_invoice_supplier" model="ir.ui.view">
+			<field name="name">salesman.commission.account.invoice.supplier</field>
+			<field name="model">account.invoice</field>
+			<field name="inherit_id" ref="account.invoice_supplier_form"/>
+			<field name="arch" type="xml">
+			    
+			    <xpath expr="//page[@string='Other Info']//field[@name='period_id']" position="after">
+				    <field name="salesman_pricelist" invisible="1" context="{'salesman_pricelist': salesman_pricelist}"/>
+				    <field name="section_id" invisible="1" context="{'section_id': section_id"/>
+				</xpath>
+				
+			</field>
+		</record>
+		
+		<!-- 
+        Invoice line
+        -->
+		<record id="salesman_commission_account_invoice_line" model="ir.ui.view">
+			<field name="name">salesman.commission.account.invoice.line</field>
+			<field name="model">account.invoice.line</field>
+			<field name="inherit_id" ref="account.view_invoice_line_form"/>
+			<field name="arch" type="xml">
+			    
+			    
+			    
+			    # passing pricelist salesman on change product
+			    <xpath expr="//form[@string='Invoice Line']//field[@name='product_id']" position="replace">
+	            	<!-- <field name="product_id" on_change="product_id_change(product_id, uos_id, quantity, name, parent.type, parent.partner_id, parent.fiscal_position, price_unit, parent.currency_id, context, parent.company_id, parent.salesman_pricelist, parent.user_id, parent.section_id)"/> -->
+	            	<field name="product_id" on_change="product_id_change(product_id, uos_id, quantity, name, parent.type, parent.partner_id, parent.fiscal_position, price_unit, parent.currency_id, context, parent.company_id, parent.salesman_pricelist, parent.user_id, parent.section_id)"/>
+                </xpath>
+                
+			    # Section commissions
+				<xpath expr="//form[@string='Invoice Line']/field[@name='name']" position="after">
+				    <div groups="base.group_sale_salesman">
+	                    <label for="Salesmen Commissions"/>
+	                    <field name="salesman_commission_ids">
+	                        <tree>
+	                            <field name ="percent"/>
+	                            <field name ="amount"/>
+	                            <field name ="salesman_id"/>
+	                            <field name ="pricelist_item_id"/>
+	                            <field name ="pricelist_id"/>
+	                            <field name ="section_id"/>
+	                        </tree>
+	                    </field>
+                    </div>
+				</xpath>
+		
+			</field>
+		</record>
+    </data>
+</openerp>

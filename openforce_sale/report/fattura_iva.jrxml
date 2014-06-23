@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="fattura_iva" language="groovy" pageWidth="250" pageHeight="752" columnWidth="250" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0">
+	<property name="ireport.zoom" value="3.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="OPENERP_RELATIONS" value="[&apos;tax_line&apos;]"/>
+	<queryString language="xPath">
+		<![CDATA[]]>
+	</queryString>
+	<field name="Base-base" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Voci_imposta-tax_line/Base-base]]></fieldDescription>
+	</field>
+	<field name="Importo-amount" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Voci_imposta-tax_line/Importo-amount]]></fieldDescription>
+	</field>
+	<field name="Descrizione_imposta-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Voci_imposta-tax_line/Descrizione_imposta-name]]></fieldDescription>
+	</field>
+	<columnHeader>
+		<band height="12" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="65" height="10"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Imponibile IVA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="68" y="0" width="120" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Descrizione ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="190" y="0" width="46" height="10"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Imposta]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="11" splitType="Stretch">
+			<textField pattern="#,##0.00;-#,##0.00">
+				<reportElement x="0" y="0" width="65" height="10"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Double"><![CDATA[($F{Base-base}.trim() != "" ? new Double($F{Base-base})  : null)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="190" y="0" width="46" height="10"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Double"><![CDATA[($F{Importo-amount}.trim() != "" ? new Double($F{Importo-amount})  : null)]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="68" y="0" width="120" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Descrizione_imposta-name}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

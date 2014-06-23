@@ -1,0 +1,2049 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* openforce_sale
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-20 18:13+0000\n"
+"PO-Revision-Date: 2014-01-20 18:13+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "$F{Trasporto - Aspetto_dei_Beni-name}"
+msgstr "$F{Trasporto - Aspetto_dei_Beni-name}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$P{SUBREPORT_DIR} + \"fattura_scadenze.jasper\""
+msgstr "$P{SUBREPORT_DIR} + \"fattura_scadenze.jasper\""
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "Trasporto mezzo"
+msgstr "Trasporto mezzo"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Causale_del_trasporto-name}"
+msgstr "$F{Causale_del_trasporto-name}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Contatti-address/Indirizzo-street"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Indirizzo-street"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Citta-city"
+msgstr "/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Citta-city"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Causale_del_trasporto-transportation_reason_id/Causale_del_trasporto-name"
+msgstr "/data/record/Causale_del_trasporto-transportation_reason_id/Causale_del_trasporto-name"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{riga - Note-note}"
+msgstr "$F{riga - Note-note}"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Causale"
+msgstr "Causale"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Indirizzo-address_id/Stato_fed.-state_id/Nome_Stato-name"
+msgstr "/data/record/Indirizzo-address_id/Stato_fed.-state_id/Nome_Stato-name"
+
+#: constraint:sale_journal.invoice.type:0
+#. module: openforce_sale
+msgid "Error: Only one default permitted"
+msgstr "Errore: E' permesso SOLO UN record di default "
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Riga - Prezzo_unitario-price_unit}.trim() != \"\" ? new Double($F{Riga - Prezzo_unitario-price_unit})  : null)"
+msgstr "($F{Riga - Prezzo_unitario-price_unit}.trim() != \"\" ? new Double($F{Riga - Prezzo_unitario-price_unit})  : null)"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Partner ref-Riferimento-ref} != \"\" ? $F{Partner ref-Riferimento-ref}     :$F{partner - Riferimento-ref}"
+msgstr "$F{Partner ref-Riferimento-ref} != \"\" ? $F{Partner ref-Riferimento-ref}     :$F{partner - Riferimento-ref}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Totale - Saldo-residual}.trim() != \"\" ? new Double($F{Totale - Saldo-residual})  : null)"
+msgstr "($F{Totale - Saldo-residual}.trim() != \"\" ? new Double($F{Totale - Saldo-residual})  : null)"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Nome-name"
+msgstr "/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Nome-name"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Partner - Telefono-phone}"
+msgstr "$F{Partner - Telefono-phone}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "($F{Peso_netto-weight_net_manual}.trim() != \"\" ? new Double($F{Peso_netto-weight_net_manual})  : null)"
+msgstr "($F{Peso_netto-weight_net_manual}.trim() != \"\" ? new Double($F{Peso_netto-weight_net_manual})  : null)"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Ordine_di_vendita-sale_id/Termini_di_pagamento-payment_term/Termine_di_pagamento-name"
+msgstr "/data/record/Ordine_di_vendita-sale_id/Termini_di_pagamento-payment_term/Termine_di_pagamento-name"
+
+#: model:ir.model,name:openforce_sale.model_res_partner
+#. module: openforce_sale
+msgid "Partner"
+msgstr "Partner"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Dichiarazione_data-dichiarazione_intento_partner_date"
+msgstr "/data/record/Partner-partner_id/Dichiarazione_data-dichiarazione_intento_partner_date"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{DDT - Note-note}"
+msgstr "$F{DDT - Note-note}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Contatti-address/Provincia-province"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Provincia-province"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/id"
+msgstr "/data/record/id"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Telefono"
+msgstr "Telefono"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Banca d'appoggio"
+msgstr "Banca d'appoggio"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "Consegna"
+msgstr "Consegna"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Nazione-country_id/Nome_Nazione-name"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Nazione-country_id/Nome_Nazione-name"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Cognome-fiscalcode_surname"
+msgstr "/data/record/Partner-partner_id/Cognome-fiscalcode_surname"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Cod cli/for"
+msgstr "Cod cli/for"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/DDT-ddt_number"
+msgstr "/data/record/DDT-ddt_number"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Partner - Nome-name}"
+msgstr "$F{Partner - Nome-name}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{riga - Origine-origin}"
+msgstr "$F{riga - Origine-origin}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Data_Fattura-date_invoice"
+msgstr "/data/record/Data_Fattura-date_invoice"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Movimentazioni_interne-move_lines/UoS_Prodotto-product_uos/Nome-name"
+msgstr "/data/record/Movimentazioni_interne-move_lines/UoS_Prodotto-product_uos/Nome-name"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Azienda - Nome_Azienda-name}"
+msgstr "$F{Azienda - Nome_Azienda-name}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "($F{Peso_lordo-weight_manual}.trim() != \"\" ? new Double($F{Peso_lordo-weight_manual})  : null)"
+msgstr "($F{Peso_lordo-weight_manual}.trim() != \"\" ? new Double($F{Peso_lordo-weight_manual})  : null)"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Trasporto"
+msgstr "Trasporto"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/Sito_Web-website"
+msgstr "/data/record/Azienda-company_id/Sito_Web-website"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "Firma destinatario"
+msgstr "Firma destinatario"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "Contributo CONAI assolto ove dovuto"
+msgstr "Contributo CONAI assolto ove dovuto"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Pickings_out-picking_out_ids/Trasportatore-carrier_id/Azienda_di_Spedizioni-partner_id/Citta-city"
+msgstr "/data/record/Pickings_out-picking_out_ids/Trasportatore-carrier_id/Azienda_di_Spedizioni-partner_id/Citta-city"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Peso_netto-weight_net"
+msgstr "/data/record/Peso_netto-weight_net"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Trasporto - Causale_del_trasporto-name}"
+msgstr "$F{Trasporto - Causale_del_trasporto-name}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Partner - CAP-zip} + \" \" + $F{Partner - Citta-city} + \" \" + $F{Partner - Codice_provincia-code}"
+msgstr "$F{Partner - CAP-zip} + \" \" + $F{Partner - Citta-city} + \" \" + $F{Partner - Codice_provincia-code}"
+
+#: model:ir.actions.act_window,name:openforce_sale.action_mezzo_tree
+#: model:ir.model,name:openforce_sale.model_stock_picking_mezzo
+#: model:ir.ui.menu,name:openforce_sale.menu_action_mezzo_tree
+#: field:stock.picking.mezzo,name:0
+#. module: openforce_sale
+msgid "Spedizione mezzo"
+msgstr "Spedizione mezzo"
+
+#: field:account.invoice,mezzo_id:0
+#: field:res.partner,mezzo_id:0
+#: field:stock.picking,mezzo_id:0
+#: view:stock.picking.mezzo:0
+#: field:stock.picking.out,mezzo_id:0
+#. module: openforce_sale
+msgid "Mezzo"
+msgstr "Mezzo"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Nome-name"
+msgstr "/data/record/Partner-partner_id/Nome-name"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/Fax-fax"
+msgstr "/data/record/Azienda-company_id/Fax-fax"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "Data e ora ritiro"
+msgstr "Data e ora ritiro"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Indirizzo-address_id/Provincia-province/Codice_provincia-code"
+msgstr "/data/record/Indirizzo-address_id/Provincia-province/Codice_provincia-code"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Partner ref-Codice_Fiscale-fiscalcode} != \"\" ? $F{Partner ref-Codice_Fiscale-fiscalcode}     :$F{partner - Codice_fiscale-fiscalcode}"
+msgstr "$F{Partner ref-Codice_Fiscale-fiscalcode} != \"\" ? $F{Partner ref-Codice_Fiscale-fiscalcode}     :$F{partner - Codice_fiscale-fiscalcode}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "(\"Partita IVA \" + $F{azienda - Partita_IVA-vat}.trim()) + \" - C.F. \" + ($F{azienda - Codice_fiscale-fiscalcode}).trim()"
+msgstr "(\"Partita IVA \" + $F{azienda - Partita_IVA-vat}.trim()) + \" - C.F. \" + ($F{azienda - Codice_fiscale-fiscalcode}).trim()"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Quantita"
+msgstr "Quantita"
+
+#: field:sale_journal.invoice.type,default:0
+#. module: openforce_sale
+msgid "Default"
+msgstr "Default"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Ordine_di_vendita-sale_id/Righe_Ordine-order_line/Rif._Ordine-order_id/Riferimento_cliente-client_order_ref"
+msgstr "/data/record/Ordine_di_vendita-sale_id/Righe_Ordine-order_line/Rif._Ordine-order_id/Riferimento_cliente-client_order_ref"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Indirizzo-street"
+msgstr "/data/record/Partner-partner_id/Indirizzo-street"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Riga - Codice_imposta-description}"
+msgstr "$F{Riga - Codice_imposta-description}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Righe_Fattura-invoice_line/Conto-account_id/Tipo-expense_type"
+msgstr "/data/record/Righe_Fattura-invoice_line/Conto-account_id/Tipo-expense_type"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Partita IVA"
+msgstr "Partita IVA"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Righe_Fattura-invoice_line/Imposte-invoice_line_tax_id/Codice_imposta-description"
+msgstr "/data/record/Righe_Fattura-invoice_line/Imposte-invoice_line_tax_id/Codice_imposta-description"
+
+#: selection:sale_journal.invoice.type,document_type:0
+#. module: openforce_sale
+msgid "Invoice Delivery"
+msgstr "Fattura accompagnatoria"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Volume-volume"
+msgstr "/data/record/Volume-volume"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Dichiarazione_data-dichiarazione_intento_partner_date"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Dichiarazione_data-dichiarazione_intento_partner_date"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Riga - codice articolo}"
+msgstr "$F{Riga - codice articolo}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Note-note"
+msgstr "/data/record/Note-note"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "($F{azienda - Sito_Web-website}.trim()) + \" - \" + ($F{azienda - Email-email}.trim())"
+msgstr "($F{azienda - Sito_Web-website}.trim()) + \" - \" + ($F{azienda - Email-email}.trim())"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "Colli"
+msgstr "Colli"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Numero_fattura-internal_number}"
+msgstr "$F{Numero_fattura-internal_number}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "(\"Tel. \" + $F{azienda - Telefono-phone}.trim()) + \" - Fax \" + ($F{azienda - Fax-fax}).trim()"
+msgstr "(\"Tel. \" + $F{azienda - Telefono-phone}.trim()) + \" - Fax \" + ($F{azienda - Fax-fax}).trim()"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Riga - Origine-origin}"
+msgstr "$F{Riga - Origine-origin}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Riga - Origine-origin}.indexOf(\"ddt_\") != -1"
+msgstr "$F{Riga - Origine-origin}.indexOf(\"ddt_\") != -1"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$P{SR_DATA_SOURCE_IVA}"
+msgstr "$P{SR_DATA_SOURCE_IVA}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Riga - Tipo-expense_type}.trim() == \"\""
+msgstr "$F{Riga - Tipo-expense_type}.trim() == \"\""
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "(\"Partita IVA \" + $F{Azienda - Partita_IVA-vat}.trim()) + \" - C.F. \" + ($F{Azienda - Codice_fiscale-fiscalcode}).trim()"
+msgstr "(\"Partita IVA \" + $F{Azienda - Partita_IVA-vat}.trim()) + \" - C.F. \" + ($F{Azienda - Codice_fiscale-fiscalcode}).trim()"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Pickings_out-picking_out_ids/Partner-partner_id/CAP-zip"
+msgstr "/data/record/Pickings_out-picking_out_ids/Partner-partner_id/CAP-zip"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$P{SUBREPORT_DIR} + \"fattura_iva.jasper\""
+msgstr "$P{SUBREPORT_DIR} + \"fattura_iva.jasper\""
+
+#: field:wizard.assign.ddt.by.journal,ddt_date_manual:0
+#. module: openforce_sale
+msgid "DDT date manual"
+msgstr "Data DDT manuale"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Email-email"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Email-email"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Totale documento"
+msgstr "Totale documento"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Venditore"
+msgstr "Venditore"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Tassa-amount_tax"
+msgstr "/data/record/Tassa-amount_tax"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Registrazione_Contabile-move_id/id"
+msgstr "/data/record/Registrazione_Contabile-move_id/id"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Riga - Origine-origin}.indexOf(\"ddt_\") == -1 ? \"\" : (\"Rif. \" + $F{Riga - Origine-origin}.substring($F{Riga - Origine-origin}.indexOf(\"ddt_\"))) )"
+msgstr "($F{Riga - Origine-origin}.indexOf(\"ddt_\") == -1 ? \"\" : (\"Rif. \" + $F{Riga - Origine-origin}.substring($F{Riga - Origine-origin}.indexOf(\"ddt_\"))) )"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Nazione-country/Nome_Nazione-name"
+msgstr "/data/record/Partner-partner_id/Nazione-country/Nome_Nazione-name"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{DDT - Note-note}.trim() != \"\""
+msgstr "$F{DDT - Note-note}.trim() != \"\""
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Azienda - Indirizzo-street}.trim() + \" \") + ($F{Azienda - Indirizzo_2-street2}.trim() + \" \") + ($F{Azienda - CAP-zip}.trim() + \" \") + ($F{Azienda - Citta-city}.trim() + \" \")"
+msgstr "($F{Azienda - Indirizzo-street}.trim() + \" \") + ($F{Azienda - Indirizzo_2-street2}.trim() + \" \") + ($F{Azienda - CAP-zip}.trim() + \" \") + ($F{Azienda - Citta-city}.trim() + \" \")"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "($F{riga - Origine-origin} == null ? \"\" : (\"Rif. Int. \" + $F{riga - Origine-origin}.trim()) )"
+msgstr "($F{riga - Origine-origin} == null ? \"\" : (\"Rif. Int. \" + $F{riga - Origine-origin}.trim()) )"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Partner ref-Nome-name} != \"\" ? $F{Partner ref-Nome-name} : $F{partner - Nome-name}"
+msgstr "$F{Partner ref-Nome-name} != \"\" ? $F{Partner ref-Nome-name} : $F{partner - Nome-name}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{partner - Nome-name}"
+msgstr "$F{partner - Nome-name}"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/CAP-zip"
+msgstr "/data/record/Partner-partner_id/CAP-zip"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Nr documento"
+msgstr "Nr documento"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Imponibile-amount_untaxed"
+msgstr "/data/record/Imponibile-amount_untaxed"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "Porto"
+msgstr "Porto"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Partner ref-Nome-name} != \"\" ?     $F{Partner ref-CAP-zip} + \" \" + $F{Partner ref-Citta-city}.trim() + \" \" + $F{Partner ref-Codice_provincia-code}     :     $F{Partner - CAP-zip} + \" \" + $F{Partner - Citta-city} + \" \" + $F{Partner - Codice_provincia-code}"
+msgstr "$F{Partner ref-Nome-name} != \"\" ?     $F{Partner ref-CAP-zip} + \" \" + $F{Partner ref-Citta-city}.trim() + \" \" + $F{Partner ref-Codice_provincia-code}     :     $F{Partner - CAP-zip} + \" \" + $F{Partner - Citta-city} + \" \" + $F{Partner - Codice_provincia-code}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "Aspetto esteriore dei beni"
+msgstr "Aspetto esteriore dei beni"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Descrizione"
+msgstr "Descrizione"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "($F{Riga - Tipo-expense_type}.trim() == \"\" && $F{Riga - Subtotale-price_subtotal}.trim() != \"\"     ? new Double($F{Riga - Subtotale-price_subtotal}) : new Double(\"0\") )"
+msgstr "($F{Riga - Tipo-expense_type}.trim() == \"\" && $F{Riga - Subtotale-price_subtotal}.trim() != \"\"     ? new Double($F{Riga - Subtotale-price_subtotal}) : new Double(\"0\") )"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Partita_IVA-vat"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Partita_IVA-vat"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Fax-fax"
+msgstr "/data/record/Partner-partner_id/Fax-fax"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Merce"
+msgstr "Merce"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Righe_Fattura-invoice_line/Prodotto-product_id/Riferimento-default_code"
+msgstr "/data/record/Righe_Fattura-invoice_line/Prodotto-product_id/Riferimento-default_code"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Dichiarazione_numero-dichiarazione_intento_partner_number"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Dichiarazione_numero-dichiarazione_intento_partner_number"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Data_DDT-ddt_date}.trim() == \"\" ? new java.util.Date() : new SimpleDateFormat(\"yyyy-MM-dd HH:mm:ss\").parse($F{Data_DDT-ddt_date})"
+msgstr "$F{Data_DDT-ddt_date}.trim() == \"\" ? new java.util.Date() : new SimpleDateFormat(\"yyyy-MM-dd HH:mm:ss\").parse($F{Data_DDT-ddt_date})"
+
+#: model:ir.model,name:openforce_sale.model_sale_order_line
+#. module: openforce_sale
+msgid "Sales Order Line"
+msgstr "Linea d'ordine di vendita"
+
+#: model:ir.actions.report.xml,name:openforce_sale.openforce_sale_fattura
+#: model:ir.actions.report.xml,name:openforce_sale.openforce_sale_fattura_report
+#. module: openforce_sale
+msgid "Fattura"
+msgstr "Fattura"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Registrazione_numero-dichiarazione_intento_registration_number"
+msgstr "/data/record/Partner-partner_id/Registrazione_numero-dichiarazione_intento_registration_number"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{azienda - Logo-logo}"
+msgstr "$F{azienda - Logo-logo}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Movimentazioni_interne-move_lines/Quantita__UoS-product_uos_qty"
+msgstr "/data/record/Movimentazioni_interne-move_lines/Quantita__UoS-product_uos_qty"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Partner -Indirizzo-street}.trim() + \" \" + $F{Partner -Indirizzo_2-street2}.trim()"
+msgstr "$F{Partner -Indirizzo-street}.trim() + \" \" + $F{Partner -Indirizzo_2-street2}.trim()"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Indirizzo-address_id/Indirizzo-street"
+msgstr "/data/record/Indirizzo-address_id/Indirizzo-street"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Riga - Sconto-discount}.trim() != \"\" ? new Double($F{Riga - Sconto-discount})  : null)"
+msgstr "($F{Riga - Sconto-discount}.trim() != \"\" ? new Double($F{Riga - Sconto-discount})  : null)"
+
+#: view:stock.picking.out:0
+#. module: openforce_sale
+msgid "# Invoice state on right col"
+msgstr "# Invoice state on right col"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "N. Colli"
+msgstr "N. Colli"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Banche-bank_ids/Nome_Banca-bank_name"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Banche-bank_ids/Nome_Banca-bank_name"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Valuta-currency_id/Valuta-name"
+msgstr "/data/record/Valuta-currency_id/Valuta-name"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Indirizzo-address_id/Indirizzo_2-street2"
+msgstr "/data/record/Indirizzo-address_id/Indirizzo_2-street2"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/Citta-city"
+msgstr "/data/record/Azienda-company_id/Citta-city"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "D.D.T"
+msgstr "D.D.T"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/Conti_Bancari-bank_ids/Nome_Banca-bank_name"
+msgstr "/data/record/Azienda-company_id/Conti_Bancari-bank_ids/Nome_Banca-bank_name"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "(new String(\"Rif. ordine \"))"
+msgstr "(new String(\"Rif. ordine \"))"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Indirizzo_completo-contact_address"
+msgstr "/data/record/Partner-partner_id/Indirizzo_completo-contact_address"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "($F{Sezionale - Tipo -type}.trim() == \"sale_refund\" ? \"NOTA CREDITO\" : \"FATTURA ACCOMPAGNATORIA\")"
+msgstr "($F{Sezionale - Tipo -type}.trim() == \"sale_refund\" ? \"NOTA CREDITO\" : \"FATTURA ACCOMPAGNATORIA\")"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Pickings_out-picking_out_ids/weight-weight_manual"
+msgstr "/data/record/Pickings_out-picking_out_ids/weight-weight_manual"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Fax-fax"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Fax-fax"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Movimentazioni_interne-move_lines/Ordine_di_vendita-sale_id/Riferimento_cliente-client_order_ref"
+msgstr "/data/record/Movimentazioni_interne-move_lines/Ordine_di_vendita-sale_id/Riferimento_cliente-client_order_ref"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Commerciale - Alias-alias_name}"
+msgstr "$F{Commerciale - Alias-alias_name}"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/Nome_Azienda-name"
+msgstr "/data/record/Azienda-company_id/Nome_Azienda-name"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Resa_merce-carriage_condition_id/Resa_merce-name"
+msgstr "/data/record/Resa_merce-carriage_condition_id/Resa_merce-name"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Righe_Fattura-invoice_line/id"
+msgstr "/data/record/Righe_Fattura-invoice_line/id"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "Rif. ordine"
+msgstr "Rif. ordine"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/Indirizzo-street"
+msgstr "/data/record/Azienda-company_id/Indirizzo-street"
+
+#: view:stock.picking.out:0
+#. module: openforce_sale
+msgid "done"
+msgstr "done"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Azienda - Sito_Web-website}.trim()) + \" - \" + ($F{Azienda - Email-email}.trim())"
+msgstr "($F{Azienda - Sito_Web-website}.trim()) + \" - \" + ($F{Azienda - Email-email}.trim())"
+
+#: view:stock.picking.out:0
+#. module: openforce_sale
+msgid "Transportation"
+msgstr "Trasporto"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Provincia-province/Codice_provincia-code"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Provincia-province/Codice_provincia-code"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Pickings_out-picking_out_ids/Numero_di_Colli-number_of_packages"
+msgstr "/data/record/Pickings_out-picking_out_ids/Numero_di_Colli-number_of_packages"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{riga - Nome-name}"
+msgstr "$F{riga - Nome-name}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Pickings_out-picking_out_ids/weight_net-weight_net_manual"
+msgstr "/data/record/Pickings_out-picking_out_ids/weight_net-weight_net_manual"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$V{Totale incasso}"
+msgstr "$V{Totale incasso}"
+
+#: field:wizard.assign.ddt.by.journal,ddt_number_manual:0
+#. module: openforce_sale
+msgid "DDT number manual"
+msgstr "Numero DDT manuale"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Riga - Nome-name UOS}"
+msgstr "$F{Riga - Nome-name UOS}"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Data"
+msgstr "Data"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$V{Totale trasporto}"
+msgstr "$V{Totale trasporto}"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/CAP-zip"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/CAP-zip"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Vettore - Nome-name}"
+msgstr "$F{Vettore - Nome-name}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "($F{Picking - weight-weight_manual}.trim() != \"\" ? new Double($F{Picking - weight-weight_manual})  : null)"
+msgstr "($F{Picking - weight-weight_manual}.trim() != \"\" ? new Double($F{Picking - weight-weight_manual})  : null)"
+
+#: view:account.invoice:0
+#. module: openforce_sale
+msgid "Carriage condition"
+msgstr "Modalità consegna"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Indirizzo-address_id/Nome_Contatto-name"
+msgstr "/data/record/Indirizzo-address_id/Nome_Contatto-name"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$V{PAGE_NUMBER}"
+msgstr "$V{PAGE_NUMBER}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "Peso Netto"
+msgstr "Peso Netto"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/CAP-zip"
+msgstr "/data/record/Azienda-company_id/CAP-zip"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Provincia-province/Codice_provincia-code"
+msgstr "/data/record/Partner-partner_id/Provincia-province/Codice_provincia-code"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "\"/Users/alex/Sviluppo/reports/\""
+msgstr "\"/Users/alex/Sviluppo/reports/\""
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Indirizzo-address_id/CAP-zip"
+msgstr "/data/record/Indirizzo-address_id/CAP-zip"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "($F{Numero_di_Pacchetti-number_of_packages}.trim() != \"\" ? new Double($F{Numero_di_Pacchetti-number_of_packages})  : null)"
+msgstr "($F{Numero_di_Pacchetti-number_of_packages}.trim() != \"\" ? new Double($F{Numero_di_Pacchetti-number_of_packages})  : null)"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Righe_Fattura-invoice_line/Prezzo_unitario-price_unit"
+msgstr "/data/record/Righe_Fattura-invoice_line/Prezzo_unitario-price_unit"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "Firma conducente"
+msgstr "Firma conducente"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Segue..."
+msgstr "Segue..."
+
+#: field:stock.picking,invoice_id:0
+#: field:stock.picking.out,invoice_id:0
+#. module: openforce_sale
+msgid "Invoice Reference"
+msgstr "Rif. Fattura"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Posizione_fiscale-property_account_position/Posizione_fiscale-name"
+msgstr "/data/record/Partner-partner_id/Posizione_fiscale-property_account_position/Posizione_fiscale-name"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Movimentazioni_interne-move_lines/id"
+msgstr "/data/record/Movimentazioni_interne-move_lines/id"
+
+#: field:stock.picking,weight_net_manual:0
+#: field:stock.picking.out,weight_net_manual:0
+#. module: openforce_sale
+msgid "weight net"
+msgstr "Peso Netto"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Totale-amount_total"
+msgstr "/data/record/Totale-amount_total"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Banca"
+msgstr "Banca"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Imponibile"
+msgstr "Imponibile"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Partner - Partita_IVA-vat}"
+msgstr "$F{Partner - Partita_IVA-vat}"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Riferimento-ref"
+msgstr "/data/record/Partner-partner_id/Riferimento-ref"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Aspetto_dei_Beni-name}"
+msgstr "$F{Aspetto_dei_Beni-name}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Commerciale-user_id/Alias-alias_name"
+msgstr "/data/record/Commerciale-user_id/Alias-alias_name"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Movimentazioni_interne-move_lines/Prodotto-product_id/Riferimento-default_code"
+msgstr "/data/record/Movimentazioni_interne-move_lines/Prodotto-product_id/Riferimento-default_code"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "PRAGO srl - SEDE LEGALE : Via Torino, 235- 63039 San Benedetto del Tronto (AP) - REA 160611- Reg. Imp. AP -1999-25332"
+msgstr "PRAGO srl - SEDE LEGALE : Via Torino, 235- 63039 San Benedetto del Tronto (AP) - REA 160611- Reg. Imp. AP -1999-25332"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Sconto"
+msgstr "Sconto"
+
+#: model:ir.model,name:openforce_sale.model_wizard_assign_ddt_by_journal
+#. module: openforce_sale
+msgid "wizard.assign.ddt.by.journal"
+msgstr "wizard.assign.ddt.by.journal"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{riga - Stato-state}.trim() != \"cancel\""
+msgstr "$F{riga - Stato-state}.trim() != \"cancel\""
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Righe_Fattura-invoice_line/Subtotale-price_subtotal"
+msgstr "/data/record/Righe_Fattura-invoice_line/Subtotale-price_subtotal"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Indirizzo_completo-contact_address"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Indirizzo_completo-contact_address"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Partner-CAP-zip} + \" \" + $F{partner - Citta-city} + \" \" + $F{Partner-Codice_provincia-code}"
+msgstr "$F{Partner-CAP-zip} + \" \" + $F{partner - Citta-city} + \" \" + $F{Partner-Codice_provincia-code}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "new Double($F{riga - Quantita__UoS-product_uos_qty})"
+msgstr "new Double($F{riga - Quantita__UoS-product_uos_qty})"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Codice fiscale"
+msgstr "Codice fiscale"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "\"Operazione \" + $F{Partner ref-Posizione_fiscale-name}.trim() + \" a seguito Vs richiesta n.\" + $F{Partner ref-Dichiarazione_numero-dichiarazione_intento_partner_number}.trim() + \" del \" + new SimpleDateFormat(\"dd/MM/yyyy\").format( new SimpleDateFormat(\"yyyy-MM-dd\").parse($F{Partner ref-Dichiarazione_data-dichiarazione_intento_partner_date})) + \". Ns regitrazione n. \" + $F{Partner ref-Registrazione_numero-dichiarazione_intento_registration_number}.trim() + \" del \" + new SimpleDateFormat(\"dd/MM/yyyy\").format( new SimpleDateFormat(\"yyyy-MM-dd\").parse($F{Partner ref-Registrazione_data-dichiarazione_intento_registration_date}))"
+msgstr "\"Operazione \" + $F{Partner ref-Posizione_fiscale-name}.trim() + \" a seguito Vs richiesta n.\" + $F{Partner ref-Dichiarazione_numero-dichiarazione_intento_partner_number}.trim() + \" del \" + new SimpleDateFormat(\"dd/MM/yyyy\").format( new SimpleDateFormat(\"yyyy-MM-dd\").parse($F{Partner ref-Dichiarazione_data-dichiarazione_intento_partner_date})) + \". Ns regitrazione n. \" + $F{Partner ref-Registrazione_numero-dichiarazione_intento_registration_number}.trim() + \" del \" + new SimpleDateFormat(\"dd/MM/yyyy\").format( new SimpleDateFormat(\"yyyy-MM-dd\").parse($F{Partner ref-Registrazione_data-dichiarazione_intento_registration_date}))"
+
+#: model:ir.model,name:openforce_sale.model_account_account
+#. module: openforce_sale
+msgid "Account"
+msgstr "Conto"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Partner - Dichiarazione_intento_partner_number}.trim() != \"\" && $F{Partner ref-Dichiarazione_numero-dichiarazione_intento_partner_number}.trim() == \"\""
+msgstr "$F{Partner - Dichiarazione_intento_partner_number}.trim() != \"\" && $F{Partner ref-Dichiarazione_numero-dichiarazione_intento_partner_number}.trim() == \"\""
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Nome-fiscalcode_firstname"
+msgstr "/data/record/Partner-partner_id/Nome-fiscalcode_firstname"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Telefono-phone"
+msgstr "/data/record/Partner-partner_id/Telefono-phone"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Provincia-province/Codice_provincia-code"
+msgstr "/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Provincia-province/Codice_provincia-code"
+
+#: field:sale_journal.invoice.type,require_DDT:0
+#. module: openforce_sale
+msgid "Require DDT"
+msgstr "DDT richiesto"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Movimentazioni_interne-move_lines/Nome-name"
+msgstr "/data/record/Movimentazioni_interne-move_lines/Nome-name"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "($F{Picking - Numero_di_Colli-number_of_packages}.trim() != \"\" ? new Double($F{Picking - Numero_di_Colli-number_of_packages})  : null)"
+msgstr "($F{Picking - Numero_di_Colli-number_of_packages}.trim() != \"\" ? new Double($F{Picking - Numero_di_Colli-number_of_packages})  : null)"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "$F{Mezzo - Spezizione_mezzo-name}"
+msgstr "$F{Mezzo - Spezizione_mezzo-name}"
+
+#: field:account.account,expense_type:0
+#. module: openforce_sale
+msgid "Expense type"
+msgstr "Tipo Spesa"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Righe_Fattura-invoice_line/Sconto-discount"
+msgstr "/data/record/Righe_Fattura-invoice_line/Sconto-discount"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Registrazione_data-dichiarazione_intento_registration_date"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Registrazione_data-dichiarazione_intento_registration_date"
+
+#: model:ir.model,name:openforce_sale.model_stock_picking
+#. module: openforce_sale
+msgid "Picking List"
+msgstr "Picking List"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/Conti_Bancari-bank_ids/Numero_conto-acc_number"
+msgstr "/data/record/Azienda-company_id/Conti_Bancari-bank_ids/Numero_conto-acc_number"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$V{Totale merce}"
+msgstr "$V{Totale merce}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Descrizione-name"
+msgstr "/data/record/Descrizione-name"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "Codice Fiscale"
+msgstr "Codice Fiscale"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/weight_net-weight_net_manual"
+msgstr "/data/record/weight_net-weight_net_manual"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Partita_IVA-vat"
+msgstr "/data/record/Partner-partner_id/Partita_IVA-vat"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/VIES_VAT_Check-vat_check_vies"
+msgstr "/data/record/Azienda-company_id/VIES_VAT_Check-vat_check_vies"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Registrazione_Contabile-move_id/Sezionale-journal_id/Tipo-type"
+msgstr "/data/record/Registrazione_Contabile-move_id/Sezionale-journal_id/Tipo-type"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Contatti-address/Indirizzo_2-street2"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Indirizzo_2-street2"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Termine_di_pagamento-payment_term/Termine_di_pagamento-name"
+msgstr "/data/record/Termine_di_pagamento-payment_term/Termine_di_pagamento-name"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "Peso Lordo"
+msgstr "Peso Lordo"
+
+#: model:ir.actions.report.xml,name:openforce_sale.openforce_sale_ddt
+#: model:ir.actions.report.xml,name:openforce_sale.openforce_sale_ddt_report
+#. module: openforce_sale
+msgid "DDT"
+msgstr "DDT"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Contatti-address/Citta-city"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Citta-city"
+
+#: model:ir.actions.report.xml,name:openforce_sale.openforce_sale_fattura_accompagnatoria
+#: model:ir.actions.report.xml,name:openforce_sale.openforce_sale_fattura_accompagnatoria_report
+#. module: openforce_sale
+msgid "Fattura accompagnatoria"
+msgstr "Fattura accompagnatoria"
+
+#: help:sale.order,contract_required:0
+#. module: openforce_sale
+msgid "If true, the contract ref is required"
+msgstr "If true, the contract ref is required"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Partner - Codice_fiscale-fiscalcode}"
+msgstr "$F{Partner - Codice_fiscale-fiscalcode}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{riga - Nome UOS-name2}"
+msgstr "$F{riga - Nome UOS-name2}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Movimentazioni_interne-move_lines/Stato-state"
+msgstr "/data/record/Movimentazioni_interne-move_lines/Stato-state"
+
+#: view:stock.picking.out:0
+#. module: openforce_sale
+msgid "# Page transportation"
+msgstr "# Page transportation"
+
+#: help:sale_journal.invoice.type,default:0
+#. module: openforce_sale
+msgid "Default for delivery order and invoice"
+msgstr "Default per Ordine di consegna e Fattura"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Termine_di_pagamento-name}"
+msgstr "$F{Termine_di_pagamento-name}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Sezionale-journal_id/Tipo-type"
+msgstr "/data/record/Sezionale-journal_id/Tipo-type"
+
+#: report:openforce_sale_fattura_report:0
+#: field:stock.picking.mezzo,note:0
+#. module: openforce_sale
+msgid "Note"
+msgstr "Note"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Totali"
+msgstr "Totali"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "Causale di trasporto"
+msgstr "Causale di trasporto"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Totale"
+msgstr "Totale"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Data_Fattura-date_invoice}.trim() != \"\" ? (new SimpleDateFormat(\"yyyy-MM-dd HH:mm:ss\").parse($F{Data_Fattura-date_invoice}) ) : new Date()  )"
+msgstr "($F{Data_Fattura-date_invoice}.trim() != \"\" ? (new SimpleDateFormat(\"yyyy-MM-dd HH:mm:ss\").parse($F{Data_Fattura-date_invoice}) ) : new Date()  )"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Partner -Telefono-phone}"
+msgstr "$F{Partner -Telefono-phone}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Partner - Indirizzo-street}.trim() + \" \" + $F{Partner - Indirizzo_2-street2}.trim()"
+msgstr "$F{Partner - Indirizzo-street}.trim() + \" \" + $F{Partner - Indirizzo_2-street2}.trim()"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Contatti-address/Telefono-phone"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Telefono-phone"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Resa_merce-name}"
+msgstr "$F{Resa_merce-name}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Indirizzo-street"
+msgstr "/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Indirizzo-street"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Partner ref-Nome-name} != \"\" ? $F{Partner ref-Nome-name} : $F{Partner - Nome-name}"
+msgstr "$F{Partner ref-Nome-name} != \"\" ? $F{Partner ref-Nome-name} : $F{Partner - Nome-name}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Righe_Fattura-invoice_line/Origine-origin"
+msgstr "/data/record/Righe_Fattura-invoice_line/Origine-origin"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Vettore - Citta-city}"
+msgstr "$F{Vettore - Citta-city}"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Spett.le"
+msgstr "Spett.le"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "$F{Trasportatore - Nome-name}.trim() + \" - \" + $F{Trasportatore - Citta-city}.trim()"
+msgstr "$F{Trasportatore - Nome-name}.trim() + \" - \" + $F{Trasportatore - Citta-city}.trim()"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Posizione_fiscale-property_account_position/Posizione_fiscale-name"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Posizione_fiscale-property_account_position/Posizione_fiscale-name"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/Partner-partner_id/Partita_IVA-vat"
+msgstr "/data/record/Azienda-company_id/Partner-partner_id/Partita_IVA-vat"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "\"Operazione \" + $F{Partner - Posizione_fiscale-name}.trim() + \" a seguito Vs richiesta n.\" + $F{Partner - Dichiarazione_intento_partner_number}.trim() + \" del \" + new SimpleDateFormat(\"dd/MM/yyyy\").format( new SimpleDateFormat(\"yyyy-MM-dd\").parse($F{Partner - Dichiarazione_intento_partner_date})) + \". Ns regitrazione n. \" + $F{Partner - Dichiarazione_intento_registration_number}.trim() + \" del \" + new SimpleDateFormat(\"dd/MM/yyyy\").format( new SimpleDateFormat(\"yyyy-MM-dd\").parse($F{Partner - Dichiarazione_intento_registration_date}))"
+msgstr "\"Operazione \" + $F{Partner - Posizione_fiscale-name}.trim() + \" a seguito Vs richiesta n.\" + $F{Partner - Dichiarazione_intento_partner_number}.trim() + \" del \" + new SimpleDateFormat(\"dd/MM/yyyy\").format( new SimpleDateFormat(\"yyyy-MM-dd\").parse($F{Partner - Dichiarazione_intento_partner_date})) + \". Ns regitrazione n. \" + $F{Partner - Dichiarazione_intento_registration_number}.trim() + \" del \" + new SimpleDateFormat(\"dd/MM/yyyy\").format( new SimpleDateFormat(\"yyyy-MM-dd\").parse($F{Partner - Dichiarazione_intento_registration_date}))"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Imposta"
+msgstr "Imposta"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Riga - Tipo-expense_type} == \"delivery\" ? new Double($F{Riga - Subtotale-price_subtotal}) : new Double(\"0\") )"
+msgstr "($F{Riga - Tipo-expense_type} == \"delivery\" ? new Double($F{Riga - Subtotale-price_subtotal}) : new Double(\"0\") )"
+
+#: model:ir.model,name:openforce_sale.model_account_invoice
+#: selection:sale_journal.invoice.type,document_type:0
+#. module: openforce_sale
+msgid "Invoice"
+msgstr "Fattura"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "Aspetto dei beni"
+msgstr "Aspetto dei beni"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Trasportatore-carrier_id/Transport_Company-partner_id/Citta-city"
+msgstr "/data/record/Trasportatore-carrier_id/Transport_Company-partner_id/Citta-city"
+
+#: help:sale_journal.invoice.type,require_DDT:0
+#. module: openforce_sale
+msgid "If required is possible to assign DDT number to delivery order"
+msgstr "If required is possible to assign DDT number to delivery order"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Mezzo-mezzo_id/Spezizione_mezzo-name"
+msgstr "/data/record/Mezzo-mezzo_id/Spezizione_mezzo-name"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Codice_fiscale-fiscalcode"
+msgstr "/data/record/Partner-partner_id/Codice_fiscale-fiscalcode"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$P{SR_DATA_SOURCE}"
+msgstr "$P{SR_DATA_SOURCE}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Azienda - Numero_conto-acc_number}"
+msgstr "$F{Azienda - Numero_conto-acc_number}"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "\"/ \" + $V{PAGE_NUMBER}"
+msgstr "\"/ \" + $V{PAGE_NUMBER}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Incasso"
+msgstr "Incasso"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Righe_Fattura-invoice_line/Descrizione-name"
+msgstr "/data/record/Righe_Fattura-invoice_line/Descrizione-name"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Partner ref-Nome_Banca-bank_name} != \"\" ? $F{Partner ref-Nome_Banca-bank_name}     : $F{partner - Bank_Name-bank_name}"
+msgstr "$F{Partner ref-Nome_Banca-bank_name} != \"\" ? $F{Partner ref-Nome_Banca-bank_name}     : $F{partner - Bank_Name-bank_name}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Acconto"
+msgstr "Acconto"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Trasportatore-carrier_id/Transport_Company-partner_id/Nome-name"
+msgstr "/data/record/Trasportatore-carrier_id/Transport_Company-partner_id/Nome-name"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/Email-email"
+msgstr "/data/record/Azienda-company_id/Email-email"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Partner ref-Indirizzo_completo-contact_address} != \"\"     ? $F{Partner ref-Indirizzo_completo-contact_address}     : $F{Partner - Indirizzo_completo-contact_address}"
+msgstr "$F{Partner ref-Indirizzo_completo-contact_address} != \"\"     ? $F{Partner ref-Indirizzo_completo-contact_address}     : $F{Partner - Indirizzo_completo-contact_address}"
+
+#: view:account.invoice:0
+#. module: openforce_sale
+msgid "Reason for transportation"
+msgstr "Causale del trasporto"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Contatti-address/CAP-zip"
+msgstr "/data/record/Partner-partner_id/Contatti-address/CAP-zip"
+
+#: model:ir.model,name:openforce_sale.model_sale_journal_invoice_type
+#. module: openforce_sale
+msgid "Invoice Types"
+msgstr "Tipi Fattura"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Indirizzo_2-street2"
+msgstr "/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Indirizzo_2-street2"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Numero_fattura-internal_number"
+msgstr "/data/record/Numero_fattura-internal_number"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Codice_Fiscale-fiscalcode"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Codice_Fiscale-fiscalcode"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Citta-city"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Citta-city"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Riga - Descrizione-name}"
+msgstr "$F{Riga - Descrizione-name}"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/Telefono-phone"
+msgstr "/data/record/Azienda-company_id/Telefono-phone"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Commerciale - nome}"
+msgstr "$F{Commerciale - nome}"
+
+#: help:account.account,expense_type:0
+#. module: openforce_sale
+msgid "Used on invoice report to print the expense in the foot"
+msgstr "Usato nella stampa fattura per totalizzare e mostrare le spese sul piede del documento"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Azienda - Nome_Banca-bank_name}"
+msgstr "$F{Azienda - Nome_Banca-bank_name}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Azienda - Logo-logo}"
+msgstr "$F{Azienda - Logo-logo}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Pickings_out-picking_out_ids/Trasportatore-carrier_id/Azienda_di_Spedizioni-partner_id/Nome-name"
+msgstr "/data/record/Pickings_out-picking_out_ids/Trasportatore-carrier_id/Azienda_di_Spedizioni-partner_id/Nome-name"
+
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Riga - Tipo-expense_type}.trim() == \"\" && $F{Riga - Subtotale-price_subtotal}.trim() != \"\"         ? new Double($F{Riga - Subtotale-price_subtotal}) : new Double(\"0\") )"
+msgstr "($F{Riga - Tipo-expense_type}.trim() == \"\" && $F{Riga - Subtotale-price_subtotal}.trim() != \"\"         ? new Double($F{Riga - Subtotale-price_subtotal}) : new Double(\"0\") )"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Totale - Tassa-amount_tax}.trim() != \"\" ? new Double($F{Totale - Tassa-amount_tax})  : null)"
+msgstr "($F{Totale - Tassa-amount_tax}.trim() != \"\" ? new Double($F{Totale - Tassa-amount_tax})  : null)"
+
+#: model:ir.model,name:openforce_sale.model_stock_partial_picking
+#. module: openforce_sale
+msgid "Partial Picking Processing Wizard"
+msgstr "Wizard Prelievo Parziale"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Spezizione_mezzo-name}"
+msgstr "$F{Spezizione_mezzo-name}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Indirizzo_completo-contact_address"
+msgstr "/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Indirizzo_completo-contact_address"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/Logo-logo"
+msgstr "/data/record/Azienda-company_id/Logo-logo"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Totale - Imponibile-amount_untaxed}.trim() != \"\" ? new Double($F{Totale - Imponibile-amount_untaxed})  : null)"
+msgstr "($F{Totale - Imponibile-amount_untaxed}.trim() != \"\" ? new Double($F{Totale - Imponibile-amount_untaxed})  : null)"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Totale - amount_total}.trim() != \"\" ? new Double($F{Totale - amount_total})  : null)"
+msgstr "($F{Totale - amount_total}.trim() != \"\" ? new Double($F{Totale - amount_total})  : null)"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Totale da Pagare"
+msgstr "Totale da Pagare"
+
+#: view:account.invoice:0
+#. module: openforce_sale
+msgid "Shipping"
+msgstr "Trasporto"
+
+#: view:stock.picking.out:0
+#. module: openforce_sale
+msgid "# ddt Ref"
+msgstr "# ddt Ref"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Destinazione"
+msgstr "Destinazione"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "(\"Tel. \" + $F{Azienda - Telefono-phone}.trim()) + \" - Fax \" + ($F{Azienda - Fax-fax}).trim()"
+msgstr "(\"Tel. \" + $F{Azienda - Telefono-phone}.trim()) + \" - Fax \" + ($F{Azienda - Fax-fax}).trim()"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Banche-bank_ids/Bank_Name-bank_name"
+msgstr "/data/record/Partner-partner_id/Banche-bank_ids/Bank_Name-bank_name"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{DDT-ddt_number}"
+msgstr "$F{DDT-ddt_number}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{riga - Riferimento-default_code}"
+msgstr "$F{riga - Riferimento-default_code}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "Agente"
+msgstr "Agente"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Partner - Bank_Name-bank_name} != \"\" ? $F{Partner - Bank_Name-bank_name} : $F{Partner ref-Nome_Banca-bank_name}"
+msgstr "$F{Partner - Bank_Name-bank_name} != \"\" ? $F{Partner - Bank_Name-bank_name} : $F{Partner ref-Nome_Banca-bank_name}"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/Stato_fed.-state_id/Nome_Stato-name"
+msgstr "/data/record/Azienda-company_id/Stato_fed.-state_id/Nome_Stato-name"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Riga - Subtotale-price_subtotal}.trim() != \"\" ? new Double($F{Riga - Subtotale-price_subtotal})  : null)"
+msgstr "($F{Riga - Subtotale-price_subtotal}.trim() != \"\" ? new Double($F{Riga - Subtotale-price_subtotal})  : null)"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Partner ref-Nome-name} != \"\" ?     $F{Partner ref-CAP-zip} + \" \" + $F{Partner ref-Citta-city}.trim() + \" \" + $F{Partner ref-Codice_provincia-code}     :     $F{Partner-CAP-zip} + \" \" + $F{partner - Citta-city} + \" \" + $F{Partner-Codice_provincia-code}"
+msgstr "$F{Partner ref-Nome-name} != \"\" ?     $F{Partner ref-CAP-zip} + \" \" + $F{Partner ref-Citta-city}.trim() + \" \" + $F{Partner ref-Codice_provincia-code}     :     $F{Partner-CAP-zip} + \" \" + $F{partner - Citta-city} + \" \" + $F{Partner-Codice_provincia-code}"
+
+#: model:ir.model,name:openforce_sale.model_sale_order
+#. module: openforce_sale
+msgid "Sales Order"
+msgstr "Ordine di vendita"
+
+#: model:ir.model,name:openforce_sale.model_stock_picking_out
+#. module: openforce_sale
+msgid "Delivery Orders"
+msgstr "Ordini di Consegna"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Righe_Fattura-invoice_line/Unita_di_misura-uos_id/Nome-name"
+msgstr "/data/record/Righe_Fattura-invoice_line/Unita_di_misura-uos_id/Nome-name"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{riga - Note-note}.trim() != \"\""
+msgstr "$F{riga - Note-note}.trim() != \"\""
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Nome-name"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Nome-name"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Riferimento-ref"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Riferimento-ref"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Dichiarazione_numero-dichiarazione_intento_partner_number"
+msgstr "/data/record/Partner-partner_id/Dichiarazione_numero-dichiarazione_intento_partner_number"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Valuta-name}"
+msgstr "$F{Valuta-name}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "Peso netto"
+msgstr "Peso netto"
+
+#: field:account.invoice,picking_out_ids:0
+#. module: openforce_sale
+msgid "Pickings out"
+msgstr "Pickings out"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{azienda - Nome_Azienda-name}"
+msgstr "$F{azienda - Nome_Azienda-name}"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "new java.util.Date()"
+msgstr "new java.util.Date()"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "Data Ora inizio trasp."
+msgstr "Data Ora inizio trasp."
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{partner - Nome_Nazione-name}"
+msgstr "$F{partner - Nome_Nazione-name}"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/Partner-partner_id/Codice_fiscale-fiscalcode"
+msgstr "/data/record/Azienda-company_id/Partner-partner_id/Codice_fiscale-fiscalcode"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Data_DDT-ddt_date"
+msgstr "/data/record/Data_DDT-ddt_date"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Codice"
+msgstr "Codice"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Um"
+msgstr "Um"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Registrazione_numero-dichiarazione_intento_registration_number"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Registrazione_numero-dichiarazione_intento_registration_number"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Partner - Riferimento-ref}"
+msgstr "$F{Partner - Riferimento-ref}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "($F{azienda - Indirizzo-street}.trim() + \" \") + ($F{azienda - Indirizzo_2-street2}.trim() + \" \") + ($F{azienda - CAP-zip}.trim() + \" \") + ($F{azienda - Citta-city}.trim() + \" \")"
+msgstr "($F{azienda - Indirizzo-street}.trim() + \" \") + ($F{azienda - Indirizzo_2-street2}.trim() + \" \") + ($F{azienda - CAP-zip}.trim() + \" \") + ($F{azienda - Citta-city}.trim() + \" \")"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Indirizzo_2-street2"
+msgstr "/data/record/Partner-partner_id/Indirizzo_2-street2"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "$F{Trasporto - resa merce -name}"
+msgstr "$F{Trasporto - resa merce -name}"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Indirizzo-address_id/Citta-city"
+msgstr "/data/record/Indirizzo-address_id/Citta-city"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Riga - Tipo-expense_type} == \"delivery\" ? new Boolean(\"True\") : new Boolean(\"False\") )"
+msgstr "($F{Riga - Tipo-expense_type} == \"delivery\" ? new Boolean(\"True\") : new Boolean(\"False\") )"
+
+#: view:stock.picking.out:0
+#. module: openforce_sale
+msgid "Date of Delivery"
+msgstr "Date of Delivery"
+
+#: field:stock.picking,weight_manual:0
+#: field:stock.picking.out,weight_manual:0
+#. module: openforce_sale
+msgid "weight"
+msgstr "Peso Lordo"
+
+#: view:stock.picking.out:0
+#. module: openforce_sale
+msgid "Print DDT"
+msgstr "Stampa DDT"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Peso-weight"
+msgstr "/data/record/Peso-weight"
+
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Sezionale - Tipo -type}.trim() == \"sale_refund\" ? \"NOTA CREDITO\" : \"FATTURA\")"
+msgstr "($F{Sezionale - Tipo -type}.trim() == \"sale_refund\" ? \"NOTA CREDITO\" : \"FATTURA\")"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Registrazione_data-dichiarazione_intento_registration_date"
+msgstr "/data/record/Partner-partner_id/Registrazione_data-dichiarazione_intento_registration_date"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Aspetto_dei_Beni-goods_description_id/Aspetto_dei_Beni-name"
+msgstr "/data/record/Aspetto_dei_Beni-goods_description_id/Aspetto_dei_Beni-name"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Partner ref-Indirizzo_completo-contact_address} != \"\"     ? $F{Partner ref-Indirizzo_completo-contact_address}     : $F{Partner -Indirizzo_completo-contact_address}"
+msgstr "$F{Partner ref-Indirizzo_completo-contact_address} != \"\"     ? $F{Partner ref-Indirizzo_completo-contact_address}     : $F{Partner -Indirizzo_completo-contact_address}"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Riga - Tipo-expense_type} == \"cash\" ? new Double($F{Riga - Subtotale-price_subtotal}) : new Double(\"0\") )"
+msgstr "($F{Riga - Tipo-expense_type} == \"cash\" ? new Double($F{Riga - Subtotale-price_subtotal}) : new Double(\"0\") )"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Iva"
+msgstr "Iva"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Ordine_di_Vendita-sale_id/Commerciale-user_id/Name-display_name"
+msgstr "/data/record/Ordine_di_Vendita-sale_id/Commerciale-user_id/Name-display_name"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "($F{Riga - Quantita-quantity}.trim() != \"\" ? new Double($F{Riga - Quantita-quantity})  : null)"
+msgstr "($F{Riga - Quantita-quantity}.trim() != \"\" ? new Double($F{Riga - Quantita-quantity})  : null)"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Saldo-residual"
+msgstr "/data/record/Saldo-residual"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{riga - Rif cliente - picking merged}.trim() != \"\" ? $F{riga - Rif cliente - picking merged}.trim() : $F{riga - Riferimento_cliente-client_order_ref}.trim()"
+msgstr "$F{riga - Rif cliente - picking merged}.trim() != \"\" ? $F{riga - Rif cliente - picking merged}.trim() : $F{riga - Riferimento_cliente-client_order_ref}.trim()"
+
+#: view:account.invoice:0
+#. module: openforce_sale
+msgid "Description of goods"
+msgstr "Descrizione colli"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Pag."
+msgstr "Pag."
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Righe_Fattura-invoice_line/Quantita-quantity"
+msgstr "/data/record/Righe_Fattura-invoice_line/Quantita-quantity"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Partner ref-Dichiarazione_numero-dichiarazione_intento_partner_number}.trim() != \"\""
+msgstr "$F{Partner ref-Dichiarazione_numero-dichiarazione_intento_partner_number}.trim() != \"\""
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Prezzo"
+msgstr "Prezzo"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "$F{Partner ref-Partita_IVA-vat} != \"\" ? $F{Partner ref-Partita_IVA-vat}     :$F{partner - Partita_IVA-vat}"
+msgstr "$F{Partner ref-Partita_IVA-vat} != \"\" ? $F{Partner ref-Partita_IVA-vat}     :$F{partner - Partita_IVA-vat}"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Citta-city"
+msgstr "/data/record/Partner-partner_id/Citta-city"
+
+#: field:sale_journal.invoice.type,document_type:0
+#. module: openforce_sale
+msgid "Document type"
+msgstr "Tipo documento"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Pagamento"
+msgstr "Pagamento"
+
+#: selection:account.account,expense_type:0
+#. module: openforce_sale
+msgid "Delivery"
+msgstr "Consegna"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Numero_di_Pacchetti-number_of_packages"
+msgstr "/data/record/Numero_di_Pacchetti-number_of_packages"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "($F{Picking - weight_net-weight_net_manual}.trim() != \"\" ? new Double($F{Picking - weight_net-weight_net_manual})  : null)"
+msgstr "($F{Picking - weight_net-weight_net_manual}.trim() != \"\" ? new Double($F{Picking - weight_net-weight_net_manual})  : null)"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Movimentazioni_interne-move_lines/Note-note"
+msgstr "/data/record/Movimentazioni_interne-move_lines/Note-note"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{id}"
+msgstr "$F{id}"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "/data/record/Azienda-company_id/Indirizzo_2-street2"
+msgstr "/data/record/Azienda-company_id/Indirizzo_2-street2"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Telefono-phone"
+msgstr "/data/record/Partner-partner_id/Azienda_correlata-parent_id/Telefono-phone"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Movimentazioni_interne-move_lines/Origine-origin"
+msgstr "/data/record/Movimentazioni_interne-move_lines/Origine-origin"
+
+#: selection:account.account,expense_type:0
+#. module: openforce_sale
+msgid "Cash"
+msgstr "Cash"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Contatti-address/Fax-fax"
+msgstr "/data/record/Partner-partner_id/Contatti-address/Fax-fax"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "$F{Partner - Nome_Nazione-name}"
+msgstr "$F{Partner - Nome_Nazione-name}"
+
+#: field:sale.order,contract_required:0
+#. module: openforce_sale
+msgid "Contract required"
+msgstr "Contratto richiesto"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Partner-partner_id/Email-email"
+msgstr "/data/record/Partner-partner_id/Email-email"
+
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "Valuta"
+msgstr "Valuta"
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "Peso lordo"
+msgstr "Peso lordo"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#: report:openforce_sale_fattura_report:0
+#. module: openforce_sale
+msgid "CONDIZIONI DI VENDITA: La merce viaggia a rischio e pericolo del committente anche se venduta franco destino. Non si accettano reclami trascorsi 8 giorni dal ricevimento della merce. Il mancato  pagamento fa decorrere gli interessi commerciali bancari. I pagamenti sono validi se eseguiti direttamente alla ns. Sede. Per ogni controversia è competente il Foro della Ditta Venditrice."
+msgstr "CONDIZIONI DI VENDITA: La merce viaggia a rischio e pericolo del committente anche se venduta franco destino. Non si accettano reclami trascorsi 8 giorni dal ricevimento della merce. Il mancato  pagamento fa decorrere gli interessi commerciali bancari. I pagamenti sono validi se eseguiti direttamente alla ns. Sede. Per ogni controversia è competente il Foro della Ditta Venditrice."
+
+#: report:openforce_sale_ddt_report:0
+#. module: openforce_sale
+msgid "/data/record/Peso_lordo-weight_manual"
+msgstr "/data/record/Peso_lordo-weight_manual"
+
+#: report:openforce_sale_ddt_report:0
+#: report:openforce_sale_fattura_accompagnatoria_report:0
+#. module: openforce_sale
+msgid "Firma vettore"
+msgstr "Firma vettore"
+

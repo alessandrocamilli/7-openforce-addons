@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    
+        <record id="openforce_salesman_pricelist_version_form_view" model="ir.ui.view">
+            <field name="name">salesman.pricelist.version.form</field>
+            <field name="model">salesman.pricelist.version</field>
+            <field name="arch" type="xml">
+                <form string="Pricelist Version" version="7.0">
+                    <group col="4">
+                        <field name="name"/>
+                        <field name="active"/>
+                        <field colspan="4" name="pricelist_id"/>
+                        <field name="date_start"/>
+                        <field name="date_end"/>
+                        <field name="company_id" groups="base.group_multi_company" widget="selection"/>
+                    </group>
+                    <field name="items_id"/>
+                </form>
+            </field>
+        </record>
+        
+        <record id="openforce_salesman_pricelist_version_tree_view" model="ir.ui.view">
+            <field name="name">salesman.pricelist.version.tree</field>
+            <field name="model">salesman.pricelist.version</field>
+            <field name="arch" type="xml">
+                <tree string="Pricelist Version">
+                    <field name="name"/>
+                    <field name="pricelist_id"/>
+                    <field name="date_start"/>
+                    <field name="date_end"/>
+                </tree>
+            </field>
+        </record>
+	
+        <record id="openforce_salesman_pricelist" model="ir.actions.act_window">
+            <field name="name">Pricelist Versions</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">salesman.pricelist.version</field>
+            <field name="view_type">form</field>
+            <field name="view_id" ref="openforce_salesman_pricelist_version_tree_view"/>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to add a pricelist version.
+              </p><p>
+                There can be more than one version of a pricelist, each of
+                these must be valid during a certain period of time. Some
+                examples of versions: Main Prices, 2010, 2011, Summer Sales,
+                etc.
+              </p>
+            </field>
+        </record>
+        
+        <menuitem
+            action="openforce_salesman_pricelist" id="menu_openforce_salesman_pricelist_action"
+            parent="menu_openforce_salesman_configuration_main" sequence="2"/>
+
+        <record id="openforce_salesman_pricelist_item_tree_view" model="ir.ui.view">
+            <field name="name">salesman.pricelist.item.tree</field>
+            <field name="model">salesman.pricelist.item</field>
+            <field name="arch" type="xml">
+                <tree string="Products Listprices Items">
+                    <field name="sequence"/>
+                    <field colspan="4" name="name"/>
+                    <field name="product_id"/>
+                    <field name="product_tmpl_id" groups="product.group_product_variant"/>
+                    <field name="categ_id"/>
+                    <field name="min_quantity"/>
+                    <field name="base"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="openforce_salesman_pricelist_item_form_view" model="ir.ui.view">
+            <field name="name">salesman.pricelist.item.form</field>
+            <field name="model">salesman.pricelist.item</field>
+            <field name="arch" type="xml">
+                <form string="Salesman Listprices Items" version="7.0">
+                    <label for="name" class="oe_edit_only"/>
+                    <h1><field colspan="4" name="name"/></h1>
+
+                    <group col="4">
+                        <field name="product_id" on_change="product_id_change(product_id)"/>
+                        <field name="product_tmpl_id" groups="product.group_product_variant"/>
+                        <field name="categ_id"/>
+                        <field name="company_id" groups="base.group_multi_company" widget="selection"/>
+                        <field name="min_quantity"/>
+                        <field name="sequence"/>
+                    </group>
+                    <group col="4" string="Commission Computation">
+                        <field name="base"/>
+                        <field name="base_pricelist_id" attrs="{'invisible':[('base', '!=', -1)],'required': [('base','=', -1)], 'readonly': [('base','!=', -1)]}"/>
+                    </group>
+                    <group col="4">
+                        <field name="commission_percent"/>
+                        <field name="discount_commission_id"/>
+                    </group>
+                    <!-- 
+                    <group col="6" colspan="5">
+                        <label string="New Price ="/>
+                        <label string="Base Price"/>
+                        <label string="* ( 1 + "/>
+                        <field name="price_discount" nolabel="1"/>
+                        <label string=" ) + "/>
+                        <field name="price_surcharge" nolabel="1"/>
+                        <newline/>
+                        <field name="price_round" string="Rounding Method"/>
+                        <field name="price_min_margin" string="Min. Margin"/>
+                        <field name="price_max_margin" string="Max. Margin"/>
+                    </group>
+					 -->
+                </form>
+            </field>
+        </record>
+		
+        <record model="ir.ui.view" id="openforce_salesman_pricelist_view_search">
+            <field name="name">salesman.pricelist.search</field>
+            <field name="model">salesman.pricelist</field>
+            <field name="arch" type="xml">
+                <search string="Salesman Price Search">
+                    <field name="name" string="Products Price"/>
+                    <!-- <field name="type"/> -->
+                    <field name="active" />
+                    <field name="currency_id" groups="base.group_multi_currency"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="openforce_salesman_pricelist_view_tree" model="ir.ui.view">
+            <field name="name">salesman.pricelist.tree</field>
+            <field name="model">salesman.pricelist</field>
+            <field name="arch" type="xml">
+                <tree string="Salesman Price List">
+                    <field name="name"/>
+                    <!-- <field name="type"/> -->
+                    <field name="currency_id" groups="base.group_multi_currency"/>
+                    <field name="active" />
+                    <field name="level_child_commission" />
+                </tree>
+            </field>
+        </record>
+         
+        <record id="openforce_salesman_pricelist_view" model="ir.ui.view">
+            <field name="name">salesman.pricelist.form</field>
+            <field name="model">salesman.pricelist</field>
+            <field name="arch" type="xml">
+                <form string="Salesman Price List" version="7.0">
+                    <label for="name" class="oe_edit_only"/>
+                    <h1>
+                        <field name="name"/>
+                    </h1>
+                    <group col="4">
+                        <field name="active"/>
+                        <field name="level_child_commission"/>
+                        <field name="currency_id" groups="base.group_multi_currency"/>
+                        <field name="company_id" groups="base.group_multi_company" widget="selection"/>
+                    </group>
+                    <field name="version_id">
+                        <form string="Pricelist Version" version="7.0">
+                            <group col="4">
+                                <field name="name"/>
+                                <field name="active"/>
+                                <field name="date_start"/>
+                                <field name="date_end"/>
+                            </group>
+                            <field name="items_id"/>
+                        </form>
+                        <tree string="Pricelist Version">
+                            <field name="name"/>
+                            <field name="active"/>
+                            <field name="date_start"/>
+                            <field name="date_end"/>
+                        </tree>
+                    </field>
+                </form>
+            </field>
+        </record>
+        
+        <record id="openforce_salesman_pricelist_action2" model="ir.actions.act_window">
+            <field name="name">Pricelists</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">salesman.pricelist</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="openforce_salesman_pricelist_view_search" />
+            <!-- <field name="context"></field> -->
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to create a pricelist.
+              </p>
+            </field>
+        </record>
+        
+        <menuitem
+            action="openforce_salesman_pricelist_action2" id="menu_openforce_salesman_product_pricelist_action2"
+            parent="menu_openforce_salesman_configuration_main" sequence="5" groups="group_salesman_manager"/>
+        
+        <!-- 
+        Table Discount-Commission
+         -->
+         <record id="openforce_salesman_pricelist_discount_view_tree" model="ir.ui.view">
+            <field name="name">salesman.pricelist.discount.tree</field>
+            <field name="model">salesman.pricelist.discount_commission</field>
+            <field name="arch" type="xml">
+                <tree string="Salesman Discount table">
+                    <field name="name"/>
+                    <field name="active" />
+                </tree>
+            </field>
+        </record>
+        
+        <record id="openforce_salesman_pricelist_discount_view_form" model="ir.ui.view">
+            <field name="name">salesman.pricelist.discount.form</field>
+            <field name="model">salesman.pricelist.discount_commission</field>
+            <field name="arch" type="xml">
+                <form string="Salesman Discount table">
+                    <field name="name"/>
+                    <field name="active" />
+                    <field name="line_ids" >
+                         
+                    	<form string="Discount-Commission Lines" version="7.0">
+                    		<field name="discount" />	        
+                    		<field name="discount2" />	        
+                    		<field name="commission_percent" />	        
+                    	</form>
+                    	<tree string="Discount-Commission Lines" editable="bottom">
+                    	    <field name="discount" />	        
+                   			<field name="discount2" />	        
+                   			<field name="commission_percent" />	 
+                    	</tree>
+                    	 
+                    </field>
+                </form>
+            </field>
+        </record>
+        
+         <record id="openforce_salesman_pricelist_discount_view_tree" model="ir.ui.view">
+            <field name="name">salesman.pricelist.discount.tree</field>
+            <field name="model">salesman.pricelist.discount_commission</field>
+            <field name="arch" type="xml">
+                <tree string="Discount-Commission Table">
+                    <field name="name"/>
+                    <field name="active" />
+                    <field name="line_ids"/>
+                </tree>
+            </field>
+        </record>
+        
+        <record id="openforce_salesman_pricelist_discount_action" model="ir.actions.act_window">
+            <field name="name">Discount-Commission table</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">salesman.pricelist.discount_commission</field>
+            <!-- <field name="view_type">tree</field> -->
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="openforce_salesman_pricelist_discount_view_tree"/>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to create a table discount-commission.
+              </p>
+            </field>
+        </record>
+        
+        <menuitem
+            action="openforce_salesman_pricelist_discount_action" id="openforce_salesman_pricelist_discount_menu"
+            parent="menu_openforce_salesman_configuration_main" sequence="5" groups="group_salesman_manager"/>
+        
+    </data>
+</openerp>

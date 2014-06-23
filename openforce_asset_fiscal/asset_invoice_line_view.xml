@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    	<!-- 
+		Form           
+		-->
+        <record id="view_asset_invoice_line_tree" model="ir.ui.view">
+	        <field eval="1" name="priority"/>
+	        <field name="name">asset.invoice.line.tree</field>
+	        <field name="model">account.invoice</field>
+	        <field name="type">form</field>
+	        <field name="arch" type="xml">
+		        <form string="Invoice lines" version="7.0">
+		        	<field name="state" invisible="1"/>
+		            <field name="invoice_line">
+		            <tree string="Invoice lines" create="false" delete="false">
+		                <field name="account_id"/>
+		                
+		     			<field name="name"/>
+		     			<field name="quantity"/>
+		     			<field name="price_subtotal"/>
+		     			<field name="asset_move_line_id"/>
+		     			<!-- <button name="create_asset_move" icon="gtk-execute" string="Create Asset Move" type="object" states="done,assigned"/> -->
+		     			<button name="%(action_wizard_create_asset_move)d" icon="gtk-execute" string="Create Asset Move" type="object" target="new"/>
+		            </tree>
+		            </field>
+		      	</form>
+	        </field>
+    	</record>
+        
+
+        <!-- ACTION -->
+        
+        <record id="action_asset_invoice_line" model="ir.actions.act_window">
+		<field name="name">Invoice lines link asset</field>
+        <field name="res_model">account.invoice</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form,tree,graph</field>
+        <!--  <field name="search_view_id" ref="view_asset_invoice_line_search"/> -->
+        <field name="view_id" ref="view_asset_invoice_line_tree"/>
+        <!-- <field name="context">{'invoice_id':[active_id]}</field>  -->
+        <field name="help">Link the invoice lines to assets.</field>
+        <field name="target">new</field>
+    </record>
+        
+        
+    </data>
+</openerp>

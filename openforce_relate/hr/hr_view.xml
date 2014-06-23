@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- 
+        Employee
+        -->
+		<record id="openforce_relate_hr_employee_trip_form" model="ir.ui.view">
+            <field name="name">openforce.relate.hr.employee.trip.form</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[@name='active_group']" position="before">
+                    <group string="Trip">
+                        <field name="relate_trip_product_id" domain="[('type','=','service')]"/>
+                        <field name="relate_trip_journal_id"/>
+                        <field name="relate_trip_cost_from_timesheet_coeff"/>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+		
+		<record id="openforce_relate_hr_employee_follower_contract_form" model="ir.ui.view">
+            <field name="name">openforce.relate.hr.employee.follower.contract.form</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="priority" eval="20"/>
+            <field name="arch" type="xml">
+               
+                <!-- <xpath expr="//page[@string='Alert and Follower']/group[@string='Follower']" position="inside"> -->
+                <xpath expr="//group[@string='Follower']" position="inside">
+                        <field name="relate_follower_contract" on_change="on_change_follower_contract(relate_follower_contract)"/>
+                </xpath>
+            </field>
+        </record>
+		
+    </data>
+</openerp>

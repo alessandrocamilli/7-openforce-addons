@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<openerp>
+<data>
+
+    <record id="delivery_partner_product_report" model="ir.actions.report.xml">
+        <field name="name">Delivery partner-product report</field>
+        <field name="type">ir.actions.report.xml</field>
+        <field name="model">account.invoice</field>
+        <field name="report_name">delivery_partner_product_report</field>
+        <field name="report_rml">openforce_sale_analysis_report/report/delivery_partner_product.jrxml</field>
+        <field name="report_type">pdf</field>
+        <field name="jasper_report">True</field>
+        <field name="jasper_output">pdf</field>
+    </record>
+
+</data>
+</openerp>

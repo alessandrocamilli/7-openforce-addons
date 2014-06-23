@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+		<menuitem id="menu_openforce_relate_main" name="Relate" parent="hr.menu_hr_root" sequence="40" 
+		    groups="group_relate_user,group_relate_manager"/>
+		
+		<menuitem id="menu_openforce_relate_config" name="Config" parent="menu_openforce_relate_main" sequence="100" 
+		    groups="group_relate_manager"/>
+		
+		<menuitem id="menu_openforce_relate_report" name="Report" parent="menu_openforce_relate_main" sequence="80" 
+		    groups="group_relate_user,group_relate_manager"/>
+        <!--
+        Task
+         -->
+         
+		<record id="openforce_relate_view_task_tree" model="ir.ui.view">
+            <field name="name">openforce.relate.view.task.tree</field>
+            <field name="model">relate.task</field>
+            <field name="arch" type="xml">
+            
+	            <tree string="Relate_task" version="7.0">
+	            	<field name="user_id"/>
+	            	<field name="date"/>
+	            	<field name="number"/>
+	            	<field name="ref"/>
+	            	<field name="hours"/>
+	            	<field name="kilometers"/>
+	            	<field name="state"/>
+	            </tree>
+            	
+            </field>
+        </record>
+            
+        <record id="openforce_relate_view_task_form" model="ir.ui.view">
+            <field name="name">openforce.relate.view.task.form</field>
+            <field name="model">relate.task</field>
+            <field name="arch" type="xml">
+                
+                <form string="Relate_task" version="7.0">
+                    <header>
+	                    <button name="button_confirm" states="draft" string="Confirm" type="object" class="oe_highlight"/>
+	                    <button name="done" states="confirm" string="Approve" type="workflow" groups="base.group_hr_user" class="oe_highlight"/>
+	                    <button name="action_set_to_draft" states="done" string="Set to Draft" type="object" />
+	                    <button name="cancel" states="confirm" string="Refuse" type="workflow" groups="base.group_hr_user" />
+	                    <field name="state" widget="statusbar" statusbar_visible="new,draft,confirm,done"/>
+                	</header>
+                    <sheet string="Relate Task">
+                    
+                        <div class="oe_right oe_button_box" name="buttons">
+                        </div>
+
+                        <div class="oe_title">
+                        <label for="user_id" class="oe_edit_only"/>
+                            <h1>
+                                <field name="user_id" class="oe_inline"/>
+                            </h1>
+                            <div name="project"/>
+                        </div>
+                    
+                        <group name="main">
+                            <group>
+                                <field name="date"/>
+                                <field name="vehicle"/>
+                            </group>
+                            <group>
+                                <field name="ref"/>
+                                <field name="number"/>
+                            </group>
+                        </group>
+                        
+                        <notebook>
+                            <page string="Tasks" name="task_page">
+                                <field name="line_ids">
+                                    <form string="Task Lines" version="7.0">
+                                        <!-- <field name="task_id" invisible="1" context="{'task_id':'task_id', 'task_user_id': parent.user_id, 'task_date': parent.date}"/> -->
+                                        <div class="oe_title">
+				                        	<label for="project_task_id" class="oe_edit_only"/>
+				                            <h1>
+				                                <field name="project_task_id" on_change="on_change_project_task_id(project_task_id, parent.user_id, parent.date, context)" class="oe_inline"/>
+				                            </h1>
+				                        </div>
+				                        <group col="4">
+				                            <field name="partner_id"/>
+	                                    	<field name="project_id"/>
+				                        </group>
+                                        <group>
+                                            <group>
+	                                        <field name="hours_trip" on_change="on_change_hours_trip(hours_trip,project_task_id, parent.user_id, parent.date, expense_ids, project_task_work_ids, material_ids, context)"/>
+	                                        <field name="kilometers" context="{'vehicle_id': parent.vehicle}" on_change="on_change_kilometers(kilometers, project_task_id, parent.user_id, parent.date, parent.vehicle, vehicle_ids, context)"/>
+	                                        </group>
+	                                        <group>
+	                                        <field name="hours"/>
+	                                        <field name="hours_work"/>
+		                                    </group>
+                                        </group>
+	                                    <notebook>
+	                                        <!-- 
+	                                        Timesheet
+	                                         -->
+	                                        <page string="Timesheet">
+	                                        <group string="Timesheet">
+		                                        <!-- <field name="project_task_work_ids" nolabel="1" groups="project.group_tasks_work_on_tasks"> -->
+		                                        <field name="project_task_work_ids" nolabel="1" context="{'project_task_id': project_task_id, 'user_id': parent.user_id}">
+					                                <tree string="Task Work" editable="top">
+					                                    <field name="name"/>
+					                                    <field name="hours" widget="float_time" sum="Spent Hours"/>
+					                                    <field name="line_to_invoice" />
+					                                    <field name="product_to_invoice" />
+					                                    <!-- <field name="date" />
+					                                    <field name="user_id" /> -->
+					                                </tree>
+					                            </field>
+				                            </group>
+				                            </page>
+				                            <!-- 
+	                                        Expense
+	                                         -->
+	                                        <page string="Expense">
+	                                        <group string="Expense">
+		                                        <!-- <field name="expense_ids" nolabel="1" groups="project.group_tasks_work_on_tasks"> -->
+		                                        <field name="expense_ids" nolabel="1" context="{'project_task_id': project_task_id, 'user_id': parent.user_id, 'journal_type': 'expense'}">
+					                                <tree string="Expense" editable="top">
+					                                    <field name="product_id" required="1" string="Service" domain="[('type','=','service')]"
+					                                        context="" on_change="on_change_relate_product_id(product_id, line_to_invoice, context)"/>
+					                                    <field name="name" string="Description" />
+					                                    <field name="unit_amount"  on_change="on_change_relate_quantity(product_id, unit_amount, product_uom_id, line_to_invoice, context)"/>
+					                                    <field name="product_uom_id"/>
+					                                    <field name="amount"/>
+					                                    <field name="line_to_invoice" on_change="on_change_relate_quantity(product_id, unit_amount, product_uom_id, line_to_invoice, context)"/>
+					                                    <field name="product_to_invoice" invisible="1"/>
+					                                    <field name="amount_to_invoice" attrs="{'readonly':[('line_to_invoice','!=', True)]}"/>
+					                                    <!--  
+					                                    <field name="date" />
+					                                    <field name="user_id" /> -->
+					                                </tree>
+					                            </field>
+				                            </group>
+				                            </page>
+				                            <!-- 
+	                                        Material
+	                                         -->
+	                                        <page string="Materials">
+	                                        <group string="Materials">
+		                                        <!-- <field name="material_ids" nolabel="1" groups="project.group_tasks_work_on_tasks"> -->
+		                                        <field name="material_ids" nolabel="1" context="{'project_task_id': project_task_id, 'user_id': parent.user_id, 'journal_type': 'material'}">
+					                                <tree string="Materials" editable="top">
+					                                    <field name="product_id"  required="1" on_change="on_change_relate_product_id(product_id, line_to_invoice, context)" string="Product" domain="['|',('type','=','product'),('type','=','consu')]"/>
+					                                    <field name="unit_amount"  on_change="on_change_relate_quantity(product_id, unit_amount, product_uom_id, line_to_invoice, context)"/>
+					                                    <field name="product_uom_id"  on_change="on_change_relate_quantity(product_id, unit_amount, product_uom_id, line_to_invoice, context)"/>
+					                                    <field name="amount"/>
+					                                    <field name="name"/>
+					                                    <field name="line_to_invoice" on_change="on_change_relate_quantity(product_id, unit_amount, product_uom_id, line_to_invoice, context)"/>
+					                                    <field name="product_to_invoice" invisible="1"/>
+					                                    <field name="amount_to_invoice" attrs="{'readonly':[('line_to_invoice','!=', True)]}"/>
+					                                    <!-- 
+					                                    <field name="date" />
+					                                    <field name="user_id" /> -->
+					                                </tree>
+					                            </field>
+				                            </group>
+				                            </page>
+				                            <!-- 
+	                                        Vehicles
+	                                         -->
+	                                         
+	                                        <page string="Vehicles">
+	                                        <group string="Vehicles">
+		                                        <field name="vehicle_ids" nolabel="1" context="{'project_task_id': project_task_id, 'user_id': parent.user_id, 'journal_type': 'vehicle'}">
+					                                <tree string="Vehicles" editable="top">
+					                                    <field name="product_id"  required="1" on_change="on_change_relate_product_id(product_id, line_to_invoice, context)" string="Product" domain="['|',('type','=','product'),('type','=','consu')]"/>
+					                                    <field name="unit_amount"  on_change="on_change_relate_quantity(product_id, unit_amount, product_uom_id, line_to_invoice, context)"/>
+					                                    <field name="product_uom_id"  on_change="on_change_relate_quantity(product_id, unit_amount, product_uom_id, line_to_invoice, context)"/>
+					                                    <field name="amount"/>
+					                                    <field name="name"/>
+					                                    <field name="line_to_invoice" on_change="on_change_relate_quantity(product_id, unit_amount, product_uom_id, line_to_invoice, context)"/>
+					                                    <field name="product_to_invoice" invisible="1"/>
+					                                    <field name="amount_to_invoice" attrs="{'readonly':[('line_to_invoice','!=', True)]}"/>
+					                                    <!-- 
+					                                    <field name="date"/>
+					                                    <field name="user_id"/> -->
+					                                </tree>
+					                            </field>
+				                            </group>
+				                            </page>
+				                             
+				                    	</notebook>
+                                    </form>
+                                     
+	                                <!-- <tree string="Task Lines" editable="bottom"> -->
+	                                <tree string="Task Lines">
+	                                    <field name="partner_id"/>
+	                                    <field name="project_task_id"/>
+	                                    <field name="hours"/>
+	                                    <field name="hours_work"/>
+	                                    <field name="hours_trip"/>
+	                                    <field name="kilometers"/>
+	                                </tree>  
+	                         	</field>
+                            </page>
+                        </notebook>
+                       	
+                        
+                	</sheet>
+                	<!--  
+                	<div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers" groups="base.group_user"/>
+                    <field name="message_ids" widget="mail_thread" placeholder="Share a message..."/>
+                	</div>-->
+                	
+                	<div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers" groups="base.group_user"/>
+                    <field name="message_ids" widget="mail_thread" placeholder="Share a message..."/>
+                	</div>
+                </form>
+            </field>
+        </record>
+        
+        <record id="openforce_relate_task_search" model="ir.ui.view">
+            <field name="name">openforce.relate.task.search</field>
+            <field name="model">relate.task</field>
+            <field name="arch" type="xml">
+                <search string="Relate">
+                    <field name="user_id" filter_domain="[('user_id','ilike',self)]"/>
+                    <field name="ref" filter_domain="[('ref','ilike',self)]"/>
+                    <field name="number" filter_domain="[('number','ilike',self)]"/>
+                    <group expand="0" string="Group By...">
+                        <filter string="Users" icon="terp-personal" domain="[]" context="{'group_by':'user_id'}"/>
+                        <filter string="Ref" icon="terp-accessories-archiver" domain="[]" context="{'group_by':'ref'}"/>
+                        <filter string="Date" icon="terp-go-month" domain="[]" context="{'group_by':'date'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+        
+        <record id="openforce_relate_view_task_action" model="ir.actions.act_window">
+            <field name="name">Relate</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">relate.task</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <!-- <field name="context">{"search_default_today":1}</field> -->
+            <field name="search_view_id" ref="openforce_relate_task_search"/>
+            <field name="view_id" ref="openforce_relate_view_task_tree"/>
+            
+        </record>
+		<!-- 
+        <menuitem id="menu_openforce_relate" parent="menu_openforce_relate_main" action="openforce_relate_view_task_action"
+        groups="group_relate_user,group_relate_manager"/> -->
+        
+        <menuitem id="menu_openforce_relate" name="Relate" parent="menu_openforce_relate_main" action="openforce_relate_view_task_action"
+        groups="group_relate_user,group_relate_manager"/>
+           
+        <!--
+        Task -line
+         -->
+         <!--
+         <record id="openforce_relate_view_task_line_tree" model="ir.ui.view">
+            <field name="name">openforce.relate.view.task.line.tree</field>
+            <field name="model">relate.task.line</field>
+            <field name="arch" type="xml">
+            
+	            <tree string="Relate_task" version="7.0">
+	            	<field name="user"/>
+	            	<field name="date"/>
+	            	<field name="number"/>
+	            	<field name="partner_id"/>
+                    <field name="project_task_id"/>
+                    <field name="hours"/>
+                    <field name="hours_work"/>
+                    <field name="hours_trip"/>
+                    <field name="kilometers"/>
+	            </tree>
+            </field>
+        </record>
+        
+        <record id="openforce_relate_task_line_search" model="ir.ui.view">
+            <field name="name">openforce.relate.task.line.search</field>
+            <field name="model">relate.task.line</field>
+            <field name="arch" type="xml">
+                <search string="Relate">
+                    <field name="user" filter_domain="[('user','ilike',self)]"/>
+                    <field name="project_task_id" filter_domain="[('project_task_id','ilike',self)]"/>
+                    <field name="partner_id" filter_domain="[('partner_id','ilike',self)]"/>
+                    <field name="number" filter_domain="[('number','ilike',self)]"/>
+                    <group expand="0" string="Group By...">
+                        <filter string="Users" icon="terp-personal" domain="[]" context="{'group_by': 'user'}"/>
+                        <filter string="project_task_id" domain="[]" context="{'group_by':'project_task_id'}"/>
+                        <filter string="Partner" domain="[]" context="{'group_by':'partner_id'}"/>
+                        <filter string="Date" icon="terp-go-month" domain="[]" context="{'group_by':'date'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+         
+		<record id="openforce_relate_view_task_line_action" model="ir.actions.act_window">
+            <field name="name">Relate - Task</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">relate.task.line</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="openforce_relate_view_task_line_tree"/>
+        </record>
+          
+		<menuitem id="menu_openforce_relate_line" name="Relate Line" parent="menu_openforce_relate_main" action="openforce_relate_view_task_line_action"
+        groups="group_relate_user,group_relate_manager"/>
+         -->
+		
+		 <!--
+        Relate config journal
+         -->
+         <record id="openforce_relate_config_journal_tree" model="ir.ui.view">
+            <field name="name">openforce.relate.config.journal.tree</field>
+            <field name="model">relate.config.journal</field>
+            <field name="arch" type="xml">
+	            <tree string="Config Journal" version="7.0">
+	            	<field name="journal_id"/>
+	            	<field name="line_product"/>
+	            	<field name="line_to_invoice"/>
+	            	<field name="product_to_invoice"/>
+	            	<field name="product_for_line_without_product"/>
+	            	<field name="coeff_cost_no_product"/>
+	            </tree>
+            </field>
+        </record>
+        <record id="openforce_relate_config_journal_form" model="ir.ui.view">
+            <field name="name">openforce.relate.config.journal.form</field>
+            <field name="model">relate.config.journal</field>
+            <field name="arch" type="xml">
+	            <form string="Config Journal" version="7.0">
+	                <group>
+		            	<field name="journal_id"/>
+		            	<field name="line_product"/>
+		            	<field name="line_to_invoice"/>
+		            	<!-- <field name="product_to_invoice" attrs="{'required':[('2binvoiced','!=',False)]}"/> -->
+		            	<field name="product_to_invoice" />
+		            	<field name="product_for_line_without_product" />
+		            	<field name="coeff_cost_no_product" />
+	            	</group>
+	            </form>
+            </field>
+        </record>
+        
+        <record id="openforce_relate_config_journal_action" model="ir.actions.act_window">
+            <field name="name">Journal Defaults</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">relate.config.journal</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <!-- <field name="context">{"search_default_today":1}</field> -->
+            <!-- <field name="search_view_id" ref="openforce_relate_task_search"/> -->
+            <field name="view_id" ref="openforce_relate_config_journal_tree"/>
+        </record>
+        
+        <menuitem id="menu_openforce_relate_config_journal" name="Relate Config Journal" parent="menu_openforce_relate_config" action="openforce_relate_config_journal_action"
+        groups="group_relate_user,group_relate_manager"/>
+		
+        
+     </data>
+</openerp>

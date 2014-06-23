@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="openforce_view_account_payment_term_type_inherit" model="ir.ui.view">
+            <field name="name">openforce.account.payment.type.form</field>
+            <field name="model">account.payment.term</field>
+            <field name="inherit_id" ref="account.view_payment_term_form"/>
+            <field name="arch" type="xml">
+                
+                <xpath expr="//field[@name='name']" position="after">
+                	<field name="type_id"/>
+           		</xpath>
+                
+            </field>
+		</record>
+		
+        <record id="openforce_view_account_payment_term_type_tree" model="ir.ui.view">
+            <field name="name">openforce.account.payment.type.tree</field>
+            <field name="model">account.payment.term</field>
+            <field name="arch" type="xml">
+                
+                    <tree string="Payment terms">
+	                	<field name="name"/>
+	                	<field name="type_id"/>
+	                	<field name="active"/>
+                	</tree>
+                
+            </field>
+		</record>
+
+    </data>
+</openerp>

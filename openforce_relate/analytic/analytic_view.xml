@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- 
+        Contract
+        -->
+		<record id="openforce_relate_contract_payment_term" model="ir.ui.view">
+			<field name="name">openforce.relate.contract.payment.term</field>
+			<field name="model">account.analytic.account</field>
+			<field name="inherit_id" ref="analytic.view_account_analytic_account_form"/>
+			<field name="priority">25</field>
+			<field name="arch" type="xml">
+			    
+			    <xpath expr="//page[@name='contract_page']" position="after">
+				    <page string="Payment term">
+				        <group string="Payment Lines">
+					        <field name="relate_payment_term_ids" nolabel="1" > 
+					            <tree string="Payment Lines" editable="bottom">
+					                <field name="sequence" widget="handle"/>
+					                <field name="name"/>
+					                <field name="amount"/>
+					                <field name="due_date"/>
+					                <field name="state"/>
+					                <button name="button_invoiced" string="Set to invoiced" type="object" icon="STOCK_GO_FORWARD" states="2binvoiced"/>
+					                <button name="button_invoiced_cancel" string="Reset to be invoice" type="object" icon="STOCK_GO_BACK" states="invoiced"/>
+					                <!-- <button name="send_alert_mail" string="Send alert mail" type="object" icon="terp-mail-message-new"/> -->
+					            </tree>
+					        </field>
+				        </group>
+				    </page>
+				</xpath>
+				
+			    <xpath expr="//field[@name='code']" position="replace">
+				    <field name="code" on_change="onchange_code(code)"></field>
+				</xpath>
+				
+			    <xpath expr="//h1/field[@name='name']" position="attributes">
+			    	<!--Fondamentale oe_inline rimosso dalla classe -->
+			    	<attribute name="class"></attribute>
+				</xpath>
+				
+			    <xpath expr="//page[@name='contract_page']" position="after">
+			    	<page string="Default invoice">
+	        		    <group string="Default invoice" >
+		        		    <field name="relate_default_invoice_ids" nolabel="1">
+		        		        <form version="7.0">
+		        		            <group>
+				        		        <field name="journal_id"/>
+				        		        <field name="line_product"/>
+					            		<field name="line_to_invoice"/>
+					            		<field name="product_to_invoice"/>
+					            		<field name="product_for_line_without_product"/>
+					            		<field name="coeff_cost_no_product"/>
+				            		</group>
+			            		</form>
+			            		<tree version="7.0">
+			        		        <field name="journal_id"/>
+			        		        <field name="line_product"/>
+				            		<field name="line_to_invoice"/>
+				            		<field name="product_to_invoice"/>
+				            		<field name="coeff_cost_no_product"/>
+			            		</tree>
+		        		    </field>
+	        		    </group>
+	        		    <group>
+	        		    	<button name="recompute_setting_invoice_datas" string="Recompute All relate" type="object"/>
+	        		    </group>
+	        		 </page>
+				</xpath>
+			    
+			    
+			</field>
+		</record>
+		
+		
+    </data>
+</openerp>

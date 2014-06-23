@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    	<!-- 
+		Form           
+		-->
+        <record id="openforce_utility_import_product" model="ir.ui.view">
+	        <field eval="1" name="priority"/>
+	        <field name="name">openforce.utility.import.product</field>
+	        <field name="model">wizard.openforce.utility.import.product</field>
+	        <field name="type">form</field>
+	        <field name="arch" type="xml">
+		        <form string="Params" version="7.0">
+		        	<group  col="4">
+			        	<field name="file_txt_to_import" />
+		            </group>
+		            <group>
+		                <field name="uom_id" />
+		            </group>
+		            <button name="import_product" string="Import products " type="object" icon="gtk-execute" />
+		      	</form>
+	        </field>
+    	</record>
+
+        <!-- ACTION -->
+        
+        <record id="openforce_utility_import_product_action" model="ir.actions.act_window">
+			<field name="name">Import Products</field>
+	        <field name="res_model">wizard.openforce.utility.import.product</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">form,tree,graph</field>
+	        <field name="view_id" ref="openforce_utility_import_product"/>
+	        <field name="help">Import product from csv file</field>
+	        <field name="target">new</field>
+    	</record>
+    	
+    <menuitem action="openforce_utility_import_product_action" id="menu_openforce_utility_import_product" parent="menu_openforce_utility"/>
+    
+    </data>
+</openerp>

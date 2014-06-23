@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<openerp>
+	<data>
+		<record  id="openforce_credit_debit_residual_partner_form" model="ir.ui.view">
+			<field name="name">openforce.credit.debit.residual.partner.form</field>
+			<field name="model">res.partner</field>
+			<field name="inherit_id" ref="base.view_partner_form"/>
+			<field name="arch" type="xml">
+			    <!-- Credit -->
+				<xpath expr="//field[@name='credit']" position="after">
+					<field name="credit_to_expire" />
+					<field name="credit_expired" />
+				</xpath>
+				
+				<xpath expr="//field[@name='credit_limit']" position="after">
+					<field name="credit_limit_residual" />
+				</xpath>
+				<!-- Debit -->
+				<xpath expr="//field[@name='debit']" position="after">
+					<field name="debit_to_expire" />
+					<field name="debit_expired" />
+				</xpath>
+				
+			</field>
+		</record>
+	</data>
+</openerp>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- 
+        Employee
+        -->
+		<record id="openforce_relate_fleet_vehicle_form" model="ir.ui.view">
+            <field name="name">openforce.relate.fleet.vehicle.form</field>
+            <field name="model">fleet.vehicle</field>
+            <field name="inherit_id" ref="fleet.fleet_vehicle_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[@string='Engine Options']" position="after">
+                    <group string="Relate">
+                        <field name="relate_cost_per_kilometer"/>
+                        <field name="relate_product_id"/>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+		
+    </data>
+</openerp>

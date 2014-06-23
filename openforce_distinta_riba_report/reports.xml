@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<openerp>
+<data>
+	<!-- 
+    <record id="openforce_purchase_order_report" model="ir.actions.report.xml">
+        <field name="name">Purchase order</field>
+        <field name="type">ir.actions.report.xml</field>
+        <field name="model">purchase.order</field>
+        <field name="report_name">openforce_purchase_order_report</field>
+        <field name="report_rml">openforce_purchase_order_report/report/purchase_order.jrxml</field>
+        <field name="report_type">pdf</field>
+        <field name="jasper_report">True</field>
+        <field name="jasper_output">pdf</field>
+    </record>
+     -->
+    <report id="openforce_distinta_riba_report"
+            string="Stampa distinta"
+            model="riba.distinta"
+            name="riba_distinta_report"
+            rml="openforce_distinta_riba_report/report/distinta_riba_report.jrxml"
+            menu="True"
+            auto="False"/>
+    
+</data>
+</openerp>

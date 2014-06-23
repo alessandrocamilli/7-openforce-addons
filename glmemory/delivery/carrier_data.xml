@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    	<record id="partner_1" model="res.partner">
+            <field name="name">Corriere generico</field>
+            <field name="supplier">True</field>
+            <field name="customer">False</field>
+        </record>
+        
+        <record id="goods_description_CAR" model="delivery.carrier">
+            <field name="name">Generico</field>
+            <field name="partner_id" ref="partner_1"></field>
+        </record>
+        
+     </data>
+</openerp>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+	
+	<!-- add tot amount to picking out standard view -->
+	<record id="openforce_stock_picking_out_tree_tot_amount" model="ir.ui.view">
+			<field name="name">openforce.stock.picking.out.tree.tot.amount</field>
+			<field name="model">stock.picking.out</field>
+			<field name="inherit_id" ref="stock.view_picking_out_tree"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='stock_journal_id']" position="after">
+					<field name="total_amount" sum="Total Amount" />
+				</xpath>
+			</field>
+		</record>
+	
+	<!--  -->
+	    
+		<record id="openforce_view_picking_out_tree" model="ir.ui.view">
+            <field name="name">picking.out.tree.to.delivery</field>
+            <field name="model">stock.picking.out</field>
+            <field eval="8" name="priority"/>
+            <field name="view_type">tree</field>
+            <field name="arch" type="xml">
+                <tree version="7.0" colors="blue:state == 'draft';grey:state == 'cancel';red:state not in ('cancel', 'done') and min_date &lt; current_date" string="Delivery Orders">
+                    <field name="ddt_number"/>
+                    <field name="ddt_date"/>
+                    <field name="name"/>
+                    <field name="partner_id" string="Customer"/>
+                    <field name="origin"/>
+                    <field name="min_date"/>
+                    <field name="date"/>
+                    <field name="backorder_id"/>
+                    <field name="stock_journal_id" groups="account.group_account_user"/>
+                    <field name="total_amount" sum="Total Amount" />
+                    <field name="invoice_state"/>
+                    <field name="invoice_type_id"/>
+                    <field name="state"/>
+                </tree>
+            </field>
+        </record>
+        
+		<record id="openforce_view_picking_out_search" model="ir.ui.view">
+            <field name="name">stock.picking.out.search</field>
+            <field name="model">stock.picking</field>
+            <field name="arch" type="xml">
+                <search string="Picking list">
+                    <field name="name" string="Picking List" filter_domain="['|',('name','ilike', self),('origin','ilike',self)]"/>
+                    <filter icon="terp-check" name="available" string="Ready" domain="[('state','=','assigned')]" help="Assigned Delivery Orders"/>
+                    <filter icon="terp-camera_test" name="confirmed" string="Waiting" domain="[('state','=','confirmed')]" help="Confirmed Delivery Orders"/>
+                    <filter icon="terp-dialog-close" name="done" string="Done" domain="[('state','=','done')]" help="Delivery orders already processed"/>
+                    <separator/>
+                    <filter icon="terp-accessories-archiver-minus" string="Back Orders" domain="[('backorder_id', '!=', False)]" help="Is a Back Order"/>
+                    <separator/>
+                    <filter icon="terp-dolar" name="to_invoice" string="To Invoice" domain="[('invoice_state','=','2binvoiced')]" help="Delivery orders to invoice"/>
+                    <field name="stock_journal_id"/>
+                    <field name="company_id" groups="base.group_multi_company"/>
+                    <group expand="0" string="Group By...">
+                        <filter string="Status" icon="terp-stock_effects-object-colorize" domain="[]" context="{'group_by':'state'}"/>
+                        <filter string="Order Date" icon="terp-go-month" domain="[]"  context="{'group_by':'date'}"/>
+                        <filter string="Expected Date" icon="terp-go-month" domain="[]"  context="{'group_by':'min_date'}"/>
+                        <filter string="Journal" icon="terp-folder-orange" domain="[]" context="{'group_by':'stock_journal_id'}"/>
+                        <filter string="Invoice type" icon="terp-folder-orange" domain="[]" context="{'group_by':'invoice_type_id'}"/>
+                        <filter string="Partner" icon="terp-folder-orange" domain="[]" context="{'group_by':'partner_id'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+        
+	    <!-- Orders to deliver  -->
+	    
+        <record id="openforce_action_picking_out_to_deliver" model="ir.actions.act_window">
+            <field name="name">Orders to deliver</field>
+            <field name="res_model">stock.picking.out</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar</field>
+            <field name="domain">[('type','=','out')]</field>
+            <field name="context">{'default_type': 'out', 'contact_display': 'partner_address', 'search_default_available': 1, 'search_default_confirmed': 1}</field>
+            <field name="view_id" ref="openforce_view_picking_out_tree"/>
+            <!-- <field name="search_view_id" ref="stock.view_picking_out_search"/> -->
+            <field name="search_view_id" ref="openforce_view_picking_out_search"/>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to create a delivery order. 
+              </p><p>
+                This is the list of all delivery orders that have to be
+                prepared, according to your different sales orders and your
+                logistics rules.
+              </p>
+            </field>
+        </record>
+        
+		<menuitem action="openforce_action_picking_out_to_deliver" id="openforce_menu_stock_warehouse_to_deliver" parent="stock.menu_stock_warehouse_mgmt" sequence="8"/>
+		
+		
+	    <!--   Orders delivered-->
+	    
+        <record id="openforce_action_picking_out_delivered" model="ir.actions.act_window">
+            <field name="name">Orders delivered</field>
+            <field name="res_model">stock.picking.out</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar</field>
+            <field name="domain">[('type','=','out')]</field>
+            <field name="context">{'default_type': 'out', 'contact_display': 'partner_address', 'search_default_done': 1}</field>
+            <field name="view_id" ref="openforce_view_picking_out_tree"/>
+            <!-- <field name="search_view_id" ref="stock.view_picking_out_search"/> -->
+            <field name="search_view_id" ref="openforce_view_picking_out_search"/>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to create a delivery order. 
+              </p><p>
+                This is the list of all delivery orders completed
+              </p>
+            </field>
+        </record>
+        
+		<menuitem action="openforce_action_picking_out_delivered" id="openforce_menu_stock_warehouse_delivered" parent="stock.menu_stock_warehouse_mgmt" sequence="10"/>
+		
+		<!--   Orders to be invoiced-->
+	    
+        <record id="openforce_action_picking_out_2binvoiced" model="ir.actions.act_window">
+            <field name="name">Orders to be invoiced</field>
+            <field name="res_model">stock.picking.out</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar</field>
+            <field name="domain">[('type','=','out')]</field>
+            <field name="context">{'default_type': 'out', 'contact_display': 'partner_address', 'search_default_to_invoice': 1, 'search_default_done': 1, 'default_invoice_state': '2binvoiced'}</field>
+            <field name="view_id" ref="openforce_view_picking_out_tree"/>
+            <!-- <field name="search_view_id" ref="stock.view_picking_out_search"/> -->
+            <field name="search_view_id" ref="openforce_view_picking_out_search"/>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to create a delivery order. 
+              </p><p>
+                This is the list of all delivery orders completed and to be invoiced
+              </p>
+            </field>
+        </record>
+        
+		<menuitem action="openforce_action_picking_out_2binvoiced" id="openforce_menu_stock_warehouse_2binvoiced" parent="stock.menu_stock_warehouse_mgmt" sequence="15"/>
+		
+		
+    </data>
+</openerp>

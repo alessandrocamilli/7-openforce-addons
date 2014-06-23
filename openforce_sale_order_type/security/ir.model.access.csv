@@ -1,0 +1,5 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+group_sale_order_type_user,sale_order_type user,model_sale_order_type,base.group_sale_manager,1,1,1,1
+group_sale_order_type_manager,sale_order_type manager,model_sale_order_type,base.group_sale_manager,1,1,1,1
+group_sale_order_type_lines_default_user,sale_order_type_lines_default user,model_sale_order_type_lines_default,base.group_sale_manager,1,1,1,1
+group_sale_order_type_lines_default_manager,sale_order_type_lines_default manager,model_sale_order_type_lines_default,base.group_sale_manager,1,1,1,1

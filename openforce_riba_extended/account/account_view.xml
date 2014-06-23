@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+		<record id="riba_extended_riba_da_emettere_tree" model="ir.ui.view">
+			<field name="name">riba.extended.riba.da.emettere.tree</field>
+			<field name="model">account.move.line</field>
+			<field name="inherit_id" ref="l10n_it_ricevute_bancarie.view_riba_da_emettere_tree"/>
+			<field name="arch" type="xml">
+			    
+			    <xpath expr="//field[@name='iban']" position="replace">
+				</xpath>
+			    <xpath expr="//field[@name='riba']" position="after">
+				    <field name="riba_amount_residual_emission" string="Residuo" sum="riba_amount_residual_emission"/>
+				</xpath>
+				<!-- 				
+			    <xpath expr="//tree[@string='Issue Ri.Ba.']" position="attributes">
+			        <attribute name="colors">red:date_maturity&gt;0</attribute>
+				</xpath>
+				 -->
+			</field>
+		</record>
+    </data>
+</openerp>

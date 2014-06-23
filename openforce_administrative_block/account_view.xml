@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<openerp>
+	<data>
+	    <!-- 
+	    ==============================
+	    SALE ORDER
+	    ============================== -->
+		<record  id="openforce_administrative_block_sale_order_form" model="ir.ui.view">
+			<field name="name">openforce.administrative.block.sale.order.form</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//group[@name='sale_pay']" position="after">
+					<newline/>
+					<group name="administrative_controls">
+						<field name="administrative_block" readonly="1"/>
+						<field name="administrative_unblock" readonly="1"/>
+						<field name="administrative_block_credit_limit_residual" readonly="1"/>
+					</group>
+					<group name="administrative_controls_historic">
+						<field name="administrative_block_credit_to_expire" readonly="1"/>
+						<field name="administrative_block_credit_expired" readonly="1"/>
+						<field name="administrative_block_credit_limit" readonly="1"/>
+					</group>
+				</xpath>
+			</field>
+		</record>
+		
+		<!-- administrative_block NOT readonly for group with abilitation  -->
+		
+		<record  id="openforce_administrative_block_sale_order_form_admin" model="ir.ui.view">
+			<field name="name">openforce.administrative.block.sale.order.form.admin</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="openforce_administrative_block_sale_order_form"/>
+			<field name="groups_id" eval="[(6, 0, [ref('group_administrative_unblock') ])]"/>
+			<field name="arch" type="xml">
+			    
+				<xpath expr="//field[@name='administrative_unblock']" position="attributes">
+				    <attribute name="readonly">0</attribute>
+				</xpath>
+				
+			</field>
+		</record>
+		
+		
+	</data>
+</openerp>

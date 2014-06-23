@@ -1,0 +1,6 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+
+access_riba_move_line_unreconcile_uinvoice,riba_move_line_unreconcile,model_riba_move_line_unreconcile,account.group_account_invoice,1,1,1,1
+access_riba_move_line_unreconcile_group_invoice,riba_move_line_unreconcile group invoice,model_riba_move_line_unreconcile,account.group_account_invoice,1,1,1,1
+access_riba_move_line_unreconcile_user,riba_move_line_unreconcile user,model_riba_move_line_unreconcile,base.group_user,1,1,1,1
+access_riba_move_line_unreconcile_accountant,riba_move_line_unreconcile accountant,model_riba_move_line_unreconcile,account.group_account_user,1,1,1,1

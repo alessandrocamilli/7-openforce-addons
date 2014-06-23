@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    	<!-- 
+		Form           
+		-->
+        <record id="l10n_it_abicab_utility_import_italian_bank" model="ir.ui.view">
+	        <field eval="1" name="priority"/>
+	        <field name="name">openforce.utility.import.italian.bank</field>
+	        <field name="model">wizard.import.italian.bank</field>
+	        <field name="type">form</field>
+	        <field name="arch" type="xml">
+		        <form string="Params" version="7.0">
+		        	<group  col="4">
+			        	<field name="file_txt_to_import" />
+		            </group>
+		            <button name="import_italian_bank" string="Import italian banks " type="object" icon="gtk-execute" />
+		      	</form>
+	        </field>
+    	</record>
+
+        <!-- ACTION -->
+        
+        <record id="l10n_it_abicab_utility_import_italian_bank_action" model="ir.actions.act_window">
+			<field name="name">Import italian bank</field>
+	        <field name="res_model">wizard.import.italian.bank</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">form,tree,graph</field>
+	        <field name="view_id" ref="l10n_it_abicab_utility_import_italian_bank"/>
+	        <field name="help">Import italian bank from txt abicab</field>
+	        <field name="target">new</field>
+    	</record>
+    	
+    <menuitem action="l10n_it_abicab_utility_import_italian_bank_action" id="menu_l10n_it_abicab_utility_import_italian_bank" parent="account.menu_configuration_misc"/>
+    
+    </data>
+</openerp>

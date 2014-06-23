@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_delivery_partner_product_report" model="ir.ui.view">
+            <field name="name">Delivery by partner-product Statement</field>
+            <field name="model">wizard.delivery.partner.product</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Invoice by partner-product">
+                    <group col="4">
+                    <field name="from_date"/>
+                    <field name="to_date"/>
+                    <field name="commercial_id"/>
+                    
+                    <separator colspan="4"/>
+                   	<button icon="gtk-cancel" special="cancel" string="Cancel"/>
+                	<button icon="gtk-ok" name="start_report" string="Print" type="object"/>
+                	
+                	</group>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_delivery_partner_product_report" model="ir.actions.act_window">
+            <field name="name">Delivery by partner-product report</field>
+            <field name="res_model">wizard.delivery.partner.product</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_delivery_partner_product_report"/>
+            <field name="target">new</field>
+            <field name="help">Prints all delivery by partner-product</field>
+        </record>
+
+        <menuitem id="menu_delivery_partner_product_report" parent="base.next_id_64"
+     		name="Report Fatturato partner-prodotto" action="action_delivery_partner_product_report" 
+     		sequence="100"/>
+
+    </data>
+</openerp>

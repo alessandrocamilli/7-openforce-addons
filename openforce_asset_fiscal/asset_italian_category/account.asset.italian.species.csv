@@ -1,0 +1,169 @@
+id,name
+300,"Specie 1a - Affittuari di fondi rustici, condotti a mezzadria con bracciantato o direttamente"
+301,"Specie 2a - Industrie agrarie diverse, all'infuori della categoria degli affitti"
+302,Specie 3a - Industrie agrarie esercitate da proprietari di fondi
+303,Specie 4a - Aziende di utilizzazione del bosco (abbattimento e carbonizzazione)
+304,Specie 5a - Esercizio di macchine agricole per conto terzi (incluso il noleggio)
+305,"Specie 1a - Armentizia, allevamento cavalli, malghe, monta taurina, equina e suina ed altre industrie zootecniche"
+306,"Specie 1a - Industria della pesca, compresa quella delle spugne e del corallo"
+307,"Specie 2a - Allevamento di pesci e molluschi in acque marine (valli salse, laghi costieri, stagni litoranei, peschiere, lagune) ed in acque interne (valli, laghi, stagni, peschiere, fiumi)"
+308,Specie 1° - Miniere di minerali di ferro e di minerali metalliferi non ferrosi
+309,Specie 2° - Miniere di zolfo
+310,Specie 3° - Miniere di combustibili fossili
+311,Specie 4a -Miniere di combustibili liquidi e gassosi
+312,"Specie 5a -Cave di marmo ed affini, di pietre da costruzione, di calcari, di marne, ecc"
+313,"Specie 6a -Cave di sabbia, ghiaia e pietrisco"
+314,"Specie 7a -Miniere di salgemma, sorgenti salate naturali e produzione di sale marino e di ebollizione (Vedi specie 2a)"
+315,"Specie 1a -Brillatura del riso, pilatura ed altre lavorazioni di cereali e legumi, esclusa la molitura"
+316,Specie 2a -Molitura di cereali
+317,"Specie 3a -Panificazione, produzione di biscotti e di pasticcerie"
+318,Specie 4a -Pastificazione
+319,"Specie 5a/a -Lavorazione del cacao, produzione di cioccolata e confetture in genere, torrefazione del caffe, produzione di surrogati"
+320,Specie 5a/b -Produzione di gelati
+321,Specie 6a -Produzione e raffinazione dello zucchero
+322,Specie 7a -Lavorazione e conservazione delle carni
+323,Specie 8a -Lavorazione e conservazione dei prodotti alimentari della pesca
+324,"Specie 9a -Conservazione e trasformazione di frutta, ortaggi, funghi e prodotti similari (marmellate, conserve di pomodoro, conserve alimentari in genere, dadi per brodo, ecc)"
+325,"Specie 10a -Lavorazione del latte (caseifici, stagionatura del formaggio, lavorazione di mozzarelle ed altri latticini freschi, lavorazione del burro) e conservazione del latte"
+326,"Specie 11a -Produzione di olio d'oliva e di semi, per spremitura, e di olii vegetali, con solventi"
+327,Specie 12a -Raffinazione degli olii vegetali
+328,"Specie 13a -Industria dei vini, concentrati ed aceti"
+329,Specie 14a -Distillerie di alcole
+330,Specie 15a -Produzione di liquori e affini 
+331,"Specie 16a -Produzione di malto, birra ed estratti di malto"
+332,Specie 17a -Produzione di bevande analcoliche gassate e di acque minerali artificiali
+333,Specie 18a -Fabbricazione del ghiaccio ed esercizio di frigoriferi per conto terzi
+334,Specie 1a -Prime lavorazione del legno (segherie)
+335,"Specie 2a -Laboratori di falegnameria, di carpenteria in legno Fabbricazione di oggetti e di recipenti in legno (Vedi specie 1a)"
+336,Specie 3a -Costruzioni e riparazione di veicoli in legno (Vedi specie 1a)
+337,"Specie 4a -Cantieri navali per costruzioni, riparazioni demolizioni di navi in legno (Vedi specie 1a)"
+338,"Specie 5a -Fabbricazione di mobili e di arredamenti in legno, ebanisterie Lucidatura, laccatura, doratura di mobili e di altri oggetti in legno (Vedi specie 1a)"
+339,"Specie 6a -Preparazione del crine vegetale, della trebbia, del truciolo e trecce di truciolo (non per cappelli) e simili Lavorazione di canne palustri, vimini, giunchi, paglia e trecce di paglia (non per cappelli), sparto, saggina e simili Fabbricazione di scope e affini (Vedi specie 1a)"
+340,Specie 7a - Lavorazione del sughero
+341,"Specie 8a - Industrie per la produzione di compensati, pannelli di legno laminati e pannelli di legno non sfibrati, compresi quelli misti con altre sostanze"
+342,Specie 9a - Industrie per la produzione pannelli di legno sfibrato e affini (masonite e faesite)
+343,Specie 1a/a - Siderurgia in genere
+344,"Specie 1a/b - Metallurgia dei metalli non ferrosi (piombo, alluminio, zinco, rame, loro derivati, ecc)"
+345,Specie 1a/c - Fonderie di 2a fusione
+346,Specie 1a/d - Industria metallurgica del magnesio
+347,Specie 2a - Fabbriche di macchine industriali ed agricole e di utensileria per macchine utensili
+348,"Specie 3a - Costruzione di pompe, compressori, ventilatori industriali, fucine, rubinetteria, valvole a saracinesca, apparecchi ad aria compressa ed affini (Vedi specie 2a )"
+349,"Specie 4a - Costruzione di mobili, letti ed arredi metallici, casseforti, armadi e serrature di sicurezza (Vedi specie 2a)"
+350,Specie 5a - Costruzione di apparecchi igienico-sanitari e termici per uso domestico (Vedi specie 2a)
+351,"Specie 6a - Fabbricazione di serrature comuni e di minuterie metalliche, di molle, di bulloneria grezza, di bulloneria e viteria lavorata e di derivati dalla lavorazione del filo"
+352,"Specie 7a - Fabbricazione di scatolame, fustame metallico e prodotti affini di lamiera sottile (Vedi specie 2a)"
+353,"Specie 8a - Fabbricazione di stoviglie, vasellame, posateria, attrezzi da cucina e di accessori casalinghi (Vedi specie 2a)"
+354,"Specie 9a - Fabbricazione di coltelleria, armi bianche ed attrezzi per arti e mestieri (Vedi specie 2a)"
+355,"Specie 10a - Fabbricazione di strumenti ed apparecchi per chirurgia, medicina, odontotecnica e di apparecchi ortopedici (Vedi specie 2a)"
+356,Specie 11a - Fabbricazione di armi da fuoco e di materiale bellico in genere (Vedi specie 2a)
+357,"Specie 12a - Meccanica di precisione (bilance, macchine per scrivere addizionatrici, calcolatrici ed affini, orologeria, apparecchi per misurazione, strumenti ed installazioni per il controllo del volo e degli impianti propulsori ed installazioni varie di bordo degli aerei)"
+358,Specie 13a - Fabbricazione di giocattoli di metallo
+359,"Specie 14a - Fabbricazione di medaglie, argenterie, oreficerie, gioiellerie ed affini (Vedi specie 13a)"
+360,"Specie 15a - Costruzione e montatura di biciclette e fabbricazione di parti, di ricambi e di accessori (Vedi specie 13a)"
+361,Specie 16a - Costruzione e montatura di motoveicoli e fabbricazione di parti di motoveicoli e di accessori
+362,Specie 16a/b - Costruzione e montaggio motori per aviazione (Vedi specie 16a/a)
+363,"Specie 17a - Costruzione di autoveicoli ed autotelai, e fabbricazione di parti di ricambio e di accessori (Vedi specie 16a/a)"
+364,"Specie 18a - Costruzione di carrozzerie per auto, per motoveicoli e per vetture ferrotramviarie e filoviarie, costruzioni di rimorchi e fabbricazione di parti ed accessori"
+365,Specie 19a - Costruzione di materiale rotabile ferroviario e filoviario (Vedi specie 16a/a)
+366,Specie 20a - Costruzione e riparazione di aeromobili (Vedi specie 16a/a)
+367,"Specie 21a - Cantieri navali per costruzioni, riparazioni e demolizione di navi in metallo Imprese di recupero di navi (Vedi specie 18a)"
+368,"Specie 22a - Costruzione di macchine, apparecchi e strumenti elettrici, di apparecchi di telecomunicazione in genere, di elettronica specializzata ed affini"
+369,"Specie 23a - Officine per fucinatura, stampatura, imbutitura, saldatura (elettrica, alluminotermica ed ossiacetilenica), taglio (con fiamma ossidrica ed ossiacetilenica), tempera, cementazione e trattamenti superficiali ed elettrogalvanici dei metalli"
+370,"Specie 24a - Officine da ramaio, lattoniere, stagnino, fabbro ferraio, maniscalco ed arrotino, compresi gli ambulanti (Vedi specie 13a)"
+371,"Specie 25a - Officine meccaniche per la riparazione di auto, motoveicoli e biciclette, e per riparazioni meccaniche e generiche e specializzate"
+372,"Specie 26a - Officine per l'installazione e riparazione di impianti, macchinari ed apparecchi elettrici, radiofonici ed affini (Vedi specie 25a)"
+373,"Specie 27a - Imprese specializzate, non costruttrici, per l'installazione di impianti termici, di ventilazione, di condizionamento d'aria, idricosanitari, elettrici, telefonici interni ed affini(Vedi specie 25a)"
+374,Specie 28a - Lavorazione artistica dei metalli non preziosi (Vedi specie 25a)
+375,Specie 29a - Fabbricazione e riparazione di strumenti ed apparecchi musicali (Vedi specie 25a)
+376,"Specie 1a - Macinazione e lavaggio di minerali non metalliferi, lavorazione del marmo e della pietra da costruzione e per uso industriale"
+377,Specie 2a - Lavorazione di pietre dure e preziose per gioiellerie e per uso industriale
+378,Specie 3a - Lavorazione artistica dei marmi e delle pietre
+379,Specie 4a/a - Fabbricazione di calce e gesso
+380,Specie 4a/b - Fabbricazione di cemento
+381,Specie 5a/b - Fabbricazione di oggetti in gres e materiali refrattari
+382,"Specie 5a/c -Fabbricazione di abrasivi granulari, rigidi e flessibili (Vedi specie 5a/b)"
+383,Specie 6a -Industria della ceramica (Vedi specie 5a/b)
+384,"Specie 7a -Fabbricazione di manufatti di cemento, di conglomerati cementizi misti con fibre e altre materie; di manufatti di gesso e di studio"
+385,Specie 8a -Fabbricazione e lavorazione del vetro (esclusa la lavorazione delle lenti per occhiali e per strumenti ottici)
+386,"Specie 1a/a -Produzione di acido solforico, cloro, soda elettrolitica e derivati ed altri prodotti chimici non compresi nelle altre specie"
+387,"Specie 1a/b -Produzione di ammoniaca sintetica, acido nitrico, nitrato di calcio ed ammonico, solfato ammonico e urea"
+388,"Specie 2a -Raffinerie di petrolio, produzione e distribuzione di benzina e petroli per usi vari, di oli lubrificanti e residuati, produzione e distribuzione di gas di petrolio liquefatto"
+389,"Specie 3a/a -Produzione di derivati della distillazione del carbon fossile, escluse le officine del gas (compresa la produzione e lavorazione dei derivati della distillazione del catrame di carbon fossile)"
+390,Specie 3a/b -Produzione di elettrodi per forni elettrici per la fabbricazione dell'acciaio e anodi per l'elettrolisi dell'alluminio
+391,"Specie 4a -Produzione di carburanti artificiali liquidi, compresa la produzione di alcole etilico e metilico"
+392,Specie 5a -Produzione di gas compressi
+393,Specie 6a -Produzione di esplosivi
+394,"Specie 7a -Idrogenazione di olii e grassi vegetali ed animali, e lavorazione dei grassi"
+395,"Specie 8a -Produzione di saponi, glicerine, profumerie, essenze, aromi, derivati agrumari, candele ed affini (compresi i fiammiferi ed i detersivi sintetici)"
+396,"Specie 9a -Produzione farmaceutiche, chimico-farmaceutiche ed affini"
+397,Specie 10a/a -Produzione di colori organici e sintetici e relativi prodotti intermedi (Vedi specie 1a/b)
+398,"Specie 10a/b -Produzione di estratti concianti, di vernici, pitture, inchiostri, destrine, colle, ceralacche ed affini (comprese matite ed affini)"
+399,Specie 11a/a -Produzione di cellulosa (compresa quella per la carta)
+400,"Specie 11a/b -Produzione di trasparente di cellulosa, di fibre tessili artificiali e simili Fabbricati destinati all'industria (come nella specie 1a/a) 6% "
+401,Specie 12a -Produzione di materie plastiche e resine sintetiche Produzione dell'industria petrol-chimica non compresa nelle altre specie (Vedi specie 11a/a)
+402,Specie 13a -Produzione di materiali sensibili per fotografia e cinematografia
+403,"Specie 14a -Raffinerie di zolfo Fabbricati destinati all'industria (come nella specie 1a/a) 5,5% "
+404,"Specie 1a/a -Fabbricazione e lavorazione di carta e cartone, compresa la fabbricazione di carte da parato e carte da gioco"
+405,"Specie 1a/b -Fabbricazione di manufatti di carta e cartone, compresa la produzione di imballaggi (cartotecnica) (Vedi specie 1a/a)"
+406,Specie 1a -Concia e tintura delle pelli Produzione di succedanei e imitazioni del cuoio e delle pelli
+407,"Specie 2a -Fabbricazione di articoli, in cuoio, pelle e loro succedanei esclusi guanti e calzature (Vedi specie 1a)"
+408,Specie 1a -Produzione ed allevamento del seme bachi essiccazione di bozzoli
+409,Specie 2a -Filatura (trattura) della seta (Vedi specie 1a)
+410,Specie 3a -Tessitura della seta e delle fibre tessili artificiali (Vedi specie 1a)
+411,Specie 4a -Produzione di fibre rigenerate (Vedi specie 1a)
+412,Specie 5a/a -Lavorazione del cotone puro o misto con altre fibre
+413,"Specie 5a/b -Lavorazione dei cascami di seta, puri o misti ad altre fibre (Vedi specie 5a/a)"
+414,"Specie 5a/c -Lavorazione del nylon, perlon, terital ed altre fibre sintetiche (Vedi specie 5a/a)"
+415,Specie 6a -Lavorazione della lana pura o mista con altre fibre (Vedi specie 5a/a)
+416,"Specie 7a -Lavorazione del lino, della canapa, della juta, del ramie' e simili, puri o misti con altre fibre (Vedi specie 5a/a)"
+417,"Specie 8a -Fabbricazione di cordani, spaghi, reti da pesca e da caccia (Vedi specie 1a)"
+418,"Specie 9a -Fabbricazione di passamanerie, tulli, merletti, nastri, tessuti elastici e simili (Vedi specie 1a)"
+419,"Specie 10a -Tintura, candeggio, stampatura, mercerizzazione, rifinitura, impermeabilizzazione ecc di qualsiasi tessile (Vedi specie 5a/a)"
+420,"Specie 11a -Lavorazione delle setole, del crine animale, del pelo, delle penne, delle piume, del capok e simili (Vedi specie 1a)"
+421,Specie 12a -Fabbricazione dei tappeti da terra (esclusi quelli di cocco e simili) (Vedi specie 1a)
+422,Specie 2a -Laboratori di modisteria (Vedi specie 1a)
+423,Specie 3a -Laboratori per la confezione di vestiario (Vedi specie 1a)
+424,Specie 4a -Laboratori per la confezione di pellicce (Vedi specie 1a)
+425,Specie 5a -Laboratori per la confezione di biancheria (Vedi specie 1a)
+426,"Specie 6a -Laboratori per la fabbricazione di maglieria, guanti in maglia e calze (Vedi specie 1a)"
+427,Specie 7a -Calzaturifici (Vedi specie 1a)
+428,Specie 8a -Laboratori di confezione e riparazione di calzature (Vedi specie 1a)
+429,"Specie 9a -Laboratori per fabbricazione di guanti in pelle, in stoffa o in tessuti di maglia, esclusi quelli in maglia (Vedi specie 1a)"
+430,"Specie 10a -Laboratori per confezioni varie e accessori del vestiario (cravatte, sciarpe, bretelle, guarnizioni per abiti, fiori artificiali, bottoni, ecc)"
+431,"Specie 11a -Fabbricazione e lavorazione di oggetti di ornamento, compresi quelli di tartaruga, di corallo e simili (Vedi specie 1a)"
+432,"Specie 12a - Laboratorio di marerassaio e tappezzeziere, laboratori per confezioni di vele, bandiere e simili (vedi specie I)"
+433,Specie 13 - fabbricazioni di giocattoli in genere (esclusi quelli di metallo e di gomma) (Vedi Specie 10a)
+434,Specie 1a/a -Produzione di manufatti di gomma
+435,Specie 1a/b -Produzione di cavi elettrici
+436,Specie 1a/c -Lavorazione di materie plastiche
+437,"Specie 1a/d -Produzione di dischi fonografici, incisione, edizioni e stampa"
+438,Specie 2a -Laboratori di vulcanizzazione degli oggetti di gomma
+439,"Specie 1a -Tipografie, litografie ed affini"
+440,Specie 2a -Legatorie
+441,Specie 3a -Editori di libri e di giornali ed agenzie di stampa (Vedi specie 1a)
+442,"Specie 1a/a -Imprese di costruzioni edilizie, di lavori di terra e di opere stradali, portuali e specializzate"
+443,Specie 1a/b -Imprese costruzioni reti trasporto e distribuzione elettriche e telefoniche
+444,Specie 1a/c - Edilizia prefabbricata
+445,Specie 1a/a - Produzione e distribuzione di energia idroelettrica
+446,Specie 1a/b - Produzione e distribuzione di energia termoelettrica
+447,Specie 2a/a - Produzione e distribuzione di gas illuminante
+448,Specie 2a/b - Produzione e distribuzione di gas naturale
+449,Specie 3a/a - Distribuzione di acqua potabile e non potabile
+450,Specie 4a/a - Stabilimenti balneari marini
+451,"Specie 4a/b - Stabilimenti termali, idrotermali e di imbottigliamento di acque minerali"
+452,"Specie 1a 2a e 3a - Trasporti aerei, marittimi, lacuali, fluviali e lagunari"
+453,"Specie 4a e 5a - Ferrovie, compreso l'esercizio di binari di raccordo per conto terzi, l'esercizio di vagoni letto e ristorante. Tramvie interurbane, urbane, e suburbane, ferrovie metropolitane, filovie, funicolari, funivie, slittovie ed ascensori"
+454,"Specie 6a 7a 8a e 9a - Autoservizi per viaggiatori, urbani, extraurbani e di linea Servizi di trasporto persone con vetture ed autovetture da piazza e da rimessa Servizi di trasporto merci su vie ordinarie Imprese di trasporti e pompe funebri"
+455,"Specie 10a/a - Servizi telegrafici, telefonici e telecomunicazioni tramite satelliti"
+456,"Specie 10a/b -Servizi radiotelegrafonici, radiofonici, televisivi e telecomunicazioni tramite satelliti"
+457,Specie 11a -Impianti per le telecomunicazioni a mezzo satelliti
+458,"Specie 12a -Autostrade, strade e superstrade in concessione"
+459,"Specie 1a -Teatri, cinematografi, sale da ballo e simili, campi sportivi, case da giuoco"
+460,"Specie 2a -Compagnie ed agenzie teatrali Produzione, doppiaggio, sviluppo, stampa e noleggio films"
+461,"Specie 1a -Ospedali, cliniche, sanatori, case di cura ed istituti similari privati"
+462,"Specie 1a -Servizi igienici e di estetica della persona. Alberghi diurni, istituti di igiene e di bellezza, barbieri, parrucchieri e simili"
+463,Specie 2a -Impresa di nettezza urbana
+464,"Specie 3a -Lavanderie, stiratorie, smacchiatorie, tintorie e servizi affini"
+465,Specie 1 - Fiere e rassegne
+466,Specie 2 - Altre attività
+467,Specie 1a -Industria del cappello

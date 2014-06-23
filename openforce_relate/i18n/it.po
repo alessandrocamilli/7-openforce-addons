@@ -1,0 +1,768 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* openforce_relate
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-09 12:54+0000\n"
+"PO-Revision-Date: 2014-05-09 12:54+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Service"
+msgstr "Servizio"
+
+#: view:relate.task:0
+#: view:report.relate.line:0
+#. module: openforce_relate
+msgid "Group By..."
+msgstr "Raggruppa per..."
+
+#: field:relate.task,vehicle:0
+#: field:relate.task.line,vehicle:0
+#: view:report.relate.line:0
+#: field:report.relate.line,vehicle:0
+#. module: openforce_relate
+msgid "Vehicle"
+msgstr "Veicolo"
+
+#: field:hr.employee,relate_trip_uom_id:0
+#. module: openforce_relate
+msgid "Unit of Measure"
+msgstr "Unità di misura"
+
+#: selection:report.relate.line,month:0
+#. module: openforce_relate
+msgid "March"
+msgstr "March"
+
+#: field:relate.task,message_unread:0
+#. module: openforce_relate
+msgid "Unread Messages"
+msgstr "Messaggi non letti"
+
+#: model:email.template,body_html:openforce_relate.relate_email_template_contract_payment
+#. module: openforce_relate
+msgid "\n"
+"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; \">\n"
+"\n"
+"\n"
+"    <p>Risulta da fatturare il seguente contratto:</p>\n"
+"\n"
+"</div>\n"
+"            "
+msgstr "\n"
+"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; \">\n"
+"\n"
+"\n"
+"    <p>Risulta da fatturare il seguente contratto:</p>\n"
+"\n"
+"</div>\n"
+"            "
+
+#: model:ir.actions.act_window,name:openforce_relate.openforce_relate_config_journal_action
+#. module: openforce_relate
+msgid "Journal Defaults"
+msgstr "Gioranli di Defaults"
+
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Set to Draft"
+msgstr "Imposta a Bozza"
+
+#: field:account.analytic.line,relate_is_trip:0
+#: field:project.task.work,relate_is_trip:0
+#. module: openforce_relate
+msgid "Is Trip Relate"
+msgstr "E' in lavoro di tipo viaggio"
+
+#: view:account.analytic.account:0
+#. module: openforce_relate
+msgid "Default invoice"
+msgstr "Default invoice"
+
+#: field:relate.task,hours:0
+#: field:relate.task.line,hours:0
+#: field:report.relate.line,hours_tot:0
+#. module: openforce_relate
+msgid "Hours Tot"
+msgstr "Ore tot"
+
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Refuse"
+msgstr "Refuse"
+
+#: model:ir.model,name:openforce_relate.model_project_task
+#. module: openforce_relate
+msgid "Task"
+msgstr "Attività"
+
+#: view:relate.task:0
+#: field:relate.task.line,vehicle_ids:0
+#. module: openforce_relate
+msgid "Vehicles"
+msgstr "Veicoli"
+
+#: view:account.analytic.account:0
+#. module: openforce_relate
+msgid "Payment term"
+msgstr "Termini pagamento"
+
+#: help:relate.task,state:0
+#. module: openforce_relate
+msgid " * The 'Draft' status is used when a user is encoding a new and unconfirmed timesheet.                 \n"
+"* The 'Confirmed' status is used for to confirm the timesheet by user.                 \n"
+"* The 'Done' status is used when users timesheet is accepted by his/her senior."
+msgstr " * Lo stato di 'Bozza' indica un rapportino creato e ancora da confermare. \n"
+"* Lo stato 'Da Approvare' indica un rapportino confermato ma ancora da approvare dal manager. \n"
+"* 'Approvato' per indicare il rapportino approvato dal superiore."
+
+#: field:relate.task.line,project_id:0
+#: view:report.relate.line:0
+#: field:report.relate.line,project_id:0
+#. module: openforce_relate
+msgid "Project"
+msgstr "Progetto"
+
+#: view:report.relate.line:0
+#. module: openforce_relate
+msgid "Total Hours Trip"
+msgstr "Totale ore viaggio"
+
+#: field:relate.contract.payment.term,amount:0
+#. module: openforce_relate
+msgid "Amount"
+msgstr "Importo"
+
+#: model:ir.model,name:openforce_relate.model_relate_contract_payment_term
+#. module: openforce_relate
+msgid "Relate - Contract Payment term"
+msgstr "Termini pagamento"
+
+#: field:relate.task.line,project_task_id:0
+#: field:report.relate.line,project_task_id:0
+#. module: openforce_relate
+msgid "Project Task Ref"
+msgstr "Rif. Progetto"
+
+#: constraint:relate.config.journal:0
+#. module: openforce_relate
+msgid "Error! Journal-product already exists."
+msgstr "Error! Journal-product already exists."
+
+#: help:relate.task,message_unread:0
+#. module: openforce_relate
+msgid "If checked new messages require your attention."
+msgstr "If checked new messages require your attention."
+
+#: view:account.analytic.account:0
+#. module: openforce_relate
+msgid "Recompute All relate"
+msgstr "Reimposta TUTTI i rapportini secondo queste regole"
+
+#: help:account.analytic.account,relate_default_invoice_ids:0
+#. module: openforce_relate
+msgid "Specifies default to invoice"
+msgstr "Configura default da fatturare"
+
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Relate Task"
+msgstr "Relate Task"
+
+#: help:relate.task,hours:0
+#: help:relate.task,kilometers:0
+#: help:relate.task.line,hours:0
+#: help:relate.task.line,hours_work:0
+#. module: openforce_relate
+msgid "Computed using the sum of the task work done."
+msgstr "Calcolato sommando i lavori fatti"
+
+#: view:account.analytic.account:0
+#. module: openforce_relate
+msgid "Set to invoiced"
+msgstr "Set to invoiced"
+
+#: field:report.relate.line,hours_trip:0
+#. module: openforce_relate
+msgid "Hours Trip"
+msgstr "Ore viaggio"
+
+#: view:report.relate.line:0
+#: field:report.relate.line,day:0
+#. module: openforce_relate
+msgid "Day"
+msgstr "Giorno"
+
+#: model:ir.model,name:openforce_relate.model_account_analytic_account
+#. module: openforce_relate
+msgid "Analytic Account"
+msgstr "Conto Analitico"
+
+#: help:relate.task,message_summary:0
+#. module: openforce_relate
+msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+
+#: field:relate.task.line,partner_id:0
+#: view:report.relate.line:0
+#: field:report.relate.line,partner_id:0
+#. module: openforce_relate
+msgid "Partner"
+msgstr "Partner"
+
+#: view:report.relate.line:0
+#: field:report.relate.line,nbr:0
+#. module: openforce_relate
+msgid "# of tasks"
+msgstr "Nr di linee"
+
+#: help:account.analytic.account,relate_payment_term_ids:0
+#. module: openforce_relate
+msgid "Specifies payment terms"
+msgstr "Specifica termini di pagamento"
+
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Confirm"
+msgstr "Conferma"
+
+#: field:relate.config.journal,product_for_line_without_product:0
+#: field:relate.contract.default.invoice,product_for_line_without_product:0
+#. module: openforce_relate
+msgid "Product For line Without Product"
+msgstr "Prodotto in fattura per righe dove non è specificato"
+
+#: field:project.task,contract_ref:0
+#. module: openforce_relate
+msgid "Contract Ref"
+msgstr "Rif. Contratto"
+
+#: field:relate.task,message_follower_ids:0
+#. module: openforce_relate
+msgid "Followers"
+msgstr "Followers"
+
+#: model:ir.model,name:openforce_relate.model_hr_employee
+#. module: openforce_relate
+msgid "Employee"
+msgstr "Dipendente"
+
+#: view:relate.task:0
+#: field:relate.task,ref:0
+#. module: openforce_relate
+msgid "Ref"
+msgstr "Riferimento"
+
+#: field:project.task.work,product_to_invoice:0
+#: field:relate.config.journal,product_to_invoice:0
+#: field:relate.contract.default.invoice,product_to_invoice:0
+#. module: openforce_relate
+msgid "Product To invoice"
+msgstr "Prodotto in fattura"
+
+#: view:report.relate.line:0
+#. module: openforce_relate
+msgid "Creation Date"
+msgstr "Creation Date"
+
+#: field:account.analytic.journal,relate_material:0
+#. module: openforce_relate
+msgid "Relate Material"
+msgstr "Materiale"
+
+#: view:account.analytic.account:0
+#. module: openforce_relate
+msgid "Reset to be invoice"
+msgstr "Reset to be invoice"
+
+#: model:ir.ui.menu,name:openforce_relate.menu_openforce_relate_report
+#. module: openforce_relate
+msgid "Report"
+msgstr "Report"
+
+#: selection:report.relate.line,month:0
+#. module: openforce_relate
+msgid "July"
+msgstr "July"
+
+#: field:account.analytic.account,relate_payment_term_ids:0
+#. module: openforce_relate
+msgid "Payment terms"
+msgstr "Termini pagamento"
+
+#: field:account.analytic.line,amount_to_invoice:0
+#: field:project.task.work,amount_to_invoice:0
+#. module: openforce_relate
+msgid "Amount to Invoice"
+msgstr "Valore da fatturare"
+
+#: model:res.groups,name:openforce_relate.group_relate_user
+#. module: openforce_relate
+msgid "Relate User"
+msgstr "Rapportini Utente"
+
+#: field:relate.config.journal,line_product:0
+#: field:relate.contract.default.invoice,line_product:0
+#. module: openforce_relate
+msgid "Product on line"
+msgstr "Product on line"
+
+#: field:relate.task.line,hours_trip:0
+#. module: openforce_relate
+msgid "Hours trip"
+msgstr "Ore viaggio"
+
+#: view:relate.task:0
+#: field:relate.task.line,material_ids:0
+#. module: openforce_relate
+msgid "Materials"
+msgstr "Materiali"
+
+#: field:relate.task.line,kilometers:0
+#: field:report.relate.line,kilometers:0
+#. module: openforce_relate
+msgid "kilometers"
+msgstr "Kilometri"
+
+#: field:hr.employee,relate_trip_journal_id:0
+#: model:ir.model,name:openforce_relate.model_account_analytic_journal
+#. module: openforce_relate
+msgid "Analytic Journal"
+msgstr "Giornale Analitico"
+
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Expense"
+msgstr "Spese"
+
+#: field:account.analytic.journal,relate_expense:0
+#. module: openforce_relate
+msgid "Relate Expense"
+msgstr "Rappotino Spese"
+
+#: model:ir.model,name:openforce_relate.model_relate_contract_default_invoice
+#. module: openforce_relate
+msgid "Relate - Contract default invoice"
+msgstr "Contratto - Default Fatturazione "
+
+#: field:relate.contract.payment.term,due_date:0
+#. module: openforce_relate
+msgid "Due date"
+msgstr "Data scadenza"
+
+#: selection:report.relate.line,month:0
+#. module: openforce_relate
+msgid "September"
+msgstr "September"
+
+#: selection:report.relate.line,month:0
+#. module: openforce_relate
+msgid "December"
+msgstr "December"
+
+#: view:report.relate.line:0
+#: field:report.relate.line,month:0
+#. module: openforce_relate
+msgid "Month"
+msgstr "Month"
+
+#: field:account.analytic.journal,relate_vehicle:0
+#. module: openforce_relate
+msgid "Relate Vehicle"
+msgstr "Rapportino veicolo"
+
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Relate_task"
+msgstr "Rapportino attività"
+
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Users"
+msgstr "Utenti"
+
+#: selection:relate.task,state:0
+#. module: openforce_relate
+msgid "Waiting Approval"
+msgstr "Da Approvare"
+
+#: selection:relate.contract.payment.term,state:0
+#. module: openforce_relate
+msgid "Invoiced"
+msgstr "Fatturato"
+
+#: model:ir.model,name:openforce_relate.model_relate_task_line
+#. module: openforce_relate
+msgid "Relate - Task lines"
+msgstr "Rapportini - Attività"
+
+#: model:ir.model,name:openforce_relate.model_project_task_work
+#. module: openforce_relate
+msgid "Project Task Work"
+msgstr "Lavoro attività progetto"
+
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Timesheet"
+msgstr "Ore lavoro"
+
+#: selection:relate.task,state:0
+#. module: openforce_relate
+msgid "Draft"
+msgstr "Bozza"
+
+#: field:relate.task.line,project_task_work_ids:0
+#. module: openforce_relate
+msgid "Work Activities"
+msgstr "Attività"
+
+#: help:fleet.vehicle,relate_product_id:0
+#: help:hr.employee,relate_trip_product_id:0
+#. module: openforce_relate
+msgid "Specifies employee's designation as a product with type 'service'."
+msgstr "Specificare per il dipendente un prodotto di tipo 'servizio' da usare nel timesheet"
+
+#: model:ir.ui.menu,name:openforce_relate.menu_openforce_relate_config
+#. module: openforce_relate
+msgid "Config"
+msgstr "Config"
+
+#: field:relate.task,line_ids:0
+#. module: openforce_relate
+msgid "Task Activities"
+msgstr "Rapportino - Attività"
+
+#: field:relate.contract.payment.term,state:0
+#: field:relate.task,state:0
+#. module: openforce_relate
+msgid "Status"
+msgstr "Status"
+
+#: help:relate.contract.payment.term,sequence:0
+#. module: openforce_relate
+msgid "Gives the order in which the items will be checked."
+msgstr "Gives the order in which the items will be checked."
+
+#: model:ir.model,name:openforce_relate.model_account_analytic_line
+#. module: openforce_relate
+msgid "Analytic Line"
+msgstr "Linea conto analitico"
+
+#: selection:report.relate.line,month:0
+#. module: openforce_relate
+msgid "August"
+msgstr "August"
+
+#: field:account.analytic.line,product_to_invoice:0
+#. module: openforce_relate
+msgid "Product to Invoice"
+msgstr "Prodotto in fattura"
+
+#: selection:report.relate.line,month:0
+#. module: openforce_relate
+msgid "June"
+msgstr "June"
+
+#: field:relate.task,message_is_follower:0
+#. module: openforce_relate
+msgid "Is a Follower"
+msgstr "Is a Follower"
+
+#: field:relate.task,user_id:0
+#: field:relate.task.line,user:0
+#: view:report.relate.line:0
+#: field:report.relate.line,user:0
+#. module: openforce_relate
+msgid "User"
+msgstr "Utente"
+
+#: view:account.analytic.account:0
+#. module: openforce_relate
+msgid "Payment Lines"
+msgstr "Payment Lines"
+
+#: field:relate.task,kilometers:0
+#. module: openforce_relate
+msgid "Kilometers"
+msgstr "Kilometri"
+
+#: field:relate.task,active:0
+#. module: openforce_relate
+msgid "Active"
+msgstr "Attivo"
+
+#: selection:report.relate.line,month:0
+#. module: openforce_relate
+msgid "November"
+msgstr "November"
+
+#: field:account.analytic.line,line_to_invoice:0
+#. module: openforce_relate
+msgid "To invoice"
+msgstr "Da fatturare"
+
+#: selection:report.relate.line,month:0
+#. module: openforce_relate
+msgid "October"
+msgstr "October"
+
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Task Lines"
+msgstr "Attività"
+
+#: selection:report.relate.line,month:0
+#. module: openforce_relate
+msgid "January"
+msgstr "January"
+
+#: field:account.analytic.line,align_to_project_task_work:0
+#. module: openforce_relate
+msgid "Align"
+msgstr "Align"
+
+#: field:fleet.vehicle,relate_cost_per_kilometer:0
+#. module: openforce_relate
+msgid "Cost per Kilometer"
+msgstr "Costo kilometrico"
+
+#: field:hr.employee,relate_follower_contract:0
+#: field:relate.contract.default.invoice,contract_id:0
+#: field:relate.contract.payment.term,contract_id:0
+#. module: openforce_relate
+msgid "Contract"
+msgstr "Contratto"
+
+#: field:relate.task,message_summary:0
+#. module: openforce_relate
+msgid "Summary"
+msgstr "Summary"
+
+#: view:relate.task:0
+#: field:relate.task,date:0
+#: field:relate.task.line,date:0
+#: field:report.relate.line,date:0
+#. module: openforce_relate
+msgid "Date"
+msgstr "Data"
+
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Tasks"
+msgstr "Attività"
+
+#: model:ir.ui.menu,name:openforce_relate.menu_openforce_relate_config_journal
+#. module: openforce_relate
+msgid "Relate Config Journal"
+msgstr "Configurazione Rapportino - Giornale "
+
+#: model:ir.model,name:openforce_relate.model_report_relate_line
+#. module: openforce_relate
+msgid "Relate task line "
+msgstr "Righe rapportino"
+
+#: field:account.analytic.line,balance:0
+#. module: openforce_relate
+msgid "Balance"
+msgstr "Margine"
+
+#: field:account.analytic.account,relate_default_invoice_ids:0
+#. module: openforce_relate
+msgid "Default Invoice"
+msgstr "Impostazioni Fatturazione"
+
+#: view:fleet.vehicle:0
+#: model:ir.actions.act_window,name:openforce_relate.openforce_relate_view_task_action
+#: model:ir.ui.menu,name:openforce_relate.menu_openforce_relate
+#: model:ir.ui.menu,name:openforce_relate.menu_openforce_relate_main
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Relate"
+msgstr "Rapportino"
+
+#: field:relate.task,number:0
+#: field:relate.task.line,number:0
+#: field:report.relate.line,number:0
+#. module: openforce_relate
+msgid "Number"
+msgstr "Numero"
+
+#: selection:relate.task,state:0
+#. module: openforce_relate
+msgid "Approved"
+msgstr "Approvato"
+
+#: field:account.analytic.line,relate_task_line_id:0
+#: field:project.task.work,relate_task_line_id:0
+#: field:relate.task.line,task_id:0
+#: field:report.relate.line,task_id:0
+#. module: openforce_relate
+msgid "Task Ref"
+msgstr "Riferimento attività"
+
+#: field:hr.employee,relate_trip_cost_from_timesheet_coeff:0
+#. module: openforce_relate
+msgid "Cost from timesheet - Coeff."
+msgstr "Costo dal timesheet (Coeff.)"
+
+#: view:report.relate.line:0
+#. module: openforce_relate
+msgid "Total kilometers"
+msgstr "Totale kilometri"
+
+#: model:ir.model,name:openforce_relate.model_relate_task
+#. module: openforce_relate
+msgid "Relate - Task"
+msgstr "Rapportini - Attività"
+
+#: field:relate.config.journal,coeff_cost_no_product:0
+#: field:relate.contract.default.invoice,coeff_cost_no_product:0
+#. module: openforce_relate
+msgid "Coeff. to invoice cost without product"
+msgstr "Coeff. rifatturazione per righe senza prodotto"
+
+#: view:relate.config.journal:0
+#. module: openforce_relate
+msgid "Config Journal"
+msgstr "Configurazione Giornale"
+
+#: field:fleet.vehicle,relate_product_id:0
+#: field:hr.employee,relate_trip_product_id:0
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Product"
+msgstr "Prodotto"
+
+#: view:report.relate.line:0
+#. module: openforce_relate
+msgid "Total Hours"
+msgstr "Totale Ore"
+
+#: field:relate.contract.payment.term,name:0
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Description"
+msgstr "Descrizione"
+
+#: selection:report.relate.line,month:0
+#. module: openforce_relate
+msgid "May"
+msgstr "May"
+
+#: field:relate.config.journal,journal_id:0
+#: field:relate.contract.default.invoice,journal_id:0
+#. module: openforce_relate
+msgid "Journal"
+msgstr "Giornale"
+
+#: model:ir.actions.act_window,name:openforce_relate.action_report_relate_line_tree
+#: model:ir.ui.menu,name:openforce_relate.menu_report_relate_line_tree
+#: view:report.relate.line:0
+#. module: openforce_relate
+msgid "Relate Analysis"
+msgstr "Analisi Righe Rapportini"
+
+#: constraint:relate.contract.default.invoice:0
+#. module: openforce_relate
+msgid "Error! Journal-Product already exists."
+msgstr "Error! Journal-Product already exists."
+
+#: selection:report.relate.line,month:0
+#. module: openforce_relate
+msgid "February"
+msgstr "February"
+
+#: model:res.groups,name:openforce_relate.group_relate_manager
+#. module: openforce_relate
+msgid "Relate Manager"
+msgstr "Rapportini Manager"
+
+#: field:relate.task,message_ids:0
+#. module: openforce_relate
+msgid "Messages"
+msgstr "Messaggi"
+
+#: selection:report.relate.line,month:0
+#. module: openforce_relate
+msgid "April"
+msgstr "April"
+
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Spent Hours"
+msgstr "Ore impiegate"
+
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Approve"
+msgstr "Approva"
+
+#: help:relate.task,message_ids:0
+#. module: openforce_relate
+msgid "Messages and communication history"
+msgstr "Messaggi e storico comunicazioni"
+
+#: model:email.template,subject:openforce_relate.relate_email_template_contract_payment
+#. module: openforce_relate
+msgid "Contract to invoice"
+msgstr "Contract to invoice"
+
+#: model:ir.model,name:openforce_relate.model_fleet_vehicle
+#. module: openforce_relate
+msgid "Information on a vehicle"
+msgstr "Information on a vehicle"
+
+#: field:relate.task.line,hours_work:0
+#. module: openforce_relate
+msgid "Hours Work"
+msgstr "Ore lavoro"
+
+#: field:relate.contract.payment.term,sequence:0
+#. module: openforce_relate
+msgid "Sequence"
+msgstr "Sequence"
+
+#: view:relate.task:0
+#. module: openforce_relate
+msgid "Task Work"
+msgstr "Attività"
+
+#: field:relate.task.line,expense_ids:0
+#. module: openforce_relate
+msgid "Expenses"
+msgstr "Spese"
+
+#: model:ir.model,name:openforce_relate.model_relate_config_journal
+#. module: openforce_relate
+msgid "Relate - Configuration - Journals"
+msgstr "Configurazione Giornali"
+
+#: view:report.relate.line:0
+#: field:report.relate.line,year:0
+#. module: openforce_relate
+msgid "Year"
+msgstr "Anno"
+
+#: field:project.task.work,line_to_invoice:0
+#: field:relate.config.journal,line_to_invoice:0
+#: field:relate.contract.default.invoice,line_to_invoice:0
+#: selection:relate.contract.payment.term,state:0
+#. module: openforce_relate
+msgid "To be invoiced"
+msgstr "Da Fatturare"
+
+#: view:hr.employee:0
+#. module: openforce_relate
+msgid "Trip"
+msgstr "Viaggio"
+

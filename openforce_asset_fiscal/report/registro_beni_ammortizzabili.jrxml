@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="registro beni ammortizzabili" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" whenNoDataType="AllSectionsNoDetail" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isSummaryNewPage="true" isSummaryWithPageHeaderAndFooter="true">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="date_from" class="java.lang.String"/>
+	<parameter name="date_to" class="java.lang.String"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["/Users/alex/openerp/addons-custom/account_vat_liquidazione_report/report/"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="sql_where" class="java.lang.String"/>
+	<parameter name="sql_order_by" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT
+cp.name as company_name, ct.name as category_name,
+a.id as asset_id, a.code as asset_code, a.name as asset_name, a.purchase_value as purchase_value,
+a.fiscal as asset_fiscal, a.fiscal_asset_ref_id as asset_fiscal_ref_id, a.purchase_date as purchase_date, EXTRACT(ISOYEAR FROM DATE(a.purchase_date)) as purchase_year,
+(select EXTRACT(ISOYEAR FROM DATE(dl1.depreciation_date)) from account_asset_depreciation_line dl1
+	where dl1.asset_id = a.id ORDER BY depreciation_date limit 1) as first_depreciation_year,
+aml.date as registration_date, EXTRACT(ISOYEAR FROM DATE(aml.date)) as registration_year,
+aml.account_id as account_id, acc.name as account_name,
+aml.ref as move_ref, aml.credit as move_dare, aml.debit as move_avere, dl.depreciated_value as fondo_amm_anno_precedente, dl.amount as ammortamento, dl.remaining_value as ammortamento_residuo,
+(dl.depreciated_value + dl.amount) AS fondo_amm_anno_corrente
+
+FROM account_asset_asset a
+left join account_move_line aml on (a.id = aml.asset_id AND aml.date <= date('2013-12-31'))
+left join account_asset_depreciation_line dl on (aml.move_id = dl.move_id)
+left join account_asset_category ct on (a.category_id = ct.id)
+left join account_account acc on (aml.account_id = acc.id)
+left join res_company cp on a.company_id = cp.id
+WHERE
+a.id > 0
+$P!{sql_where}
+ORDER BY
+$P!{sql_order_by}]]>
+	</queryString>
+	<field name="company_name" class="java.lang.String"/>
+	<field name="category_name" class="java.lang.String"/>
+	<field name="asset_id" class="java.lang.Integer"/>
+	<field name="asset_code" class="java.lang.String"/>
+	<field name="asset_name" class="java.lang.String"/>
+	<field name="purchase_value" class="java.lang.Float"/>
+	<field name="asset_fiscal" class="java.lang.String"/>
+	<field name="asset_fiscal_ref_id" class="java.lang.String"/>
+	<field name="purchase_date" class="java.util.Date"/>
+	<field name="purchase_year" class="java.lang.Integer"/>
+	<field name="first_depreciation_year" class="java.lang.Integer"/>
+	<field name="registration_date" class="java.util.Date"/>
+	<field name="registration_year" class="java.lang.String"/>
+	<field name="account_id" class="java.lang.Integer"/>
+	<field name="account_name" class="java.lang.String"/>
+	<field name="move_ref" class="java.lang.String"/>
+	<field name="move_dare" class="java.lang.Float"/>
+	<field name="move_avere" class="java.lang.Float"/>
+	<field name="fondo_amm_anno_precedente" class="java.lang.Float"/>
+	<field name="ammortamento" class="java.lang.Float"/>
+	<field name="ammortamento_residuo" class="java.lang.Float"/>
+	<field name="fondo_amm_anno_corrente" class="java.lang.Float"/>
+	<variable name="Tot_conto_dare" class="java.lang.Float" resetType="Group" resetGroup="asset_id" calculation="Sum">
+		<variableExpression><![CDATA[$F{move_dare}]]></variableExpression>
+	</variable>
+	<variable name="Tot_conto_avere" class="java.lang.Float" resetType="Group" resetGroup="asset_id" calculation="Sum">
+		<variableExpression><![CDATA[$F{move_avere}]]></variableExpression>
+	</variable>
+	<group name="asset_id">
+		<groupExpression><![CDATA[$F{asset_id}]]></groupExpression>
+		<groupHeader>
+			<band height="36">
+				<textField isBlankWhenNull="true">
+					<reportElement x="2" y="8" width="69" height="14"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{asset_code}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="2" y="23" width="59" height="10"/>
+					<textElement>
+						<font size="8" isItalic="true"/>
+					</textElement>
+					<text><![CDATA[Data acquisto]]></text>
+				</staticText>
+				<textField pattern="dd/MM/yyyy" isBlankWhenNull="true">
+					<reportElement x="61" y="23" width="60" height="10"/>
+					<textElement textAlignment="Center">
+						<font size="8" isItalic="true"/>
+					</textElement>
+					<textFieldExpression class="java.util.Date"><![CDATA[$F{purchase_date}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+					<reportElement x="190" y="23" width="55" height="10">
+						<printWhenExpression><![CDATA[$F{purchase_value}!= 0]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression class="java.lang.Float"><![CDATA[$F{purchase_value}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="124" y="23" width="64" height="10"/>
+					<textElement>
+						<font size="8" isItalic="true"/>
+					</textElement>
+					<text><![CDATA[Valore acquisto]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="73" y="8" width="370" height="14"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{asset_name}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="16"/>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="40" splitType="Stretch">
+			<staticText>
+				<reportElement x="270" y="0" width="262" height="22"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Registro beni ammortizzabili]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="8" width="152" height="14"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{company_name}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="28" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="802" height="27"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="573" y="13" width="47" height="12"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Dare]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="643" y="13" width="35" height="12"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Avere]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="506" y="3" width="60" height="22"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Fondo amm.to anno preced.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="679" y="6" width="60" height="22"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Fondo amm.to anno corrente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="742" y="6" width="60" height="22"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Amm.to residuo]]></text>
+			</staticText>
+			<line>
+				<reportElement x="503" y="1" width="1" height="27"/>
+			</line>
+			<staticText>
+				<reportElement x="61" y="13" width="59" height="12"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Anno]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="12" splitType="Stretch">
+			<textField pattern="dd/MM/yyyy" isBlankWhenNull="true">
+				<reportElement x="105" y="1" width="60" height="10"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[$F{registration_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="168" y="1" width="157" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{account_name}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="566" y="1" width="55" height="10">
+					<printWhenExpression><![CDATA[$F{move_dare} != 0]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Float"><![CDATA[$F{move_dare}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="624" y="1" width="55" height="10">
+					<printWhenExpression><![CDATA[$F{move_avere} != 0]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Float"><![CDATA[$F{move_avere}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="2" y="11" width="800" height="1"/>
+				<graphicElement>
+					<pen lineStyle="Dotted" lineColor="#CCCCCC"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="61" y="1" width="35" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{registration_year}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="329" y="1" width="114" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{move_ref}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="508" y="1" width="55" height="10">
+					<printWhenExpression><![CDATA[$F{fondo_amm_anno_precedente} != 0]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Float"><![CDATA[$F{fondo_amm_anno_precedente}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="684" y="1" width="55" height="10">
+					<printWhenExpression><![CDATA[$F{fondo_amm_anno_precedente} != 0]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Float"><![CDATA[$F{fondo_amm_anno_corrente}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="747" y="1" width="55" height="10">
+					<printWhenExpression><![CDATA[$F{ammortamento_residuo} != 0]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Float"><![CDATA[$F{ammortamento_residuo}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="24" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="1" width="802" height="1"/>
+			</line>
+			<textField evaluationTime="Report">
+				<reportElement x="412" y="7" width="40" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="332" y="7" width="80" height="10"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["Pagina "+$V{PAGE_NUMBER}+" di"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="7" width="37" height="10"/>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[Stampata il]]></text>
+			</staticText>
+			<textField pattern="dd/MM/yyyy HH:mm">
+				<reportElement x="51" y="7" width="62" height="10"/>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

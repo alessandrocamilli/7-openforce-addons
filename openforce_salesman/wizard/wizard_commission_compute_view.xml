@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="salesman_commission_compute_view_wizard" model="ir.ui.view">
+            <field name="name">salesman.commission.compute.wizard.view</field>
+            <field name="model">salesman.commission.compute.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Compute Commission" version="7.0">
+                    <group>
+                        <field name="period_id"/>
+                    </group>
+                    <footer>
+                        <button string="Compute" name="commission_compute" type="object" class="oe_highlight"/>
+                        or
+                        <button string="Cancel" class="oe_link" special="cancel"/>
+                    </footer>
+                </form>
+             </field>
+        </record>
+
+        <record id="action_salesman_commission_compute_view_wizard" model="ir.actions.act_window">
+            <field name="name">Compute Commission</field>
+            <field name="res_model">salesman.commission.compute.wizard</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="salesman_commission_compute_view_wizard"/>
+            <field name="target">new</field>
+        </record>
+
+        <menuitem action="action_salesman_commission_compute_view_wizard"
+            id="menu_salesman_commission_compute_wizard"
+            parent="menu_openforce_salesman_commission_main" />
+
+    </data>
+</openerp>

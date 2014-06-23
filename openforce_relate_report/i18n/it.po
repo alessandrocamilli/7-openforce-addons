@@ -1,0 +1,265 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* openforce_relate_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-20 10:57+0000\n"
+"PO-Revision-Date: 2014-05-20 10:57+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: help:relate.common.report,analytic_journal_ids:0
+#: help:relate.contract.ledger.webkit,analytic_journal_ids:0
+#. module: openforce_relate_report
+msgid "Only selected journals will be printed. Leave empty to print all journals."
+msgstr "Only selected journals will be printed. Leave empty to print all journals."
+
+#: field:relate.common.report,partner_ids:0
+#: field:relate.contract.ledger.webkit,partner_ids:0
+#. module: openforce_relate_report
+msgid "Partners"
+msgstr "Partners"
+
+#: selection:relate.common.report,selection_line:0
+#: selection:relate.contract.ledger.webkit,selection_line:0
+#. module: openforce_relate_report
+msgid "All lines"
+msgstr "All lines"
+
+#: model:ir.actions.act_window,name:openforce_relate_report.action_relate_contract_ledger_report
+#: model:ir.actions.report.xml,name:openforce_relate_report.openforce_relate_contract_ledger
+#: model:ir.ui.menu,name:openforce_relate_report.menu_openforce_relate_contract_ledger_report
+#: view:relate.contract.ledger.webkit:0
+#. module: openforce_relate_report
+msgid "Contract Ledger"
+msgstr "Mastrino Contratto"
+
+#: selection:relate.common.report,recipient:0
+#: selection:relate.contract.ledger.webkit,recipient:0
+#. module: openforce_relate_report
+msgid "Custom params"
+msgstr "Parametri personalizzati"
+
+#: field:relate.common.report,invoiced:0
+#: field:relate.contract.ledger.webkit,invoiced:0
+#. module: openforce_relate_report
+msgid "With Invoiced"
+msgstr "Stampa fatturato"
+
+#: field:relate.common.report,detail_by:0
+#: field:relate.contract.ledger.webkit,detail_by:0
+#. module: openforce_relate_report
+msgid "Detail by"
+msgstr "Detail by"
+
+#: field:relate.common.report,recipient:0
+#: field:relate.contract.ledger.webkit,recipient:0
+#. module: openforce_relate_report
+msgid "Recipient"
+msgstr "Destinatario"
+
+#: view:relate.common.report:0
+#. module: openforce_relate_report
+msgid "Print"
+msgstr "Stampa"
+
+#: help:relate.common.report,price:0
+#: help:relate.contract.ledger.webkit,price:0
+#. module: openforce_relate_report
+msgid "It adds the price column"
+msgstr "Aggiunge la colonna valore (da fatturare)"
+
+#: field:relate.common.report,contract_ids:0
+#: field:relate.contract.ledger.webkit,contract_ids:0
+#. module: openforce_relate_report
+msgid "Contracts"
+msgstr "Contratti"
+
+#: help:relate.common.report,filter:0
+#: help:relate.contract.ledger.webkit,filter:0
+#. module: openforce_relate_report
+msgid "Filter by date: no opening balance will be displayed. (opening balance can only be computed based on period to be correct)."
+msgstr "Filter by date: no opening balance will be displayed. (opening balance can only be computed based on period to be correct)."
+
+#: selection:relate.common.report,recipient:0
+#: selection:relate.contract.ledger.webkit,recipient:0
+#. module: openforce_relate_report
+msgid "Company"
+msgstr "Azienda"
+
+#: help:relate.common.report,partner_ids:0
+#: help:relate.contract.ledger.webkit,partner_ids:0
+#. module: openforce_relate_report
+msgid "Only selected partners will be printed. Leave empty to print all partners."
+msgstr "Only selected partners will be printed. Leave empty to print all partners."
+
+#: field:relate.common.report,date_to:0
+#: field:relate.contract.ledger.webkit,date_to:0
+#. module: openforce_relate_report
+msgid "End Date "
+msgstr "Data finale"
+
+#: selection:relate.common.report,selection_line:0
+#: selection:relate.contract.ledger.webkit,selection_line:0
+#. module: openforce_relate_report
+msgid "Only to invoice"
+msgstr "Solo da fatturare"
+
+#: model:ir.model,name:openforce_relate_report.model_relate_contract_ledger_webkit
+#. module: openforce_relate_report
+msgid "Contract Ledger Report"
+msgstr "Mastrino Contratto Report"
+
+#: selection:relate.common.report,detail_by:0
+#: selection:relate.common.report,filter:0
+#: selection:relate.contract.ledger.webkit,detail_by:0
+#: selection:relate.contract.ledger.webkit,filter:0
+#. module: openforce_relate_report
+msgid "Date"
+msgstr "Data"
+
+#: field:relate.common.report,analytic_journal_ids:0
+#: field:relate.contract.ledger.webkit,analytic_journal_ids:0
+#. module: openforce_relate_report
+msgid "Journals"
+msgstr "Giornali"
+
+#: view:relate.common.report:0
+#. module: openforce_relate_report
+msgid "Report Options"
+msgstr "Opzioni Report "
+
+#: selection:relate.common.report,recipient:0
+#: selection:relate.contract.ledger.webkit,recipient:0
+#. module: openforce_relate_report
+msgid "Customer"
+msgstr "Cliente"
+
+#: view:relate.common.report:0
+#. module: openforce_relate_report
+msgid "Dates"
+msgstr "Date"
+
+#: field:relate.common.report,period_from:0
+#: field:relate.contract.ledger.webkit,period_from:0
+#. module: openforce_relate_report
+msgid "Start Period"
+msgstr "Periodo Iniziale"
+
+#: field:relate.common.report,selection_line:0
+#: field:relate.contract.ledger.webkit,selection_line:0
+#. module: openforce_relate_report
+msgid "Selection line"
+msgstr "Selezione linee"
+
+#: field:relate.common.report,period_to:0
+#: field:relate.contract.ledger.webkit,period_to:0
+#. module: openforce_relate_report
+msgid "End Period"
+msgstr "Periodo Finale"
+
+#: help:relate.common.report,contract_ids:0
+#: help:relate.contract.ledger.webkit,contract_ids:0
+#. module: openforce_relate_report
+msgid "Only selected contracts will be printed. Leave empty to print all contracts."
+msgstr "Solo i contratti selezionati verranno stampati. Non mettere nulla per stamparli tutti."
+
+#: model:ir.model,name:openforce_relate_report.model_relate_common_report
+#. module: openforce_relate_report
+msgid "Relate Common Report"
+msgstr "Relate Common Report"
+
+#: selection:relate.common.report,filter:0
+#: selection:relate.contract.ledger.webkit,filter:0
+#. module: openforce_relate_report
+msgid "No Filters"
+msgstr "Nessun Filtro"
+
+#: field:relate.common.report,price:0
+#: field:relate.contract.ledger.webkit,price:0
+#. module: openforce_relate_report
+msgid "With Price"
+msgstr "Stampa Valore da fatturare"
+
+#: help:relate.common.report,partner:0
+#: help:relate.contract.ledger.webkit,partner:0
+#. module: openforce_relate_report
+msgid "It adds the partner column"
+msgstr "It adds the partner column"
+
+#: help:relate.common.report,cost:0
+#: help:relate.contract.ledger.webkit,cost:0
+#. module: openforce_relate_report
+msgid "It adds the cost column"
+msgstr "Aggiunge la colonna costo"
+
+#: field:relate.common.report,cost:0
+#: field:relate.contract.ledger.webkit,cost:0
+#. module: openforce_relate_report
+msgid "With Cost"
+msgstr "Stampa Costo"
+
+#: model:ir.actions.act_window,name:openforce_relate_report.action_openforce_relate_common_report_view
+#. module: openforce_relate_report
+msgid "Common Relate Report"
+msgstr "Common Relate Report"
+
+#: field:relate.common.report,partner:0
+#: field:relate.contract.ledger.webkit,partner:0
+#. module: openforce_relate_report
+msgid "With Partner"
+msgstr "Stampa Partner"
+
+#: help:relate.common.report,invoiced:0
+#: help:relate.contract.ledger.webkit,invoiced:0
+#. module: openforce_relate_report
+msgid "It adds the invoiced column"
+msgstr "It adds the invoiced column"
+
+#: view:relate.common.report:0
+#. module: openforce_relate_report
+msgid "or"
+msgstr "o"
+
+#: view:relate.common.report:0
+#: selection:relate.common.report,filter:0
+#: selection:relate.contract.ledger.webkit,filter:0
+#. module: openforce_relate_report
+msgid "Periods"
+msgstr "Periodi"
+
+#: view:relate.common.report:0
+#. module: openforce_relate_report
+msgid "Filters"
+msgstr "Filtri"
+
+#: view:relate.common.report:0
+#. module: openforce_relate_report
+msgid "Cancel"
+msgstr "Annulla"
+
+#: field:relate.common.report,date_from:0
+#: field:relate.contract.ledger.webkit,date_from:0
+#. module: openforce_relate_report
+msgid "Start Date "
+msgstr "Data Iniziale"
+
+#: field:relate.common.report,filter:0
+#: field:relate.contract.ledger.webkit,filter:0
+#. module: openforce_relate_report
+msgid "Filter by"
+msgstr "Filtra per"
+
+#: selection:relate.common.report,detail_by:0
+#: selection:relate.contract.ledger.webkit,detail_by:0
+#. module: openforce_relate_report
+msgid "Journal"
+msgstr "Journal"
+

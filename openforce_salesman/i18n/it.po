@@ -1,0 +1,722 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* openforce_salesman
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-01 18:40+0000\n"
+"PO-Revision-Date: 2014-01-01 19:43+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.discount_commission,line_ids:0
+msgid "Discount lines"
+msgstr "Discount lines"
+
+#. module: openforce_salesman
+#: field:salesman.commission.item,amount:0
+msgid "Commission amount"
+msgstr "Importo provvigione"
+
+#. module: openforce_salesman
+#: help:salesman.pricelist.version,active:0
+msgid ""
+"When a version is duplicated it is set to non active, so that the dates do "
+"not overlaps with original version. You should change the dates and "
+"reactivate the pricelist"
+msgstr ""
+"Quando si duplicano le versioni, occorre disattivare una delle due, evitando "
+"così che gli intervalli temporali si sovrappongano"
+
+#. module: openforce_salesman
+#: view:salesman.commission.item:0
+msgid "Group By..."
+msgstr "Raggruppa per..."
+
+#. module: openforce_salesman
+#: field:salesman.commission.item,invoice_line_discount2:0
+#: field:salesman.pricelist.discount_commission.line,discount2:0
+msgid "Discount 2"
+msgstr "Sconto 2"
+
+#. module: openforce_salesman
+#: field:salesman.commission.item,invoice_line_discount1:0
+#: field:salesman.pricelist.discount_commission.line,discount:0
+msgid "Discount 1"
+msgstr "Sconto"
+
+#. module: openforce_salesman
+#: view:salesman.pricelist.item:0
+msgid "Commission Computation"
+msgstr "Calcolo provvigione"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist,company_id:0
+#: field:salesman.pricelist.item,company_id:0
+#: field:salesman.pricelist.version,company_id:0
+msgid "Company"
+msgstr "Azienda"
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_salesman_commission_sale_order
+msgid "Salesman - Commission on sale order"
+msgstr "Agenti - Provvigioni su ordine"
+
+#. module: openforce_salesman
+#: field:salesman.commission.item,percent:0
+#: field:salesman.commission.sale.invoice,percent:0
+#: field:salesman.commission.sale.order,percent:0
+#: field:salesman.pricelist.discount_commission.line,commission_percent:0
+#: field:salesman.pricelist.item,commission_percent:0
+msgid "Commission Percent"
+msgstr "% Provvigione"
+
+#. module: openforce_salesman
+#: field:salesman.commission.item,salesman_id:0
+#: field:salesman.commission.sale.invoice,salesman_id:0
+#: field:salesman.commission.sale.order,salesman_id:0
+msgid "Salesperson"
+msgstr "Agente"
+
+#. module: openforce_salesman
+#: model:res.groups,name:openforce_salesman.group_salesman_user
+msgid "Salesman/User"
+msgstr "Agente/Utente"
+
+#. module: openforce_salesman
+#: field:salesman.commission.item,invoice_line_subtotal:0
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.version,pricelist_id:0
+msgid "Price List"
+msgstr "Prezzo"
+
+#. module: openforce_salesman
+#: help:salesman.pricelist,active:0
+msgid ""
+"If unchecked, it will allow you to hide the pricelist without removing it."
+msgstr "Se non attivata, potrai nascondere il listino senza cancellarlo"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.item,discount_commission_id:0
+msgid "Table discount-commission"
+msgstr "Tabella sconti-provvigioni"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.item,price_surcharge:0
+msgid "Price Surcharge"
+msgstr "Price Surcharge"
+
+#. module: openforce_salesman
+#: view:salesman.pricelist.discount_commission:0
+msgid "Discount-Commission Table"
+msgstr "Tabella sconti-provvigioni"
+
+#. module: openforce_salesman
+#: view:account.invoice:0
+msgid "# view line invoice in window format instead of lines"
+msgstr "# view line invoice in window format instead of lines"
+
+#. module: openforce_salesman
+#: constraint:salesman.pricelist.discount_commission.line:0
+msgid "Error! Discounts already exist : %s - %s"
+msgstr "Errore! Lo sconto esite già"
+
+#. module: openforce_salesman
+#: field:salesman.commission.sale.invoice,amount:0
+#: field:salesman.commission.sale.order,amount:0
+msgid "Amount"
+msgstr "Importo"
+
+#. module: openforce_salesman
+#: view:salesman.pricelist:0
+msgid "Salesman Price List"
+msgstr "Listino Provvigionale"
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_salesman_pricelist_type
+msgid "Pricelist Type"
+msgstr "Tipo Listino"
+
+#. module: openforce_salesman
+#: field:salesman.commission.sale.invoice,pricelist_item_id:0
+#: field:salesman.commission.sale.order,pricelist_item_id:0
+msgid "Pricelist ref"
+msgstr "Rif Listino "
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.discount_commission,name:0
+#: field:salesman.pricelist.item,name:0
+msgid "Rule Name"
+msgstr "Nome regola"
+
+#. module: openforce_salesman
+#: field:account.invoice,salesman_pricelist:0
+#: field:sale.order,salesman_pricelist:0
+msgid "Salesman Pricelist"
+msgstr "Listino provvigioni"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.item,base:0
+msgid "Based on"
+msgstr "Basato su"
+
+#. module: openforce_salesman
+#: view:salesman.commission.item:0 field:salesman.commission.item,partner_id:0
+msgid "Partner"
+msgstr "Partner"
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_salesman_commission_item
+msgid "Salesman - Commission item"
+msgstr "Agente - Provvigione"
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Linea d'ordine di vendita"
+
+#. module: openforce_salesman
+#: view:salesman.salesman:0
+msgid "Partners"
+msgstr "Partners"
+
+#. module: openforce_salesman
+#: view:account.invoice.line:0 view:sale.order:0
+msgid "# Section commissions"
+msgstr "# Section commissions"
+
+#. module: openforce_salesman
+#: help:salesman.pricelist.item,name:0
+msgid "Explicit rule name for this pricelist line."
+msgstr "Specifica la regola per questa riga del listino provvigionale"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.discount_commission.line,discount_id:0
+msgid "Discount tables"
+msgstr "Tabella sconti"
+
+#. module: openforce_salesman
+#: help:salesman.pricelist.item,categ_id:0
+msgid ""
+"Specify a product category if this rule only applies to products belonging "
+"to this category or its children categories. Keep empty otherwise."
+msgstr ""
+"Specifica una categoria prodotto per applicare questa regola a tutti i "
+"prodotti di questa categoria o alle sue sottocategorie. Altrimenti lasciare "
+"vuoto."
+
+#. module: openforce_salesman
+#: field:salesman.commission.item,invoice_line_id:0
+msgid "Invoice line"
+msgstr "Riga fattura"
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_salesman_pricelist_item
+msgid "Salesman - Pricelist item"
+msgstr "Agente - Listino provvigioni"
+
+#. module: openforce_salesman
+#: field:salesman.salesman,analytic_account_id:0
+msgid "Analytic account"
+msgstr "Conto analitico"
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_salesman_pricelist
+msgid "Salesman - Pricelist"
+msgstr "Agente - Listino provvigionale"
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_salesman_salesman
+msgid "Salesman - Salesman"
+msgstr "Agenti"
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_stock_picking
+msgid "Picking List"
+msgstr "Picking List"
+
+#. module: openforce_salesman
+#: field:salesman.commission.item,paid:0
+msgid "Commission Paid"
+msgstr "Provvigione Pagata"
+
+#. module: openforce_salesman
+#: help:salesman.pricelist.discount_commission,name:0
+msgid "Explicit Table name"
+msgstr "Explicit Table name"
+
+#. module: openforce_salesman
+#: model:ir.actions.act_window,name:openforce_salesman.openforce_salesman_pricelist_action2
+#: model:ir.ui.menu,name:openforce_salesman.menu_openforce_salesman_product_pricelist_action2
+msgid "Pricelists"
+msgstr "Listino"
+
+#. module: openforce_salesman
+#: view:account.invoice:0 view:sale.order:0
+msgid "# load salesman's pricelist"
+msgstr "# load salesman's pricelist"
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_salesman_pricelist_discount_commission
+msgid "Salesman - Pricelist - discount-commission table"
+msgstr "Salesman - Pricelist - discount-commission table"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.item,categ_id:0
+msgid "Product Category"
+msgstr "Categoria prodotto"
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_salesman_pricelist_discount_commission_line
+msgid "Salesman - Pricelist - discount-commission line table"
+msgstr "Salesman - Pricelist - discount-commission line table"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.type,key:0
+msgid "Key"
+msgstr "Key"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.item,price_version_id:0
+msgid "Price List Version"
+msgstr "Versione listino provvigionale"
+
+#. module: openforce_salesman
+#: model:ir.ui.menu,name:openforce_salesman.menu_openforce_salesman_report_main
+msgid "Report"
+msgstr "Report"
+
+#. module: openforce_salesman
+#: help:salesman.pricelist.item,sequence:0
+msgid ""
+"Gives the order in which the pricelist items will be checked. The evaluation "
+"gives highest priority to lowest sequence and stops as soon as a matching "
+"item is found."
+msgstr ""
+"Gives the order in which the pricelist items will be checked. The evaluation "
+"gives highest priority to lowest sequence and stops as soon as a matching "
+"item is found."
+
+#. module: openforce_salesman
+#: field:salesman.commission.sale.invoice,pricelist_id:0
+#: field:salesman.commission.sale.order,pricelist_id:0
+#: field:salesman.salesman,pricelist:0
+msgid "Pricelist"
+msgstr "Listino"
+
+#. module: openforce_salesman
+#: model:ir.ui.menu,name:openforce_salesman.menu_openforce_salesman_configuration_main
+msgid "Configuration"
+msgstr "Configurazione"
+
+#. module: openforce_salesman
+#: help:salesman.pricelist.item,price_surcharge:0
+msgid ""
+"Specify the fixed amount to add or substract(if negative) to the amount "
+"calculated with the discount."
+msgstr ""
+"Specify the fixed amount to add or substract(if negative) to the amount "
+"calculated with the discount."
+
+#. module: openforce_salesman
+#: help:salesman.pricelist.type,key:0
+msgid ""
+"Used in the code to select specific prices based on the context. Keep "
+"unchanged."
+msgstr ""
+"Used in the code to select specific prices based on the context. Keep "
+"unchanged."
+
+#. module: openforce_salesman
+#: field:salesman.pricelist,level_child_commission:0
+msgid "Level child until to get commission"
+msgstr "Max livello figlio a cui assegnare una provvigione"
+
+#. module: openforce_salesman
+#: field:salesman.commission.item,section_id:0
+#: field:salesman.commission.sale.invoice,section_id:0
+#: field:salesman.commission.sale.order,section_id:0
+msgid "Team"
+msgstr "Team"
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_sale_order
+msgid "Sales Order"
+msgstr "Ordine di vendita"
+
+#. module: openforce_salesman
+#: help:salesman.pricelist.item,product_tmpl_id:0
+msgid ""
+"Specify a template if this rule only applies to one product template. Keep "
+"empty otherwise."
+msgstr ""
+"Specify a template if this rule only applies to one product template. Keep "
+"empty otherwise."
+
+#. module: openforce_salesman
+#: model:ir.actions.act_window,name:openforce_salesman.openforce_salesman_commission_item_action
+#: model:ir.ui.menu,name:openforce_salesman.menu_openforce_salesman_commission_item
+#: model:ir.ui.menu,name:openforce_salesman.menu_openforce_salesman_commission_main
+#: view:salesman.commission.item:0
+msgid "Commissions"
+msgstr "Provvigioni"
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_account_invoice_line
+msgid "Invoice Line"
+msgstr "Righe Fattura"
+
+#. module: openforce_salesman
+#: help:salesman.pricelist.item,base:0
+msgid "Base commission for computation."
+msgstr "Base provvigioni per calcolo."
+
+#. module: openforce_salesman
+#: field:salesman.pricelist,currency_id:0
+msgid "Currency"
+msgstr "Currency"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist,name:0
+msgid "Pricelist Name"
+msgstr "Nome listino"
+
+#. module: openforce_salesman
+#: field:account.invoice.line,salesman_commission_ids:0
+#: field:sale.order.line,salesman_commission_ids:0
+msgid "Salesmen Commissions"
+msgstr "Provvigioni agenti"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.version,date_start:0
+msgid "Start Date"
+msgstr "Data inizio"
+
+#. module: openforce_salesman
+#: view:salesman.commission.item:0 field:salesman.salesman,salesman:0
+msgid "Salesman"
+msgstr "Agente"
+
+#. module: openforce_salesman
+#: view:salesman.salesman:0
+msgid "Salesman Search"
+msgstr "Cerca agente"
+
+#. module: openforce_salesman
+#: model:ir.actions.act_window,help:openforce_salesman.openforce_salesman_pricelist
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to add a pricelist version.\n"
+"              </p><p>\n"
+"                There can be more than one version of a pricelist, each of\n"
+"                these must be valid during a certain period of time. Some\n"
+"                examples of versions: Main Prices, 2010, 2011, Summer "
+"Sales,\n"
+"                etc.\n"
+"              </p>\n"
+"            "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Cliccare per aggiungere una versione listino.\n"
+"              </p><p>\n"
+"                There can be more than one version of a pricelist, each of\n"
+"                these must be valid during a certain period of time. Some\n"
+"                examples of versions: Main Prices, 2010, 2011, Summer "
+"Sales,\n"
+"                etc.\n"
+"                Possono esserci pià versioni per listino, ognuna delle quali "
+"deve\n"
+"                essere valida in un determinato periodo di tempo. Alcuni\n"
+"                esempi di versione: Prezzo Principale 2010, 2011, Saldi "
+"Estivi,\n"
+"                etc.\n"
+"              </p>\n"
+"            "
+
+#. module: openforce_salesman
+#: view:salesman.pricelist:0
+msgid "Products Price"
+msgstr "Prezzo prodotto"
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_salesman_pricelist_version
+msgid "Salesman - Pricelist Version"
+msgstr "Agente - Versione listino"
+
+#. module: openforce_salesman
+#: field:salesman.commission.sale.invoice,invoice_line_id:0
+#: field:salesman.commission.sale.order,sale_order_line_id:0
+msgid "Line order"
+msgstr "Line order"
+
+#. module: openforce_salesman
+#: view:salesman.pricelist:0 view:salesman.pricelist.version:0
+msgid "Pricelist Version"
+msgstr "Versione listino"
+
+#. module: openforce_salesman
+#: field:salesman.commission.sale.invoice,commission_item_ids:0
+#: field:salesman.commission.sale.order,commission_invoice_ids:0
+msgid "unknown"
+msgstr "sconosciuto"
+
+#. module: openforce_salesman
+#: help:salesman.pricelist.item,product_id:0
+msgid ""
+"Specify a product if this rule only applies to one product. Keep empty "
+"otherwise."
+msgstr ""
+"Specify a product if this rule only applies to one product. Keep empty "
+"otherwise."
+
+#. module: openforce_salesman
+#: view:salesman.pricelist.discount_commission:0
+msgid "Salesman Discount table"
+msgstr "Salesman Discount table"
+
+#. module: openforce_salesman
+#: help:salesman.pricelist.version,date_end:0
+msgid "Last valid date for the version."
+msgstr "Ultima data valida per la versione"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist,active:0
+#: field:salesman.pricelist.discount_commission,active:0
+#: field:salesman.pricelist.version,active:0
+msgid "Active"
+msgstr "Attivo"
+
+#. module: openforce_salesman
+#: view:salesman.commission.item:0
+msgid "Commissions Search"
+msgstr "Cerca provvigioni"
+
+#. module: openforce_salesman
+#: model:res.groups,name:openforce_salesman.group_salesman_manager
+msgid "Salesman/Manager"
+msgstr "Agente/Manager"
+
+#. module: openforce_salesman
+#: constraint:salesman.pricelist.version:0
+msgid "You cannot have 2 pricelist versions that overlap!"
+msgstr ""
+"Non possono esserci 2 versioni di listino sovrapposte. Controlla gli "
+"intervalli temporali"
+
+#. module: openforce_salesman
+#: help:salesman.pricelist.item,min_quantity:0
+msgid ""
+"Specify the minimum quantity that needs to be bought/sold for the rule to "
+"apply."
+msgstr ""
+"Specify the minimum quantity that needs to be bought/sold for the rule to "
+"apply."
+
+#. module: openforce_salesman
+#: help:salesman.pricelist.version,date_start:0
+msgid "First valid date for the version."
+msgstr "Prima data valida per la versione"
+
+#. module: openforce_salesman
+#: field:salesman.commission.item,invoice_line_qty:0
+msgid "Quantity"
+msgstr "Quantity"
+
+#. module: openforce_salesman
+#: model:ir.actions.act_window,help:openforce_salesman.openforce_salesman_pricelist_action2
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a pricelist.\n"
+"              </p>\n"
+"            "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a pricelist.\n"
+"              </p>\n"
+"            "
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_salesman_commission_sale_invoice
+msgid "Salesman - Commission on sale invoice"
+msgstr "Salesman - Commission on sale invoice"
+
+#. module: openforce_salesman
+#: field:salesman.salesman,partners:0
+msgid "Salesman's partners"
+msgstr "Partner dell'agente"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.item,sequence:0
+msgid "Sequence"
+msgstr "Sequenza"
+
+#. module: openforce_salesman
+#: model:ir.actions.report.xml,name:openforce_salesman.salesman_report_commission_item
+msgid "Report commission item"
+msgstr "Report provvigioni"
+
+#. module: openforce_salesman
+#: view:salesman.commission.item:0
+msgid "Period"
+msgstr "Periodo"
+
+#. module: openforce_salesman
+#: model:ir.model,name:openforce_salesman.model_account_invoice
+msgid "Invoice"
+msgstr "Fattura"
+
+#. module: openforce_salesman
+#: model:ir.actions.act_window,name:openforce_salesman.openforce_salesman_pricelist_discount_action
+#: model:ir.ui.menu,name:openforce_salesman.openforce_salesman_pricelist_discount_menu
+msgid "Discount-Commission table"
+msgstr "Tabella sconti-provvigioni"
+
+#. module: openforce_salesman
+#: view:salesman.pricelist.item:0
+msgid "Products Listprices Items"
+msgstr "Listino provvigioni - Prodotti "
+
+#. module: openforce_salesman
+#: view:salesman.pricelist.discount_commission:0
+msgid "Discount-Commission Lines"
+msgstr "Sconti-Provvigioni Linee"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.version,items_id:0
+msgid "Price List Items"
+msgstr "Provvigioni"
+
+#. module: openforce_salesman
+#: view:salesman.commission.item:0 field:salesman.commission.item,product_id:0
+#: field:salesman.pricelist.item,product_id:0
+msgid "Product"
+msgstr "Prodotto"
+
+#. module: openforce_salesman
+#: field:salesman.commission.item,invoice_line_price:0
+msgid "Price"
+msgstr "Prezzo"
+
+#. module: openforce_salesman
+#: view:salesman.pricelist.item:0
+msgid "Salesman Listprices Items"
+msgstr "Salesman Listprices Items"
+
+#. module: openforce_salesman
+#: view:salesman.pricelist:0
+msgid "Salesman Price Search"
+msgstr "Agenti Price Search"
+
+#. module: openforce_salesman
+#: field:salesman.commission.item,commission_sale_invoice_id:0
+msgid "Commission Sale invoice"
+msgstr "Provvigioni fattura"
+
+#. module: openforce_salesman
+#: model:ir.actions.act_window,help:openforce_salesman.openforce_salesman_pricelist_discount_action
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a table discount-commission.\n"
+"              </p>\n"
+"            "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a table discount-commission.\n"
+"              </p>\n"
+"            "
+
+#. module: openforce_salesman
+#: model:ir.actions.act_window,help:openforce_salesman.openforce_salesman_salesman_action
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to add a salesman.\n"
+"              </p><p>\n"
+"                There can be more than one version of a pricelist, each of\n"
+"                these must be valid during a certain period of time. Some\n"
+"                examples of versions: Main Prices, 2010, 2011, Summer "
+"Sales,\n"
+"                etc.\n"
+"              </p>\n"
+"            "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to add a salesman.\n"
+"              </p><p>\n"
+"                There can be more than one version of a pricelist, each of\n"
+"                these must be valid during a certain period of time. Some\n"
+"                examples of versions: Main Prices, 2010, 2011, Summer "
+"Sales,\n"
+"                etc.\n"
+"              </p>\n"
+"            "
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.version,date_end:0
+msgid "End Date"
+msgstr "Data fine"
+
+#. module: openforce_salesman
+#: field:salesman.commission.item,name:0 field:salesman.pricelist.type,name:0
+#: field:salesman.pricelist.version,name:0 view:salesman.salesman:0
+msgid "Name"
+msgstr "Nome"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.item,base_pricelist_id:0
+msgid "Other Pricelist"
+msgstr "Altro listino "
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.item,product_tmpl_id:0
+msgid "Product Template"
+msgstr "Product Template"
+
+#. module: openforce_salesman
+#: field:salesman.commission.item,period_id:0
+msgid "Competence Period"
+msgstr "Periodo compentenza"
+
+#. module: openforce_salesman
+#: model:ir.actions.act_window,name:openforce_salesman.openforce_salesman_pricelist
+#: model:ir.ui.menu,name:openforce_salesman.menu_openforce_salesman_pricelist_action
+#: field:salesman.pricelist,version_id:0
+msgid "Pricelist Versions"
+msgstr "Versioni Listino"
+
+#. module: openforce_salesman
+#: constraint:salesman.pricelist.item:0
+msgid ""
+"Error! You cannot assign the Main Pricelist as Other Pricelist in PriceList "
+"Item!"
+msgstr ""
+"Error! You cannot assign the Main Pricelist as Other Pricelist in PriceList "
+"Item!"
+
+#. module: openforce_salesman
+#: model:ir.actions.act_window,name:openforce_salesman.openforce_salesman_salesman_action
+#: model:ir.ui.menu,name:openforce_salesman.menu_openforce_salesman_main
+#: model:ir.ui.menu,name:openforce_salesman.menu_openforce_salesman_salesman_action
+#: view:salesman.salesman:0
+msgid "Salesmen"
+msgstr "Agenti"
+
+#. module: openforce_salesman
+#: field:salesman.pricelist.item,min_quantity:0
+msgid "Min. Quantity"
+msgstr "Min. Quantity"
+
+#. module: openforce_salesman
+#: constraint:salesman.salesman:0
+msgid "Error: Salesman already exists"
+msgstr "Error: Agente già esistente "

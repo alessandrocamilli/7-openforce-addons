@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="openforce_discount_product_supplierinfo_form_view" model="ir.ui.view">
+            <field name="name">openforce.discount.product.supplierinfo.form.view</field>
+            <field name="model">product.supplierinfo</field>
+            <field name="inherit_id" ref="product.product_supplierinfo_form_view"/>
+            <field name="arch" type="xml">
+                
+                <xpath expr="//field[@name='min_qty']" position="after">
+                	<field name="supplier_pricelist_id" />
+                </xpath>
+                    
+                <xpath expr="//field[@name='pricelist_ids']//field[@name='price']" position="after">
+                    <field name="discount1" string="Discount 1"/>
+                    <field name="discount2" string="Discount 2"/>
+           		</xpath>
+           		
+                <xpath expr="//field[@name='name']" position="attributes">
+                    <attribute name="on_change">onchange_supplier(name)</attribute>
+                </xpath>
+                
+            </field>
+	</record>
+
+    </data>
+</openerp>

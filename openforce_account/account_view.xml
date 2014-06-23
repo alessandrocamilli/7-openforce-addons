@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<openerp>
+	<data>
+	    <!-- 
+	    Date maturity always visible
+	     -->
+		<record  id="openforce_account_date_maturity_line_tree" model="ir.ui.view">
+			<field name="name">openforce.account.date.maturity.tree</field>
+			<field name="model">account.move.line</field>
+			<field name="inherit_id" ref="account.view_move_line_tree"/>
+			<field name="arch" type="xml">
+			    
+				<xpath expr="//field[@name='date_maturity']" position="replace">
+					<field name="date_maturity" />
+				</xpath>
+				
+			</field>
+		</record>
+		
+		<!-- Sale invoice - line on window -->
+        <record id="openforce_account_default_invoice_form" model="ir.ui.view">
+            <field name="name">openforce.account.default.invoice.form</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="account.invoice_form"/>
+            <field name="arch" type="xml">
+           		
+           		<xpath expr="//tree[@string='Invoice Lines']" position="attributes">
+		        	<attribute name="editable"></attribute>
+           		</xpath>
+           		
+            </field>
+		</record>
+		
+		
+	</data>
+</openerp>

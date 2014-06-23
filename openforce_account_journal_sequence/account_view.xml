@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<openerp>
+	<data>
+		<!--
+        JOURNAL
+         -->
+        <record id="openforce_account_journal_selection_seq_view_form" model="ir.ui.view">
+            <field name="name">account.journal.selection.sequence.view.form</field>
+            <field name="model">account.journal</field>
+            <field name="inherit_id" ref="account.view_account_journal_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='centralisation']" position="before">
+                    <field name="selection_sequence"/>
+           		</xpath>
+            </field>
+		</record>
+		
+        <!-- Fiscal Position -->
+	    <record model="ir.ui.view" id="openforce_fiscal_position_journal_autoselection_form">
+			<field name="name">openforce.fiscal.position.journal.autoselection.form</field>
+			<field name="model">account.fiscal.position</field>
+			<field name="inherit_id" ref="account.view_account_position_form"/>
+			<field name="arch" type="xml">
+			    
+				<xpath expr="//separator[@string='Taxes Mapping']" position="before">
+				    <group col="4">
+				        <field name="sale_invoice_journal_id"></field>
+				        <field name="purchase_invoice_journal_id"></field>
+				    </group>
+				</xpath>
+				
+			</field>
+		</record>
+	    
+	    <!-- Supplier invoice -->
+		<record model="ir.ui.view" id="openforce_invoice_journal_autoselection_form">
+			<field name="name">openforce.invoice.journal.autoselection.form</field>
+			<field name="model">account.invoice</field>
+			<field name="inherit_id" ref="account.invoice_supplier_form"/>
+			<field name="arch" type="xml">
+			    
+				<xpath expr="//field[@name='fiscal_position']" position="attributes">
+				    <attribute name="on_change">onchange_fiscal_position(fiscal_position, 'purchase')</attribute>
+				</xpath>
+				
+			</field>
+		</record>
+		
+		<!-- Customer invoice -->
+		<record model="ir.ui.view" id="openforce_sale_invoice_journal_autoselection_form">
+			<field name="name">openforce.sale.invoice.journal.autoselection.form</field>
+			<field name="model">account.invoice</field>
+			<field name="inherit_id" ref="account.invoice_form"/>
+			<field name="arch" type="xml">
+			    
+				<xpath expr="//field[@name='fiscal_position']" position="attributes">
+				    <attribute name="on_change">onchange_fiscal_position(fiscal_position, 'sale')</attribute>
+				</xpath>
+				
+			</field>
+		</record>
+		
+	</data>
+</openerp>

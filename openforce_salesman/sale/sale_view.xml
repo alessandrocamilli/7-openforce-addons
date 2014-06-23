@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- 
+        Sale order
+        -->
+		<record id="salesman_commission_sale_order" model="ir.ui.view">
+			<field name="name">salesman.commission.sale.order</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale_stock.view_order_form_inherit"/>
+			<field name="priority" eval="50"/>
+			<field name="arch" type="xml">
+			    
+			    <xpath expr="//page[@string='Other Information']/group/group/field[@name='user_id']" position="after">
+				    <newline/>
+				    <field name="salesman_pricelist" attrs="{'required':[('user_id','!=',False)]}" context="{'salesman_pricelist': salesman_pricelist}"/>
+				</xpath>
+				
+			    # load salesman's pricelist
+				<xpath expr="//page[@string='Other Information']/group/group/field[@name='user_id']" position="replace">
+				    <field name="user_id" on_change="onchange_user_id(user_id, context)" context="{'order_line': order_line, 'section_id': section_id, 'partner_id': partner_id, 'date_order': date_order}"/>
+				</xpath>
+			    
+				# Section commissions
+				<xpath expr="//page[@string='Order Lines']/field/form/field[@name='name']" position="after">
+				    <div groups="base.group_sale_salesman">
+	                    <label for="Salesmen Commissions"/>
+	                    <field name="salesman_commission_ids">
+	                        <tree>
+	                            <field name ="percent"/>
+	                            <field name ="amount"/>
+	                            <field name ="salesman_id"/>
+	                            <field name ="pricelist_item_id"/>
+	                            <field name ="pricelist_id"/>
+	                            <field name ="section_id"/>
+	                        </tree>
+	                    </field>
+                    </div>
+				</xpath>
+				
+				<xpath expr="//field[@name='order_line']/form//field[@name='product_id']" position="replace">
+	                       <field name="product_id"
+	                       context="{'section_id': parent.section_id, 'user_id': parent.user_id, 'salesman_pricelist': parent.salesman_pricelist ,'partner_id':parent.partner_id, 'quantity':product_uom_qty, 'pricelist':parent.pricelist_id, 'shop':parent.shop_id, 'uom':product_uom, 'discount':discount, 'discount2':discount2}"
+	                       groups="base.group_user" 
+	                       on_change="product_id_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, True, parent.date_order, product_packaging, parent.fiscal_position, False, context)"/>
+                </xpath>
+                <xpath expr="//field[@name='order_line']/form//field[@name='product_uom_qty']" position="replace">
+	                       <field context="{'section_id': parent.section_id, 'user_id': parent.user_id, 'salesman_pricelist': parent.salesman_pricelist, 'partner_id':parent.partner_id, 'quantity':product_uom_qty, 'pricelist':parent.pricelist_id, 'shop':parent.shop_id, 'uom':product_uom, 'discount':discount, 'discount2':discount2}"
+                             name="product_uom_qty" class="oe_inline"
+                           on_change="product_id_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, False, parent.date_order, product_packaging, parent.fiscal_position, True, context)"/>
+                </xpath>
+                <!-- 
+                <xpath expr="//field[@name='order_line']/form//field[@name='discount']" position="replace">
+	                       <field context="{'section_id': parent.section_id, 'user_id': parent.user_id, 'salesman_pricelist': parent.salesman_pricelist, 'partner_id':parent.partner_id, 'quantity':product_uom_qty, 'pricelist':parent.pricelist_id, 'shop':parent.shop_id, 'uom':product_uom, 'discount':discount, 'discount2':discount2}"
+                             name="discount" class="oe_inline"
+                           on_change="product_id_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, False, parent.date_order, product_packaging, parent.fiscal_position, True, context)"/>
+                </xpath> -->
+                <xpath expr="//field[@name='order_line']/form//field[@name='discount']" position="replace">
+	                       <field context="{'section_id': parent.section_id, 'user_id': parent.user_id, 'salesman_pricelist': parent.salesman_pricelist, 'partner_id':parent.partner_id, 'quantity':product_uom_qty, 'pricelist':parent.pricelist_id, 'shop':parent.shop_id, 'uom':product_uom, 'discount':discount, 'discount2':discount2}"
+                             name="discount" class="oe_inline"
+                           on_change="discount1_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, False, parent.date_order, product_packaging, parent.fiscal_position, True, context)"/>
+                </xpath>
+                
+                <xpath expr="//field[@name='order_line']/tree/field[@name='product_id']" position="replace">
+	                       <field name="product_id"
+	                       context="{'section_id': parent.section_id, 'user_id': parent.user_id, 'salesman_pricelist': parent.salesman_pricelist ,'partner_id':parent.partner_id, 'quantity':product_uom_qty, 'pricelist':parent.pricelist_id, 'shop':parent.shop_id, 'uom':product_uom, 'discount':discount, 'discount2':discount2}"
+	                       groups="base.group_user" 
+	                       on_change="product_id_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, True, parent.date_order, product_packaging, parent.fiscal_position, False, context)"/>
+                </xpath>
+                <xpath expr="//field[@name='order_line']/tree/field[@name='product_uom_qty']" position="replace">
+	                       <field context="{'section_id': parent.section_id, 'user_id': parent.user_id, 'salesman_pricelist': parent.salesman_pricelist, 'partner_id':parent.partner_id, 'quantity':product_uom_qty, 'pricelist':parent.pricelist_id, 'shop':parent.shop_id, 'uom':product_uom, 'discount':discount, 'discount2':discount2}"
+                             name="product_uom_qty" class="oe_inline"
+                           on_change="product_id_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, False, parent.date_order, product_packaging, parent.fiscal_position, True, context)"/>
+                </xpath>
+                <!-- 
+                <xpath expr="//field[@name='order_line']/tree/field[@name='discount']" position="replace">
+	                       <field context="{'section_id': parent.section_id, 'user_id': parent.user_id, 'salesman_pricelist': parent.salesman_pricelist, 'partner_id':parent.partner_id, 'quantity':product_uom_qty, 'pricelist':parent.pricelist_id, 'shop':parent.shop_id, 'uom':product_uom, 'discount':discount, 'discount2':discount2}"
+                             name="discount" class="oe_inline"
+                           on_change="product_id_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, False, parent.date_order, product_packaging, parent.fiscal_position, True, context)"/>
+                </xpath> -->
+                <xpath expr="//field[@name='order_line']/tree/field[@name='discount']" position="replace">
+	                       <field context="{'section_id': parent.section_id, 'user_id': parent.user_id, 'salesman_pricelist': parent.salesman_pricelist, 'partner_id':parent.partner_id, 'quantity':product_uom_qty, 'pricelist':parent.pricelist_id, 'shop':parent.shop_id, 'uom':product_uom, 'discount':discount, 'discount2':discount2}"
+                             name="discount" class="oe_inline"
+                           on_change="discount1_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, False, parent.date_order, product_packaging, parent.fiscal_position, True, context)"/>
+                </xpath>
+                
+			</field>
+		</record>
+		
+		<record id="salesman_commission_sale_order2" model="ir.ui.view">
+			<field name="name">salesman.commission.sale.order2</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_form"/>
+			<field name="priority" eval="50"/>
+			<field name="arch" type="xml">
+		 		
+		 		<xpath expr="//field[@name='order_line']/form//field[@name='product_id']" position="replace">
+	                       <field name="product_id"
+	                       context="{'section_id': parent.section_id, 'user_id': parent.user_id, 'salesman_pricelist': parent.salesman_pricelist ,'partner_id':parent.partner_id, 'quantity':product_uom_qty, 'pricelist':parent.pricelist_id, 'shop':parent.shop_id, 'uom':product_uom, 'discount':discount, 'discount2':discount2}"
+	                       groups="base.group_user" 
+	                       on_change="product_id_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, True, parent.date_order, product_packaging, parent.fiscal_position, False, context)"/>
+                </xpath>
+                <xpath expr="//field[@name='order_line']/form//field[@name='product_uom_qty']" position="replace">
+	                       <field context="{'section_id': parent.section_id, 'user_id': parent.user_id, 'salesman_pricelist': parent.salesman_pricelist, 'partner_id':parent.partner_id, 'quantity':product_uom_qty, 'pricelist':parent.pricelist_id, 'shop':parent.shop_id, 'uom':product_uom, 'discount':discount, 'discount2':discount2}"
+                             name="product_uom_qty" class="oe_inline"
+                           on_change="product_id_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, False, parent.date_order, product_packaging, parent.fiscal_position, True, context)"/>
+                </xpath>
+                <!--  
+                <xpath expr="//field[@name='order_line']/form//field[@name='discount']" position="replace">
+	                       <field context="{'section_id': parent.section_id, 'user_id': parent.user_id, 'salesman_pricelist': parent.salesman_pricelist, 'partner_id':parent.partner_id, 'quantity':product_uom_qty, 'pricelist':parent.pricelist_id, 'shop':parent.shop_id, 'uom':product_uom, 'discount':discount, 'discount2':discount2}"
+                             name="discount" class="oe_inline"
+                           on_change="product_id_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, False, parent.date_order, product_packaging, parent.fiscal_position, True, context)"/>
+                </xpath>-->
+                <xpath expr="//field[@name='order_line']/form//field[@name='discount']" position="replace">
+	                       <field context="{'section_id': parent.section_id, 'user_id': parent.user_id, 'salesman_pricelist': parent.salesman_pricelist, 'partner_id':parent.partner_id, 'quantity':product_uom_qty, 'pricelist':parent.pricelist_id, 'shop':parent.shop_id, 'uom':product_uom, 'discount':discount, 'discount2':discount2}"
+                             name="discount" class="oe_inline"
+                           on_change="discount1_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, False, parent.date_order, product_packaging, parent.fiscal_position, True, context)"/>
+                </xpath>
+	  		
+	  		</field>
+		</record>
+		
+		
+    </data>
+</openerp>

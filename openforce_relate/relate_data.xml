@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+
+    <!-- E-mail template -->
+       
+    <data noupdate="1">
+        <!--Email template -->
+        <record id="relate_email_template_contract_payment" model="email.template">
+            <field name="name">Contract alert payment - Send by mail</field>
+            <!-- <field name="email_from">bms@openerp.com</field> -->
+            <field name="email_from"></field>
+            <field name="subject">Contract to invoice</field>
+            <field name="email_to"></field>
+            <field name="auto_delete" eval="True" />
+            <field name="model_id" ref="model_relate_contract_payment_term" />
+            <field name="body_html"><![CDATA[
+<div style="font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; ">
+
+
+    <p>Risulta da fatturare il seguente contratto:</p>
+
+</div>
+            ]]></field>
+        </record>
+    </data>
+    
+    
+    <!-- Cron for alert rate -->
+       
+    <data noupdate="1">
+        <record id="relate_crton_contract_payment" model="ir.cron">
+            <field name="name">Contract alert payment</field>
+            <field name="active" eval="1"></field>
+            <field name="priority" eval="5"></field>
+            <!-- <field name="user_id">Administrator</field> -->
+            <field name="interval_number">1</field>
+            <field name="interval_type">days</field>
+            <field name="numbercall">-1</field>
+            <!-- <field name="nextcall"></field> -->
+            <field name="model">relate.contract.payment.term</field>
+            <field name="function">mail_alert</field>
+            <field name="args">()</field>
+            
+        </record>
+    </data>
+    
+    
+    
+</openerp>

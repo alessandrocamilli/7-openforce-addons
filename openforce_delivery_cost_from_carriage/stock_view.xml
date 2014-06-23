@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="openforce_delivery_cost_on_shipping_form" model="ir.ui.view">
+            <field name="name">Carriage condition - Costs to ship</field>
+            <field name="model">stock.picking.carriage_condition</field>
+            <field name="inherit_id" ref="l10n_it_sale.view_carriage_condition_form"/>
+            <field name="arch" type="xml">
+            	<field name="name" position="after">
+            		<field name="delivery_cost_on_shipping"/>
+            	</field>
+            </field>
+		</record>
+		
+        <record id="openforce_delivery_cost_on_shipping_tree" model="ir.ui.view">
+            <field name="name">Carriage condition - Costs to ship</field>
+            <field name="model">stock.picking.carriage_condition</field>
+            <field name="inherit_id" ref="l10n_it_sale.view_carriage_condition_tree"/>
+            <field name="arch" type="xml">
+            
+                <field name="name" position="after">
+            		<field name="delivery_cost_on_shipping"/>
+            	</field>
+            </field>
+		</record>
+		
+    </data>
+</openerp>
+

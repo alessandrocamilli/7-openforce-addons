@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="riba partner" language="groovy" pageWidth="700" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="660" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="18"/>
+	<property name="ireport.y" value="16"/>
+	<parameter name="date_maturity_from" class="java.lang.String"/>
+	<parameter name="date_maturity_to" class="java.lang.String"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["/Users/alex/openerp/addons-custom/account_vat_liquidazione_report/report/"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="type" class="java.lang.String"/>
+	<parameter name="journal_ids" class="java.lang.Object"/>
+	<parameter name="journal_list" class="java.util.List">
+		<defaultValueExpression><![CDATA[$P{journal_ids}.toList()]]></defaultValueExpression>
+	</parameter>
+	<parameter name="sql_where" class="java.lang.String"/>
+	<parameter name="sql_order_by" class="java.lang.String"/>
+	<parameter name="order" class="java.lang.String"/>
+	<parameter name="sql_select" class="java.lang.String"/>
+	<parameter name="sql_group_by" class="java.lang.String"/>
+	<parameter name="date_invoice_from" class="java.lang.String"/>
+	<parameter name="date_invoice_to" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT
+cp.name as company_name,
+/* bank */
+CASE WHEN rco.name is null THEN 'Da presentare' ELSE rco.name END as riba_config_name,
+/* date_maturity */
+/*ml.date_maturity as date_maturity,*/
+rdl.due_date as date_maturity,
+/* importo */
+/* SUM(rdml.amount) as riba_importo, */
+
+CASE WHEN rd.state = 'accredited'
+THEN (
+	CASE WHEN rco.name is null THEN SUM(ml.debit) ELSE SUM(rdml.amount) END
+) END as riba_importo,
+
+CASE WHEN rd.state <> 'accredited'
+THEN (
+	CASE WHEN rco.name is null THEN SUM(ml.debit) ELSE SUM(rdml.amount) END
+) END as riba_importo_da_accreditare
+
+/*CASE WHEN rco.name is null THEN SUM(ml.debit) END as importo_da_presentare,*/
+
+from account_move_line ml
+left join account_move m on ml.move_id = m.id
+left join account_account a on ml.account_id = a.id
+left join res_partner p on ml.partner_id = p.id
+left join account_invoice i on m.id = i.move_id
+left join account_journal j on m.journal_id = j.id
+left join res_company cp on ml.company_id = cp.id
+left join account_payment_term pt on i.payment_term = pt.id
+left join account_payment_term_type ptt on pt.type_id = ptt.id
+left join res_partner_bank pbank on p.bank_riba_id = pbank.id
+
+left join riba_distinta_move_line rdml on ml.id = rdml.move_line_id
+left join riba_distinta_line rdl on rdml.riba_line_id = rdl.id
+left join riba_distinta rd on rdl.distinta_id = rd.id
+left join riba_configurazione rco on rd.config = rco.id
+
+where
+$P!{sql_where} and rco.id is not null
+
+group by
+cp.name, rco.name, rdl.due_date, rd.state
+order by cp.name, rco.name, rdl.due_date]]>
+	</queryString>
+	<field name="company_name" class="java.lang.String"/>
+	<field name="riba_config_name" class="java.lang.String"/>
+	<field name="date_maturity" class="java.lang.String"/>
+	<field name="riba_importo" class="java.lang.Double"/>
+	<field name="riba_importo_da_accreditare" class="java.lang.Double"/>
+	<variable name="Tot_bank_importo_riba" class="java.lang.Float" resetType="Group" resetGroup="Bank" calculation="Sum">
+		<variableExpression><![CDATA[$F{riba_importo}]]></variableExpression>
+	</variable>
+	<variable name="Tot_generale_importo_riba" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{riba_importo}]]></variableExpression>
+	</variable>
+	<variable name="Tot_bank_importo_riba_da_accreditare" class="java.lang.Float" resetType="Group" resetGroup="Bank" calculation="Sum">
+		<variableExpression><![CDATA[$F{riba_importo_da_accreditare}]]></variableExpression>
+	</variable>
+	<variable name="Tot_generale_importo_riba_da_accreditare" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{riba_importo_da_accreditare}]]></variableExpression>
+	</variable>
+	<group name="Bank">
+		<groupExpression><![CDATA[$F{riba_config_name}]]></groupExpression>
+		<groupHeader>
+			<band height="19">
+				<textField>
+					<reportElement x="1" y="7" width="294" height="12"/>
+					<textElement lineSpacing="Single">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{riba_config_name}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="15">
+				<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+					<reportElement x="346" y="2" width="55" height="10">
+						<printWhenExpression><![CDATA[$V{Tot_bank_importo_riba} != 0]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right" lineSpacing="Single">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<textFieldExpression class="java.lang.Float"><![CDATA[$V{Tot_bank_importo_riba}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+					<reportElement x="413" y="2" width="55" height="10">
+						<printWhenExpression><![CDATA[$V{Tot_bank_importo_riba_da_accreditare} != 0]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Right" lineSpacing="Single">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<textFieldExpression class="java.lang.Float"><![CDATA[$V{Tot_bank_importo_riba_da_accreditare}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="40" splitType="Stretch">
+			<staticText>
+				<reportElement x="181" y="0" width="196" height="15"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" lineSpacing="Single">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ri.Ba]]></text>
+			</staticText>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="65" y="27" width="50" height="12"/>
+				<textElement verticalAlignment="Middle" lineSpacing="Single">
+					<font size="8" isItalic="true"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[new SimpleDateFormat("yyyy-MM-dd").parse($P{date_maturity_from})]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="128" y="27" width="50" height="12"/>
+				<textElement verticalAlignment="Middle" lineSpacing="Single">
+					<font size="8" isItalic="true"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[new SimpleDateFormat("yyyy-MM-dd").parse($P{date_maturity_to})]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="117" y="27" width="10" height="12"/>
+				<textElement verticalAlignment="Middle" lineSpacing="Single">
+					<font size="8" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="8" width="152" height="14"/>
+				<textElement lineSpacing="Single"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{company_name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2" y="27" width="59" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" lineSpacing="Single">
+					<font size="8" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Data scadenza]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="182" y="27" width="59" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" lineSpacing="Single">
+					<font size="8" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Data fattura]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="297" y="27" width="10" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" lineSpacing="Single">
+					<font size="8" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<textField pattern="dd/MM/yyyy" isBlankWhenNull="true">
+				<reportElement x="308" y="27" width="50" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" lineSpacing="Single">
+					<font size="8" isItalic="true"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[$P{date_invoice_to} != "" ? new SimpleDateFormat("yyyy-MM-dd").parse($P{date_invoice_to}) : null]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy" isBlankWhenNull="true">
+				<reportElement x="245" y="27" width="50" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" lineSpacing="Single">
+					<font size="8" isItalic="true"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[$P{date_invoice_from} != "" ? new SimpleDateFormat("yyyy-MM-dd").parse($P{date_invoice_from}) : null]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="144" y="15" width="276" height="12"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" lineSpacing="Single">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Riba per data scadenza su banche di presentazione]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="28" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="27"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="366" y="14" width="35" height="12"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Importo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="232" y="14" width="63" height="12"/>
+				<textElement textAlignment="Left" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Scadenza]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="433" y="2" width="35" height="24"/>
+				<textElement textAlignment="Right" verticalAlignment="Bottom" lineSpacing="Single">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[Importo da accreditare]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="12" splitType="Stretch">
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="346" y="1" width="55" height="10">
+					<printWhenExpression><![CDATA[$F{riba_importo} != 0]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Float"><![CDATA[$F{riba_importo}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="2" y="11" width="553" height="1"/>
+				<graphicElement>
+					<pen lineStyle="Dotted" lineColor="#CCCCCC"/>
+				</graphicElement>
+			</line>
+			<textField pattern="dd/MM/yyyy" isBlankWhenNull="true">
+				<reportElement x="232" y="1" width="82" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[new SimpleDateFormat("yyyy-MM-dd").parse($F{date_maturity})]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="413" y="1" width="55" height="10">
+					<printWhenExpression><![CDATA[$F{riba_importo_da_accreditare} != 0]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Float"><![CDATA[$F{riba_importo_da_accreditare}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="24" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="1" width="555" height="1"/>
+			</line>
+			<textField evaluationTime="Report">
+				<reportElement x="310" y="7" width="40" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="7" width="80" height="10"/>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["Pagina "+$V{PAGE_NUMBER}+" di"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="7" width="37" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[Stampata il]]></text>
+			</staticText>
+			<textField pattern="dd/MM/yyyy HH:mm">
+				<reportElement x="51" y="7" width="62" height="10"/>
+				<textElement lineSpacing="Single">
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="400">
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="347" y="5" width="55" height="12">
+					<printWhenExpression><![CDATA[$V{Tot_generale_importo_riba} != 0]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Float"><![CDATA[$V{Tot_generale_importo_riba}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="261" y="5" width="83" height="12"/>
+				<textElement lineSpacing="Single">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Totale generale]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="1" width="555" height="1"/>
+			</line>
+			<subreport>
+				<reportElement x="2" y="51" width="553" height="349"/>
+				<subreportParameter name="sql_where">
+					<subreportParameterExpression><![CDATA[$P{sql_where}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="sql_select"/>
+				<subreportParameter name="date_invoice_to">
+					<subreportParameterExpression><![CDATA[$P{date_invoice_to}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="sql_group_by"/>
+				<subreportParameter name="date_maturity_to">
+					<subreportParameterExpression><![CDATA[$P{date_maturity_to}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="type"/>
+				<subreportParameter name="journal_ids"/>
+				<subreportParameter name="SUBREPORT_DIR"/>
+				<subreportParameter name="date_maturity_from">
+					<subreportParameterExpression><![CDATA[$P{date_maturity_from}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="journal_list"/>
+				<subreportParameter name="order"/>
+				<subreportParameter name="date_invoice_from">
+					<subreportParameterExpression><![CDATA[$P{date_invoice_from}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="sql_order_by"/>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression class="java.lang.String"><![CDATA[$P{SUBREPORT_DIR} + "bank_riba_da_presentare.jasper"]]></subreportExpression>
+			</subreport>
+			<staticText>
+				<reportElement x="144" y="31" width="276" height="12"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" lineSpacing="Single">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Riba da presentare]]></text>
+			</staticText>
+			<textField pattern="#,##0.00;-#,##0.00" isBlankWhenNull="true">
+				<reportElement x="413" y="5" width="55" height="12">
+					<printWhenExpression><![CDATA[$V{Tot_generale_importo_riba_da_accreditare} != 0]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right" lineSpacing="Single">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Float"><![CDATA[$V{Tot_generale_importo_riba_da_accreditare}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

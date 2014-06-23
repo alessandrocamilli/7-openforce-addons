@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp><data>
+
+    <record id="group_relate_user" model="res.groups">
+        <field name="name">Relate User</field>
+    </record>
+
+    <record id="group_relate_manager" model="res.groups">
+        <field name="name">Relate Manager</field>
+    </record>
+    
+</data></openerp>

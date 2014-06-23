@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="wizard_salesman_report_commission_item" model="ir.ui.view">
+            <field name="name">wizard.salesman.report.commission.form</field>
+            <field name="model">wizard.salesman.report.commission.item</field>
+            <field name="type">form</field> 
+            <field name="arch" type="xml">
+                <form string="Report Options" version="7.0">
+                    
+                  <newline/>
+                   <field name="order_by"/>
+                   <field name="group_by"/>
+                   
+                    <separator colspan="4"/>
+                    <group col="4" colspan="4">
+                        <button icon="gtk-cancel" special="cancel" string="Cancel" colspan="2"/>
+                        <button icon="gtk-print" name="print_report" string="Print" type="object" colspan="2" default_focus="1" />
+                    </group>
+                    
+            	</form>
+            </field>
+        </record>
+
+        <record id="action_wizard_salesman_report_commission_item" model="ir.actions.act_window">
+            <field name="name">Report Commissions</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">wizard.salesman.report.commission.item</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="wizard_salesman_report_commission_item"/>
+            <field name="target">new</field>
+        </record>
+        
+        <menuitem name="Report commissions"
+            parent="menu_openforce_salesman_report_main" action="action_wizard_salesman_report_commission_item"
+            groups="account.group_account_manager,account.group_account_user" id="menu_wizard_salesman_report_commission_item"/>
+ 		 
+    </data>
+</openerp>

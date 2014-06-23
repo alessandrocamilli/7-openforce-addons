@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<openerp>
+<data>
+	<!-- 
+    <record id="openforce_purchase_order_report" model="ir.actions.report.xml">
+        <field name="name">Purchase order</field>
+        <field name="type">ir.actions.report.xml</field>
+        <field name="model">purchase.order</field>
+        <field name="report_name">openforce_purchase_order_report</field>
+        <field name="report_rml">openforce_purchase_order_report/report/purchase_order.jrxml</field>
+        <field name="report_type">pdf</field>
+        <field name="jasper_report">True</field>
+        <field name="jasper_output">pdf</field>
+    </record>
+     -->
+    <report id="openforce_purchase_order_report"
+            string="Stampa ordine"
+            model="purchase.order"
+            name="purchase_order"
+            rml="openforce_purchase_order_report/report/purchase_order.jrxml"
+            menu="True"
+            auto="False"/>
+            
+     <record id="openforce_purchase_order_report_button_print_custom" model="ir.ui.view">
+            <field name="name">Openforce custom report link to print button</field>
+            <field name="model">purchase.order</field>
+            <field name="inherit_id" ref="purchase.purchase_order_form"/>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <data>
+                    <!-- fix the right pdf report -->
+                    <xpath expr="//button[@string='Print']" position="attributes">
+                        <attribute name="name">%(openforce_purchase_order_report.openforce_purchase_order_report)d</attribute>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+    
+    
+</data>
+</openerp>

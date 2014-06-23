@@ -1,0 +1,41 @@
+<openerp>
+	<data>
+	    
+	    <record id="openforce_base_company_form" model="ir.ui.view">
+			<field name="name">openforce.base.company.form</field>
+			<field name="model">res.company</field>
+			<field name="inherit_id" ref="base.view_company_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//page[@string='Configuration']" position="after">
+				    <page string="Openforce">
+				    	<group string="Invoice - Header and Footer">
+                            <field name="openforce_invoice_header_text"/>
+                            <field name="openforce_invoice_footer_text"/>
+	                   	</group>
+					    <group string="Sale - Header and Footer">
+                            <field name="openforce_sale_header_text"/>
+                            <field name="openforce_sale_footer_text"/>
+	                   	</group>
+	                   	<group string="Generic - Header and Footer">
+                            <field name="openforce_header_text"/>
+                            <field name="openforce_footer_text"/>
+	                   	</group>
+	                   	<group string="Logos">
+	                   	    <group>
+	                   	    	<field name="openforce_logo1"/>
+                            	<field name="openforce_logo2"/>    
+                            	<field name="openforce_logo3"/>    
+	                   	    </group>
+	                   	    <group>
+	                   	        <field name="openforce_logo4"/>
+                            	<field name="openforce_logo5"/>    
+                            	<field name="openforce_logo6"/>
+	                   	    </group>
+	                   	</group>
+                    </page>
+				</xpath>
+			</field>
+		</record>
+		
+    </data>
+</openerp>

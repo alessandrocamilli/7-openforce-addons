@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- VAT PRO-RATA STATEMENT -->
+        <!-- Workflow definition -->
+
+        <record id="wkf_vat_prorata" model="workflow">
+            <field name="name">account.vat.prorata.wkf</field>
+            <field name="osv">account.vat.prorata.statement</field>
+            <field name="on_create">True</field>
+        </record>
+        
+        <record id="vat_prorata_act_draft" model="workflow.activity">
+            <field name="wkf_id" ref="wkf_vat_prorata"/>
+            <field name="name">draft</field>
+            <field name="kind">function</field>
+            <field name="action">write({'state':'draft'})</field>
+            <field name="flow_start">True</field>
+        </record>
+        <record id="vat_prorata_act_open" model="workflow.activity">
+            <field name="wkf_id" ref="wkf_vat_prorata"/>
+            <field name="name">open</field>
+            <field name="kind">function</field>
+            <field name="action">write({'state':'open'})</field>
+        </record>
+        <record id="vat_prorata_act_close" model="workflow.activity">
+            <field name="wkf_id" ref="wkf_vat_prorata"/>
+            <field name="name">close</field>
+            <field name="kind">function</field>
+            <field name="action">write({'state':'close'})</field>
+            <field name="flow_stop">True</field>
+        </record>
+        
+        <!-- transitions -->
+        <record id="vat_prorata_t1" model="workflow.transition">
+            <field name="act_from" ref="vat_prorata_act_draft"/>
+            <field name="act_to" ref="vat_prorata_act_open"/>
+            <field name="signal">start</field>
+            <field name="group_id" ref="account.group_account_user"/>
+        </record>
+        <record id="vat_prorata_t2" model="workflow.transition">
+            <field name="act_from" ref="vat_prorata_act_open"/>
+            <field name="act_to" ref="vat_prorata_act_close"/>
+            <field name="signal">close</field>
+            <field name="group_id" ref="account.group_account_user"/>
+        </record>
+        <record id="vat_prorata_t3" model="workflow.transition">
+            <field name="act_from" ref="vat_prorata_act_open"/>
+            <field name="act_to" ref="vat_prorata_act_draft"/>
+            <field name="signal">return_to_draft</field>
+            <field name="condition">condition_set_to_draft()</field>
+            <field name="group_id" ref="account.group_account_manager"/>
+        </record>
+        
+     </data>
+     
+</openerp>

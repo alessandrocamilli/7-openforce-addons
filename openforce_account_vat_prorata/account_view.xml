@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <!--
+        Statement VAT end period
+         -->
+         
+        <record id="prorata_account_vat_period_end_statement" model="ir.ui.view">
+            <field name="name">prorata.account.vat.period.end.statement.form</field>
+            <field name="model">account.vat.period.end.statement</field>
+            <field name="inherit_id" ref="account_vat_period_end_statement.view_account_vat_period_end_statement"></field>
+            <field name="arch" type="xml">
+                 
+                <xpath expr="//separator[@string='Previous Credits VAT']" position="before">
+                    <group string="Credit VAT Undeductible Pro Rata" colspan="3">
+                        <field name="credit_vat_undeducible_prorata_account_line_ids" nolabel="1">
+                            <tree string="VAT Pro-Rata Statement" version="7.0">
+				            	<field name="period_ref"/>
+				            	<field name="account_id"/>
+				            	<field name="amount"/>
+				            </tree>
+                        </field>
+                    </group>
+               	</xpath>  
+            </field>
+        </record>
+        
+        <!--
+        Account TAX
+         -->
+        <record id="account_vat_prorata_tax_form" model="ir.ui.view">
+            <field name="name">account.vat.prorata.tax.form</field>
+            <field name="model">account.tax</field>
+            <field name="inherit_id" ref="account.view_tax_form"></field>
+            <field name="arch" type="xml">
+                <xpath expr="//group[@string='Refunds']" position="after">
+                    <group string="Pro Rata">
+                        <field name="prorata_base_non_deductible" attrs="{'readonly':[('base_sign', '&lt;', 0)]}"/>
+                        <field name="prorata_base_exclude_from_compute" attrs="{'readonly':[('base_sign', '&lt;', 0)]}"/>
+                    </group>
+               	</xpath> 
+            </field>
+        </record>
+         
+		 <!--
+        Account VAT Pro-Rata
+         -->
+         <record id="account_vat_prorata_statement_tree" model="ir.ui.view">
+            <field name="name">account.vat.proprata.statement.tree</field>
+            <field name="model">account.vat.prorata.statement</field>
+            <field name="arch" type="xml">
+	            <tree string="VAT Pro-Rata Statement" version="7.0">
+	            	<field name="fiscalyear_id"/>
+	            	<field name="prorata_presumed"/>
+	            	<field name="prorata_effective"/>
+	            	<field name="state"/>
+	            </tree>
+            </field>
+        </record>
+        <record id="account_vat_prorata_statement_form" model="ir.ui.view">
+            <field name="name">account.vat.proprata.statement.form</field>
+            <field name="model">account.vat.prorata.statement</field>
+            <field name="arch" type="xml">
+	            <form string="VAT Pro-Rata Statement" version="7.0">
+	                <header>
+	                    <button name="start" states="draft" string="Start" type="workflow" groups="account.group_account_manager" />
+	                    <button name="close" states="open" string="Close" type="object" class="oe_highlight"/>
+	                    <button name="return_to_draft" states="open" string="Set to draft" type="workflow" groups="account.group_account_manager" />
+	                    <field name="state" widget="statusbar" statusbar_visible="new,draft,open,close"/>
+                	</header>
+	                
+	                <group>
+	                    <group>
+		            	<field name="fiscalyear_id" attrs="{'readonly':[('state', '!=', 'draft')]}" />
+		            	<field name="prorata_presumed" attrs="{'readonly':[('state', '!=', 'draft')]}"/>
+		            	</group>
+		            	<newline/>
+		            	<group string="Compute">
+		            	<field name="prorata_effective"/>
+		            	<field name="total_deductible"/>
+		            	<field name="total_non_deductible"/>
+		            	<button type="object" name="compute_prorata" string="Recompute Pro-Rata" ></button>
+		            	</group>
+		            	<group string="Account">
+		            	<field name="end_vat_period_account_id" attrs="{'readonly':[('state', '!=', 'draft')]}"/>
+		            	<field name="registration_balance"/>
+		            	</group>
+		            	<notebook colspan="2">
+		            	    <page string="Base Deductible" name="base_deductible_line_ids">
+				            	<field name="base_deductible_line_ids" nolabel="1">
+				            		<form string="Base Deductible" version="7.0">
+				            		    <group>
+					            		    <field name="period_id"/>
+					            			<field name="tax_code_id"/>
+					            			<field name="base_amount" />
+				            			</group>
+				            		</form>
+				            		<tree string="Base Deductible" version="7.0">
+				            			<field name="period_id"/>
+				            			<field name="tax_code_id"/>
+				            			<field name="base_amount" sum="Total"/>
+				            		</tree>
+				            	</field>
+			            	</page>
+			            	<page string="Base Non Deductible" >
+				            	<field name="base_non_deductible_line_ids" nolabel="1">
+				            		<form string="Base Deductible" version="7.0">
+				            		    <group>
+					            		    <field name="period_id"/>
+					            			<field name="tax_code_id"/>
+					            			<field name="base_amount"/>
+				            			</group>
+				            		</form>
+				            		<tree string="Base Non Deductible" version="7.0">
+				            			<field name="period_id"/>
+				            			<field name="tax_code_id"/>
+				            			<field name="base_amount" sum="Total"/>
+				            		</tree>
+				            	</field>
+			            	</page>
+			            	<page string="End Vat Period Lines" >
+				            	<field name="end_vat_period_line_ids" nolabel="1">
+				            		<tree string="Base Non Deductible" version="7.0">
+				            			<field name="period_ref"/>
+				            			<field name="account_id"/>
+				            			<field name="amount" sum="Total"/>
+				            		</tree>
+				            	</field>
+			            	</page>
+		            	</notebook>
+		            	
+	            	</group>
+	            	
+	            </form>
+            </field>
+        </record>
+        
+        <record id="account_vat_prorata_statement_action" model="ir.actions.act_window">
+            <field name="name">Account VAT Pro-Rata</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">account.vat.prorata.statement</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="account_vat_prorata_statement_tree"/>
+        </record>
+        
+		<menuitem id="account_vat_prorata_statement_menu" name="Account VAT Pro-Rata" parent="account.menu_account_end_year_treatments"
+            sequence="1" action="account_vat_prorata_statement_action"/>
+        
+     </data>
+</openerp>

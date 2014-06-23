@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    	# -------------------------------------------------------------
+        # Group
+        # -------------------------------------------------------------
+        <record id="it_asset_group_1" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE AGRARIE E BOSCHIVE</field>
+            <field name="code">1</field>
+        </record>
+        <record id="it_asset_group_2" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE ZOOTECNICHE</field>
+            <field name="code">2</field>
+        </record>
+        <record id="it_asset_group_3" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE DELLA PESCA E DELLA CACCIA</field>
+            <field name="code">3</field>
+        </record>
+        <record id="it_asset_group_4" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE ESTRATTIVE DI MINERALI METALLIFERI E NON METALLIFERI</field>
+            <field name="code">4</field>
+        </record>
+        <record id="it_asset_group_5" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE MANIFATTURIERE ALIMENTARI</field>
+            <field name="code">5</field>
+        </record>
+        <record id="it_asset_group_6" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE MANIFATTURIERE DEL LEGNO</field>
+            <field name="code">6</field>
+        </record>
+        <record id="it_asset_group_7" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE MANIFATTURIERE METALLURGICHE E MECCANICHE</field>
+            <field name="code">7</field>
+        </record>
+        <record id="it_asset_group_8" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE MANIFATTURIERE DEI MINERALI NON METALLIFERI</field>
+            <field name="code">8</field>
+        </record>
+        <record id="it_asset_group_9" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE MANIFATTURIERE CHIMICHE</field>
+            <field name="code">9</field>
+        </record>
+        <record id="it_asset_group_10" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE MANIFATTURIERE DELLA CARTA</field>
+            <field name="code">10</field>
+        </record>
+        <record id="it_asset_group_11" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE MANIFATTURIERE DELLE PELLI E DEL CUOIO</field>
+            <field name="code">11</field>
+        </record>
+        <record id="it_asset_group_12" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE MANIFATTURIERE TESSILI</field>
+            <field name="code">12</field>
+        </record>
+        <record id="it_asset_group_13" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE MANIFATTURIERE DEL VESTIARIO, DELL'ABBIGLIAMENTO E DELL'ARREDAMENTO</field>
+            <field name="code">13</field>
+        </record>
+        <record id="it_asset_group_14" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE MANIFATTURIERE DELLA GOMMA DELLA GUTTAPERGA E DELLE MATERIE PLASTICHE</field>
+            <field name="code">14</field>
+        </record>
+        <record id="it_asset_group_15" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE POLIGRAFICHE, EDITORIALI ED AFFINI</field>
+            <field name="code">15</field>
+        </record>
+        <record id="it_asset_group_16" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE EDILIZIE</field>
+            <field name="code">16</field>
+        </record>
+        <record id="it_asset_group_17" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE DELL'ENERGIA ELETTRICA, DEL GAS E DELL'ACQUA</field>
+            <field name="code">17</field>
+        </record>
+        <record id="it_asset_group_18" model="account.asset.italian.group">
+            <field name="name">INDUSTRIE DEI TRASPORTI E DELLE COMUNICAZIONI</field>
+            <field name="code">18</field>
+        </record>
+        <record id="it_asset_group_19" model="account.asset.italian.group">
+            <field name="name">ALBERGHI, RISTORANTI, BAR E ATTIVITÀ AFFINI</field>
+            <field name="code">19</field>
+        </record>
+        <record id="it_asset_group_20" model="account.asset.italian.group">
+            <field name="name">SERVIZI CULTURALI, SPORTIVI E RICREATIVI</field>
+            <field name="code">20</field>
+        </record>
+        <record id="it_asset_group_21" model="account.asset.italian.group">
+            <field name="name">SERVIZI SANITARI</field>
+            <field name="code">21</field>
+        </record>
+        <record id="it_asset_group_22" model="account.asset.italian.group">
+            <field name="name">SERVIZI IGIENICI ALLA PERSONA E DOMESTICI</field>
+            <field name="code">22</field>
+        </record>
+        <record id="it_asset_group_ns" model="account.asset.italian.group">
+            <field name="name">ATTIVITÁ NON PRECEDENTEMENTE SPECIFICATE</field>
+            <field name="code">NS</field>
+        </record>
+        
+        # -------------------------------------------------------------
+        # Species
+        # -------------------------------------------------------------
+        <record id="it_asset_species_1" model="account.asset.italian.species">
+            <field name="name">Affittuari di fondi rustici, condotti a mezzadria con bracciantato o direttamente</field>
+            <field name="code">1a</field>
+        </record>
+        # -------------------------------------------------------------
+        <record id="1" model="account.asset.italian.category">
+            <field name="name">Macchine agricole (compresi i trattori) 9% </field>
+            <field name="percent">9</field>
+            <field name="species_id" ref="it_asset_species_1"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="2" model="account.asset.italian.category">
+            <field name="name">Impianti mobili di irrigazione - Carri agricoli e carri botte Attrezzatura di stalla e varia 12,5% </field>
+            <field name="percent">12.5</field>
+            <field name="species_id" ref="it_asset_species_1"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="3" model="account.asset.italian.category">
+            <field name="name">Mobili e macchine ordinarie d'ufficio 12% </field>
+            <field name="percent">12</field>
+            <field name="species_id" ref="it_asset_species_1"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="4" model="account.asset.italian.category">
+            <field name="name">Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% </field>
+            <field name="percent">20</field>
+            <field name="species_id" ref="it_asset_species_1"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="5" model="account.asset.italian.category">
+            <field name="name">Autoveicoli da trasporto (autoveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20%</field>
+            <field name="percent">20</field>
+            <field name="species_id" ref="it_asset_species_1"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="6" model="account.asset.italian.category">
+            <field name="name">Autoveicoli da trasporto (autoveicoli pesanti in genere, carelli elevatori, mezzi di trasporto interno, ecc) 20% </field>
+            <field name="percent">20</field>
+            <field name="species_id" ref="it_asset_species_1"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="7" model="account.asset.italian.category">
+            <field name="name">Autovetture, motoveicoli e simili 25%</field>
+            <field name="percent">25</field>
+            <field name="species_id" ref="it_asset_species_1"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        
+        # -------------------------------------------------------------
+        <record id="it_asset_species_2" model="account.asset.italian.species">
+            <field name="name">Industrie agrarie diverse, all'infuori della categoria degli affitti</field>
+            <field name="code">2a</field>
+        </record>
+        # -------------------------------------------------------------
+        <record id="8" model="account.asset.italian.category">
+            <field name="name">Fabbricati destinati all'industria (edifici) 3%</field>
+            <field name="percent">3</field>
+            <field name="species_id" ref="it_asset_species_2"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="9" model="account.asset.italian.category">
+            <field name="name">Costruzioni leggere (tettoie, baracche, ecc) 10% </field>
+            <field name="percent">10</field>
+            <field name="species_id" ref="it_asset_species_2"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="10" model="account.asset.italian.category">
+            <field name="name">Macchinari operatori ed impianti 9% </field>
+            <field name="percent">9</field>
+            <field name="species_id" ref="it_asset_species_2"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="11" model="account.asset.italian.category">
+            <field name="name">Attrezzatura varia e minuta 20% </field>
+            <field name="percent">20</field>
+            <field name="species_id" ref="it_asset_species_2"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="12" model="account.asset.italian.category">
+            <field name="name">Mobili e macchine ordinarie d'ufficio 12%</field>
+            <field name="percent">12</field>
+            <field name="species_id" ref="it_asset_species_2"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="13" model="account.asset.italian.category">
+            <field name="name">Macchine d'ufficio elettromeccaniche ed elettroniche compresi i computers e i sistemi telefonici elettronici 20% </field>
+            <field name="percent">20</field>
+            <field name="species_id" ref="it_asset_species_2"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="14" model="account.asset.italian.category">
+            <field name="name">Autoveicoli da trasporto (autoveicoli pesanti in genere, carrelli elevatori, mezzi di trasporto interno, ecc) 20% </field>
+            <field name="percent">20</field>
+            <field name="species_id" ref="it_asset_species_2"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="15" model="account.asset.italian.category">
+            <field name="name">Autovetture, motoveicoli e simili 25%</field>
+            <field name="percent">25</field>
+            <field name="species_id" ref="it_asset_species_2"></field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        
+        # -------------------------------------------------------------
+        
+        <record id="it_asset_species_2" model="account.asset.italian.species">
+            <field name="name">Industrie agrarie diverse, all'infuori della categoria degli affitti</field>
+            <field name="code">2a</field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="it_asset_species_3" model="account.asset.italian.species">
+            <field name="name">Industrie agrarie esercitate da proprietari di fondi</field>
+            <field name="code">3a</field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="it_asset_species_4" model="account.asset.italian.species">
+            <field name="name">Aziende di utilizzazione del bosco (abbattimento e carbonizzazione)</field>
+            <field name="code">4a</field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        <record id="it_asset_species_5" model="account.asset.italian.species">
+            <field name="name">Esercizio di macchine agricole per conto terzi (incluso il noleggio)</field>
+            <field name="code">5a</field>
+            <field name="group_id" ref="it_asset_group_1"></field>
+        </record>
+        
+     </data>
+</openerp>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<openerp>
+<data>
+    
+    <record id="openforce_bank_riba_report_partner" model="ir.actions.report.xml">
+        <field name="name">Riba Report</field>
+        <field name="type">ir.actions.report.xml</field>
+        <field name="model">account.move.line</field>
+        <field name="report_name">openforce_bank_riba_report_partner</field>
+        <field name="report_rml">openforce_riba_report/report/bank_riba_partner.jrxml</field>
+        <field name="report_type">pdf</field>
+        <field name="jasper_report">True</field>
+        <field name="jasper_output">pdf</field>
+    </record>
+    <record id="openforce_bank_riba_report_partner_riepilogo_banche" model="ir.actions.report.xml">
+        <field name="name">Riba Report - riepilogo banche</field>
+        <field name="type">ir.actions.report.xml</field>
+        <field name="model">account.move.line</field>
+        <field name="report_name">openforce_bank_riba_report_partner_riepilogo_banche</field>
+        <field name="report_rml">openforce_riba_report/report/bank_riba_partner_riepilogo_banche.jrxml</field>
+        <field name="report_type">pdf</field>
+        <field name="jasper_report">True</field>
+        <field name="jasper_output">pdf</field>
+    </record>
+    
+    <record id="openforce_bank_riba_report_portafoglio" model="ir.actions.report.xml">
+        <field name="name">Riba Report</field>
+        <field name="type">ir.actions.report.xml</field>
+        <field name="model">account.move.line</field>
+        <field name="report_name">openforce_bank_riba_report_portafoglio</field>
+        <field name="report_rml">openforce_riba_report/report/bank_riba_portafoglio.jrxml</field>
+        <field name="report_type">pdf</field>
+        <field name="jasper_report">True</field>
+        <field name="jasper_output">pdf</field>
+    </record>
+    
+    <record id="openforce_bank_riba_report_da_presentare" model="ir.actions.report.xml">
+        <field name="name">Riba Report da presentare</field>
+        <field name="type">ir.actions.report.xml</field>
+        <field name="model">account.move.line</field>
+        <field name="report_name">openforce_bank_riba_report_da_presentare</field>
+        <field name="report_rml">openforce_riba_report/report/bank_riba_da_presentare.jrxml</field>
+        <field name="report_type">pdf</field>
+        <field name="jasper_report">True</field>
+        <field name="jasper_output">pdf</field>
+    </record>
+</data>
+</openerp>

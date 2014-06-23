@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<openerp>
+	<data>
+		<record model="ir.ui.view" id="invoice_form_inherit_transportation_mezzo">
+			<field name="name">invoice.form.transportation.mezzo</field>
+			<field name="model">account.invoice</field>
+			<field name="inherit_id" ref="l10n_it_sale.invoice_form_inherit_contractual_conditions"/>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+			    
+			    <xpath expr="//page[@string='Shipping']" position="replace">
+					<page string="Shipping">
+						<group colspan="2">
+							<field name="carriage_condition_id" string="Carriage condition"/>
+							<field name="goods_description_id" string="Description of goods"/>
+							<field name="transportation_reason_id" string="Reason for transportation"/>
+						</group>
+					</page>
+				</xpath>
+			    
+				<xpath expr="//field[@name='transportation_reason_id']" position="after">
+					<field name="mezzo_id"/>
+				</xpath>
+				
+			</field>
+		</record>
+		
+		<!-- Button for send e-mail always visible -->
+		<record model="ir.ui.view" id="openforce_sale_account_invoice_form">
+			<field name="name">openforce.account.invoice.form</field>
+			<field name="model">account.invoice</field>
+			<field name="inherit_id" ref="account.invoice_form"/>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+			    # Send by mail always visible also for invoice sent or paid
+			    <!-- 
+			    <xpath expr="//form[@string='Invoice']//button[@name='action_invoice_sent']" position="attributes">
+			        <attribute name="attrs"></attribute>
+				</xpath> -->
+				
+				<xpath expr="//form[@string='Invoice']//button[@name='action_invoice_sent']" position="after">
+			        <button name="action_invoice_sent" type="object" string="Send by Email" attrs="{'invisible':[('sent','=',True), ('state', '=', 'open')]}" groups="base.group_user"/>
+				</xpath>
+			    
+			</field>
+		</record>
+		
+		
+	</data>
+</openerp>
+

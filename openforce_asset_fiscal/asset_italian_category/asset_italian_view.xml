@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    
+        # -------------------------------------------------------------
+        # Asset Group
+        # -------------------------------------------------------------
+        <record id="view_asset_italian_group_tree" model="ir.ui.view">
+            <field name="name">account.asset.italian.group.tree</field>
+            <field name="model">account.asset.italian.group</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Asset italian fiscal group">
+                    <field name="name" select="1"/>
+                    <field name="code" />
+                </tree>
+            </field>
+        </record>
+        <record id="view_asset_italian_group_form" model="ir.ui.view">
+            <field name="name">account.asset.italian.group.form</field>
+            <field name="model">account.asset.italian.group</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Asset italian fiscal group">
+                    <field name="name" select="1"/>
+                    <field name="code" />
+                </form>
+            </field>
+        </record>
+        
+        <record id="action_asset_italian_group" model="ir.actions.act_window">
+            <field name="name">Italian fiscal group</field>
+            <field name="res_model">account.asset.italian.group</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+        <menuitem id="menu_finance_config_assets_italian_classification" name="Italian classifications" parent="account_asset.menu_finance_config_assets" sequence="25"/>
+        <menuitem action="action_asset_italian_group" id="menu_action_asset_italian_group" parent="menu_finance_config_assets_italian_classification"/>
+    	
+    	# -------------------------------------------------------------
+        # Asset Species
+        # -------------------------------------------------------------
+        <record id="view_asset_italian_species_tree" model="ir.ui.view">
+            <field name="name">account.asset.italian.species.tree</field>
+            <field name="model">account.asset.italian.species</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Asset italian fiscal species">
+                    <field name="name" select="1"/>
+                    <field name="code" />
+                </tree>
+            </field>
+        </record>
+        <record id="view_asset_italian_species_form" model="ir.ui.view">
+            <field name="name">account.asset.italian.species.form</field>
+            <field name="model">account.asset.italian.species</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Asset italian fiscal species">
+                    <field name="name" select="1"/>
+                    <field name="code" />
+                </form>
+            </field>
+        </record>
+        
+        <record id="action_asset_italian_species" model="ir.actions.act_window">
+            <field name="name">Italian fiscal species</field>
+            <field name="res_model">account.asset.italian.species</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+        <menuitem action="action_asset_italian_species" id="menu_action_asset_italian_species" parent="menu_finance_config_assets_italian_classification"/>
+
+		# -------------------------------------------------------------
+        # Asset category
+        # -------------------------------------------------------------
+        <record id="view_asset_italian_category_tree" model="ir.ui.view">
+            <field name="name">account.asset.italian.category.tree</field>
+            <field name="model">account.asset.italian.category</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Asset italian fiscal category">
+                    <field name="name" select="1"/>
+                    <field name="percent" />
+                    <field name="species_id" />
+                    <field name="group_id" />
+                </tree>
+            </field>
+        </record>
+        <record id="view_asset_italian_category_form" model="ir.ui.view">
+            <field name="name">account.asset.italian.category.form</field>
+            <field name="model">account.asset.italian.category</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Asset italian fiscal category">
+                    <field name="name" select="1"/>
+                    <field name="percent"/>
+                    <field name="species_id" />
+                    <field name="group_id" />
+                </form>
+            </field>
+        </record>
+        
+        <record id="action_asset_italian_category" model="ir.actions.act_window">
+            <field name="name">Italian fiscal category</field>
+            <field name="res_model">account.asset.italian.category</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+        <menuitem action="action_asset_italian_category" id="menu_action_asset_italian_category" parent="menu_finance_config_assets_italian_classification"/>
+        
+    </data>
+</openerp>

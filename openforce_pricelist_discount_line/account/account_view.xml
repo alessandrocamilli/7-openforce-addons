@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    
+		<!-- Invoice  form-->
+		<record id="view_invoice_form_discount2" model="ir.ui.view">
+            <field name="name">invoice.form.discount2</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="account.invoice_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//tree[@string='Invoice Lines']/field[@name='discount']" position="after">
+                    <field name="discount2" groups="sale.group_discount_per_so_line"/>
+           		</xpath>
+            </field>
+		</record>
+		
+		<!-- Invoice line tree-->
+		<record id="view_invoice_line_tree_discount2" model="ir.ui.view">
+            <field name="name">invoice.line.tree.discount2</field>
+            <field name="model">account.invoice.line</field>
+            <field name="inherit_id" ref="account.view_invoice_line_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='discount']" position="after">
+                    <field name="discount2" groups="sale.group_discount_per_so_line"/>
+           		</xpath>
+            </field>
+		</record>
+		
+		<!-- Invoice line form-->
+		<record id="view_invoice_line_form_discount2" model="ir.ui.view">
+            <field name="name">invoice.line.form.discount2</field>
+            <field name="model">account.invoice.line</field>
+            <field name="inherit_id" ref="account.view_invoice_line_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='discount']" position="after">
+                    <field name="discount2" groups="sale.group_discount_per_so_line"/>
+           		</xpath>
+            </field>
+		</record>
+		
+		
+		<!-- Invoice supplier form-->
+		<record id="view_invoice_supplier_form_discount2" model="ir.ui.view">
+            <field name="name">invoice.supplier.form.discount2</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="account.invoice_supplier_form"/>
+            <field name="arch" type="xml">
+            
+                <xpath expr="//tree[@string='Invoice lines']/field[@name='discount']" position="after">
+                    <field name="discount2" groups="sale.group_discount_per_so_line"/>
+           		</xpath>
+            </field>
+		</record>
+		
+		
+    </data>
+</openerp>

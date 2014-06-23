@@ -1,0 +1,49 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* openforce_account_payment_type
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 6.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-03 15:30+0000\n"
+"PO-Revision-Date: 2013-07-03 15:30+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: view:account.payment.term.type:0
+#. module: openforce_account_payment_type
+msgid "Mezzo"
+msgstr "Mezzo"
+
+#: field:account.payment.term.type,name:0
+#. module: openforce_account_payment_type
+msgid "Payment type"
+msgstr "Tipo pagamento"
+
+#: model:ir.actions.act_window,name:openforce_account_payment_type.action_account_payment_term_type_tree
+#: model:ir.model,name:openforce_account_payment_type.model_account_payment_term_type
+#: model:ir.ui.menu,name:openforce_account_payment_type.menu_action_account_payment_term_type_tree
+#. module: openforce_account_payment_type
+msgid "Payment term type"
+msgstr "Tipo termine pagamento"
+
+#: model:ir.model,name:openforce_account_payment_type.model_account_payment_term
+#. module: openforce_account_payment_type
+msgid "Payment Term"
+msgstr "Termine di pagamento"
+
+#: field:account.payment.term.type,note:0
+#. module: openforce_account_payment_type
+msgid "Note"
+msgstr "Note"
+
+#: field:account.payment.term,type_id:0
+#. module: openforce_account_payment_type
+msgid "Type"
+msgstr "Tipo"
+

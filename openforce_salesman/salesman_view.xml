@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>  
+        <menuitem id="menu_openforce_salesman_main" name="Salesmen" sequence="70" groups="group_salesman_user,group_salesman_manager"/>
+        
+        <menuitem id="menu_openforce_salesman_configuration_main" name="Configuration" 
+            parent="menu_openforce_salesman_main" groups="group_salesman_manager" sequence="70"/>
+            
+        <menuitem id="menu_openforce_salesman_commission_main" name="Commissions" 
+            parent="menu_openforce_salesman_main" groups="group_salesman_user,group_salesman_manager" sequence="50"/>
+        <menuitem id="menu_openforce_salesman_report_main" name="Report" 
+            parent="menu_openforce_salesman_main" groups="group_salesman_manager" sequence="60"/>
+		 
+        <!-- 
+        Commission item 
+         -->
+        <record id="openforce_salesman_commission_item_tree_view" model="ir.ui.view">
+            <field name="name">salesman.commission.item.tree</field>
+            <field name="model">salesman.commission.item</field>
+            <field name="arch" type="xml">
+                <tree string="Commissions">
+                    <field name="salesman_id"/>
+                    <field name="partner_id"/>
+                    <field name="product_id"/>
+                    <field name="percent"/>
+                    <field name="amount"/>
+                    <field name="name"/>
+                    <field name="period_id"/>
+                    <field name="section_id"/>
+                </tree>
+            </field>
+        </record>
+        
+        <record id="openforce_salesman_commission_item_form_view" model="ir.ui.view">
+            <field name="name">salesman.commission.item.form</field>
+            <field name="model">salesman.commission.item</field>
+            <field name="arch" type="xml">
+                <form string="Commissions">
+                    <group colspan="2">
+                    <field name="salesman_id"/>
+                    <field name="partner_id"/>
+                    <field name="product_id"/>
+                    </group>
+                    <newline/>
+                    <group col="4">
+                    	<field name="invoice_line_qty"/>
+	                    <field name="invoice_line_price"/>
+	                    <field name="invoice_line_subtotal"/>
+                    </group>
+                    <group>
+                    	<field name="invoice_line_discount1"/>
+	                    <field name="invoice_line_discount2"/>
+                    </group>
+                    <newline/>
+                    <group>
+	                    <field name="percent"/>
+	                    <field name="amount"/>
+                   	</group>
+                   	<group>
+	                    <field name="name"/>
+	                    <field name="period_id"/>
+	                    <field name="section_id"/>
+                   	</group>
+                </form>
+            </field>
+        </record>
+        
+        <record model="ir.ui.view" id="openforce_salesman_commission_item_search_view">
+            <field name="name">salesman.commission.item.form</field>
+            <field name="model">salesman.commission.item</field>
+            <field name="arch" type="xml">
+                <search string="Commissions Search">
+                    <filter name="salesman_id" string="Salesman" domain="[('salesman_id','=',self)]" help="Salesman"/>
+                    <filter name="period_id" string="Period" domain="[('period_id','=',self)]" help="Period"/>
+                    <filter name="partner_id" string="Partner" domain="[('partner_id','=',self)]" help="Partner"/>
+                	<group expand="0" string="Group By...">
+                        <filter string="Partner" icon="terp-partner" domain="[]" context="{'group_by':'partner_id'}"/>
+                        <filter string="Salesman" icon="terp-personal" domain="[]"  context="{'group_by':'salesman_id'}"/>
+                        <filter string="Period" icon="terp-go-month" domain="[]" context="{'group_by':'period_id'}"/>
+                        <filter string="Product" icon="terp-go-month" domain="[]"  context="{'group_by':'product_id'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+        
+        <record id="openforce_salesman_commission_item_action" model="ir.actions.act_window">
+            <field name="name">Commissions</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">salesman.commission.item</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar</field>
+            <field name="view_id" ref="openforce_salesman_commission_item_tree_view"/>
+            <field name="search_view_id" ref="openforce_salesman_commission_item_search_view" />
+        </record>
+         
+        <menuitem name ="Commissions"
+            action="openforce_salesman_commission_item_action" id="menu_openforce_salesman_commission_item"
+            parent="menu_openforce_salesman_commission_main" sequence="1" groups="group_salesman_user"/>
+        
+		 <!-- 
+        Salesman 
+         -->
+        <record id="openforce_salesman_salesman_tree_view" model="ir.ui.view">
+            <field name="name">salesman.salesman.tree</field>
+            <field name="model">salesman.salesman</field>
+            <field name="arch" type="xml">
+                <tree string="Salesmen">
+                    <field name="salesman"/>
+                    <field name="pricelist"/>
+                    <field name="analytic_account_id"/>
+                    <field name="partners" invisible="1"/>
+                </tree>
+            </field>
+        </record>
+	
+		<record id="openforce_salesman_salesman_tree_form" model="ir.ui.view">
+            <field name="name">salesman.salesman.form</field>
+            <field name="model">salesman.salesman</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Salesmen">
+                    <group>
+                    <field name="salesman"/>
+                    <field name="pricelist"/>
+                    <field name="analytic_account_id"/>
+                    </group>
+                    <newline/>
+                    <notebook>
+                        <page string="Partners">
+                            <field name="partners" nolabel="1">
+                            <!-- 
+                            <form string="Partner">
+                                <field name="name"/>
+                                <field name="ref"/>
+                                <field name="city"/>
+                                <field name="phone"/>
+                                <field name="mobile"/>
+                                <field name="email"/>
+                            </form>
+                            --> 
+                            <tree>
+                                <field name="name"/>
+                                <field name="ref"/>
+                                <field name="city"/>
+                                <field name="phone"/>
+                                <field name="mobile"/>
+                                <field name="email"/>
+                            </tree>
+                                
+                            </field>
+                        </page>
+                    </notebook>
+                </form>
+            </field>
+        </record>
+        
+		<record model="ir.ui.view" id="openforce_salesman_salesman_search">
+            <field name="name">salesman.salesman.search</field>
+            <field name="model">salesman.salesman</field>
+            <field name="arch" type="xml">
+                <search string="Salesman Search">
+                    <field name="salesman" string="Name"/>
+                    <field name="pricelist" />
+                    <field name="partners"/>
+                </search>
+            </field>
+        </record>
+         
+        <record id="openforce_salesman_salesman_action" model="ir.actions.act_window">
+            <field name="name">Salesmen</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">salesman.salesman</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="openforce_salesman_salesman_tree_view"/>
+            <field name="search_view_id" ref="openforce_salesman_salesman_search" />
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to add a salesman.
+              </p><p>
+                There can be more than one version of a pricelist, each of
+                these must be valid during a certain period of time. Some
+                examples of versions: Main Prices, 2010, 2011, Summer Sales,
+                etc.
+              </p>
+            </field>
+        </record>
+         
+         <menuitem name ="Salesmen"
+            action="openforce_salesman_salesman_action" id="menu_openforce_salesman_salesman_action"
+            parent="menu_openforce_salesman_configuration_main" sequence="1" groups="group_salesman_manager"/>
+		
+    </data>
+</openerp>

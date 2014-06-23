@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="openforce_relate_common_report_view" model="ir.ui.view">
+            <field name="name">Report Relate</field>
+            <field name="model">relate.common.report</field>
+            <!-- <field name="inherit_id" ref="account.account_common_report_view"/> -->
+            <field name="arch" type="xml">
+                
+                <form string="Report Options" version="7.0">
+	                <label string=""/>  <!-- binding for inherited views -->
+	                <group col="4">
+	                	<field name="recipient" on_change="onchange_recipient(recipient)" colspan="4"/>
+	                   <!-- 
+	                   <field name="chart_account_id" widget='selection' on_change="onchange_chart_id(chart_account_id, context)"/>
+	                   <field name="company_id" invisible="1"/>
+	                   <field name="fiscalyear_id" domain="[('company_id','=',company_id)]"/>
+	                   <field name="target_move"/>-->
+	                
+	                	
+	                	<field name="contract_ids" colspan="4"  widget="many2many_tags"/>
+	                	<field name="partner_ids" colspan="4"  widget="many2many_tags"/>
+	                	<field name="analytic_journal_ids" colspan="4"  widget="many2many_tags"/>
+	                	<separator colspan="4"/>
+	                	<field name="price" />
+	                	<field name="cost" />
+	                	<field name="partner" />
+	                	<field name="invoiced" />
+	                	<newline/>
+	                	<field name="detail_by" colspan="4" />
+	                	
+	                </group>
+	                <notebook tabpos="up" colspan="4">
+	                    <page string="Filters" name="filters">
+	                        <group>
+	                            <field name="selection_line" />
+	                            <field name="filter" on_change="onchange_filter(filter)"/>
+	                        </group>
+	                        <group string="Dates"  attrs="{'invisible':[('filter', '!=', 'filter_date')], 'required':[('filter', '=', 'filter_date')]}">
+	                            <field name="date_from" />
+	                            <field name="date_to" />
+	                        </group>
+	                        <group string="Periods" attrs="{'invisible':[('filter','!=','filter_period')], 'required':[('filter', '=', 'filter_period')]}">
+	                            <field name="period_from" />
+	                            <field name="period_to" />
+	                        </group>
+	                    </page>
+	                    <!-- 
+	                    <page string="Journals" name="analytic_journal_ids">
+	                        <field name="analytic_journal_ids"/>
+	                    </page> -->
+	                </notebook>
+	                <footer>
+	                    <button name="check_report" string="Print" type="object" default_focus="1" class="oe_highlight"/>
+	                    or 
+	                    <button string="Cancel" class="oe_link" special="cancel" />
+	                </footer>
+	            </form>
+                
+            </field>
+        </record>
+        
+        
+        <record id="action_openforce_relate_common_report_view" model="ir.actions.act_window">
+            <field name="name">Common Relate Report</field>
+            <field name="res_model">relate.common.report</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="openforce_relate_common_report_view"/>
+            <field name="target">new</field>
+        </record>
+        
+
+
+    </data>
+</openerp>

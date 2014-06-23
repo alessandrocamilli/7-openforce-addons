@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="ateco_2007_code_view_tree" model="ir.ui.view">
+            <field name="name">ateco.2007.code.view.tree</field>
+            <field name="model">account.activity.code.ateco</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Codes">
+                    <field name="code"/>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+        
+        <record model="ir.ui.view" id="ateco_2007_code_view_search">
+            <field name="name">ateco.2007.view.search</field>
+            <field name="model">account.activity.code.ateco</field>
+            <field name="type">search</field>
+            <field name="arch" type="xml">
+                <search string="Code search">
+                    <field name="name"/>
+                    <field name="code"/>
+                </search>
+            </field>
+        </record>
+        
+        <record id="ateco_2007_code_action" model="ir.actions.act_window">
+            <field name="name">Activity code Ateco 2007</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">account.activity.code.ateco</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="ateco_2007_code_view_tree"/>
+            <!-- <field name="search_view_id" ref="ateco_2007_code_view_search" /> --> 
+        </record>
+         
+        <menuitem action="ateco_2007_code_action" id="ateco_2007_code_menu" name="Activity code Ateco 2007" 
+            parent="account.menu_configuration_misc"/>
+        
+    </data>
+</openerp>

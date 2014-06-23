@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!--
+        Sale order 
+         -->
+         <record id="openforce_sale_order_warranty_view_order_tree" model="ir.ui.view">
+			<field name="name">openforce.sale.order.warranty.order.tree</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_tree"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='partner_id']" position="after">
+				    <field name="warranty"></field>
+				</xpath>
+			</field>
+		</record>
+		
+		<record id="openforce_sale_order_warranty_view_order_form" model="ir.ui.view">
+			<field name="name">openforce.sale.order.warranty.order.form</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_form"/>
+			<field name="arch" type="xml">
+			    
+			    <xpath expr="//field[@name='payment_term']" position="after">
+			        <field name="warranty"></field>
+			    </xpath>     
+			    
+			</field>
+		</record>
+		
+		<record id="openforce_sale_order_warranty_view_order_search" model="ir.ui.view">
+			<field name="name">openforce.sale.order.warranty.order.search</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_sales_order_filter"/>
+			<field name="arch" type="xml">
+				<xpath expr="//filter[@string='Done']" position="after">
+				    <separator/>
+				    <filter string="Warranty" domain="[('warranty','=', True)]" help="Warranty" icon="terp-personal" name="warranty"/>
+				</xpath>
+			</field>
+		</record>
+		
+     </data>
+</openerp>

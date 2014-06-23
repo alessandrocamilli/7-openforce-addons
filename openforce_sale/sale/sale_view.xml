@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+	    
+	    <record id="openforce_sale_view_order_form" model="ir.ui.view">
+			<field name="name">openforce.sale.view.order.form</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_form"/>
+			<field name="arch" type="xml">
+				
+				<xpath expr="//field[@name='payment_term']" position="attributes">
+				    <attribute name="required">1</attribute>
+				</xpath>
+				 
+				<xpath expr="//field[@name='origin']" position="after">
+				    <field name="contract_required"></field>
+				</xpath>
+				
+			</field>
+		</record>
+		
+    </data>
+</openerp>

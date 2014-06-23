@@ -1,0 +1,194 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* openforce_stock
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-23 11:01+0000\n"
+"PO-Revision-Date: 2014-01-23 11:01+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Group By..."
+msgstr "Raggruppa per..."
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Waiting"
+msgstr "In attesa"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Picking List"
+msgstr "Picking List"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "To Invoice"
+msgstr "Da fatturare"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Status"
+msgstr "Stato"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Expected Date"
+msgstr "Data prevista"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Back Orders"
+msgstr "Back Orders"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Journal"
+msgstr "Giornale"
+
+#: model:ir.actions.act_window,help:openforce_stock.openforce_action_picking_out_delivered
+#. module: openforce_stock
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a delivery order. \n"
+"              </p><p>\n"
+"                This is the list of all delivery orders completed\n"
+"              </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a delivery order. \n"
+"              </p><p>\n"
+"                This is the list of all delivery orders completed\n"
+"              </p>\n"
+"            "
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Invoice type"
+msgstr "Tipo fatturazione"
+
+#: view:stock.picking.out:0
+#. module: openforce_stock
+msgid "Customer"
+msgstr "Cliente"
+
+#: model:ir.actions.act_window,name:openforce_stock.openforce_action_picking_out_2binvoiced
+#: model:ir.ui.menu,name:openforce_stock.openforce_menu_stock_warehouse_2binvoiced
+#. module: openforce_stock
+msgid "Orders to be invoiced"
+msgstr "Consegne da fatturare"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Picking list"
+msgstr "Picking list"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Order Date"
+msgstr "Data ordine"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Delivery orders to invoice"
+msgstr "Ordini di consegna da fatturare"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Assigned Delivery Orders"
+msgstr "Ordini di consegna assegnati"
+
+#: model:ir.actions.act_window,name:openforce_stock.openforce_action_picking_out_to_deliver
+#: model:ir.ui.menu,name:openforce_stock.openforce_menu_stock_warehouse_to_deliver
+#. module: openforce_stock
+msgid "Orders to deliver"
+msgstr "Ordini da consegnare"
+
+#: model:ir.actions.act_window,help:openforce_stock.openforce_action_picking_out_2binvoiced
+#. module: openforce_stock
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a delivery order. \n"
+"              </p><p>\n"
+"                This is the list of all delivery orders completed and to be invoiced\n"
+"              </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a delivery order. \n"
+"              </p><p>\n"
+"                This is the list of all delivery orders completed and to be invoiced\n"
+"              </p>\n"
+"            "
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Is a Back Order"
+msgstr "E' un back order"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Confirmed Delivery Orders"
+msgstr "Ordini di consegna confermati"
+
+#: model:ir.actions.act_window,help:openforce_stock.openforce_action_picking_out_to_deliver
+#. module: openforce_stock
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a delivery order. \n"
+"              </p><p>\n"
+"                This is the list of all delivery orders that have to be\n"
+"                prepared, according to your different sales orders and your\n"
+"                logistics rules.\n"
+"              </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a delivery order. \n"
+"              </p><p>\n"
+"                This is the list of all delivery orders that have to be\n"
+"                prepared, according to your different sales orders and your\n"
+"                logistics rules.\n"
+"              </p>\n"
+"            "
+
+#: model:ir.actions.act_window,name:openforce_stock.openforce_action_picking_out_delivered
+#: model:ir.ui.menu,name:openforce_stock.openforce_menu_stock_warehouse_delivered
+#. module: openforce_stock
+msgid "Orders delivered"
+msgstr "Ordini consegnati"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Done"
+msgstr "Completato"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Ready"
+msgstr "Pronto"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Partner"
+msgstr "Partner"
+
+#: view:stock.picking.out:0
+#. module: openforce_stock
+msgid "Delivery Orders"
+msgstr "Ordini di Consegna"
+
+#: view:stock.picking.out:0
+#. module: openforce_stock
+msgid "Total Amount"
+msgstr "Importo totale"
+
+#: view:stock.picking:0
+#. module: openforce_stock
+msgid "Delivery orders already processed"
+msgstr "Delivery orders already processed"
+

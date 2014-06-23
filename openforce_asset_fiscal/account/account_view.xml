@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+	
+	    <!--
+        Invoice customer
+     	-->
+		<record model="ir.ui.view" id="view_account_invoice_form_link_asset">
+			<field name="name">account.invoice.form.link.asset</field>
+			<field name="model">account.invoice</field>
+			<field name="inherit_id" ref="account.invoice_form"/>
+			<field name="type">form</field> 
+			<field name="arch" type="xml">
+			
+				<xpath expr="//field[@name='number']" position="after">
+                	
+					<div class="oe_button_box oe_right">
+					<button type="action"
+                        string="Assets"
+                        name="%(openforce_asset_fiscal.action_wizard_asset_invoice_line)d"
+                        context="{'invoice_id': [active_id], 'default_partner_ids' : [active_id]}"/>
+                    </div>
+           		</xpath>
+			</field>
+		</record>
+		
+		<!--
+        Invoice supplier
+     	-->
+		<record model="ir.ui.view" id="view_account_invoice_supplier_form_link_asset">
+			<field name="name">account.invoice.supplier.form.link.asset</field>
+			<field name="model">account.invoice</field>
+			<field name="inherit_id" ref="account.invoice_supplier_form"/>
+			<field name="type">form</field> 
+			<field name="arch" type="xml">
+			
+				<xpath expr="//field[@name='number']" position="after">
+                	
+					<div class="oe_button_box oe_right">
+					<button type="action"
+                        string="Assets"
+                        name="%(openforce_asset_fiscal.action_wizard_asset_invoice_line)d"
+                        context="{'invoice_id': [active_id], 'default_partner_ids' : [active_id]}"/>
+                    </div>
+           		</xpath>
+           		 
+			</field>
+		</record>
+  	
+	</data>
+</openerp>
