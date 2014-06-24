@@ -18,7 +18,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-import jasper_reports
+import jasper_reports 
 from osv import osv,fields 
 import pooler
 import datetime
