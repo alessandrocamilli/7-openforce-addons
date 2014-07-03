@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="fattura accompagnatoria" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
 	<property name="ireport.zoom" value="3.0"/>
-	<property name="ireport.x" value="733"/>
-	<property name="ireport.y" value="0"/>
+	<property name="ireport.x" value="791"/>
+	<property name="ireport.y" value="272"/>
 	<property name="OPENERP_RELATIONS" value="[&apos;invoice_line&apos;, &apos;picking_out_ids&apos;]"/>
 	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
 		<defaultValueExpression><![CDATA["/Users/alex/Sviluppo/reports/"]]></defaultValueExpression>
@@ -147,27 +147,6 @@
 	<field name="Partner ref-Posizione_fiscale-name" class="java.lang.String">
 		<fieldDescription><![CDATA[/data/record/Partner-partner_id/Azienda_correlata-parent_id/Posizione_fiscale-property_account_position/Posizione_fiscale-name]]></fieldDescription>
 	</field>
-	<field name="Partner dest - Nome-name" class="java.lang.String">
-		<fieldDescription><![CDATA[/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Nome-name]]></fieldDescription>
-	</field>
-	<field name="Partner dest - Indirizzo-street" class="java.lang.String">
-		<fieldDescription><![CDATA[/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Indirizzo-street]]></fieldDescription>
-	</field>
-	<field name="Partner dest - Indirizzo_2-street2" class="java.lang.String">
-		<fieldDescription><![CDATA[/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Indirizzo_2-street2]]></fieldDescription>
-	</field>
-	<field name="Partner dest - CAP-zip" class="java.lang.String">
-		<fieldDescription><![CDATA[/data/record/Pickings_out-picking_out_ids/Partner-partner_id/CAP-zip]]></fieldDescription>
-	</field>
-	<field name="Partner dest - Nome_Stato-name" class="java.lang.String">
-		<fieldDescription><![CDATA[/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Stato-state_id/Nome_Stato-name]]></fieldDescription>
-	</field>
-	<field name="Partner dest - Citta-city" class="java.lang.String">
-		<fieldDescription><![CDATA[/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Citta-city]]></fieldDescription>
-	</field>
-	<field name="Partner dest - Codice_provincia-code" class="java.lang.String">
-		<fieldDescription><![CDATA[/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Provincia-province/Codice_provincia-code]]></fieldDescription>
-	</field>
 	<field name="Riga - id" class="java.lang.String">
 		<fieldDescription><![CDATA[/data/record/Righe_Fattura-invoice_line/id]]></fieldDescription>
 	</field>
@@ -299,6 +278,9 @@
 	</field>
 	<field name="Destinazione - CAP-zip" class="java.lang.String">
 		<fieldDescription><![CDATA[/data/record/Pickings_out-picking_out_ids/Partner-partner_id/CAP-zip]]></fieldDescription>
+	</field>
+	<field name="Destinazione - Nome_Nazione-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/data/record/Pickings_out-picking_out_ids/Partner-partner_id/Nazione-country_id/Nome_Nazione-name]]></fieldDescription>
 	</field>
 	<field name="Totale - Imponibile-amount_untaxed" class="java.lang.String">
 		<fieldDescription><![CDATA[/data/record/Imponibile-amount_untaxed]]></fieldDescription>
@@ -727,32 +709,30 @@
 				<textElement lineSpacing="Single">
 					<font isBold="true"/>
 				</textElement>
-				<textFieldExpression class="java.lang.String"><![CDATA[$F{Partner dest - Nome-name} != ""
-    ? $F{Partner dest - Nome-name}
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Destinazione - Nome-name} != ""
+    ? $F{Destinazione - Nome-name}
     : $F{Partner - Nome-name}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="349" y="168" width="204" height="14"/>
 				<textElement lineSpacing="Single"/>
-				<textFieldExpression class="java.lang.String"><![CDATA[$F{Partner dest - Nome-name} != ""
-    ? $F{Partner dest - Nome_Stato-name}
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Destinazione - Nome-name} != ""
+    ? $F{Destinazione - Nome_Nazione-name}
     : $F{Partner - Nome_Nazione-name}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="349" y="138" width="204" height="14"/>
 				<textElement lineSpacing="Single"/>
-				<textFieldExpression class="java.lang.String"><![CDATA[$F{Partner dest - Nome-name} != ""
-    ? $F{Partner dest - Indirizzo-street}.trim() + " " + $F{Partner dest - Indirizzo_2-street2}.trim()
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Destinazione - Nome-name} != ""
+    ? $F{Destinazione - Indirizzo-street}.trim() + " " + $F{Destinazione - Indirizzo_2-street2}.trim()
     : $F{Partner - Indirizzo-street}.trim() + " " + $F{Partner - Indirizzo_2-street2}.trim()]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="349" y="153" width="204" height="14"/>
 				<textElement lineSpacing="Single"/>
-				<textFieldExpression class="java.lang.String"><![CDATA[$F{Partner dest - Nome-name} != ""
-    ? $F{Partner dest - CAP-zip}.trim() + " " + $F{Partner dest - Citta-city}.trim() + " " + $F{Partner dest - Codice_provincia-code}.trim()
-    : $F{Partner - CAP-zip}.trim() + " " + $F{Partner - Citta-city}.trim() + " " + $F{Partner - Codice_provincia-code}.trim()
-
-]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Destinazione - Nome-name} != ""
+    ? $F{Destinazione - CAP-zip}.trim() + " " + $F{Destinazione - Citta-city}.trim() + " " + $F{Destinazione - Codice_provincia-code}.trim()
+    : $F{Partner - CAP-zip}.trim() + " " + $F{Partner - Citta-city}.trim() + " " + $F{Partner - Codice_provincia-code}.trim()]]></textFieldExpression>
 			</textField>
 			<line>
 				<reportElement x="0" y="256" width="555" height="1"/>
@@ -810,11 +790,6 @@
 				</reportElement>
 				<imageExpression class="java.lang.String"><![CDATA[$F{Azienda - Logo_1-openforce_logo1}]]></imageExpression>
 			</image>
-			<staticText>
-				<reportElement x="438" y="5" width="100" height="20"/>
-				<textElement lineSpacing="Single"/>
-				<text><![CDATA[Static text]]></text>
-			</staticText>
 		</band>
 	</pageHeader>
 	<columnHeader>
